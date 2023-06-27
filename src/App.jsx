@@ -1,22 +1,22 @@
+import { Container } from '@mui/material'
 import React from 'react'
-import { Button} from "@mui/material"
-import { ThemeProvider } from '@emotion/react'
-
+import NavBar from './components/common/navbar/NavBar'
+import Home from './components/pages/home/Home'
 
 
 const App = () => {
   return (
-   <ThemeProvider>
-    <h1>Tymes</h1>
-    <Button variant="contained"> App my buen Ñiero </Button>
-
-   </ThemeProvider>
-    
-   
-    
+    <>
+    <NavBar/>
+   <Container sx={{ mt: 5}}>
+    <Home/>
+   </Container>
+    </>
+  
+  
      
-    
-  )
+  
+)
 }
 
 export default App
