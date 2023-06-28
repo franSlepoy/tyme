@@ -13,7 +13,7 @@ import YouTubeIcon from '@mui/icons-material/YouTube';
 
 export default function BasicList() {
   return (
-    <Box sx={{ width: '100%', maxWidth: 260, bgcolor: 'background.paper' }}>
+    <Box sx={{ width: '100%', maxWidth: 360, bgcolor: 'background.paper' }}>
       <nav aria-label="main mailbox folders">
         <List>
           <ListItem disablePadding>
@@ -32,7 +32,7 @@ export default function BasicList() {
           <ListItem disablePadding>
             <ListItemButton component="a" href="#simple-list">
               <InstagramIcon sx={{mr: 3, fontSize:33}}/>
-              <ListItemText primary="Instagram" />
+              <ListItemText primary="Instagram"  sx={{mr:13}}/>
             </ListItemButton>
           </ListItem>
           <ListItem disablePadding>
