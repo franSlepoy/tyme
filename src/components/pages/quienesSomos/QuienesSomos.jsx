@@ -1,10 +1,11 @@
+import { Container } from '@mui/material'
 import React from 'react'
 
 const QuienesSomos = () => {
   return (
-    <div>
-      Quienes somos?
-    </div>
+  <Container sx={{marginBottom:65}}>
+  <h1>Quienes somos?</h1>  
+  </Container>
   )
 }
 

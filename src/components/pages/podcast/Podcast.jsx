@@ -1,12 +1,12 @@
 import { Container } from '@mui/material'
 import React from 'react'
 
-const QueHacemos = () => {
+const Podcast = () => {
   return (
   <Container sx={{marginBottom:65}}>
-  <h1>Que hacemos?</h1>  
+  <h1>Podcast</h1>  
   </Container>
   )
 }
 
-export default QueHacemos
+export default Podcast

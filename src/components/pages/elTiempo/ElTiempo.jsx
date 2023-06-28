@@ -2,9 +2,9 @@ import React from 'react'
 
 const ElTiempo = () => {
   return (
-    <div>
-      El tiempo
-    </div>
+  <Container sx={{marginBottom:65}}>
+  <h1>El tiempo</h1>  
+  </Container>
   )
 }
 

@@ -42,7 +42,7 @@ export default function Footer() {
         >
           <Container maxWidth="sm">
             <Typography variant="body1" sx={{mb: 2}}>
-            Av. Corrientes # 385, Of. 306 Madrid, España.
+            Av. Victoria 87 - Madrid (28023) - España
             
             </Typography>
             <Copyright />
