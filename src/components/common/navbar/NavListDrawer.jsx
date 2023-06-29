@@ -17,7 +17,7 @@ export default function BasicList() {
       <nav aria-label="main mailbox folders">
         <List>
           <ListItem disablePadding>
-            <ListItemButton component="a" href="#simple-list" >
+            <ListItemButton component="a" href="mailto:jkrawicki@gmail.com" >
               <ListItemIcon>
               <EmailTwoToneIcon sx={{ fontSize: 33}} />
               </ListItemIcon>
@@ -30,19 +30,19 @@ export default function BasicList() {
       <nav aria-label="secondary mailbox folders">
         <List>
           <ListItem disablePadding>
-            <ListItemButton component="a" href="#simple-list">
+            <ListItemButton component="a" href="#">
               <InstagramIcon sx={{mr: 3, fontSize:33}}/>
               <ListItemText primary="Instagram"  sx={{mr:13}}/>
             </ListItemButton>
           </ListItem>
           <ListItem disablePadding>
-            <ListItemButton component="a" href="#simple-list">
+            <ListItemButton component="a" href="#">
             <FacebookTwoToneIcon sx={{mr: 3, fontSize:33}} />
               <ListItemText primary="Facebook"/>
             </ListItemButton>
           </ListItem>
           <ListItem disablePadding>
-            <ListItemButton component="a" href="#simple-list">
+            <ListItemButton component="a" href="#">
             <YouTubeIcon sx={{mr: 3, fontSize:33}} />
               <ListItemText primary="YouTube"/>
             </ListItemButton>
