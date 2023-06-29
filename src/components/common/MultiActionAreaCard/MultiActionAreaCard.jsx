@@ -16,7 +16,7 @@ export default function MultiActionAreaCard() {
         </Box>
         
         <CardContent sx={{mb: 0, paddingBottom:0, paddingTop:0}}>
-          <Typography gutterBottom variant="h6" component="div" mb={0} mt={3}>
+          <Typography gutterBottom variant="h6" align='center' component="div" mb={0} mt={3}>
           El tiempo es lo más importante que tenemos…
           </Typography>
       </CardContent>

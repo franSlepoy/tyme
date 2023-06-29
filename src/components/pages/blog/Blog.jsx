@@ -8,7 +8,7 @@ const Blog = () => {
   return (
     (
       <Container sx={{marginBottom:14}}>
-      <Typography variant="h6" textAlign={"center"}>Blog </Typography>
+      <Typography variant="h5" textAlign={"center"}>Human consulting </Typography>
       <Typography variant="h6" textAlign={"center"}> <IconLabelButtons/> </Typography>
       <MultiActionAreaCard/>
       </Container>

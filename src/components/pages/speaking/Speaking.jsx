@@ -6,7 +6,7 @@ import MultiActionAreaCard from '../../common/MultiActionAreaCard/MultiActionAre
 const Speaking = () => {
   return (
     <Container sx={{marginBottom:14}}>
-    <Typography variant="h6" textAlign={"center"}>¿Quenes Somos? </Typography>
+    <Typography variant="h5" textAlign={"center"}>Human consulting </Typography>
     <Typography variant="h6" textAlign={"center"}> <IconLabelButtons/> </Typography>
     <MultiActionAreaCard/>
     </Container>
