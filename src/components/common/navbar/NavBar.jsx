@@ -21,7 +21,8 @@ const NavBar = () => {
         <Button component={NavLink} to={"/elTiempo"} >El Tiempo</Button>
         <Button component={NavLink} to={"/clientes"} >Clientes</Button>
         <Button component={NavLink} to={"/blog"} >Blog</Button>
-        <Button sx={{mr:10}} component={NavLink} to={"/speaking"} >Podcast</Button>
+        <Button component={NavLink} to={"/podcast"} >Podcast</Button>
+        <Button sx={{mr:10}} component={NavLink} to={"/speaking"} >Speaking</Button>
         
         <Button variant="contained" color="inherit" onClick={()=> setOpen(true)}> <img src='/icono.png' alt="icono" width={52} />Contacto </Button>
         </Toolbar>

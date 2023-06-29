@@ -7,21 +7,20 @@ import { Box, Button, CardActionArea, CardActions } from '@mui/material';
 
 export default function MultiActionAreaCard() {
   return (
-    <Box sx={{display:"flex", justifyContent:"center", mt: 5}}>
-    <Card sx={{ maxWidth: 345 }}>
-      <CardActionArea>
-        <CardMedia
-          component="img"
-          height="200"
-          image="/icono.png"
-          alt="logo"
-        />
-        <CardContent>
+    <Box sx={{display:"flex", justifyContent:"center", mt: 7}}>
+    <Card sx={{ maxWidth: 390 }}>
+      <CardActionArea >
+        <CardMedia/>
+        <Box sx={{textAlign:"center"}}>
+            <img src="/icono.png" alt="" width={240}  />
+        </Box>
+        
+        <CardContent sx={{mb: 0, paddingBottom:0, paddingTop:0}}>
           <Typography gutterBottom variant="h6" component="div" mb={0} mt={3}>
           El tiempo es lo más importante que tenemos…
           </Typography>
       </CardContent>
-      <CardActions>
+      <CardActions sx={{mt:0, }}>
         <Button size="large" color="primary" sx={{mt:0, textAlign: "initial", fontSize: 22}}>
         uno ES lo que hace con él.
         </Button>
