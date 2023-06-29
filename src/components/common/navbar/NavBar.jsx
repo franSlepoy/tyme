@@ -19,7 +19,7 @@ const NavBar = () => {
         <Button component={NavLink} to={"/quienesSomos"} >¿Quienes somos?</Button>
         <Button component={NavLink} to={"/queHacemos"} >¿Que hacemos?</Button>
         <Button component={NavLink} to={"/elTiempo"} >El Tiempo</Button>
-        <Button component={NavLink} to={"/clienes"} >Clientes</Button>
+        <Button component={NavLink} to={"/clientes"} >Clientes</Button>
         <Button component={NavLink} to={"/blog"} >Blog</Button>
         <Button sx={{mr:10}} component={NavLink} to={"/speaking"} >Podcast</Button>
         

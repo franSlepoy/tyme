@@ -1,10 +1,12 @@
 import { Container } from '@mui/system'
 import React from 'react'
+import MultiActionAreaCard from '../../common/MultiActionAreaCard/MultiActionAreaCard'
 
 const Blog = () => {
   return (
-    <Container sx={{marginBottom:65}}>
-    <h1>Blog</h1>  
+    <Container sx={{marginBottom:18}}>
+    <h1>Blog</h1>
+    <MultiActionAreaCard/>
     </Container>
   )
 }
