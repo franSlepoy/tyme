@@ -19,7 +19,7 @@ const App = () => {
     <NavBar/>
    <Container sx={{ mt: 5}}>
     <Routes>
-      <Route path='/home' element={<Home/>}/>
+      <Route path='/' element={<Home/>}/>
       <Route path='/queHacemos' element={<QueHacemos/>}/>
       <Route path='/quienesSomos' element={<QuienesSomos/>}/>
       <Route path='/blog' element={<Blog/>}/>
