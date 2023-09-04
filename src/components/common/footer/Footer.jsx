@@ -1,54 +1,45 @@
 import * as React from 'react';
-import { createTheme, ThemeProvider } from '@mui/material/styles';
 import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
-import Container from '@mui/material/Container';
-import Link from '@mui/material/Link';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import FacebookIcon from '@mui/icons-material/Facebook';
+import InstagramIcon from '@mui/icons-material/Instagram';
 
-function Copyright() {
-  return (
-    <Typography variant="body2" color="text.secondary" display={"flex"} justifyContent={"center"}>
-      {'Copyright ©'}
-      <Link color="inherit"  href="https://mui.com/" >
-      <img src="/logo.png" alt="" width={72} />
-      
-      </Link>{''}
-      {new Date() .getFullYear()}
-      {'.'}
-    </Typography>
-  );
-}
-
-// TODO remove, this demo shouldn't need to reset the theme.
-const defaultTheme = createTheme();
 
 export default function Footer() {
   return (
-    <ThemeProvider theme={defaultTheme}>
-      
-        
-        <Box
-          component="footer"
-          sx={{
-            py: 3,
-            px: 2,
-            mt: 'auto',
-            backgroundColor: (theme) =>
-              theme.palette.mode === 'light'
-                ? theme.palette.grey[200]
-                : theme.palette.grey[800],
-            textAlign: "center"
-          }}
-        >
-          <Container maxWidth="sm">
-            <Typography variant="body1" sx={{mb: 2}}>
-            Av. Victoria 87 - Madrid (28023) - España
-            
-            </Typography>
-            <Copyright />
-          </Container>
+    <>
+    <Box sx={{backgroundColor:"#F9F9F9", width:"100%", height:"277px", display:"flex"}}>
+      <Box sx={{display:"flex"}} >
+      <Box sx={{mt:"47px", ml:"175px", width:"125px"}}>
+        <img src="/logoTyme.png" alt="logo" /> 
         </Box>
-      
-    </ThemeProvider>
+        <Box>
+          <Typography>Inicio</Typography>
+          <Typography>Nosotros</Typography>
+          <Typography>Qué hacemos</Typography>
+          <Typography>Manifiesto</Typography>
+        </Box>
+        <Box>
+          <Typography>Tic Tac: el tiempo</Typography>
+          <Typography>Charlas y Conferencias</Typography>
+          <Typography>Tendencias</Typography>
+          <Typography>Contacto</Typography>
+        </Box>
+        <Box>
+         <Box>
+         <LinkedInIcon/>
+         <FacebookIcon/>
+         <InstagramIcon/>
+         </Box>
+        <Typography>2023 © Tyme.</Typography>
+        <Typography>Todos los derechos reservados.</Typography>
+        </Box>
+      </Box>
+
+  
+
+    </Box>
+    </>
   );
 }

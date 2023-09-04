@@ -1,40 +1,33 @@
 
-import { AppBar, Button, Drawer, Toolbar } from '@mui/material'
-import React, { useState } from 'react'
-import NavListDrawer from './NavListDrawer'
+import { AppBar, Box, Button, Drawer, Toolbar } from '@mui/material'
 import { NavLink } from 'react-router-dom'
 
 
 
 const NavBar = () => {
-    const [open, setOpen]= useState(false)
-
   return (
     <>
 
-      <AppBar position="static" color="transparent">
+      <AppBar position="static" color="transparent" sx={{boxShadow:0}}   >
         <Toolbar sx={{justifyContent:"space-around"}}>
-        <img src="/logo.png" width={180} alt="logo" />    
-        <Button  sx={{ml: 7, display: { xs: "none", sm:"block"}}} component={NavLink} to={"/"}>Home</Button>
-        <Button sx={{ display: { xs: "none", sm:"block"}}} component={NavLink} to={"/quienesSomos"} >¿Quienes somos?</Button>
-        <Button sx={{ display: { xs: "none", sm:"block"}}} component={NavLink} to={"/queHacemos"} >¿Que hacemos?</Button>
-        <Button sx={{ display: { xs: "none", sm:"block"}}} component={NavLink} to={"/elTiempo"} >El Tiempo</Button>
-        <Button sx={{ display: { xs: "none", sm:"block"}}} component={NavLink} to={"/clientes"} >Clientes</Button>
-        <Button sx={{ display: { xs: "none", sm:"block"}}} component={NavLink} to={"/blog"} >Blog</Button>
-        <Button sx={{ display: { xs: "none", sm:"block"}}} component={NavLink} to={"/podcast"} >Podcast</Button>
-        <Button sx={{mr:10, display: { xs: "none", sm:"block"}}} component={NavLink} to={"/speaking"} >Speaking</Button>
+        <Box sx={{mt:"47px", ml:"29px", width:"125px", height:"52px"}}>
+        <img src="/logoTyme.png" alt="logo" /> 
+        </Box>
+           
+        <Button  sx={{ fontFamily:"Manrope", mt:"47px", ml:"20px", color:"black", textAlign:"center",fontSize:"16px", fontStyle:"normal",lineHeight:"20px",'&:hover': {borderRadius: "100px", backgroundColor:"#71EAEA"} }} component={NavLink} to={"/"}>Inicio</Button>
+        <Button  sx={{ fontFamily:"Manrope", mt:"47px", color:"black", textAlign:"center",fontSize:"16px", fontStyle:"normal",lineHeight:"20px",'&:hover': {borderRadius: "100px", backgroundColor:"#71EAEA"}}} component={NavLink} to={"/quienesSomos"} >Nosotros</Button>
+        <Button  sx={{ fontFamily:"Manrope", mt:"47px", color:"black", textAlign:"center",fontSize:"16px", fontStyle:"normal",lineHeight:"20px" ,'&:hover': {borderRadius: "100px", backgroundColor:"#71EAEA"}}} component={NavLink} to={"/queHacemos"} >Qué hacemos</Button>
+        <Button  sx={{ fontFamily:"Manrope", mt:"47px", color:"black", textAlign:"center",fontSize:"16px", fontStyle:"normal",lineHeight:"20px",'&:hover': {borderRadius: "100px", backgroundColor:"#71EAEA"}}}component={NavLink} to={"/elTiempo"} >Manifiesto</Button>
+        <Button  sx={{ fontFamily:"Manrope", mt:"47px", color:"black", textAlign:"center",fontSize:"16px", fontStyle:"normal",lineHeight:"20px",'&:hover': {borderRadius: "100px", backgroundColor:"#71EAEA"}}}component={NavLink} to={"/clientes"} >Tic Tac: el tiempo</Button>
+        <Button  sx={{ fontFamily:"Manrope", mt:"47px", color:"black", textAlign:"center",fontSize:"16px", fontStyle:"normal",lineHeight:"20px",'&:hover': {borderRadius: "100px", backgroundColor:"#71EAEA"}}}component={NavLink} to={"/blog"} >Charlas y Conferencias</Button>
+        <Button  sx={{fontFamily:"Manrope", mt:"47px", mr:"20px", color:"black", textAlign:"center",fontSize:"16px", fontStyle:"normal",lineHeight:"20px",'&:hover': {borderRadius: "100px", backgroundColor:"#71EAEA"}}}component={NavLink} to={"/podcast"} >Tendencias</Button>
+        <Button variant="contained" sx={{fontFamily:"Manrope", mt:"47px", color: "#003350", textAlign:"center",fontSize:"16px", fontStyle:"normal",lineHeight:"20px", padding: "30px 40px", borderRadius:"100px", mr:"25.5px", backgroundColor:"#73F0A2",'&:hover': {borderRadius: "100px", backgroundColor:"#71EAEA"}}} > Contacto </Button>
         
-        <Button variant="contained" color="inherit" onClick={()=> setOpen(true)}> <img src='/icono.png' alt="icono" width={52} />Contacto </Button>
         </Toolbar>
       </AppBar>
       
-      <Drawer 
-      open={open}
-      anchor={'right'}
-      onClose={()=> setOpen(false)}
-      >
-      <NavListDrawer/> 
-      </Drawer>
+      
+      
      
     
     </>
