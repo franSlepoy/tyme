@@ -15,7 +15,7 @@ const NavBar = () => {
         </Box>
            
         <Button  sx={{ fontFamily:"Manrope", mt:"47px", ml:"20px", color:"black", textAlign:"center",fontSize:"16px", fontStyle:"normal",lineHeight:"20px",'&:hover': {borderRadius: "100px", backgroundColor:"#71EAEA"} }} component={NavLink} to={"/"}>Inicio</Button>
-        <Button  sx={{ fontFamily:"Manrope", mt:"47px", color:"black", textAlign:"center",fontSize:"16px", fontStyle:"normal",lineHeight:"20px",'&:hover': {borderRadius: "100px", backgroundColor:"#71EAEA"}}} component={NavLink} to={"/quienesSomos"} >Nosotros</Button>
+        <Button  sx={{ fontFamily:"Manrope", mt:"47px", color:"black", textAlign:"center",fontSize:"16px", fontStyle:"normal",lineHeight:"20px",'&:hover': {borderRadius: "100px", backgroundColor:"#71EAEA"}}} component={NavLink} to={"/nosotros"} >Nosotros</Button>
         <Button  sx={{ fontFamily:"Manrope", mt:"47px", color:"black", textAlign:"center",fontSize:"16px", fontStyle:"normal",lineHeight:"20px" ,'&:hover': {borderRadius: "100px", backgroundColor:"#71EAEA"}}} component={NavLink} to={"/queHacemos"} >Qué hacemos</Button>
         <Button  sx={{ fontFamily:"Manrope", mt:"47px", color:"black", textAlign:"center",fontSize:"16px", fontStyle:"normal",lineHeight:"20px",'&:hover': {borderRadius: "100px", backgroundColor:"#71EAEA"}}}component={NavLink} to={"/elTiempo"} >Manifiesto</Button>
         <Button  sx={{ fontFamily:"Manrope", mt:"47px", color:"black", textAlign:"center",fontSize:"16px", fontStyle:"normal",lineHeight:"20px",'&:hover': {borderRadius: "100px", backgroundColor:"#71EAEA"}}}component={NavLink} to={"/clientes"} >Tic Tac: el tiempo</Button>
