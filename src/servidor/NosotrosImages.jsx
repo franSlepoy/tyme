@@ -5,7 +5,7 @@ export const NosotrosCarouselData = [
      
     },
     {id: 2,
-        imagen: "/nosotros.png",
+        imagen: "/nosotrosCarousel1.png",
      titulo: "nosotrosCarousel1",
    
        }, 
@@ -13,4 +13,5 @@ export const NosotrosCarouselData = [
         imagen: "/nosotrosCarousel2.png",
         titulo: "nosotrosCarousel2",
        },
+      
 ]

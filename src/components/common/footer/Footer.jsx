@@ -33,7 +33,7 @@ export default function Footer() {
          <Link component={NavLink} to={"/nosotros"}>
          <Typography  sx={{mt:"11px",fontFamily:"Manrope",color:"#003350", fontSize:"16px", fontWeight:"300", lineHeight:"20px", letterSpacing:"0.1px"}} >Nosotros</Typography>
          </Link>
-         <Link>
+         <Link component={NavLink} to={"/queHacemos"}>
         <Typography  sx={{mt:"11px",fontFamily:"Manrope",color:"#003350", fontSize:"16px", fontWeight:"300", lineHeight:"20px", letterSpacing:"0.1px"}} >Qué hacemos</Typography>
         </Link>
         <Link>

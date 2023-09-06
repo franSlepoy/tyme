@@ -7,6 +7,7 @@ import ImagenCard from '../../common/imageCard/ImageCard'
 const Nosotros = () => {
   return (
     <>
+   {/*  Titulo */}
     <Typography sx={{color:"#003350", fontFamily:"Manrope", fontSize:"58px", fontWeight:"800", lineHeight:"normal", letterSpacing:"-2.32px", ml:"159px", mt:"80px"}}>Nosotros</Typography>
      <Box sx={{
           
@@ -42,6 +43,7 @@ const Nosotros = () => {
         </Box>
       </Box>
      </Box>
+     
      <Box mt={"25px"}>
      <img width={"100%"} src="/jk-perfil.jpg" alt="" />
      </Box>
@@ -58,7 +60,7 @@ Ahora, creo este nuevo emprendimiento con mucho entusiasmo y alegría, Tyme.
      <Box sx={{display:"flex", mt:"127px", width:"100%"}} >
       
      <Box>
-     <Carousel sx={{width:"622px", }}>
+     <Carousel sx={{width:"622px"}}>
          {
              NosotrosCarouselData.map( imagen => <ImagenCard key={imagen.id}  imagen={imagen.imagen} /> )
          }

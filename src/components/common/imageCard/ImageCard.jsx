@@ -14,10 +14,11 @@ export default function ImagenCard(props) {
       <CardActionArea>
         <CardMedia
           
-        
-          component="img"
-         
-          image={props.imagen}
+        sx={{borderRadius:"20px"}}
+        component="img"
+         width={"644px"}
+         height={"420px"}
+         image={props.imagen}
           
         />
         
