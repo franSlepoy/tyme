@@ -6,6 +6,7 @@ import TextoCard from '../../common/textoCard/TextoCard'
 import BasicAccordion2 from '../../common/basicAccordion/BasicAccordion2'
 import { CarouselTextoLogoData } from '../../../servidor/CarouselTextoLogoData'
 import TextoLogoCard from '../../common/textoLogoCard/TextoLogoCard'
+import BasicAccordion3 from '../../common/basicAccordion/BasicAccordion3'
 
 const QueHacemos = () => {
   return (
@@ -128,17 +129,17 @@ empresa florezca en un ambiente laboral enriquecedor y productivo, alcanzando lo
        <BasicAccordion2/>
      </Box>
      
-     <Box sx={{mt:"100px", height:"2304px", bgcolor:"#F9F9F9"}}>
+     <Box sx={{mt:"100px", height:"2000px", bgcolor:"#F9F9F9"}}>
      
      <Box display={"flex"}>
                 <Box sx={{mt:"80px", ml:"58px"}}>
                 <img   src="/hrLogo2.png" alt="" />
                 </Box>
-                <Typography sx={{ml:5, mt:"100px", width:"855px",fontFamily:"Manrope",fontSize:"20px", fontWeight:"400", color:"#003350"}}>Radiografía Transformadora de organizaciones: Evaluación y Diagnóstico</Typography>
+                <Typography sx={{ml:5, mt:"100px", width:"855px",fontFamily:"Manrope",fontSize:"20px", fontWeight:"400", color:"#003350"}}>Conexión real con la Experiencia del empleado</Typography>
      </Box>
 
      <Typography sx={{mt:"37px", ml:"58px", fontFamily:"Manrope",fontSize:"18px", fontWeight:"300", lineHeight:"28px", letterSpacing:"0.5px", color:"#003350"}}>Hoy no podemos concebir un ciclo de vida del empleado sin foco en la EXPERIENCIA.</Typography>
-     <Typography sx={{mt:"37px", ml:"58px", fontFamily:"Manrope",fontSize:"18px", fontWeight:"300", lineHeight:"28px", letterSpacing:"0.5px", color:"#003350"}}>La experiencia del empleado se refiere a todas las interacciones, percepciones y emociones que un colaborador experimenta a lo largo de su trayectoria dentro de la organización. Desde el proceso de Selección y Atracción de Talento hasta la salida del colaborador de dicha empresa, cada punto de contacto cuenta para moldear la satisfacción, el compromiso y el sentido de pertenencia del empleado.</Typography>
+     <Typography sx={{mt:"37px", ml:"58px", fontFamily:"Manrope",fontSize:"18px", fontWeight:"300", lineHeight:"28px", letterSpacing:"0.5px", color:"#003350", mr:"50px"}}>La experiencia del empleado se refiere a todas las interacciones, percepciones y emociones que un colaborador experimenta a lo largo de su trayectoria dentro de la organización. Desde el proceso de Selección y Atracción de Talento hasta la salida del colaborador de dicha empresa, cada punto de contacto cuenta para moldear la satisfacción, el compromiso y el sentido de pertenencia del empleado.</Typography>
      <Typography sx={{mt:"37px", ml:"58px", fontFamily:"Manrope",fontSize:"18px", fontWeight:"300", lineHeight:"28px", letterSpacing:"0.5px", color:"#003350"}}>Trabajamos fuertemente en la cultura organizacional.</Typography>
      <Typography sx={{mt:"37px", ml:"58px", fontFamily:"Manrope",fontSize:"18px",  lineHeight:"28px", letterSpacing:"0.5px", color:"#003350"}}>Un empleado con una buena experiencia dentro del ciclo de vida en la organización evita:</Typography>
      
@@ -151,12 +152,36 @@ empresa florezca en un ambiente laboral enriquecedor y productivo, alcanzando lo
        </Carousel>
         </Box>
         <Box >
-        <Typography sx={{ mt:"160px", ml:"50px", fontFamily:"Manrope",fontSize:"18px", fontWeight:"700", lineHeight:"28px", letterSpacing:"0.5px", color:"#003350"}}>En resumen, una mala experiencia de los empleados entre tantos efectos impacta directamente en los resultados económicos de la empresa.
+        <Typography sx={{ mt:"160px", ml:"50px",mr:"50px", fontFamily:"Manrope",fontSize:"18px", fontWeight:"700", lineHeight:"28px", letterSpacing:"0.5px", color:"#003350"}}>En resumen, una mala experiencia de los empleados entre tantos efectos impacta directamente en los resultados económicos de la empresa.
 Por lo tanto, es fundamental que las organizaciones se esfuercen por mejorar la experiencia laboral de sus colaboradores para promover un ambiente de trabajo positivo y productivo.</Typography>
         </Box>
     </Box>
+ 
+    <Typography sx={{ml:"50px" ,mt:"56px",fontFamily:"Merriweather",fontSize:"36px", fontWeight:"400", color:"#003350"}}>
+    Cuál es la solución que proponemos en Tyme
+     </Typography>
      
-
+     <Box display={"flex"} ml={"50px"} mt={"40px"}>
+       <Box mr={8}>
+        <img src="/reunion.png" alt="" />
+       </Box>
+       <BasicAccordion3/>
+     </Box>
+     
+     <Box display={"flex"} sx={{mt:"75px",ml:"50px",width:"100%"}}>
+        <Box width={"538px"}> 
+        <Typography sx={{fontFamily:"Manrope",fontSize:"24px", fontWeight:"300", lineHeight:"34px", letterSpacing:"0.5px", color:"#003350"}} >
+        Resultados transformadores: nuestro enfoque centrado en las personas y la experiencia del empleado ha demostrado generar resultados cuanti y cualitativos en organizaciones de diversas industrias.
+        </Typography>
+        <Typography sx={{mt:5,fontFamily:"Manrope",fontSize:"24px", fontWeight:"700", lineHeight:"34px", letterSpacing:"0.5px", color:"#003350"}}>
+        Confía en nosotros para llevar a tu empresa al siguiente nivel 
+        </Typography>
+        </Box>
+        <Box sx={{}}>
+            <img width={"564px"} src="/firuleteQueHacemos.png" alt="" />
+        </Box>
+        
+     </Box>
 
 
      </Box>

@@ -3,15 +3,19 @@ import React from 'react'
 import BasicAccordion from '../../common/basicAccordion/BasicAccordion'
 import BasicAccordion1 from '../../common/basicAccordion/BasicAccordion1'
 import Testimonios from '../../common/testimonios/Testimonios'
+import Testimonios1 from '../../common/testimonios/Testimonios1'
 
 const Home = () => {
   return (
     <>
-      <Typography variant='h1' sx={{ fontFamily: "Manrope", fontWeight: 800, color: "#003350", fontSize: "58px", textAlign: "center", letterSpacing: -2.23, mt: "70px" }}>Human Consulting</Typography>
+      <Typography variant='h1' sx={{ fontFamily: "Manrope", fontWeight:"800", color: "#003350", fontSize: "58px", textAlign: "center", letterSpacing: -2.23, mt: "70px" }}>Human Consulting</Typography>
       
-      <Box sx={{ position: 'relative', mt: "93px", display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh' }}>
-        <img src="/header1.png" alt="" style={{ Width: '100%', maxHeight: '100%', objectFit: 'cover' }} />
-        <Typography sx={{width:"510px", position: 'absolute', color: 'white', fontSize: '36px', fontWeight:"400", textAlign: 'center', left:'50%', transform:'translate(-50%)', top: "61px", fontFamily:'Merriweather' }}>
+      <Box sx={{ position: 'relative', mt: "53px", display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh' }}>
+        {/* <img src="/header1.png" alt="" style={{ Width: '100%', maxHeight: '100%', objectFit: 'cover' }} /> */}
+        <video autoPlay loop muted style={{ maxWidth:'100%', maxHeight: '100%', objectFit: 'cover' }}>
+          <source src="/clip.mp4" type="video/mp4" />
+        </video>
+        <Typography sx={{width:"810px", position: 'absolute', color: 'white', fontSize: '36px', fontWeight:"400", textAlign: 'center', left:'50%', transform:'translate(-50%)', top: "111px", fontFamily:'Merriweather' }}>
           Diferentes motivos,
           una sencilla solución… Tyme
         </Typography>
@@ -61,8 +65,13 @@ const Home = () => {
     </Box>
 
     <Box>
+
       <Typography sx={{mt: "75px",color: "#003350", textAlign:"center", fontFamily:"Merriweather", fontSize:"36px", fontWeight:400, lineHeight:"normal"}}>Palabras que resuenan, voces que inspiran</Typography>
-       <Testimonios/>
+      
+      <Testimonios/>
+      <Testimonios1/>
+      
+      
 
 
     </Box>
