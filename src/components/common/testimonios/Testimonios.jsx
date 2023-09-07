@@ -5,7 +5,7 @@ const Testimonios = () => {
   return (
     <Box sx={{mt:"54px", display:"flex",padding:"20px"}}>
         <Box>
-        <Box ml={3} sx={{ borderRadius: '50%', overflow: 'hidden', width: '165px', height: '165px' }}>
+        <Box ml={10} sx={{ borderRadius: '50%', overflow: 'hidden', width: '165px', height: '165px' }}>
         <img src="/testimonios1.png" alt="avatar" />
         </Box>
 
@@ -22,7 +22,7 @@ Warner Bros España y Portugal</Typography>
         </Box>
 
         <Box ml={"20px"}>
-        <Box ml={3} sx={{ borderRadius: '50%', overflow: 'hidden', width: '165px', height: '165px' }}>
+        <Box ml={10} sx={{ borderRadius: '50%', overflow: 'hidden', width: '165px', height: '165px' }}>
         <img width={"165px"} src="/testimonios2.png" alt="avatar" />
         </Box>
 
@@ -40,7 +40,7 @@ Gelt, empresa de cashback que opera en Europa y LATAM. </Typography>
         </Box>
 
         <Box ml={"20px"}>
-        <Box ml={3} sx={{ borderRadius: '50%', overflow: 'hidden', width: '165px', height: '165px' }}>
+        <Box ml={10} sx={{ borderRadius: '50%', overflow: 'hidden', width: '165px', height: '165px' }}>
         <img width={"165px"} src="/testimonios3.png" alt="avatar" />
         </Box>
 

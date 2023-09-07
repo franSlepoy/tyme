@@ -7,7 +7,7 @@ const Testimonios1 = () => {
    
 
         <Box ml={"20px"}>
-        <Box ml={3} sx={{ borderRadius: '50%', overflow: 'hidden', width: '165px', height: '165px' }}>
+        <Box ml={10} sx={{ borderRadius: '50%', overflow: 'hidden', width: '165px', height: '165px' }}>
         <img width={"165px"} src="/testimonios4.png" alt="avatar" />
         </Box>
 
@@ -25,7 +25,7 @@ MSD: una de las mayores empresas farmacéuticas del mundo.</Typography>
         </Box>
 
         <Box ml={"20px"}>
-        <Box ml={3} sx={{ borderRadius: '50%', overflow: 'hidden', width: '165px', height: '165px' }} >
+        <Box ml={10} sx={{ borderRadius: '50%', overflow: 'hidden', width: '165px', height: '165px' }} >
         <img width={"165px"} src="/testimonios5.png" alt="avatar" />
         </Box>
 
@@ -44,7 +44,7 @@ Cleverman NY y de The Keenfolks USA.</Typography>
         </Box>
 
         <Box ml={"20px"}>
-        <Box ml={3} sx={{ borderRadius: '50%', overflow: 'hidden', width: '165px', height: '165px' }}>
+        <Box ml={10} sx={{ borderRadius: '50%', overflow: 'hidden', width: '165px', height: '165px' }}>
         <img width={"165px"} src="/testimonios6.png" alt="avatar" />
         </Box>
 

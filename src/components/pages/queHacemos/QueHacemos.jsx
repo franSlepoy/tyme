@@ -14,7 +14,7 @@ const QueHacemos = () => {
       <Typography sx={{color:"#003350", fontFamily:"Manrope", fontSize:"58px", fontWeight:"800", lineHeight:"normal", letterSpacing:"-2.32px", ml:"159px", mt:"80px"}}>¿Qué hacemos?</Typography>
      <Box sx={{
           display:"flex",
-          backgroundImage: `url("/queHacemosrectangulo.png")`, // Usamos la URL de la imagen importada
+          // Usamos la URL de la imagen importada
           backgroundSize: 'cover', // Para que la imagen cubra todo el fondo
            width:"100%", // Para que ocupe el 100% del ancho
           mt: "88px",
