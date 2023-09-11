@@ -6,6 +6,7 @@ import NavBar from './components/common/navbar/NavBar'
 import Home from './components/pages/home/Home'
 import Nosotros from './components/pages/nosotros/Nosotros'
 import QueHacemos from './components/pages/queHacemos/QueHacemos'
+import Manifiesto from './components/pages/manifiesto/Manifiesto'
 
 
 const App = () => {
@@ -17,6 +18,7 @@ const App = () => {
       <Route path='/' element={<Home/>}/>
       <Route path='/nosotros' element={<Nosotros/>}/>
       <Route path='/queHacemos' element={<QueHacemos/>}/>
+      <Route path='/manifiesto' element={<Manifiesto/>}/>
     </Routes>
     
    </Container>

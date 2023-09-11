@@ -14,24 +14,23 @@ const QueHacemos = () => {
       <Typography sx={{color:"#003350", fontFamily:"Manrope", fontSize:"58px", fontWeight:"800", lineHeight:"normal", letterSpacing:"-2.32px", ml:"159px", mt:"80px"}}>¿Qué hacemos?</Typography>
      <Box sx={{
           display:"flex",
-          // Usamos la URL de la imagen importada
-          backgroundSize: 'cover', // Para que la imagen cubra todo el fondo
-           width:"100%", // Para que ocupe el 100% del ancho
+          backgroundColor:"#F9F9F9",  
+          width:"1448px", ml:-16,
           mt: "88px",
           height:"506px",
-          padding:5,
+          position:"relative"
           
         }} >
         <Box>
-        <Box sx={{borderRadius:"100px",width:"90px", height:"90px", ml:-6, backgroundColor:"#71EAEA"}}>
+        <Box sx={{borderRadius:"100px",width:"90px", height:"90px",mt:4, ml:32, backgroundColor:"#71EAEA"}}>
           </Box>
-          <Box sx={{mt:"-78px", width:"535px"}}>
-            <Typography sx={{color:"#003350", fontFamily:"Manrope", fontSize:"42px", fontWeight:"800", lineHeight:"normal", letterSpacing:"-1.68px" }}>Lo primero que hacemos es el cambio centrado en las personas, de verdad.</Typography>
+          <Box sx={{mt:"-78px", width:"535px",}}>
+            <Typography sx={{position:"absolute",width:"535px",  ml:36,color:"#003350", fontFamily:"Manrope", fontSize:"42px", fontWeight:"800", lineHeight:"normal", letterSpacing:"-1.68px" }}>Lo primero que hacemos es el cambio centrado en las personas, de verdad.</Typography>
             </Box>
         </Box>
 
-      <Box sx={{ml:-73, mt:"-124px"}}>
-        <img height={"589px"} src="/queHacemosImagen.png" alt="" />
+      <Box sx={{ml:-30, mt:"-82px"}}>
+        <img  src="/queHacemosImagen.png" alt="" />
       </Box>   
     </Box>
     
@@ -180,11 +179,86 @@ Por lo tanto, es fundamental que las organizaciones se esfuercen por mejorar la 
         <Box sx={{}}>
             <img width={"564px"} src="/firuleteQueHacemos.png" alt="" />
         </Box>
-        
+      </Box>
+</Box>
+
+     
+     <Box display={"flex"}>
+                
+                <Box sx={{  width:"855px",fontFamily:"Manrope",fontSize:"20px", fontWeight:"400", color:"#003350"}}> <Box display={"flex"}>
+                <Box sx={{mt:"80px", ml:"58px"}}>
+                <img   src="/hrLogo3.png" alt="" />
+                </Box>
+                <Typography sx={{ml:5, mt:"100px", width:"855px",fontFamily:"Manrope",fontSize:"20px", fontWeight:"400", color:"#003350"}}>Waze laboral</Typography>
+                </Box>
+                </Box>
      </Box>
 
-
+     <Typography sx={{mt:"37px", ml:"58px", fontFamily:"Manrope",fontSize:"18px", fontWeight:"300", lineHeight:"28px", letterSpacing:"0.5px", color:"#003350"}}>¿Estás buscando una solución innovadora para potenciar y desarrollo el talento de tu empresa en un mundo laboral en constante cambio? </Typography>
+     <Typography sx={{mt:"37px", ml:"58px", fontFamily:"Manrope",fontSize:"18px", fontWeight:"300", lineHeight:"28px", letterSpacing:"0.5px", color:"#003350", mr:"50px"}}>Con nuestro servicio de Waze Laboral, y a través de nuestra propia metodología, te ofrecemos un servicio de vanguardia para diseñar planes de reskilling y upskilling a medida, permitiendo que tus empleados se adapten y prosperen en la nueva era del trabajo. En un entorno empresarial que evoluciona rápidamente.</Typography>
+     <Typography sx={{mt:"37px", ml:"58px", fontFamily:"Manrope",fontSize:"18px", fontWeight:"300", lineHeight:"28px", letterSpacing:"0.5px", color:"#003350"}}>En Tyme entendemos que el reskilling y upskilling son fundamentales para impulsar el crecimiento, competitividad y sostenibilidad del negocio. Trabajamos en la transformación de los puestos de trabajo y en las personas.</Typography>
+     <Typography sx={{mt:"37px", ml:"58px", fontFamily:"Manrope",fontSize:"18px",  lineHeight:"28px", letterSpacing:"0.5px", color:"#003350"}}>Nuestra propuesta es:</Typography>
+     
+     <Box display={"flex"} mt={8}>
+       <Box sx={{bgcolor:"#FFF5C7", borderRadius:"20px"}}>
+        <img src="/professional.png" alt="" />
+        <Box width={"494px"}>
+        <Typography sx={{ml:"34px", mt:"34px", mb:2, fontFamily:"Manrope",fontSize:"18px", fontWeight:"800", lineHeight:"28px", letterSpacing:"0.5px", color:"#003350" }}>Personalización Integral:</Typography>
+        <Typography sx={{ml:"34px", mb:"34px", fontFamily:"Manrope",fontSize:"18px", fontWeight:"300", lineHeight:"28px", letterSpacing:"0.5px", color:"#003350" }}> Cada empresa es única, y en Tyme creemos en la personalización. Nuestros expertos y nuestra tecnología analizará las necesidades específicas de tu organización y diseñarán planes de reskilling y upskilling que se adapten perfectamente a tu cultura empresarial y objetivos estratégicos.</Typography>
+        </Box>
+       </Box>
+       
+       <Box ml={"26px"} sx={{bgcolor:"#FFF5C7", borderRadius:"20px"}} >
+        <img src="/professional1.png" alt="" />
+        <Box width={"494px"}>
+        <Typography sx={{ml:"34px", mt:"34px",mb:2, fontFamily:"Manrope",fontSize:"18px", fontWeight:"800", lineHeight:"28px", letterSpacing:"0.5px", color:"#003350" }} >Enfoque basado en el Presente y Futuro:</Typography>
+        <Typography sx={{ml:"34px", mb:"34px", fontFamily:"Manrope",fontSize:"18px", fontWeight:"300", lineHeight:"28px", letterSpacing:"0.5px", color:"#003350" }}>Nuestro enfoque está centrado en las habilidades y competencias necesarias para prosperar en el futuro. Partimos de la foto actual y hacia donde vuestra organización quiere ir y creamos el camino. Nos aseguramos de que tus empleados estén equipados con las capacidades más relevantes y demandadas en el mercado laboral, preparándolos para los desafíos venideros.</Typography>
+        </Box>
      </Box>
+     </Box>
+
+     <Typography sx={{ml:0, mt:"100px", width:"855px",fontFamily:"Merriweather",fontSize:"20px", fontWeight:"400", color:"#003350"}}>¿Cómo funciona nuestro servicio de Waze Laboral?</Typography>
+     
+     <Box sx={{mt:"39px", display:"flex", color:"#003350"}}>
+        <Box width={"152px"}>
+          <Typography sx={{fontFamily:"Manrope",fontSize:"24px", fontWeight:"700", lineHeight:"normal"}}>
+          Diagnóstico y Análisis
+          </Typography>
+        </Box>
+        <Box width={"197px"}>
+          <Typography sx={{ml:6,fontFamily:"Manrope",fontSize:"24px", fontWeight:"700", lineHeight:"normal"}}>
+          Planificación estratégica
+          </Typography>
+        </Box>
+        <Box>
+          <Typography sx={{ml:6,fontFamily:"Manrope",fontSize:"24px", fontWeight:"700", lineHeight:"normal"}} width={"237px"}>
+          Ejecución y Acompañamiento
+          </Typography>
+        </Box>
+        <Box>
+          <Typography sx={{ml:6,fontFamily:"Manrope",fontSize:"24px", fontWeight:"700", lineHeight:"normal"}} width={"228px"}>
+          Resultados medibles
+          </Typography>
+        </Box>
+      </Box>
+
+      <Box sx={{mt:"13px", bgcolor:"#71EAEA", width:"145px", height:"13px" }} >
+
+      </Box>
+      <Box sx={{ bgcolor:"#71EAEA", width:"1127px", height:"2px" }} >
+
+      </Box>
+
+      <Box display={"flex"} mt={"52px"}>
+        <Box width={"441px"}>
+          <Typography sx={{p:5,fontFamily:"Manrope",fontSize:"24px", fontWeight:"300", lineHeight:"34px", color:"#003350"}}>Nuestro equipo multidisciplinario realizará un diagnóstico exhaustivo de las habilidades actuales de tu equipo y evaluará las necesidades futuras de tu empresa, haciendo una comparativa con las empresas referentes en el sector.</Typography>
+        </Box>
+        <Box ml={"85px"}>
+          <img src="/femaleWorking.png" alt="" />
+        </Box>
+      </Box>
+
+
 
     
     

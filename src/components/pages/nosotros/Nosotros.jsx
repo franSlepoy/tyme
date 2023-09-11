@@ -7,24 +7,22 @@ import ImagenCard from '../../common/imageCard/ImageCard'
 const Nosotros = () => {
   return (
     <>
-   {/*  Titulo */}
+   
     <Typography sx={{color:"#003350", fontFamily:"Manrope", fontSize:"58px", fontWeight:"800", lineHeight:"normal", letterSpacing:"-2.32px", ml:"159px", mt:"80px"}}>Nosotros</Typography>
      <Box sx={{
-          
-           // Usamos la URL de la imagen importada
-          backgroundSize: 'cover', // Para que la imagen cubra todo el fondo
-           width:"100%", // Para que ocupe el 100% del ancho
+          backgroundColor:"#F9F9F9",  
+          width:"1448px", ml:-16, 
           mt: "88px",
           padding:5,
           mb:"10"
         }} >
-          <Box sx={{borderRadius:"100px",width:"90px", height:"90px", ml:-6, backgroundColor:"#71EAEA"}}>
+          <Box sx={{borderRadius:"100px",width:"90px", height:"90px", ml:10, backgroundColor:"#71EAEA"}}>
           </Box>
-          <Box sx={{mt:"-78px"}}>
-            <Typography sx={{color:"#003350", fontFamily:"Manrope", fontSize:"42px", fontWeight:"800", lineHeight:"normal", letterSpacing:"-1.68px" }}>Tyme es una consultora boutique internacional especializada en potenciar y transformar a las organizaciones a través de las personas y la tecnología</Typography>
+          <Box sx={{mt:"-78px", width:"1098px", ml:12 }}>
+            <Typography sx={{ ml:4,color:"#003350", fontFamily:"Manrope", fontSize:"42px", fontWeight:"800", lineHeight:"normal", letterSpacing:"-1.68px" }}>Tyme es una consultora boutique internacional especializada en potenciar y transformar a las organizaciones a través de las personas y la tecnología</Typography>
             </Box>
           
-      <Box>
+      <Box ml={16}>
         <Box sx={{display:"flex", mt:3, width:"100%", }}>
           <Box sx={{width:"528px"}}>
           <Typography sx={{color:"#003350", fontFamily:"Manrope", fontSize:"18px", fontWeight:"300", lineHeight:"28px", letterSpacing:"0.5px"}}>
@@ -44,7 +42,7 @@ const Nosotros = () => {
       </Box>
      </Box>
      
-     <Box mt={"25px"}>
+     <Box width={"1448px"}ml={-16}>
      <img width={"100%"} src="/jk-perfil.jpg" alt="" />
      </Box>
      

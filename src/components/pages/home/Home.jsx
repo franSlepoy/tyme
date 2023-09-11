@@ -8,11 +8,11 @@ import Testimonios1 from '../../common/testimonios/Testimonios1'
 const Home = () => {
   return (
     <>
-      <Typography variant='h1' sx={{ fontFamily: "Manrope", fontWeight:"800", color: "#003350", fontSize: "58px", textAlign: "center", letterSpacing: -2.23, mt: "70px" }}>Human Consulting</Typography>
+      <Typography variant='h1' sx={{ padding:0, fontFamily: "Manrope", fontWeight:"800", color: "#003350", fontSize: "58px", textAlign: "center", letterSpacing: -2.23, mt: "70px" }}>Human Consulting</Typography>
       
-      <Box sx={{ position: 'relative', mt: "53px", display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh' }}>
+      <Box sx={{ position: 'relative',  mt: "193px", display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh' }}>
         {/* <img src="/header1.png" alt="" style={{ Width: '100%', maxHeight: '100%', objectFit: 'cover' }} /> */}
-        <video autoPlay loop muted style={{ maxWidth:'100%', maxHeight: '100%', objectFit: 'cover' }}>
+        <video autoPlay loop muted style={{ maxWidth:"1564px",  objectFit: 'cover',  }}>
           <source src="/clip.mp4" type="video/mp4" />
         </video>
         <Typography sx={{width:"810px", position: 'absolute', color: 'white', fontSize: '36px', fontWeight:"400", textAlign: 'center', left:'50%', transform:'translate(-50%)', top: "111px", fontFamily:'Merriweather' }}>
@@ -21,7 +21,7 @@ const Home = () => {
         </Typography>
       </Box>
       
-      <Box m={"auto"} mt={"92px"} display={"flex"}>
+      <Box m={"auto"} mt={"192px"} display={"flex"}>
       <Box width={"481px"}>
           <Typography sx={{fontFamily:"Manrope", fontSize:"24px", fontWeight:"300", color:"#003350",lineHeight:"34px" }}>
           Cada organización tiene su fórmula. No existe una solución universal para la prosperidad de cada organización. Nuestra fórmula secreta es que vemos el cambio de manera diferente. En Tyme te ayudamos a encontrar tu fórmula y de esa manera trabajamos, de manera personalizada.
@@ -44,8 +44,8 @@ const Home = () => {
       </Box>
       
     </Box>
-
-    <Box  display={"flex"} mt={"100px"}   sx={{ width:"100%", backgroundColor:"#F9F9F9", pl:5}} >
+    <Box>
+      <Box  display={"flex"} mt={"100px"}    sx={{   backgroundColor:"#F9F9F9", pl:5,  }} >
        <Box sx={{width:"451px", mt:"154px", mr:"24px"}}>
          <Typography sx={{fontFamily:"Merriweather", fontSize:"36px", fontWeight:400, lineHeight:"normal", color: "#003350"}}>
          Tyme se enfoca en el lado humano del cambio
@@ -63,13 +63,15 @@ const Home = () => {
        </Box>
 
     </Box>
+    </Box>
+    
 
     <Box>
 
       <Typography sx={{mt: "75px",color: "#003350", textAlign:"center", fontFamily:"Merriweather", fontSize:"36px", fontWeight:400, lineHeight:"normal"}}>Palabras que resuenan, voces que inspiran</Typography>
       
       <Testimonios/>
-      <Testimonios1/>
+     
       
       
 
