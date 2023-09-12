@@ -5,7 +5,7 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import FacebookIcon from '@mui/icons-material/Facebook';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import { Link, NavLink } from 'react-router-dom';
-import { Button } from '@mui/material';
+
 
 
 
@@ -43,7 +43,7 @@ export default function Footer() {
         
         <Box sx={{width:"181px", ml:"18px", mt:"56px"}}>
           <a href=""></a>
-          <Link><Typography sx={{fontFamily:"Manrope",color:"#003350", fontSize:"16px", fontWeight:"300", lineHeight:"20px", letterSpacing:"0.1px"}} >Tic Tac: el tiempo</Typography></Link>
+          <Link to={"/ticTacElTiempo"}><Typography sx={{fontFamily:"Manrope",color:"#003350", fontSize:"16px", fontWeight:"300", lineHeight:"20px", letterSpacing:"0.1px"}} >Tic Tac: el tiempo</Typography></Link>
           <Link><Typography  sx={{mt:"11px",fontFamily:"Manrope",color:"#003350", fontSize:"16px", fontWeight:"300", lineHeight:"20px", letterSpacing:"0.1px"}}>Charlas y Conferencias</Typography></Link>
           <Link> <Typography  sx={{mt:"11px",fontFamily:"Manrope",color:"#003350", fontSize:"16px", fontWeight:"300", lineHeight:"20px", letterSpacing:"0.1px"}}>Tendencias</Typography></Link>
          <Link><Typography  sx={{mt:"11px",fontFamily:"Manrope",color:"#003350", fontSize:"16px", fontWeight:"300", lineHeight:"20px", letterSpacing:"0.1px"}}>Contacto</Typography></Link>

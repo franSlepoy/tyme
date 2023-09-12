@@ -7,6 +7,7 @@ import Home from './components/pages/home/Home'
 import Nosotros from './components/pages/nosotros/Nosotros'
 import QueHacemos from './components/pages/queHacemos/QueHacemos'
 import Manifiesto from './components/pages/manifiesto/Manifiesto'
+import TicTac from './components/pages/ticTac/TicTac'
 
 
 const App = () => {
@@ -19,6 +20,7 @@ const App = () => {
       <Route path='/nosotros' element={<Nosotros/>}/>
       <Route path='/queHacemos' element={<QueHacemos/>}/>
       <Route path='/manifiesto' element={<Manifiesto/>}/>
+      <Route path='/ticTacElTiempo' element={<TicTac/>}/>
     </Routes>
     
    </Container>
