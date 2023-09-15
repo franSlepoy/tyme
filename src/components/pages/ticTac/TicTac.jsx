@@ -1,4 +1,4 @@
-import { Box, TextField, Typography } from '@mui/material'
+import { Box, Button, TextField, Typography } from '@mui/material'
 import React from 'react'
 
 const TicTac = () => {
@@ -46,7 +46,7 @@ Muchos colaboradores de las organizaciones, y esto generalmente se ve fuertement
     </Box>
     
     <Box display={"flex"}>
-       <Box width={"512px"} height={"508px"} sx={{mt:"99px", ml:"89px"}} >
+       <Box  mb={"150px"} width={"1896px"} height={"528px"} sx={{mt:"99px", ml:"89px",}} >
          <Box>
             <Box>
             <Typography sx={{fontFamily:"Manrope",fontSize:"18px", fontWeight:"300", lineHeight:"28px", letterSpacing:"0.5px", color:"#003350"}}>
@@ -63,14 +63,48 @@ Muchos colaboradores de las organizaciones, y esto generalmente se ve fuertement
          </Box>
     </Box>
      
-     <Box sx={{mt:"99px", ml:8 }}>
-     <TextField
+     <Box sx={{mt:"99px", ml:18 }}>
+     
+        <TextField
           label="Nombre"
           id="standard-size-normal"
           
           variant="standard"
-          sx={{color:"darkblue", width:"452px"}}
+          sx={{mt:3,color:"darkblue", width:"452px"}}
         />
+        <TextField
+          label="Apellido"
+          id="standard-size-normal"
+          
+          variant="standard"
+          sx={{mt:3,color:"darkblue", width:"452px"}}
+        />
+        <TextField
+          label="Email"
+          id="standard-size-normal"
+          
+          variant="standard"
+          sx={{mt:3,color:"darkblue", width:"452px"}}
+        />
+        <TextField
+          label="País"
+          id="standard-size-normal"
+          
+          variant="standard"
+          sx={{mt:3,color:"darkblue", width:"452px"}}
+        />
+        <TextField
+          label="Comentarios"
+          id="standard-size-normal"
+          
+          variant="standard"
+          sx={{mt:3,color:"darkblue", width:"452px"}}
+        />
+        <Box sx={{mt:5, mb:8}}>
+      <Button variant='contained' sx={{mt:"31px", padding: "10px 24px", width:"177px", borderRadius:"100px", backgroundColor:"#003350", '&:hover': {borderRadius: "100px", backgroundColor:"#71EAEA", color:"#F9F9F9", textAlign:"center", fontWeight:"700", lineHeight: "20px"}}}>Enviar</Button>
+      </Box>
+        
+        
      </Box>
     
 

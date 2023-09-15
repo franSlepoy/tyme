@@ -1,4 +1,4 @@
-import { Box, Typography } from '@mui/material'
+import { Box, Button, Typography } from '@mui/material'
 import React from 'react'
 import Carousel from 'react-material-ui-carousel'
 import { QueHacemosData } from '../../../servidor/QueHacemosTexto'
@@ -7,6 +7,8 @@ import BasicAccordion2 from '../../common/basicAccordion/BasicAccordion2'
 import { CarouselTextoLogoData } from '../../../servidor/CarouselTextoLogoData'
 import TextoLogoCard from '../../common/textoLogoCard/TextoLogoCard'
 import BasicAccordion3 from '../../common/basicAccordion/BasicAccordion3'
+import { CarouselTextoLogoData1 } from '../../../servidor/CarouselTextoLogoData1'
+import BasicAccordion4 from '../../common/basicAccordion/BasicAccordion4'
 
 const QueHacemos = () => {
   return (
@@ -257,11 +259,116 @@ Por lo tanto, es fundamental que las organizaciones se esfuercen por mejorar la 
           <img src="/femaleWorking.png" alt="" />
         </Box>
       </Box>
-
-
-
+     
+     <Box sx={{mt:"100px", height:"1266px", bgcolor:"#F9F9F9"}}> 
+     <Box display={"flex"}>
+                <Box sx={{mt:"80px", ml:"58px"}}>
+                <img   src="/hrLogo4.png" alt="" />
+                </Box>
+                <Typography sx={{ml:5, mt:"100px", width:"855px",fontFamily:"Manrope",fontSize:"20px", fontWeight:"400", color:"#003350"}}>Te acompañamos en tus primeros pasos
+hacia una certificación</Typography>
+     </Box>
+        
+     <Typography sx={{mt:"37px", ml:"58px",mr:"58px", fontFamily:"Manrope",fontSize:"18px", fontWeight:"300", lineHeight:"28px", letterSpacing:"0.5px", color:"#003350"}}>Nuestro equipo interdisciplinario comprende las complejidades de cualquier tipo de certificación y sabe cómo preparar a tu empresa para alcanzar los requisitos necesarios. Tenemos una metodología propia, y por ellos ofrecemos un servicio personalizado y enfocado en tus necesidades específicas, guiándote desde la fase inicial hasta la obtención exitosa de la certificación.</Typography>
+     <Typography sx={{mt:"37px", ml:"58px",mr:"58px", fontFamily:"Manrope",fontSize:"18px", fontWeight:"300", lineHeight:"28px", letterSpacing:"0.5px", color:"#003350", mr:"50px"}}>
+Estamos comprometidos con tu éxito. Trabajaremos incansablemente para asegurarnos de que tu empresa esté lista para la certificación.</Typography>
+     <Typography sx={{mt:"37px", ml:"58px",mr:"58px", fontFamily:"Manrope",fontSize:"18px", fontWeight:"300", lineHeight:"28px", letterSpacing:"0.5px", color:"#003350"}}>No te enfrentes solo al proceso de certificación. Permítenos ser tu socio en este viaje. En Tyme, estamos listos para ayudarte a dar tus primeros pasos, asegurando que tu empresa se destaque por su excelencia.</Typography>
     
+     <Typography sx={{ml:"58px", mt:"100px", width:"855px",fontFamily:"Manrope",fontSize:"20px", fontWeight:"400", color:"#003350"}}>
+    Importancia de cualquier tipo de certificación
+    </Typography>
     
+    <Box sx={{mt:"48px", display:"flex", ml:"-25px"}}>
+        <Box sx={{  bgcolor:"#E3FBEB",height:"510px", width:"1000px", ml:"82px", border:"solid  1px", borderRadius:"20px", color:"#003350" }}>
+        <Carousel height={"450px"}  >
+         {
+             CarouselTextoLogoData1.map( card => <TextoLogoCard key={card.id}  titulo={card.titulo} texto={card.texto} logo={card.logo} /> )
+         }
+       </Carousel>
+        </Box>
+        <Box >
+        <Typography sx={{ mt:"160px", ml:"50px",mr:"50px", fontFamily:"Manrope",fontSize:"18px", fontWeight:"700", lineHeight:"28px", letterSpacing:"0.5px", color:"#003350"}}>Contáctanos para programar una consulta inicial y descubrir cómo podemos impulsar el éxito de tu empresa a través de nuestro servicio</Typography>
+        </Box>
+    </Box>
+  </Box>
+
+  <Box sx={{width:"100%", height:"230px", bgcolor:"#003350"}}>
+        <Typography sx={{pt:"92px",ml:"50px",color:"#F9F9F9",fontFamily:"Merriweather",fontSize:"36px", fontWeight:"700"}}>HR Tech Trends</Typography>
+    </Box>
+
+    <Box display={"flex"}>
+                
+                <Box sx={{  width:"855px",fontFamily:"Manrope",fontSize:"20px", fontWeight:"400", color:"#003350"}}> <Box display={"flex"}>
+                <Box sx={{mt:"80px", ml:"58px"}}>
+                <img   src="/hrLogo5.png" alt="" />
+                </Box>
+                <Typography sx={{ml:5, mt:"100px", width:"1011px",fontFamily:"Manrope",fontSize:"20px", fontWeight:"400", color:"#003350"}}>Mentoring personalizado: Abrazando e integrando la Transformación Digital en Recursos Humanos.</Typography>
+                </Box>
+                </Box>
+     </Box>
+     
+     <Box display={"flex"} mt={"52px"}>
+     <Box >
+          <img src="/futurista.png" alt="" />
+        </Box>
+        <Box >
+          <Typography sx={{pl:5,fontFamily:"Manrope",fontSize:"18px", fontWeight:"300", lineHeight:"28px", letterSpacing:"0.5px", color:"#003350"}}>Nuestro servicio de mentoring es una oportunidad para Líderes y profesionales del área de Recursos Humanos que desean abrazar la transformación digital y mantenerse a la vanguardia en el ámbito de la tecnología aplicada a la gestión del talento. Nos enfocamos en escucharte, acompañarte, asesorarte, proporcionarte conocimiento y experiencias, e implementar nuevas herramientas. También te facilitaremos las mejores prácticas para aprovechar al máximo las últimas tendencias, impulsando la eficiencia, la productividad y mejorando la experiencia de tus empleados en la organización.</Typography>
+        </Box>
+        
+      </Box>
+
+      <Box display={"flex"} mt={"52px"}>
+       <Box >
+          <Typography sx={{fontFamily:"Manrope",fontSize:"18px", fontWeight:"300", lineHeight:"28px", letterSpacing:"0.5px", color:"#003350"}}>Nuestro servicio de mentoring es una oportunidad para Líderes y profesionales del área de Recursos Humanos que desean abrazar la transformación digital y mantenerse a la vanguardia en el ámbito de la tecnología aplicada a la gestión del talento. Nos enfocamos en escucharte, acompañarte, asesorarte, proporcionarte conocimiento y experiencias, e implementar nuevas herramientas. También te facilitaremos las mejores prácticas para aprovechar al máximo las últimas tendencias, impulsando la eficiencia, la productividad y mejorando la experiencia de tus empleados en la organización.</Typography>
+        </Box>
+        <Box ml={"85px"}>
+          <img src="/futurista1.png" alt="" />
+        </Box>
+        
+      </Box>
+
+      <Typography sx={{ mt:"100px", width:"1011px",fontFamily:"Manrope",fontSize:"36px", fontWeight:"400", color:"#003350"}}>Nuestro Enfoque</Typography>
+      <Typography sx={{mt:5,fontFamily:"Manrope",fontSize:"18px", fontWeight:"300", lineHeight:"28px", letterSpacing:"0.5px", color:"#003350"}}>Nuestro servicio de mentoring es una oportunidad para Líderes y profesionales del área de Recursos Humanos que desean abrazar la transformación digital y mantenerse a la vanguardia en el ámbito de la tecnología aplicada a la gestión del talento. Nos enfocamos en escucharte, acompañarte, asesorarte, proporcionarte conocimiento y experiencias, e implementar nuevas herramientas. También te facilitaremos las mejores prácticas para aprovechar al máximo las últimas tendencias, impulsando la eficiencia, la productividad y mejorando la experiencia de tus empleados en la organización.</Typography>
+      
+      <Typography sx={{ mt:"100px", width:"1011px",fontFamily:"Manrope",fontSize:"36px", fontWeight:"400", color:"#003350"}}>¿Qué incluye nuestro servicio de Mentoring?</Typography>
+      
+      <Box display={"flex"} mt={"30px"}>
+      
+      <BasicAccordion4/>
+       <Box ml={8}>
+        <img src="/groupFreelancer.png" alt="" />
+       </Box>
+      
+     </Box>
+
+     <Typography sx={{ mt:"100px", width:"1011px",fontFamily:"Manrope",fontSize:"36px", fontWeight:"400", color:"#003350"}}>Beneficios de integrar la tecnología a nuestra organización</Typography>
+
+    <Box display={"flex"} sx={{mt:"52px"}}>
+       <Box> 
+        <img src="/realidadVirtual.png" alt="" />
+       </Box>
+       <Box bgcolor={"#FFF5C7"}sx={{width:"592px",borderRadius:"20px", ml:""}}>
+        <Box ml={"60px"} mt={"69px"}>
+        <img src="/horario.png" alt="" />
+        <Typography sx={{fontFamily:"Merriweather", fontSize:"36px",fontWeight:"400", color:" #003350"}}>
+        Training y educaciónen tecnologíapara RRHH
+        </Typography>
+        </Box>
+       
+       </Box>
+
+    </Box>
+    
+    <Box width={"1140px"}  sx={{borderRadius:"20px", borderColor:"black", border:"solid 1px", mt:5,}}>
+      <Box>
+        <Typography sx={{ml:10, mt:8, width:"930px", fontSize:"24px", fontWeight:"300", lineHeight:"34px"}}>
+        Con nuestros servicios te ayudamos a liberar un nuevo orden que asegure la continuidad y expansión de la empresa, asegurando que el cambio se desarrolle en el día a día para que los procesos y la empresa sigan en marcha.
+        </Typography>
+      </Box>
+      <Box sx={{ml:10, mb:8}}>
+      <Button variant='contained' sx={{mt:"31px", padding: "10px 24px", width:"177px", borderRadius:"100px", backgroundColor:"#003350", '&:hover': {borderRadius: "100px", backgroundColor:"#71EAEA", color:"#F9F9F9", textAlign:"center", fontWeight:"700", lineHeight: "20px"}}}>Contactanos</Button>
+      </Box>
+    </Box>
     
     </>
   )
