@@ -8,6 +8,8 @@ import Nosotros from './components/pages/nosotros/Nosotros'
 import QueHacemos from './components/pages/queHacemos/QueHacemos'
 import Manifiesto from './components/pages/manifiesto/Manifiesto'
 import TicTac from './components/pages/ticTac/TicTac'
+import Contacto from './components/pages/contacto/Contacto'
+import CharlasYconferencias from './components/pages/charlasYconferencias/CharlasYconferencias'
 
 
 const App = () => {
@@ -21,6 +23,8 @@ const App = () => {
       <Route path='/queHacemos' element={<QueHacemos/>}/>
       <Route path='/manifiesto' element={<Manifiesto/>}/>
       <Route path='/ticTacElTiempo' element={<TicTac/>}/>
+      <Route path='/charlasYconferencias' element={<CharlasYconferencias/>}/>
+      <Route path='/contacto' element={<Contacto/>}/>
     </Routes>
     
    </Container>

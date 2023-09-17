@@ -4,6 +4,7 @@ import BasicAccordion from '../../common/basicAccordion/BasicAccordion'
 import BasicAccordion1 from '../../common/basicAccordion/BasicAccordion1'
 import Testimonios from '../../common/testimonios/Testimonios'
 import Testimonios1 from '../../common/testimonios/Testimonios1'
+import { NavLink } from 'react-router-dom'
 
 const Home = () => {
   return (
@@ -26,7 +27,7 @@ const Home = () => {
           <Typography sx={{fontFamily:"Manrope", fontSize:"24px", fontWeight:"300", color:"#003350",lineHeight:"34px" }}>
           Cada organización tiene su fórmula. No existe una solución universal para la prosperidad de cada organización. Nuestra fórmula secreta es que vemos el cambio de manera diferente. En Tyme te ayudamos a encontrar tu fórmula y de esa manera trabajamos, de manera personalizada.
           </Typography>
-          <Button variant='contained' sx={{mt:"31px", padding: "10px 24px", width:"177px", borderRadius:"100px", backgroundColor:"#003350", '&:hover': {borderRadius: "100px", backgroundColor:"#71EAEA", color:"#F9F9F9", textAlign:"center", fontWeight:"700", lineHeight: "20px"}}}>Contactanos</Button>
+          <Button component={NavLink} to={"/contacto"} variant='contained' sx={{mt:"31px", padding: "10px 24px", width:"177px", borderRadius:"100px", backgroundColor:"#003350", '&:hover': {borderRadius: "100px", backgroundColor:"#71EAEA", color:"#F9F9F9", textAlign:"center", fontWeight:"700", lineHeight: "20px"}}}>Contactanos</Button>
           <Box mt={-18}  ml={-15}><img  src="/Isolation_Mode.png" alt="" /></Box>
           
         </Box>

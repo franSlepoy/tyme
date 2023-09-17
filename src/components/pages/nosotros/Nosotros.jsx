@@ -8,7 +8,7 @@ const Nosotros = () => {
   return (
     <>
    
-    <Typography sx={{color:"#003350", fontFamily:"Manrope", fontSize:"58px", fontWeight:"800", lineHeight:"normal", letterSpacing:"-2.32px", ml:"159px", mt:"80px"}}>Nosotros</Typography>
+    <Typography sx={{color:"#003350", fontFamily:"Manrope", fontSize:"58px", fontWeight:"800", lineHeight:"normal", letterSpacing:"-2.32px", ml:6, mt:"80px"}}>Nosotros</Typography>
      <Box sx={{
           backgroundColor:"#F9F9F9",  
           width:"1448px", ml:-16, 

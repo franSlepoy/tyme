@@ -4,7 +4,7 @@ import React from 'react'
 const Manifiesto = () => {
   return (
     <>
-       <Typography sx={{color:"#003350", fontFamily:"Manrope", fontSize:"58px", fontWeight:"800", lineHeight:"normal", letterSpacing:"-2.32px", ml:"159px", mt:"80px"}}>¿Qué hacemos?</Typography>
+       <Typography sx={{color:"#003350", fontFamily:"Manrope", fontSize:"58px", fontWeight:"800", lineHeight:"normal", letterSpacing:"-2.32px", ml:6, mt:"80px"}}>Manifiesto</Typography>
      <Box sx={{
           display:"flex",
           backgroundColor:"#F9F9F9",  
@@ -15,10 +15,10 @@ const Manifiesto = () => {
           
         }} >
         <Box>
-        <Box sx={{borderRadius:"100px",width:"90px", height:"90px",mt:4, ml:32, backgroundColor:"#71EAEA"}}>
+        <Box sx={{borderRadius:"100px",width:"90px", height:"90px",mt:4,ml:18, backgroundColor:"#71EAEA"}}>
           </Box>
           <Box sx={{mt:"-78px", width:"535px",}}>
-            <Typography sx={{position:"absolute",width:"535px",  ml:36,color:"#003350", fontFamily:"Manrope", fontSize:"42px", fontWeight:"800", lineHeight:"normal", letterSpacing:"-1.68px" }}>Lo primero que hacemos es el cambio centrado en las personas, de verdad.</Typography>
+            <Typography sx={{position:"absolute",width:"535px", ml:22,color:"#003350", fontFamily:"Manrope", fontSize:"42px", fontWeight:"800", lineHeight:"normal", letterSpacing:"-1.68px" }}>El tiempo es una palabra que paradójicamente toma valor cuando es escaso, pero ¿somos conscientes de esto?</Typography>
             </Box>
         </Box>
 
