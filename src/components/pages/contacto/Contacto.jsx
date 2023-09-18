@@ -60,6 +60,8 @@ const Contacto = () => {
     <Box mt={10} ml={76} >
     <img  src="/firuleteQueHacemos.png" alt="" />
     </Box>
+    
+    
      
     
    </>

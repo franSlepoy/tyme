@@ -104,14 +104,8 @@ Muchos colaboradores de las organizaciones, y esto generalmente se ve fuertement
       <Button variant='contained' sx={{mt:"31px", padding: "10px 24px", width:"177px", borderRadius:"100px", backgroundColor:"#003350", '&:hover': {borderRadius: "100px", backgroundColor:"#71EAEA", color:"#F9F9F9", textAlign:"center", fontWeight:"700", lineHeight: "20px"}}}>Enviar</Button>
       </Box>
         
-        
-     </Box>
-    
-
-
-
-
     </Box>
+  </Box>
 
 
     
