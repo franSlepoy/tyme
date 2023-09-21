@@ -1,5 +1,6 @@
 import { Box, Button, TextField, Typography } from '@mui/material'
 import React from 'react'
+import Formulario from '../../common/formulario/Formulario'
 
 const TicTac = () => {
   return (
@@ -46,7 +47,7 @@ Muchos colaboradores de las organizaciones, y esto generalmente se ve fuertement
     </Box>
     
     <Box display={"flex"}>
-       <Box  mb={"150px"} width={"1896px"} height={"528px"} sx={{mt:"99px", ml:"89px",}} >
+       <Box  mb={"150px"}   sx={{width:"520px", mt:"149px", ml:"69px",}} >
          <Box>
             <Box>
             <Typography sx={{fontFamily:"Manrope",fontSize:"18px", fontWeight:"300", lineHeight:"28px", letterSpacing:"0.5px", color:"#003350"}}>
@@ -63,48 +64,7 @@ Muchos colaboradores de las organizaciones, y esto generalmente se ve fuertement
          </Box>
     </Box>
      
-     <Box sx={{mt:"99px", ml:18 }}>
-     
-        <TextField
-          label="Nombre"
-          id="standard-size-normal"
-          
-          variant="standard"
-          sx={{mt:3,color:"darkblue", width:"452px"}}
-        />
-        <TextField
-          label="Apellido"
-          id="standard-size-normal"
-          
-          variant="standard"
-          sx={{mt:3,color:"darkblue", width:"452px"}}
-        />
-        <TextField
-          label="Email"
-          id="standard-size-normal"
-          
-          variant="standard"
-          sx={{mt:3,color:"darkblue", width:"452px"}}
-        />
-        <TextField
-          label="País"
-          id="standard-size-normal"
-          
-          variant="standard"
-          sx={{mt:3,color:"darkblue", width:"452px"}}
-        />
-        <TextField
-          label="Comentarios"
-          id="standard-size-normal"
-          
-          variant="standard"
-          sx={{mt:3,color:"darkblue", width:"452px"}}
-        />
-        <Box sx={{mt:5, mb:8}}>
-      <Button variant='contained' sx={{mt:"31px", padding: "10px 24px", width:"177px", borderRadius:"100px", backgroundColor:"#003350", '&:hover': {borderRadius: "100px", backgroundColor:"#71EAEA", color:"#F9F9F9", textAlign:"center", fontWeight:"700", lineHeight: "20px"}}}>Enviar</Button>
-      </Box>
-        
-    </Box>
+    <Formulario/>
   </Box>
 
 

@@ -16,6 +16,8 @@ entusiasmo, pero por sobre todo con mucha escucha y empatía. Se nota la formaci
 constante que tienen en todo lo referido a Recursos Humanos, demostrando ser
 expertos en la optimización de talento y desarrollo organizacional”.</Typography>
         <Typography sx={{mt:3, fontFamily:"Manrope",fontSize:"15px", fontWeight:"800px" , lineHeight:"26px", color:"#003350", textTransform:"uppercase" }}>Sebastián Moguilevski
+</Typography>
+<Typography sx={{mt:3, fontFamily:"Manrope",fontSize:"15px", fontWeight:"800px" , lineHeight:"26px", color:"#003350", textTransform:"uppercase" }}>
 CEO &amp; Managing Director
 Warner Bros España y Portugal</Typography>
         </Box>
@@ -34,6 +36,8 @@ que no solo han agilizado nuestros procesos operativos, sino que también han
 permitido una mayor personalización en el desarrollo y crecimiento profesional de
 todo nuestro equipo.”.</Typography>
         <Typography sx={{mt:3, fontFamily:"Manrope",fontSize:"15px", fontWeight:"800px" , lineHeight:"26px", color:"#003350", textTransform:"uppercase" }}> Alberto Benbunan
+</Typography>
+<Typography sx={{mt:3, fontFamily:"Manrope",fontSize:"15px", fontWeight:"800px" , lineHeight:"26px", color:"#003350", textTransform:"uppercase" }}> 
 Founder & amp; CEO Global / Emprendedor Endeavor
 Gelt, empresa de cashback que opera en Europa y LATAM. </Typography>
         </Box>
@@ -50,9 +54,11 @@ una organización en constante crecimiento y nos ayudó a diagnosticar a nuestro
 líderes, captando también nuevos talentos, y logrando así una positiva transformación
 hacia un equipo de alto rendimiento. Se nota la vocación de servicio, entusiasmo y
 profesionalismo de todo el equipo de Tyme”.</Typography>
-        <Typography sx={{mt:3, fontFamily:"Manrope",fontSize:"15px", fontWeight:"800px" , lineHeight:"26px", color:"#003350", textTransform:"uppercase" }}>Carlos Zucchi
-CEO & amp; Partner – España e Israel
+        <Typography sx={{mt:3, fontFamily:"Manrope",fontSize:"15px", fontWeight:"800px" , lineHeight:"26px", color:"#003350", textTransform:"uppercase" }}>Carlos Zucchi</Typography>
+<Typography sx={{mt:3, fontFamily:"Manrope",fontSize:"15px", fontWeight:"800px" , lineHeight:"26px", color:"#003350", textTransform:"uppercase" }}>
+CEO &amp; Partner – España e Israel
 Argis: promotora y fondo de capital de riesgo en Real Estate.</Typography>
+
         </Box>
         </Box>
 

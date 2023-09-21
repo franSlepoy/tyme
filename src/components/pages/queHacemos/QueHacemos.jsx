@@ -9,6 +9,7 @@ import TextoLogoCard from '../../common/textoLogoCard/TextoLogoCard'
 import BasicAccordion3 from '../../common/basicAccordion/BasicAccordion3'
 import { CarouselTextoLogoData1 } from '../../../servidor/CarouselTextoLogoData1'
 import BasicAccordion4 from '../../common/basicAccordion/BasicAccordion4'
+import { NavLink } from 'react-router-dom'
 
 const QueHacemos = () => {
   return (
@@ -341,7 +342,11 @@ Estamos comprometidos con tu éxito. Trabajaremos incansablemente para asegurarn
       
      </Box>
 
-     <Typography sx={{ mt:"100px", width:"1011px",fontFamily:"Manrope",fontSize:"36px", fontWeight:"400", color:"#003350"}}>Beneficios de integrar la tecnología a nuestra organización</Typography>
+     
+     <Box sx={{width:"1400px", ml:-16, mt:8}} >
+      <img width={"100%"} src="/beneficios.png" alt="" />
+    </Box>
+
 
     <Box display={"flex"} sx={{mt:"52px"}}>
        <Box> 
@@ -351,15 +356,21 @@ Estamos comprometidos con tu éxito. Trabajaremos incansablemente para asegurarn
         <Box ml={"60px"} mt={"69px"}>
         <img src="/horario.png" alt="" />
         <Typography sx={{fontFamily:"Merriweather", fontSize:"36px",fontWeight:"400", color:" #003350"}}>
-        Training y educaciónen tecnologíapara RRHH
+        Training y educación en tecnología para RRHH
         </Typography>
+        <Box >
+      <Button component={NavLink} to={"/charlasYconferencias"}  variant='contained' sx={{mt:"31px", padding: "10px 24px", width:"277px", borderRadius:"100px", backgroundColor:"#003350", '&:hover': {borderRadius: "100px", backgroundColor:"#71EAEA", color:"#F9F9F9", textAlign:"center", fontWeight:"700", lineHeight: "20px"}}}>Charlas y Conferencias</Button>
+      </Box>
+
         </Box>
        
        </Box>
 
     </Box>
+
     
-    <Box width={"1140px"}  sx={{borderRadius:"20px", borderColor:"black", border:"solid 1px", mt:5,}}>
+    
+    <Box width={"1140px"}  sx={{borderRadius:"20px", borderColor:"black", border:"solid 1px", mt:20}}>
       <Box>
         <Typography sx={{ml:10, mt:8, width:"930px", fontSize:"24px", fontWeight:"300", lineHeight:"34px"}}>
         Con nuestros servicios te ayudamos a liberar un nuevo orden que asegure la continuidad y expansión de la empresa, asegurando que el cambio se desarrolle en el día a día para que los procesos y la empresa sigan en marcha.

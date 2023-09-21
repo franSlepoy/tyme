@@ -64,48 +64,74 @@ const CharlasYconferencias = () => {
         Si quieres contratar alguna charla o hacernos alguna consulta:
         </Typography>
      
-        <TextField
-          label="Nombre"
-          id="standard-size-normal"
-          
-          variant="standard"
-          sx={{mt:3,color:"darkblue", width:"452px"}}
-        />
-        <TextField
-          label="Apellido"
-          id="standard-size-normal"
-          
-          variant="standard"
-          sx={{mt:3,color:"darkblue", width:"452px"}}
-        />
-        <TextField
-          label="Email"
-          id="standard-size-normal"
-          
-          variant="standard"
-          sx={{mt:3,color:"darkblue", width:"452px"}}
-        />
-        <TextField
-          label="País"
-          id="standard-size-normal"
-          
-          variant="standard"
-          sx={{mt:3,color:"darkblue", width:"452px"}}
-        />
-        <TextField
-          label="Comentarios"
-          id="standard-size-normal"
-          
-          variant="standard"
-          sx={{mt:3,color:"darkblue", width:"452px"}}
-        />
-        <Box sx={{mt:5, mb:8}}>
-      <Button variant='contained' sx={{mt:"31px", padding: "10px 24px", width:"177px", borderRadius:"100px", backgroundColor:"#003350", '&:hover': {borderRadius: "100px", backgroundColor:"#71EAEA", color:"#F9F9F9", textAlign:"center", fontWeight:"700", lineHeight: "20px"}}}>Enviar</Button>
-      </Box>
+        <Box sx={{ml:"1%",mt:1, display:"flex", flexDirection:"column" }}>
+     
+     <TextField
+       label="Nombre"
+       id="standard-size-normal"
+       
+       variant="standard"
+       sx={{mt:3,color:"darkblue", width:"452px"}}
+     />
+     <TextField
+       label="Apellido"
+       id="standard-size-normal"
+       
+       variant="standard"
+       sx={{mt:3,color:"darkblue", width:"452px"}}
+     />
+     <TextField
+       label="Email"
+       id="standard-size-normal"
+       
+       variant="standard"
+       sx={{mt:3,color:"darkblue", width:"452px"}}
+     />
+     <TextField
+       label="Empresa"
+       id="standard-size-normal"
+       
+       variant="standard"
+       sx={{mt:3,color:"darkblue", width:"452px"}}
+     />
+      <TextField
+       label="Teléfono"
+       id="standard-size-normal"
+       
+       variant="standard"
+       sx={{mt:3,color:"darkblue", width:"452px"}}
+     />
+      <TextField
+       label="¿Como nos conocio?"
+       id="standard-size-normal"
+       
+       variant="standard"
+       sx={{mt:3,color:"darkblue", width:"452px"}}
+     />
+     <TextField
+       label="En que servicio está interesado."
+       id="standard-size-normal"
+       
+       variant="standard"
+       sx={{mt:3,color:"darkblue", width:"452px"}}
+     />
+     <TextField
+       label="Comentarios"
+       id="standard-size-normal"
+       
+       variant="standard"
+       sx={{mt:3,color:"darkblue", width:"452px"}}
+     />
+     <Box sx={{mt:5, mb:8}}>
+   <Button variant='contained' sx={{mt:"31px", padding: "10px 24px", width:"177px", borderRadius:"100px", backgroundColor:"#003350", '&:hover': {borderRadius: "100px", backgroundColor:"#71EAEA", color:"#F9F9F9", textAlign:"center", fontWeight:"700", lineHeight: "20px"}}}>Enviar</Button>
+   </Box>
+     
+     
+  </Box>
         
     </Box>
   </Box>
-  <Box mt={-28} ml={80} >
+  <Box mt={-20} ml={80} >
     <img  src="/firuleteQueHacemos.png" alt="" />
     </Box>
     <Box sx={{ mt: 15,  ml:"82px", borderRadius:"20px", color:"#003350" }}>

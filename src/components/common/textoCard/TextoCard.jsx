@@ -5,10 +5,10 @@ const TextoCard = (props) => {
   return (
     <>
     <Box>
-        <Typography sx={{ml:8, mt:5,width:"461px", fontFamily:"Manrope", fontSize:"18px", fontWeight:"800", lineHeight: "28ox", letterSpacing:"0.5px", color:"#003350"}}>
+        <Typography sx={{ml:8, mt:5,width:"461px", fontFamily:"Manrope", fontSize:"18px", fontWeight:800, lineHeight: "28ox", letterSpacing:"0.5px", color:"#003350"}}>
            {props.titulo}
         </Typography>
-        <Typography sx={{ml:8, mt:5,width:"421px", fontFamily:"Manrope", fontSize:"18px", fontWeight:"800", lineHeight: "28ox", letterSpacing:"0.5px", color:"#003350"}}>
+        <Typography sx={{ml:8, mt:5,width:"421px", fontFamily:"Manrope", fontSize:"18px", fontWeight:300, lineHeight: "28ox", letterSpacing:"0.5px", color:"#003350"}}>
            {props.texto}
         </Typography>
     </Box>

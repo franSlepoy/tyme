@@ -45,8 +45,8 @@ export default function Footer() {
           <a href=""></a>
           <Link to={"/ticTacElTiempo"}><Typography sx={{fontFamily:"Manrope",color:"#003350", fontSize:"16px", fontWeight:"300", lineHeight:"20px", letterSpacing:"0.1px"}} >Tic Tac: el tiempo</Typography></Link>
           <Link to={"/charlasYconferencias"}><Typography  sx={{mt:"11px",fontFamily:"Manrope",color:"#003350", fontSize:"16px", fontWeight:"300", lineHeight:"20px", letterSpacing:"0.1px"}}>Charlas y Conferencias</Typography></Link>
-          <Link> <Typography  sx={{mt:"11px",fontFamily:"Manrope",color:"#003350", fontSize:"16px", fontWeight:"300", lineHeight:"20px", letterSpacing:"0.1px"}}>Tendencias</Typography></Link>
-         <Link><Typography  sx={{mt:"11px",fontFamily:"Manrope",color:"#003350", fontSize:"16px", fontWeight:"300", lineHeight:"20px", letterSpacing:"0.1px"}}>Contacto</Typography></Link>
+          <Link to={"/tendencias"}> <Typography  sx={{mt:"11px",fontFamily:"Manrope",color:"#003350", fontSize:"16px", fontWeight:"300", lineHeight:"20px", letterSpacing:"0.1px"}}>Tendencias</Typography></Link>
+         <Link to={"/contactp"}><Typography  sx={{mt:"11px",fontFamily:"Manrope",color:"#003350", fontSize:"16px", fontWeight:"300", lineHeight:"20px", letterSpacing:"0.1px"}}>Contacto</Typography></Link>
           
         </Box>
         <Box ml={"90px"}>

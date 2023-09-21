@@ -19,7 +19,9 @@ const Nosotros = () => {
           <Box sx={{borderRadius:"100px",width:"90px", height:"90px", ml:10, backgroundColor:"#71EAEA"}}>
           </Box>
           <Box sx={{mt:"-78px", width:"1098px", ml:12 }}>
-            <Typography sx={{ ml:4,color:"#003350", fontFamily:"Manrope", fontSize:"42px", fontWeight:"800", lineHeight:"normal", letterSpacing:"-1.68px" }}>Tyme es una consultora boutique internacional especializada en potenciar y transformar a las organizaciones a través de las personas y la tecnología</Typography>
+            <Typography sx={{ ml:4,color:"#003350", fontFamily:"Manrope", fontSize:"42px", fontWeight:"800", lineHeight:"normal", letterSpacing:"-1.68px" }}>Tyme es una consultora boutique internacional especializada en escuchar, acompañar,
+potenciar y evolucionar junto a las organizaciones a través de las personas y la
+tecnología.</Typography>
             </Box>
           
       <Box ml={16}>

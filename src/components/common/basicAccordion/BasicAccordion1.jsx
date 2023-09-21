@@ -5,6 +5,7 @@ import AccordionDetails from '@mui/material/AccordionDetails';
 import Typography from '@mui/material/Typography';
 import AddIcon from '@mui/icons-material/Add';
 import { Box, Button } from '@mui/material';
+import { NavLink } from 'react-router-dom';
 
 export default function BasicAccordion1() {
   return (
@@ -61,10 +62,8 @@ transformación y gestión del nuevo rol de RR.HH.
           <Typography sx={{fontFamily: "Manrope", fontSize:"24px", fontWeight:300, lineHeight:"34px", color:"#003350"}}>Charlas y conferencias</Typography>
         </AccordionSummary>
         <AccordionDetails>
-          <Typography sx={{mt:3,fontFamily: "Manrope", fontSize:"14px", fontWeight:300, lineHeight:"24px", color:"#003350"}}>
-          (ver sección “Charlas y Conferencias”).
-          </Typography>
-          <Button sx={{borderRadius:"100px", border: "1px solid", color:"#003350", mt:3 }} variant='outlined'>Ver servicios</Button>
+          
+          <Button component={NavLink} to={"/charlasYconferencias"} sx={{borderRadius:"100px", border: "1px solid", color:"#003350", mt:3 }} variant='outlined'>Ver más</Button>
         </AccordionDetails>
       </Accordion>
    </Box>
