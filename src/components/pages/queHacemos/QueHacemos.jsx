@@ -37,9 +37,8 @@ const QueHacemos = () => {
       </Box>   
     </Box>
     
-    <Box sx={{ml:5, mt:"136px"}}>
-    <Typography sx={{width: "1023px", mt:"136px", fontFamily:"Manrope", fontSize:"24px", fontWeight:"300", lineHeight:"34px", color:"#003350" }}>Ya sea que tengas diez o cincuenta mil empleados, te ayudaremos a dar los pasos hacia el cambio que deseas ver y hacer…. y que la transformación cobre vida.</Typography>
-    <Typography sx={{width: "1023px", mt:"40px", fontFamily:"Manrope", fontSize:"42px", fontWeight:"800", lineHeight:"normal", letterSpacing:"-1.68px", color:"#A3B4BF"}}>Ofrecemos enfoques simples, pero con impacto, frescos, pero, que funcionan y ágiles, pero robustos.</Typography>
+    <Box sx={{ml:5, mt:"16px"}}>
+    
     
     <Typography sx={{width: "1023px", mt:10, fontFamily:"Manrope", fontSize:"42px", fontWeight:"800", lineHeight:"normal", letterSpacing:"-1.68px", color:"#003350"}}>
     Nuestros servicios
@@ -59,19 +58,19 @@ const QueHacemos = () => {
             <Typography sx={{fontFamily:"Merriweather",fontSize:"36px", fontWeight:"700", color:"#003350"}}>HR On Demand</Typography>
             <Box display={"flex"} mt={"22px"}>
                 <img  src="/hrLogo1.png" alt="" />
-                <Typography sx={{width:"378px",ml:"10px",fontFamily:"Manrope",fontSize:"18px", fontWeight:"300", letterSpacing:"0.5px", color:"#003350"}}>Radiografía Transformadora de organizaciones: Evaluación y Diagnóstico</Typography>
+                <Typography sx={{width:"378px",ml:"10px",fontFamily:"Manrope",fontSize:"18px", fontWeight:"800", letterSpacing:"0.5px", color:"#003350"}}>Radiografía Transformadora de organizaciones: Evaluación y Diagnóstico</Typography>
             </Box>
             <Box display={"flex"} mt={"22px"}>
                 <img src="/hrLogo2.png" alt="" />
-                <Typography sx={{width:"378px",ml:"10px",fontFamily:"Manrope",fontSize:"18px", fontWeight:"300", letterSpacing:"0.5px", color:"#003350"}}>Radiografía Transformadora de organizaciones: Evaluación y Diagnóstico</Typography>
+                <Typography sx={{width:"378px",ml:"10px",fontFamily:"Manrope",fontSize:"18px", fontWeight:"800", letterSpacing:"0.5px", color:"#003350"}}>Conexión real con la Experiencia del empleado</Typography>
             </Box>
             <Box display={"flex"} mt={"22px"}>
                 <img src="/hrLogo3.png" alt="" />
-                <Typography sx={{width:"378px",ml:"10px",fontFamily:"Manrope",fontSize:"18px", fontWeight:"300", letterSpacing:"0.5px", color:"#003350"}}>Radiografía Transformadora de organizaciones: Evaluación y Diagnóstico</Typography>
+                <Typography sx={{width:"378px",ml:"10px",fontFamily:"Manrope",fontSize:"18px", fontWeight:"800", letterSpacing:"0.5px", color:"#003350"}}>Waze laboral</Typography>
             </Box>
             <Box display={"flex"} mt={"22px"}>
                 <img src="/hrLogo4.png" alt="" />
-                <Typography sx={{width:"378px",ml:"10px",fontFamily:"Manrope",fontSize:"18px", fontWeight:"300", letterSpacing:"0.5px", color:"#003350"}}>Radiografía Transformadora de organizaciones: Evaluación y Diagnóstico</Typography>
+                <Typography sx={{width:"378px",ml:"10px",fontFamily:"Manrope",fontSize:"18px", fontWeight:"800", letterSpacing:"0.5px", color:"#003350"}}>Certificaciones: los primeros pasos</Typography>
             </Box>
         </Box>
         
@@ -79,11 +78,11 @@ const QueHacemos = () => {
         <Typography sx={{fontFamily:"Merriweather",fontSize:"36px", fontWeight:"700", color:"#003350"}}>HR Tech Trends</Typography>
         <Box display={"flex"} mt={"22px"}>
                 <img src="/hrLogo5.png" alt="" />
-                <Typography sx={{width:"378px",ml:"10px",fontFamily:"Manrope",fontSize:"18px", fontWeight:"300", letterSpacing:"0.5px", color:"#003350"}}>Mentoring personalizado</Typography>
+                <Typography sx={{width:"378px",ml:"10px",fontFamily:"Manrope",fontSize:"18px", fontWeight:"800", letterSpacing:"0.5px", color:"#003350"}}>Mentoring personalizado</Typography>
             </Box>
             <Box display={"flex"} mt={"22px"}>
                 <img src="/hrLogo6.png" alt="" />
-                <Typography sx={{width:"378px",ml:"10px",fontFamily:"Manrope",fontSize:"18px", fontWeight:"300", letterSpacing:"0.5px", color:"#003350"}}>Training y educación en tecnología para RRHH</Typography>
+                <Typography sx={{width:"378px",ml:"10px",fontFamily:"Manrope",fontSize:"18px", fontWeight:"800", letterSpacing:"0.5px", color:"#003350"}}>Training y educación en tecnología para RRHH</Typography>
             </Box>
         </Box>
     </Box>
@@ -94,14 +93,19 @@ const QueHacemos = () => {
 
     <Box display={"flex"} mt={"42px"} sx={{ml:6}}>
                 <img  src="/hrLogo1.png" alt="" />
-                <Typography sx={{ ml:"30px",mt:"20px",width:"855px",fontFamily:"Manrope",fontSize:"20px", fontWeight:"400", color:"#003350"}}>Radiografía Transformadora de organizaciones: Evaluación y Diagnóstico</Typography>
+                <Typography sx={{ ml:"30px",mt:"20px",width:"855px",fontFamily:"Manrope",fontSize:"20px", fontWeight:"800", color:"#003350"}}>Radiografía Transformadora de organizaciones: Evaluación y Diagnóstico</Typography>
     </Box>
 
     <Typography sx={{mt:"39px", width:"100%", fontFamily:"Manrope",fontSize:"18px", fontWeight:"300", lineHeight:"28px",letterSpacing:"0.5px", color:"#003350"}}>
-    En Tyme, entendemos que cada empresa es única, por lo que personalizamos nuestra propia metodología de evaluación y
-diagnóstico para satisfacer las necesidades específicas de tu organización. Nuestro equipo de expertos en Gestión del
-Talento se compromete a trabajar junto contigo para garantizar que tus empleados alcancen su máximo potencial y que tu
-empresa florezca en un ambiente laboral enriquecedor y productivo, alcanzando los objetivos de negocio buscado.
+    Con un método propio de evaluación e implementando tecnología al proceso, tal
+como gamificación, web3, IA, etc, evaluamos a las organizaciones haciendo una
+perfecta combinación. Personas y tecnologías, el maridaje perfecto.
+    </Typography>
+    <Typography sx={{mt:"39px", width:"100%", fontFamily:"Manrope",fontSize:"18px", fontWeight:"300", lineHeight:"28px",letterSpacing:"0.5px", color:"#003350"}}>
+    Nuestro equipo de expertos en Gestión del Talento se compromete a trabajar junto a ti
+para garantizar que tus empleados alcancen su máximo potencial y que tu empresa
+florezca en un ambiente laboral enriquecedor y productivo, alcanzando los objetivos
+de negocio buscado.
     </Typography>
     <Typography sx={{mt:"39px", width:"100%", fontFamily:"Manrope",fontSize:"18px", fontWeight:"300", lineHeight:"28px",letterSpacing:"0.5px", color:"#003350"}} >
     En Tyme tenemos un equipo muy talentoso con grandes capacidades de diagnóstico gracias a:
@@ -141,8 +145,13 @@ empresa florezca en un ambiente laboral enriquecedor y productivo, alcanzando lo
      </Box>
 
      <Typography sx={{mt:"37px", ml:"58px", fontFamily:"Manrope",fontSize:"18px", fontWeight:"300", lineHeight:"28px", letterSpacing:"0.5px", color:"#003350"}}>Hoy no podemos concebir un ciclo de vida del empleado sin foco en la EXPERIENCIA.</Typography>
-     <Typography sx={{mt:"37px", ml:"58px", fontFamily:"Manrope",fontSize:"18px", fontWeight:"300", lineHeight:"28px", letterSpacing:"0.5px", color:"#003350", mr:"50px"}}>La experiencia del empleado se refiere a todas las interacciones, percepciones y emociones que un colaborador experimenta a lo largo de su trayectoria dentro de la organización. Desde el proceso de Selección y Atracción de Talento hasta la salida del colaborador de dicha empresa, cada punto de contacto cuenta para moldear la satisfacción, el compromiso y el sentido de pertenencia del empleado.</Typography>
-     <Typography sx={{mt:"37px", ml:"58px", fontFamily:"Manrope",fontSize:"18px", fontWeight:"300", lineHeight:"28px", letterSpacing:"0.5px", color:"#003350"}}>Trabajamos fuertemente en la cultura organizacional.</Typography>
+     <Typography sx={{mt:"37px", ml:"58px", fontFamily:"Manrope",fontSize:"18px", fontWeight:"300", lineHeight:"28px", letterSpacing:"0.5px", color:"#003350", mr:"50px"}}>Por eso, en Tyme, entendemos que <strong style={{fontWeight:"800"}}>el corazón de cada organización está en sus
+personas.</strong> Nos focalizamos en crear y nutrir una experiencia del empleado excepcional
+desde el primer día hasta el último, trabajando en todas o en algunas de las etapas.</Typography>
+     <Typography sx={{mt:"37px", ml:"58px", fontFamily:"Manrope",fontSize:"18px", fontWeight:"300", lineHeight:"28px", letterSpacing:"0.5px", color:"#003350"}}>Nuestro enfoque integral abarca el <strong >desarrollo de la cultura organizacional,</strong>
+fortaleciendo la <strong style={{fontWeight:"800"}}>marca empleadora, trabajando fuertemente con los Líderes/ Jefes,</strong> y
+propiciando un ambiente laboral en el que cada individuo se sienta valorado,
+escuchado y así lograr su potencial.</Typography>
      <Typography sx={{mt:"37px", ml:"58px", fontFamily:"Manrope",fontSize:"18px",  lineHeight:"28px", letterSpacing:"0.5px", color:"#003350"}}>Un empleado con una buena experiencia dentro del ciclo de vida en la organización evita:</Typography>
      
      <Box sx={{mt:"48px", display:"flex", ml:"-25px"}}>

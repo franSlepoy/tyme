@@ -50,16 +50,28 @@ export default function Footer() {
           
         </Box>
         <Box ml={"90px"}>
-  <Box sx={{ mt: "56px", textAlign: "end" }}>
-    <Link href="URL_de_LinkedIn" color="#003350" target="_blank" rel="noopener noreferrer">
+  <Box sx={{ display:"flex",ml:40, mt: "56px", textAlign: "end" }}>
+    <Box>
+    <a href="https://www.linkedin.com/company/tymeconsulting/" color="#003350" target="_blank" rel="noopener noreferrer">
       <LinkedInIcon sx={{ fontSize: 46, color: "#003350" }} />
-    </Link>
-    <Link href="URL_de_Facebook" color="inherit" target="_blank" rel="noopener noreferrer">
+    </a>
+    </Box>
+    
+    <Box mt={"4px"}>
+    <a href="https://twitter.com/tymeconsulting" color="#003350" target="_blank" rel="noopener noreferrer"  >
+     <img  width={70} src="/twiter.png" alt="" />
+    </a>
+    </Box>
+    
+    {/* <Link href="URL_de_Facebook" color="inherit" target="_blank" rel="noopener noreferrer">
       <FacebookIcon sx={{ fontSize: 46, color: "#003350" }}  />
-    </Link>
-    <Link href="URL_de_Instagram" color="inherit" target="_blank" rel="noopener noreferrer">
+    </Link> */}
+    <Box>
+    <a href="https://www.instagram.com/tymeconsulting/" color="inherit" target="_blank" rel="noopener noreferrer">
       <InstagramIcon sx={{ fontSize: 46, color: "#003350" }}  />
-    </Link>
+    </a>
+    </Box>
+    
   </Box>
         <Typography sx={{mt:"20px", fontFamily:"Manrope",color:"#003350", fontSize:"16px", fontWeight:"300", lineHeight:"20px", letterSpacing:"0.1px", textAlign:"end"}}>2023 © Tyme.</Typography>
         <Typography sx={{ml:"260px", fontFamily:"Manrope",color:"#003350", fontSize:"16px", fontWeight:"300", lineHeight:"20px", letterSpacing:"0.1px"}}>Todos los derechos reservados.</Typography>

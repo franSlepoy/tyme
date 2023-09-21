@@ -92,7 +92,8 @@ const Formulario = () => {
      />
      <TextField
      type='text'
-       label="message"
+     name='message'
+       label="Mensaje"
        id="standard-size-normal"
        
        variant="standard"

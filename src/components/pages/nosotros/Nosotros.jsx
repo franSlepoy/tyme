@@ -19,8 +19,8 @@ const Nosotros = () => {
           <Box sx={{borderRadius:"100px",width:"90px", height:"90px", ml:10, backgroundColor:"#71EAEA"}}>
           </Box>
           <Box sx={{mt:"-78px", width:"1098px", ml:12 }}>
-            <Typography sx={{ ml:4,color:"#003350", fontFamily:"Manrope", fontSize:"42px", fontWeight:"800", lineHeight:"normal", letterSpacing:"-1.68px" }}>Tyme es una consultora boutique internacional especializada en escuchar, acompañar,
-potenciar y evolucionar junto a las organizaciones a través de las personas y la
+            <Typography sx={{ ml:4,color:"#003350", fontFamily:"Manrope", fontSize:"42px", fontWeight:"200", lineHeight:"normal", letterSpacing:"-1.68px" }}>Tyme es una consultora boutique internacional especializada en <strong style={{width:"800"}}>escuchar, acompañar,
+potenciar y evolucionar</strong>  junto a las organizaciones a través de las personas y la
 tecnología.</Typography>
             </Box>
           
@@ -48,13 +48,27 @@ tecnología.</Typography>
      <img width={"100%"} src="/jk-perfil.jpg" alt="" />
      </Box>
      
-     <Box sx={{display:"flex", mt:"127px", width:"100%"}} >
-      <Typography sx={{color:"#003350",width:"416px", mr:"72px", mt:"68px", fontFamily:"Manrope", fontSize:"18px", fontWeight:"300", lineHeight:"28px",letterSpacing:"0.5px", }} >
-      La tecnología está creciendo a pasos de gigante, y realmente debemos abrazarla e integrarla. Esta tiene grandes beneficios para la humanidad. Lógicamente con un uso consciente y responsable.
-Pero también, así como está creciendo exponencialmente la tecnología, las personas somos y seremos lo más importante que existe. Mi vocación de servicio es ayudar y transformar personas.
-Ahora, creo este nuevo emprendimiento con mucho entusiasmo y alegría, Tyme.
+     <Box sx={{display:"flex", mt:"160px", width:"100%"}} >
+      <Box>
+      <Typography sx={{color:"#003350",width:"416px", mr:"72px", fontFamily:"Manrope", fontSize:"18px", fontWeight:"100", lineHeight:"28px",letterSpacing:"0.5px", }} >
+      La tecnología está creciendo a pasos de gigante, y realmente debemos abrazarla e
+integrarla. Esta tiene <strong style={{fontWeight:"800"}}>grandes beneficios para la humanidad.</strong> Lógicamente con un uso
+consciente y responsable.
       </Typography>
+      <Typography sx={{color:"#003350",width:"416px", mr:"72px",  fontFamily:"Manrope", fontSize:"18px", fontWeight:"100", lineHeight:"28px",letterSpacing:"0.5px", }} >
+      Pero también, así como la tecnología está creciendo exponencialmente, las <strong style={{fontWeight:"800"}}>personas
+somos y siempre seremos lo más importante que existe.</strong>  Mi vocación de servicio se
+centra en <strong  style={{fontWeight:"800"}}>escuchar, ayudar, facilitar herramientas y acompañar</strong>  a las personas para su
+evolución y transformación.
+      </Typography>
+      <Typography sx={{color:"#003350",width:"416px", mr:"72px",  fontFamily:"Manrope", fontSize:"18px", fontWeight:"100", lineHeight:"28px",letterSpacing:"0.5px", }} >
+      Ahora, elijo y creo este nuevo emprendimiento con mucho entusiasmo y alegría.
+      </Typography>
+      </Box>
+      <Box>
       <img width={"642px"}  src="/nosotros.png" alt="" />
+      </Box>
+      
      </Box>
 
      <Box sx={{display:"flex", mt:"127px", width:"100%"}} >
@@ -66,8 +80,17 @@ Ahora, creo este nuevo emprendimiento con mucho entusiasmo y alegría, Tyme.
          }
       </Carousel> 
      </Box>
-      <Typography sx={{color:"#003350",width:"416px", ml:"72px", mt:"68px", fontFamily:"Manrope", fontSize:"18px", fontWeight:"300", lineHeight:"28px",letterSpacing:"0.5px", }} >
-      Luego de haber trabajado en diferentes empresas en el área de Recursos Humanos, Innovación, Tecnología y Management, y gracias al trabajo con un gran equipo humano con mis propios emprendimientos, y dentro de estos habiendo evaluado a cientos de miles de líderes en más de 16 países, logré nutrirme de información muy valiosa, y es por eso, que ahora con esa data real y genuina, vamos a ayudar con un equipo talentoso e interdisciplinario a las empresas de todo el mundo.
+      <Typography sx={{color:"#003350",width:"416px", ml:"72px",  fontFamily:"Manrope", fontSize:"18px", fontWeight:"300", lineHeight:"28px",letterSpacing:"0.5px", }} >
+      Mi experiencia internacional en diversas corporaciones, así como la gestión de mis
+propias startups y pymes a nivel internacional, siempre con la tecnología como eje
+central, me han brindado aprendizajes valiosos que comparto a través de Tyme.
+Gracias a la gamificación y a Nawaiam, hemos evaluado a cientos de miles de
+personas en más de 16 países. Esta experiencia nos ha provisto de información
+poderosa sobre las conductas, soft skills y comportamientos de Líderes de todo tipo
+de industria y tamaño de empresa, ayudando a cientos de empresas en la gestión del
+
+capital humano. Ahora, con un equipo talentoso e interdisciplinario, asistimos a
+empresas de todo el mundo.
       </Typography>
       
      </Box>
