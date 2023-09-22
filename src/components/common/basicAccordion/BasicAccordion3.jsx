@@ -67,7 +67,7 @@ formaciones y herramientas a tus empleados, Líderes/ Jefes.
           aria-controls="panel1a-content"
           id="panel1a-header"
         >
-          <Typography sx={{fontFamily: "Manrope", fontSize:"24px", fontWeight:300, lineHeight:"34px", color:"#003350"}}>Medición, acompañamiento y mejora continua: </Typography>
+          <Typography sx={{fontFamily: "Manrope", fontSize:"24px", fontWeight:300, lineHeight:"34px", color:"#003350"}}>Medición, acompañamiento y mejora continua </Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography sx={{mt:3,fontFamily: "Manrope", fontSize:"14px", fontWeight:300, lineHeight:"24px", color:"#003350"}}>

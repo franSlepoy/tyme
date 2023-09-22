@@ -10,6 +10,7 @@ import BasicAccordion3 from '../../common/basicAccordion/BasicAccordion3'
 import { CarouselTextoLogoData1 } from '../../../servidor/CarouselTextoLogoData1'
 import BasicAccordion4 from '../../common/basicAccordion/BasicAccordion4'
 import { NavLink } from 'react-router-dom'
+import { WazeLaboralData } from '../../../servidor/WazeLaboral'
 
 const QueHacemos = () => {
   return (
@@ -155,7 +156,7 @@ escuchado y así lograr su potencial.</Typography>
      <Typography sx={{mt:"37px", ml:"58px", fontFamily:"Manrope",fontSize:"18px",  lineHeight:"28px", letterSpacing:"0.5px", color:"#003350"}}>Un empleado con una buena experiencia dentro del ciclo de vida en la organización evita:</Typography>
      
      <Box sx={{mt:"48px", display:"flex", ml:"-25px"}}>
-        <Box sx={{  bgcolor:"#FFF",height:"444px", width:"2000px", ml:"82px", border:"solid  1px", borderRadius:"20px", color:"#003350" }}>
+        <Box sx={{  bgcolor:"#FFF", width:"45%", ml:"82px", border:"solid  1px", borderRadius:"20px", color:"#003350" }}>
         <Carousel height={"400px"}  >
          {
              CarouselTextoLogoData.map( card => <TextoLogoCard key={card.id}  titulo={card.titulo} texto={card.texto} logo={card.logo} /> )
@@ -163,8 +164,7 @@ escuchado y así lograr su potencial.</Typography>
        </Carousel>
         </Box>
         <Box >
-        <Typography sx={{ mt:"160px", ml:"50px",mr:"50px", fontFamily:"Manrope",fontSize:"18px", fontWeight:"700", lineHeight:"28px", letterSpacing:"0.5px", color:"#003350"}}>En resumen, una mala experiencia de los empleados entre tantos efectos impacta directamente en los resultados económicos de la empresa.
-Por lo tanto, es fundamental que las organizaciones se esfuercen por mejorar la experiencia laboral de sus colaboradores para promover un ambiente de trabajo positivo y productivo.</Typography>
+        
         </Box>
     </Box>
  
@@ -229,7 +229,7 @@ Por lo tanto, es fundamental que las organizaciones se esfuercen por mejorar la 
      </Box>
      </Box>
 
-     <Typography sx={{ml:0, mt:"100px", width:"855px",fontFamily:"Merriweather",fontSize:"20px", fontWeight:"400", color:"#003350"}}>¿Cómo funciona nuestro servicio de Waze Laboral?</Typography>
+     <Typography sx={{ml:0, mt:"100px", width:"1055px",fontFamily:"Manrope",fontSize:"36px", fontWeight:"400", color:"#003350"}}>¿Cómo funciona nuestro servicio de Waze Laboral?</Typography>
      
      <Box sx={{mt:"39px", display:"flex", color:"#003350"}}>
         <Box width={"152px"}>
@@ -262,11 +262,18 @@ Por lo tanto, es fundamental que las organizaciones se esfuercen por mejorar la 
       </Box>
 
       <Box display={"flex"} mt={"52px"}>
-        <Box width={"441px"}>
-          <Typography sx={{p:5,fontFamily:"Manrope",fontSize:"24px", fontWeight:"300", lineHeight:"34px", color:"#003350"}}>Nuestro equipo multidisciplinario realizará un diagnóstico exhaustivo de las habilidades actuales de tu equipo y evaluará las necesidades futuras de tu empresa, haciendo una comparativa con las empresas referentes en el sector.</Typography>
+        <Box sx={{  bgcolor:"#FFF", width:"500px",  border:"solid  1px" ,borderColor:"aqua",  borderRadius:"20px", color:"#003350"}} >
+        <Carousel height={"400px"} >
+         {
+             WazeLaboralData.map( card => <TextoLogoCard key={card.id}  titulo={card.titulo} texto={card.texto}  /> )
+         }
+       </Carousel>
+          <Box sx={{  bgcolor:"#FFF", width:"45%",   color:"#003350" }}>
+       
         </Box>
-        <Box ml={"85px"}>
-          <img src="/femaleWorking.png" alt="" />
+        </Box>
+        <Box ml={"5%"} mt={5}>
+          <img width={"550px"} src="/femaleWorking.png" alt="" />
         </Box>
       </Box>
      
@@ -284,23 +291,21 @@ hacia una certificación</Typography>
 Estamos comprometidos con tu éxito. Trabajaremos incansablemente para asegurarnos de que tu empresa esté lista para la certificación.</Typography>
      <Typography sx={{mt:"37px", ml:"58px",mr:"58px", fontFamily:"Manrope",fontSize:"18px", fontWeight:"300", lineHeight:"28px", letterSpacing:"0.5px", color:"#003350"}}>No te enfrentes solo al proceso de certificación. Permítenos ser tu socio en este viaje. En Tyme, estamos listos para ayudarte a dar tus primeros pasos, asegurando que tu empresa se destaque por su excelencia.</Typography>
     
-     <Typography sx={{ml:"58px", mt:"100px", width:"855px",fontFamily:"Manrope",fontSize:"20px", fontWeight:"400", color:"#003350"}}>
+     <Typography sx={{ml:"58px", mt:"50px", width:"855px",fontFamily:"Manrope",fontSize:"20px", fontWeight:"400", color:"#003350"}}>
     Importancia de cualquier tipo de certificación
     </Typography>
     
-    <Box sx={{mt:"48px", display:"flex", ml:"-25px"}}>
-        <Box sx={{  bgcolor:"#E3FBEB",height:"510px", width:"1000px", ml:"82px", border:"solid  1px", borderRadius:"20px", color:"#003350" }}>
+    
+        <Box sx={{   bgcolor:"#E3FBEB",height:"510px", width:"600px", ml:6, mt:5, border:"solid  1px", borderRadius:"20px", color:"#003350" }}>
         <Carousel height={"450px"}  >
          {
              CarouselTextoLogoData1.map( card => <TextoLogoCard key={card.id}  titulo={card.titulo} texto={card.texto} logo={card.logo} /> )
          }
        </Carousel>
         </Box>
-        <Box >
-        <Typography sx={{ mt:"160px", ml:"50px",mr:"50px", fontFamily:"Manrope",fontSize:"18px", fontWeight:"700", lineHeight:"28px", letterSpacing:"0.5px", color:"#003350"}}>Contáctanos para programar una consulta inicial y descubrir cómo podemos impulsar el éxito de tu empresa a través de nuestro servicio</Typography>
-        </Box>
+        
     </Box>
-  </Box>
+  
 
   <Box sx={{width:"100%", height:"230px", bgcolor:"#003350"}}>
         <Typography sx={{pt:"92px",ml:"50px",color:"#F9F9F9",fontFamily:"Merriweather",fontSize:"36px", fontWeight:"700"}}>HR Tech Trends</Typography>
@@ -353,7 +358,7 @@ Estamos comprometidos con tu éxito. Trabajaremos incansablemente para asegurarn
 
      
      <Box sx={{width:"1400px", ml:-16, mt:8}} >
-      <img width={"100%"} src="/beneficios.png" alt="" />
+      <img width={"100%"} src="/beneficiosDeIntegrar.png" alt="" />
     </Box>
 
 

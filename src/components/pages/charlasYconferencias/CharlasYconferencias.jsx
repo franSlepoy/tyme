@@ -37,11 +37,18 @@ const CharlasYconferencias = () => {
     </Typography>
 
     <Box sx={{width:"1448px", ml:-16, mt:18}}>
-        <img width={"100%"} src="/focoEnPersonas.png" alt="" />
+        <img width={"100%"} src="/focoEnPersonas1.png" alt="" />
     </Box>
     <Box sx={{width:"1448px", mt:"-5px", ml:-16}}>
-        <img width={"100%"} src="/focoEnHR.png" alt="" />
+        <img width={"100%"} src="/focoEnHr1.png" alt="" />
     </Box>
+    <Box sx={{ mt: 15,  ml:"82px", borderRadius:"20px", color:"#003350" }}>
+        <Carousel   >
+         {
+             CharlasData.map( card => <TextoCard1 key={card.id}  titulo={card.titulo} texto={card.texto} textoOtro={card.textoOtro} /> )
+         }
+       </Carousel>
+        </Box>
     
     <Box display={"flex"}>
        <Box  mb={"150px"} width={"1896px"} height={"528px"} sx={{mt:"99px", ml:"89px",}} >
@@ -134,13 +141,7 @@ const CharlasYconferencias = () => {
   <Box mt={-20} ml={80} >
     <img  src="/firuleteQueHacemos.png" alt="" />
     </Box>
-    <Box sx={{ mt: 15,  ml:"82px", borderRadius:"20px", color:"#003350" }}>
-        <Carousel   >
-         {
-             CharlasData.map( card => <TextoCard1 key={card.id}  titulo={card.titulo} texto={card.texto} textoOtro={card.textoOtro} /> )
-         }
-       </Carousel>
-        </Box>
+   
   
    
     </>
