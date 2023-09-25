@@ -54,6 +54,15 @@ const Formulario = () => {
        variant="standard"
        sx={{mt:3,color:"darkblue", width:"452px"}}
      />
+      <TextField
+       type="text"
+       name="user_país"
+       label="País"
+       id="standard-size-normal"
+       
+       variant="standard"
+       sx={{mt:3,color:"darkblue", width:"452px"}}
+     />
      <TextField
        type="text"
        name="user_empresa"
@@ -75,7 +84,7 @@ const Formulario = () => {
       <TextField
       type="text"
       name="user_comoNosConocio"
-       label="¿Como nos conocio?"
+       label="¿Como nos conoció?"
        id="standard-size-normal"
        
        variant="standard"

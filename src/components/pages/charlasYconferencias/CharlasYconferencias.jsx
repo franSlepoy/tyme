@@ -3,6 +3,7 @@ import React from 'react'
 import { CharlasData } from '../../../servidor/CharlasData'
 import Carousel from 'react-material-ui-carousel'
 import TextoCard1 from '../../common/textoCard/TextoCard1'
+import Formulario from '../../common/formulario/Formulario'
 
 const CharlasYconferencias = () => {
   return (
@@ -21,7 +22,7 @@ const CharlasYconferencias = () => {
         <Box sx={{borderRadius:"100px",width:"90px", height:"90px",mt:4,ml:18, backgroundColor:"#71EAEA"}}>
           </Box>
           <Box sx={{mt:"-68px", width:"535px",}}>
-            <Typography  sx={{width:"535px", ml:22,color:"#003350", fontFamily:"Manrope", fontSize:"42px", fontWeight:"800", lineHeight:"normal", letterSpacing:"-1.68px" }} >Lo que evolucionaes la humanidad y la tecnología acompaña</Typography><br />
+            <Typography  sx={{width:"535px", ml:22,color:"#003350", fontFamily:"Manrope", fontSize:"42px", fontWeight:"800", lineHeight:"normal", letterSpacing:"-1.68px" }} >Lo que evoluciona es la humanidad y la tecnología acompaña</Typography><br />
             <Typography sx={{position:"absolute",width:"519px", ml:22,color:"#003350", fontFamily:"Manrope", fontSize:"18px", fontWeight:"300", lineHeight:"28px", letterSpacing:"-0.5px" }}>Apasionado de la inspiración, la alegría y el poder de transmitir experiencias y conocimientos, Javier Krawicki imparte charlas y conferencias en todo el mundo sobre las Personas y Tecnología, el maridaje perfecto.</Typography>
             <Typography sx={{width:"519px", ml:22, mt:20,color:"#003350", fontFamily:"Manrope", fontSize:"18px", fontWeight:"300", lineHeight:"28px", letterSpacing:"-0.5px" }}>Contacta con nosotros si quieres contratar a Javier para tu próxima conferencia, team building, evento o curso.</Typography>
             </Box>
@@ -33,8 +34,9 @@ const CharlasYconferencias = () => {
     </Box>
 
     <Typography sx={{ ml:6,mt:8, color:"#A3B4BF", fontFamily:"Manrope", fontSize:"42px", fontWeight:"800", lineHeight:"normal", letterSpacing:"-1.68px"}}>
-    ¿Cuál son las temáticas de las charlas de Javier Krawicki? Están divididas en dos dimensiones: foco en las personas y foco en la tecnología.
+    ¿Cuáles son las temáticas de las charlas de Javier Krawicki? 
     </Typography>
+    <Typography sx={{ ml:6, color:"#A3B4BF", fontFamily:"Manrope", fontSize:"42px", fontWeight:"800", lineHeight:"normal", letterSpacing:"-1.68px"}}>Están divididas en dos dimensiones: foco en las personas y foco en la tecnología.</Typography>
 
     <Box sx={{width:"1448px", ml:-16, mt:18}}>
         <img width={"100%"} src="/focoEnPersonas1.png" alt="" />
@@ -65,76 +67,15 @@ const CharlasYconferencias = () => {
          </Box>
     </Box>
      
-     <Box sx={{mt:"99px", ml:18 }}>
+     <Box sx={{mt:"99px", ml:8 }}>
 
         <Typography sx={{width:"329px", fontFamily:"Manrope",fontSize:"18px", fontWeight:"700", lineHeight:"28px", letterSpacing:"0.5px", color:"#003350" }}>
         Si quieres contratar alguna charla o hacernos alguna consulta:
         </Typography>
-     
-        <Box sx={{ml:"1%",mt:1, display:"flex", flexDirection:"column" }}>
-     
-     <TextField
-       label="Nombre"
-       id="standard-size-normal"
-       
-       variant="standard"
-       sx={{mt:3,color:"darkblue", width:"452px"}}
-     />
-     <TextField
-       label="Apellido"
-       id="standard-size-normal"
-       
-       variant="standard"
-       sx={{mt:3,color:"darkblue", width:"452px"}}
-     />
-     <TextField
-       label="Email"
-       id="standard-size-normal"
-       
-       variant="standard"
-       sx={{mt:3,color:"darkblue", width:"452px"}}
-     />
-     <TextField
-       label="Empresa"
-       id="standard-size-normal"
-       
-       variant="standard"
-       sx={{mt:3,color:"darkblue", width:"452px"}}
-     />
-      <TextField
-       label="Teléfono"
-       id="standard-size-normal"
-       
-       variant="standard"
-       sx={{mt:3,color:"darkblue", width:"452px"}}
-     />
-      <TextField
-       label="¿Como nos conocio?"
-       id="standard-size-normal"
-       
-       variant="standard"
-       sx={{mt:3,color:"darkblue", width:"452px"}}
-     />
-     <TextField
-       label="En que servicio está interesado."
-       id="standard-size-normal"
-       
-       variant="standard"
-       sx={{mt:3,color:"darkblue", width:"452px"}}
-     />
-     <TextField
-       label="Comentarios"
-       id="standard-size-normal"
-       
-       variant="standard"
-       sx={{mt:3,color:"darkblue", width:"452px"}}
-     />
-     <Box sx={{mt:5, mb:8}}>
-   <Button variant='contained' sx={{mt:"31px", padding: "10px 24px", width:"177px", borderRadius:"100px", backgroundColor:"#003350", '&:hover': {borderRadius: "100px", backgroundColor:"#71EAEA", color:"#F9F9F9", textAlign:"center", fontWeight:"700", lineHeight: "20px"}}}>Enviar</Button>
-   </Box>
-     
-     
-  </Box>
+     <Box mt={-12} ml={-3}>
+     <Formulario/>
+     </Box>
+      
         
     </Box>
   </Box>

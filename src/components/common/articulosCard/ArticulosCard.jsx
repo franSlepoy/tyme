@@ -3,13 +3,13 @@ import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
-import { Button, CardActionArea, CardActions } from '@mui/material';
+import { Box, Button, CardActionArea, CardActions, Link } from '@mui/material';
 
 export default function ArticuloCard(props) {
   return (
-    <Card sx={{ maxWidth: "352px",  mt:3, p:3, maxHeighteight: "500px", bgcolor:"#E3FBEB" }}>
-      
-      <CardActionArea >
+    <Card sx={{ maxWidth: "352px",  mt:3, p:3, height: "470px", bgcolor:"#E3FBEB"}}>
+      <Link style={{ textDecoration: 'none' }}  href={props.link} target="_blank">
+      <CardActionArea>
         <CardMedia
           component="img"
           height="100%"
@@ -23,12 +23,15 @@ export default function ArticuloCard(props) {
           </Typography>
           
         </CardContent>
-      </CardActionArea>
-      <CardActions>
-        <Button size="small" color="primary">
+     
+      <Box ml={"12px"} >
+        <Button  size="small" >
           ver articulo
         </Button>
-      </CardActions>
+      </Box>
+      </CardActionArea>
+      </Link>
+     
     </Card>
   );
 }

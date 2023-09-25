@@ -4,13 +4,14 @@ import BasicAccordion from '../../common/basicAccordion/BasicAccordion'
 import BasicAccordion1 from '../../common/basicAccordion/BasicAccordion1'
 import Testimonios from '../../common/testimonios/Testimonios'
 import { NavLink } from 'react-router-dom'
+import Testimonios1 from '../../common/testimonios/Testimonios1'
 
 const Home = () => {
   return (
     <>
-      <Typography  sx={{  fontFamily: "Manrope", fontWeight:"800", color: "#003350", fontSize: "60px", textAlign: "center", letterSpacing:"-2.23px", mt: "70px" }}>Human Consulting</Typography>
+      <Typography  sx={{  fontFamily: "Manrope", fontWeight:"800", color: "#003350", fontSize: "68px", textAlign: "center", letterSpacing:"-2.23px", mt: "70px" }}>Human Consulting</Typography>
       
-      <Box sx={{ position: 'relative',  mt: "193px", display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh' }}>
+      <Box sx={{ position: 'relative',  mt: "163px", display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh' }}>
         {/* <img src="/header1.png" alt="" style={{ Width: '100%', maxHeight: '100%', objectFit: 'cover' }} /> */}
         <video autoPlay loop muted style={{ maxWidth:"1564px",  objectFit: 'cover',  }}>
           <source src="/clip.mp4" type="video/mp4" />
@@ -29,7 +30,8 @@ const Home = () => {
           <Typography sx={{ mt:3,fontFamily:"Manrope", fontSize:"24px", fontWeight:"200", color:"#003350",lineHeight:"34px" }}>
           <strong style={{ fontWeight: "800" }}>En Tyme te  ayudamos a encontrar tu fórmula</strong> y de esa manera trabajamos, <strong style={{ fontWeight: "bold" }} >de manera personalizada.</strong> 
           </Typography>
-          <Button component={NavLink} to={"/contacto"} variant='contained' sx={{mt:"31px", padding: "10px 24px", width:"177px", borderRadius:"100px", backgroundColor:"#003350", '&:hover': {borderRadius: "100px", backgroundColor:"#71EAEA", color:"#F9F9F9", textAlign:"center", fontWeight:"700", lineHeight: "20px"}}}>Contactanos</Button>
+          <a style={{textDecoration:"none"}} href="/contacto"> <Button  variant='contained' sx={{mt:"31px", padding: "10px 24px", width:"177px", borderRadius:"100px", backgroundColor:"#003350", '&:hover': {borderRadius: "100px", backgroundColor:"#71EAEA", color:"#F9F9F9", textAlign:"center", fontWeight:"700", lineHeight: "20px"}}}>Contactanos</Button></a>
+         
           <Box mt={-18}  ml={-15}><img  src="/Isolation_Mode.png" alt="" /></Box>
           
         </Box>
@@ -74,6 +76,7 @@ const Home = () => {
       <Typography sx={{mt: "75px",color: "#003350", textAlign:"center", fontFamily:"Merriweather", fontSize:"36px", fontWeight:400, lineHeight:"normal"}}>Palabras que resuenan, voces que inspiran</Typography>
       
       <Testimonios/>
+      <Testimonios1/>
      
       
       

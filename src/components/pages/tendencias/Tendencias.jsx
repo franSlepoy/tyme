@@ -10,24 +10,25 @@ const Tendencias = () => {
   return (
     <>
     <Typography sx={{color:"#003350", fontFamily:"Manrope", fontSize:"58px", fontWeight:"800", lineHeight:"normal", letterSpacing:"-2.32px", ml:6, mt:"80px"}}>Tendencia</Typography>
-    <Typography sx={{ml:6,mt:2,color:"#003350",fontFamily:"Manrope", fontSize:"30px", fontWeight:"500", lineHeight:"20px", letterSpacing:"0.1px"}}>Blog and Books – never stop learning </Typography>
+    <Typography sx={{ml:6,mt:2,color:"#003350",fontFamily:"Manrope", fontSize:"30px", fontWeight:"500", lineHeight:"20px", letterSpacing:"0.1px"}}>Blog  – never stop learning </Typography>
     <Typography sx={{width:"1028px", ml:6,mt:4, color:"#003350",fontFamily:"Manrope", fontSize:"18px", fontWeight:"300", lineHeight:"28px", letterSpacing:"0.5px"}}> En Tyme nos consideramos eternos estudiantes, y por invertimos entre una y dos horas diarias en leer, aprender y evolucionar. También es lo que nos permite llevarle a nuestros clientes una actualización constante en términos de innovación, nuevas metodologías, casos de éxito, etc.</Typography>
 
     <Box display={"flex"} ml={6} mt={6}>
-     <Box mt={6}>
+     <Box mt={2}>
      <img src="/flecha.png" alt="" />
      </Box>
      <Box sx={{width:"900px", ml:4}}>
      <Typography sx={{color:"#003350", fontFamily:"Manrope", fontSize:"24px", fontWeight:"700", lineHeight:"normal"}}>“El aprendizaje solo cobra verdadero valor cuando se comparte con otros, ya que, al hacerlo, se enriquece el entorno y se potencia el crecimiento colectivo. Compartir el conocimiento fomenta la colaboración, el aprendizaje continuo y el desarrollo de soluciones más innovadoras y efectivas”</Typography>
      <Typography sx={{color:"#003350", fontFamily:"Manrope", fontSize:"24px", fontWeight:"700", lineHeight:"normal"}}> – Peter Senge </Typography>
+     
      </Box>
   </Box>
 
-    <Typography sx={{width:"1028px", ml:6,mt:4, color:"#003350",fontFamily:"Manrope", fontSize:"18px", fontWeight:"300", lineHeight:"28px", letterSpacing:"0.5px"}}>Por ello, en esta sección te compartiremos artículos y recomendaremos libros orientados a líderes de cualquier tipo de organización. Son libros basados en metodologías, gestión de las personas, management, etc. Todas herramientas que son aplicables a todo tipo de negocio.</Typography>
+    {/* <Typography sx={{width:"1028px", ml:6,mt:4, color:"#003350",fontFamily:"Manrope", fontSize:"18px", fontWeight:"300", lineHeight:"28px", letterSpacing:"0.5px"}}>Por ello, en esta sección te compartiremos artículos y recomendaremos libros orientados a líderes de cualquier tipo de organización. Son libros basados en metodologías, gestión de las personas, management, etc. Todas herramientas que son aplicables a todo tipo de negocio.</Typography> */}
     
     <Typography sx={{ml:6, width:"1028px", mt:8,color:"#003350", fontFamily:"Manrope", fontSize:"42px", fontWeight:"800", lineHeight:"normal", letterSpacing:"-1.68px"}} >Artículos propios</Typography>
 
-    <ImageList sx={{ width: "100%",  }} cols={3} rowHeight={504}>
+    <ImageList sx={{ml:6, width: "100%",  }} cols={3} rowHeight={504}>
       {ArticulosData.map((item) => (
         <ImageListItem key={item.id}>
           <ArticuloCard  titulo={item.titulo} imagen={item.imagen} link={item.link} />
@@ -35,7 +36,7 @@ const Tendencias = () => {
       ))}
     </ImageList>
      
-    <Typography sx={{ml:6, mt:8,color:"#003350", fontFamily:"Manrope", fontSize:"42px", fontWeight:"800", lineHeight:"normal", letterSpacing:"-1.68px"}}>Libros recomendados </Typography>
+   {/*  <Typography sx={{ml:6, mt:8,color:"#003350", fontFamily:"Manrope", fontSize:"42px", fontWeight:"800", lineHeight:"normal", letterSpacing:"-1.68px"}}>Libros recomendados </Typography>
 
 <Box  width={"1448px"} ml={-18} mt={8}>
     <Box display={"flex"}  >
@@ -91,11 +92,9 @@ const Tendencias = () => {
     <Typography sx={{color:"#003350",fontFamily:"Manrope", fontSize:"24px", fontWeight:"700", lineHeight:"normal"}}>Originales</Typography>
     <Typography sx={{color:"#003350",fontFamily:"Manrope", fontSize:"18px", fontWeight:"300", lineHeight:"28px", letterSpacing:"0.5px"}}>Adam Grant</Typography>
 </Box>
-</Box>
+</Box> */}
 
-<Typography>
 
-</Typography>
   
 
     </>

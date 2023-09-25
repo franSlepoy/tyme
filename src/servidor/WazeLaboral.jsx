@@ -13,17 +13,14 @@ export const WazeLaboralData = [
     },
     {id: 3,
         titulo: "Ejecución y Acompañamiento ",
-        texto: "Nuestro equipo es experto en el análisis, escucha y la observación. Nos gusta decir que tenemos una mente aguda y analítica que nos permite detectar patrones y relaciones en puntos de dolor de las organizaciones, lo que lo lleva a considerar diagnósticos poco convencionales y a veces inusuales.",
+        texto: "Implementaremos el plan de manera efectiva y brindaremos acompañamiento a tus empleados durante todo el proceso de aprendizaje, asegurándonos de que alcancen su máximo potencial.",
    
        }, 
     {id: 4,
-        titulo: "Resultados medibles  ",
-        texto: "con resultados directos en el negocio: Nuestra metodología garantiza resultados tangibles y medibles. Evaluaremos el progreso de tus empleados y el impacto en tu empresa para asegurarnos de que estás obteniendo el máximo valor de nuestro servicio.",
+        titulo: "Resultados Medibles  ",
+        texto: "Con resultados directos en el negocio: Nuestra metodología garantiza resultados tangibles y medibles. Evaluaremos el progreso de tus empleados y el impacto en tu empresa para asegurarnos de que estás obteniendo el máximo valor de nuestro servicio.",
    
        }, 
-       {id: 5,
-        titulo: "Curiosidad e Intuición:",
-        texto: "En Tyme somos muy curiosos y no se da por vencido fácilmente. Nuestra capacidad para cuestionar lo evidente y buscar más allá de las apariencias nos permite descubrir causas subyacentes que otros podrían pasar por alto.",
-       },
+       
 
 ]

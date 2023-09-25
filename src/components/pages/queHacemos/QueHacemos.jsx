@@ -117,8 +117,8 @@ de negocio buscado.
         <img width={"100%"} src="/gente.png" alt="" />
         </Box>
         
-        <Box sx={{height:"397px", width:"522px", ml:"82px", border:"solid  1px", borderRadius:"20px", color:"#003350" }}>
-        <Carousel height={"320px"} >
+        <Box sx={{  width:"522px", ml:"82px", border:"solid  1px", borderRadius:"20px", color:"#003350" }}>
+        <Carousel height={"360px"} >
          {
              QueHacemosData.map( card => <TextoCard key={card.id}  titulo={card.titulo} texto={card.texto} /> )
          }
@@ -391,7 +391,10 @@ Estamos comprometidos con tu éxito. Trabajaremos incansablemente para asegurarn
         </Typography>
       </Box>
       <Box sx={{ml:10, mb:8}}>
+      <a style={{textDecoration:"none"}} href="/contacto">
       <Button variant='contained' sx={{mt:"31px", padding: "10px 24px", width:"177px", borderRadius:"100px", backgroundColor:"#003350", '&:hover': {borderRadius: "100px", backgroundColor:"#71EAEA", color:"#F9F9F9", textAlign:"center", fontWeight:"700", lineHeight: "20px"}}}>Contactanos</Button>
+        </a>  
+     
       </Box>
     </Box>
     

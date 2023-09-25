@@ -12,12 +12,12 @@ const Contacto = () => {
      
      <Formulario/>
 
-  <Box mt={"139px"} ml={"8%"}>
-    <img src="/trabajadores.png" alt="" />
+  <Box mt={"139px"} ml={"8%"} >
+    <img  width={"550px"} src="/open.jpg" alt="" />
   </Box>
 
      </Box>
-    <Box mt={10} ml={76} >
+    <Box mt={-40} ml={76} >
     <img  src="/firuleteQueHacemos.png" alt="" />
     </Box>
     

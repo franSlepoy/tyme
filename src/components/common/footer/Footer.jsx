@@ -24,29 +24,29 @@ export default function Footer() {
       <Box sx={{mt:"47px", ml:"175px", width:"125px"}}>
         <img src="/logoTyme.png" alt="logo" /> 
         </Box>
-        <Box sx={{width:"107px", ml:"86px", mt:"56px", textDecoration:"none"}}>
-         <Link component={NavLink} to={"/"} underline="none" sx={{ textDecoration: 'none' }}>
-       <Typography  sx={{ fontFamily: "Manrope", color: "#003350", fontSize: "16px", fontWeight: "300", lineHeight: "20px", letterSpacing: "0.1px" }}>
+        <Box sx={{width:"107px", ml:"86px", mt:"56px"}}>
+         <a style={{textDecoration:"none"}} href='/' >
+       <Typography  sx={{  fontFamily: "Manrope", color: "#003350", fontSize: "16px", fontWeight: "300", lineHeight: "20px", letterSpacing: "0.1px" }}>
       Inicio
         </Typography>
-        </Link> 
-         <Link component={NavLink} to={"/nosotros"}>
+        </a> 
+         <a style={{textDecoration:"none"}} href='/nosotros' >
          <Typography  sx={{mt:"11px",fontFamily:"Manrope",color:"#003350", fontSize:"16px", fontWeight:"300", lineHeight:"20px", letterSpacing:"0.1px"}} >Nosotros</Typography>
-         </Link>
-         <Link component={NavLink} to={"/queHacemos"}>
+         </a>
+         <a style={{textDecoration:"none"}} href='/queHacemos' >
         <Typography  sx={{mt:"11px",fontFamily:"Manrope",color:"#003350", fontSize:"16px", fontWeight:"300", lineHeight:"20px", letterSpacing:"0.1px"}} >Qué hacemos</Typography>
-        </Link>
-        <Link component={NavLink} to={"/manifiesto"}>
+        </a>
+        <a style={{textDecoration:"none"}} href='/manifiesto'>
         <Typography  sx={{mt:"11px",fontFamily:"Manrope",color:"#003350", fontSize:"16px", fontWeight:"300", lineHeight:"20px", letterSpacing:"0.1px"}} >Manifiesto</Typography>
-        </Link>  
+        </a>  
        </Box>
         
         <Box sx={{width:"181px", ml:"18px", mt:"56px"}}>
           <a href=""></a>
-          <Link to={"/ticTacElTiempo"}><Typography sx={{fontFamily:"Manrope",color:"#003350", fontSize:"16px", fontWeight:"300", lineHeight:"20px", letterSpacing:"0.1px"}} >Tic Tac: el tiempo</Typography></Link>
-          <Link to={"/charlasYconferencias"}><Typography  sx={{mt:"11px",fontFamily:"Manrope",color:"#003350", fontSize:"16px", fontWeight:"300", lineHeight:"20px", letterSpacing:"0.1px"}}>Charlas y Conferencias</Typography></Link>
-          <Link to={"/tendencias"}> <Typography  sx={{mt:"11px",fontFamily:"Manrope",color:"#003350", fontSize:"16px", fontWeight:"300", lineHeight:"20px", letterSpacing:"0.1px"}}>Tendencias</Typography></Link>
-         <Link to={"/contactp"}><Typography  sx={{mt:"11px",fontFamily:"Manrope",color:"#003350", fontSize:"16px", fontWeight:"300", lineHeight:"20px", letterSpacing:"0.1px"}}>Contacto</Typography></Link>
+          <a style={{textDecoration:"none"}} href='/ticTacElTiempo'><Typography sx={{fontFamily:"Manrope",color:"#003350", fontSize:"16px", fontWeight:"300", lineHeight:"20px", letterSpacing:"0.1px"}} >Tic Tac: el tiempo</Typography></a>
+          <a style={{textDecoration:"none"}} href='/charlasYconferencias'><Typography  sx={{mt:"11px",fontFamily:"Manrope",color:"#003350", fontSize:"16px", fontWeight:"300", lineHeight:"20px", letterSpacing:"0.1px"}}>Charlas y Conferencias</Typography></a>
+          <a style={{textDecoration:"none"}} href='/tendencias'> <Typography  sx={{mt:"11px",fontFamily:"Manrope",color:"#003350", fontSize:"16px", fontWeight:"300", lineHeight:"20px", letterSpacing:"0.1px"}}>Tendencias</Typography></a>
+         <a style={{textDecoration:"none"}}  href='/contacto'><Typography  sx={{mt:"11px",fontFamily:"Manrope",color:"#003350", fontSize:"16px", fontWeight:"300", lineHeight:"20px", letterSpacing:"0.1px"}}>Contacto</Typography></a>
           
         </Box>
         <Box ml={"90px"}>

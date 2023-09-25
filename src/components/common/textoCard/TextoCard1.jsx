@@ -11,7 +11,7 @@ const TextoCard1 = (props) => {
         <Typography sx={{mt:2, fontFamily:"Manrope", fontSize:"18px", fontWeight:"300", lineHeight:"28px", letterSpacing:"0.5px", color:"#003350"}}>
            {props.texto}
         </Typography>
-        <Typography sx={{ fontFamily:"Manrope", fontSize:"18px", fontWeight:"800", lineHeight:"28px", letterSpacing:"0.5px", color:"#003350"}}>
+        <Typography sx={{ fontFamily:"Manrope", fontSize:"18px", fontWeight:"300", lineHeight:"28px", letterSpacing:"0.5px", color:"#003350"}}>
            {props.textoOtro}
         </Typography>
     </Box>

@@ -38,7 +38,7 @@ significativos.
         <AccordionDetails>
           <Typography sx={{mt:3,fontFamily: "Manrope", fontSize:"14px", fontWeight:300, lineHeight:"24px", color:"#003350"}}>
           Creamos un plan a medida para identificar y desarrollar la cultura
-y el liderazgo de tu emprsa, apoyándonos en la tecnología y metodologías
+y el liderazgo de tu empresa, apoyándonos en la tecnología y metodologías
 propias para diseñar estrategias efectivas.
           </Typography>
         </AccordionDetails>
