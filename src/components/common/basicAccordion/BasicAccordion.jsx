@@ -5,6 +5,7 @@ import AccordionDetails from '@mui/material/AccordionDetails';
 import Typography from '@mui/material/Typography';
 import AddIcon from '@mui/icons-material/Add';
 import { Box, Button } from '@mui/material';
+import { Link } from 'react-router-dom';
 
 
 export default function BasicAccordion() {
@@ -25,9 +26,9 @@ situación actual de tu empresa, identificando las posibles barreras para un pr�
 crecimiento y así diseñamos un plan de acción específico. Tyme es reconocido por su
 excepcional habilidad para diagnosticar puntos de dolor en todo tipo de organización. 
           </Typography>
-          <a style={{textDecoration:"none"}} href="/queHacemos">
+          <Link to={"/queHacemos"} style={{textDecoration:"none"}}>
             <Button sx={{borderRadius:"100px", border: "1px solid", color:"#003350", mt:3 }} variant='outlined'>Ver servicios</Button>
-          </a>
+          </Link>
           
         </AccordionDetails>
       </Accordion>
@@ -51,9 +52,9 @@ La experiencia del empleado incluye factores como el ambiente laboral, política
 igualdad e inclusión, integración de las diversas generaciones, onboarding, team
 building, conversaciones difíciles, transformación de puestos de trabajo, etc.
           </Typography>
-          <a style={{textDecoration:"none"}} href="/queHacemos">
+          <Link to={"/queHacemos"} style={{textDecoration:"none"}}>
           <Button  sx={{borderRadius:"100px", border: "1px solid", color:"#003350", mt:3 }} variant='outlined'>Ver servicios</Button>
-          </a>
+          </Link>
          
         </AccordionDetails>
       </Accordion>
@@ -70,9 +71,9 @@ building, conversaciones difíciles, transformación de puestos de trabajo, etc.
           <Typography sx={{mt:3,fontFamily: "Manrope", fontSize:"14px", fontWeight:300, lineHeight:"24px", color:"#003350"}}>
           ¿Estás buscando una solución innovadora para transformar los puestos de trabajo con el fin de potenciar y desarrollar el talento de tu empresa en un mundo laboral en constante cambio? Diseñamos planes de reskilling y upskilling para empleados, permitiéndoles adaptarse a nuevos roles y adquirir nuevas habilidades en un mundo laboral en constante cambio.
           </Typography>
-          <a style={{textDecoration:"none"}} href="/queHacemos">
+          <Link to={"/queHacemos"} style={{textDecoration:"none"}}>
           <Button  sx={{borderRadius:"100px", border: "1px solid", color:"#003350", mt:3 }} variant='outlined'>Ver servicios</Button>
-          </a>
+          </Link>
           
         </AccordionDetails>
       </Accordion>
@@ -89,9 +90,9 @@ building, conversaciones difíciles, transformación de puestos de trabajo, etc.
           <Typography sx={{mt:3,fontFamily: "Manrope", fontSize:"14px", fontWeight:300, lineHeight:"24px", color:"#003350"}}>
           Una certificación es una herramienta para validar el compromiso de una empresa con altos estándares de calidad, responsabilidad y cumplimiento. Empresas más comprometidas con la sociedad, con sus propios empleados y con el planeta. Además de aumentar la credibilidad y la confianza, la certificación puede abrir oportunidades comerciales y fomentar una cultura de mejora continua en la organización. En Tyme, estamos dedicados a acompañarte en cada paso del camino hacia la certificación, asegurando que tu empresa cumpla con los estándares y esté preparada para lo que se propone.
           </Typography>
-          <a style={{textDecoration:"none"}} href="/queHacemos">
+          <Link to={"/queHacemos"} style={{textDecoration:"none"}}>
           <Button  sx={{borderRadius:"100px", border: "1px solid", color:"#003350", mt:3 }} variant='outlined'>Ver servicios</Button>
-          </a>
+          </Link>
           
         </AccordionDetails>
       </Accordion>
@@ -105,9 +106,9 @@ building, conversaciones difíciles, transformación de puestos de trabajo, etc.
           <Typography sx={{fontFamily: "Manrope", fontSize:"24px", fontWeight:300, lineHeight:"34px", color:"#003350"}}>Charlas y conferencias</Typography>
         </AccordionSummary>
         <AccordionDetails>
-          <a style={{textDecoration:"none"}} href="/charlasYconferencias">
+          <Link to={"/charlasYconferencias"} style={{textDecoration:"none"}} >
           <Button  sx={{borderRadius:"100px", border: "1px solid", color:"#003350", mt:3 }} variant='outlined'>Ver más</Button>
-          </a>
+          </Link>
          
         </AccordionDetails>
       </Accordion>

@@ -3,7 +3,7 @@ import React from 'react'
 
 const Testimonios1 = () => {
   return (
-        <Box sx={{mt:"54px", display:"flex", with:"100%", ml:-6}}>
+        <Box sx={{mt:"54px", display:"flex", with:"100%"}}>
         <Box>
         <Box  sx={{ borderRadius: '50%', overflow: 'hidden', width: '165px', height: '165px' }}>
         <img width={"100%"} height={"100%"} src="/testimonios5.png" alt="avatar" />

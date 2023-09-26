@@ -5,6 +5,7 @@ import AccordionDetails from '@mui/material/AccordionDetails';
 import Typography from '@mui/material/Typography';
 import AddIcon from '@mui/icons-material/Add';
 import { Box, Button } from '@mui/material';
+import { Link } from 'react-router-dom';
 
 
 export default function BasicAccordion1() {
@@ -27,9 +28,9 @@ brindar asesoramiento especializado para evaluar digitalmente
 la gestión del departamento de Recursos Humanos y guiar a tu
 organización hacia una estrategia de transformación exitosa.
           </Typography>
-          <a style={{textDecoration:"none"}} href="/queHacemos">
+          <Link to={"/queHacemos"} style={{textDecoration:"none"}} >
           <Button sx={{borderRadius:"100px", border: "1px solid", color:"#003350", mt:3 }} variant='outlined'>Ver servicios</Button>
-          </a>
+          </Link>
           
         </AccordionDetails>
       </Accordion>
@@ -52,9 +53,9 @@ Metaverso, Blockchain, entre otras tecnologías aplicada a esta
 área. Realizamos charlas y diferentes capacitaciones para la
 transformación y gestión del nuevo rol de RR.HH.
           </Typography>
-          <a style={{textDecoration:"none"}} href="/queHacemos">
+          <Link to={"/queHacemos"} style={{textDecoration:"none"}}>
           <Button sx={{borderRadius:"100px", border: "1px solid", color:"#003350", mt:3 }} variant='outlined'>Ver servicios</Button>
-          </a>
+          </Link>
          
         </AccordionDetails>
       </Accordion>
@@ -68,9 +69,9 @@ transformación y gestión del nuevo rol de RR.HH.
           <Typography sx={{fontFamily: "Manrope", fontSize:"24px", fontWeight:300, lineHeight:"34px", color:"#003350"}}>Charlas y conferencias</Typography>
         </AccordionSummary>
         <AccordionDetails>
-        <a style={{textDecoration:"none"}} href="/charlasYconferencias">
+        <Link to={"/charlasYconferencias"} style={{textDecoration:"none"}}>
         <Button  sx={{borderRadius:"100px", border: "1px solid", color:"#003350", mt:3 }} variant='outlined'>Ver más</Button>
-        </a>
+        </Link>
           
         </AccordionDetails>
       </Accordion>

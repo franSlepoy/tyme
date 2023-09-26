@@ -9,7 +9,7 @@ import TextoLogoCard from '../../common/textoLogoCard/TextoLogoCard'
 import BasicAccordion3 from '../../common/basicAccordion/BasicAccordion3'
 import { CarouselTextoLogoData1 } from '../../../servidor/CarouselTextoLogoData1'
 import BasicAccordion4 from '../../common/basicAccordion/BasicAccordion4'
-import { NavLink } from 'react-router-dom'
+import { Link, NavLink } from 'react-router-dom'
 import { WazeLaboralData } from '../../../servidor/WazeLaboral'
 
 const QueHacemos = () => {
@@ -59,7 +59,7 @@ const QueHacemos = () => {
             <Typography sx={{fontFamily:"Merriweather",fontSize:"36px", fontWeight:"700", color:"#003350"}}>HR On Demand</Typography>
             <Box display={"flex"} mt={"22px"}>
                 <img  src="/hrLogo1.png" alt="" />
-                <Typography sx={{width:"378px",ml:"10px",fontFamily:"Manrope",fontSize:"18px", fontWeight:"800", letterSpacing:"0.5px", color:"#003350"}}>Radiografía Transformadora de organizaciones: Evaluación y Diagnóstico</Typography>
+                <Typography sx={{ width:"378px",ml:"10px",fontFamily:"Manrope",fontSize:"18px", fontWeight:"800", letterSpacing:"0.5px", color:"#003350"}}>Radiografía Transformadora de organizaciones: Evaluación y Diagnóstico</Typography>
             </Box>
             <Box display={"flex"} mt={"22px"}>
                 <img src="/hrLogo2.png" alt="" />
@@ -94,7 +94,7 @@ const QueHacemos = () => {
 
     <Box display={"flex"} mt={"42px"} sx={{ml:6}}>
                 <img  src="/hrLogo1.png" alt="" />
-                <Typography sx={{ ml:"30px",mt:"20px",width:"855px",fontFamily:"Manrope",fontSize:"20px", fontWeight:"800", color:"#003350"}}>Radiografía Transformadora de organizaciones: Evaluación y Diagnóstico</Typography>
+                <Typography sx={{textDecoration:"underline", ml:"30px",mt:"20px",width:"855px",fontFamily:"Manrope",fontSize:"20px", color:"#003350"}}>Radiografía Transformadora de organizaciones: Evaluación y Diagnóstico</Typography>
     </Box>
 
     <Typography sx={{mt:"39px", width:"100%", fontFamily:"Manrope",fontSize:"18px", fontWeight:"300", lineHeight:"28px",letterSpacing:"0.5px", color:"#003350"}}>
@@ -142,7 +142,7 @@ de negocio buscado.
                 <Box sx={{mt:"80px", ml:"58px"}}>
                 <img   src="/hrLogo2.png" alt="" />
                 </Box>
-                <Typography sx={{ml:5, mt:"100px", width:"855px",fontFamily:"Manrope",fontSize:"20px", fontWeight:"400", color:"#003350"}}>Conexión real con la Experiencia del empleado</Typography>
+                <Typography sx={{textDecoration:"underline",ml:5, mt:"100px", width:"855px",fontFamily:"Manrope",fontSize:"20px", fontWeight:"400", color:"#003350"}}>Conexión real con la Experiencia del empleado</Typography>
      </Box>
 
      <Typography sx={{mt:"37px", ml:"58px", fontFamily:"Manrope",fontSize:"18px", fontWeight:"300", lineHeight:"28px", letterSpacing:"0.5px", color:"#003350"}}>Hoy no podemos concebir un ciclo de vida del empleado sin foco en la EXPERIENCIA.</Typography>
@@ -201,7 +201,7 @@ escuchado y así lograr su potencial.</Typography>
                 <Box sx={{mt:"80px", ml:"58px"}}>
                 <img   src="/hrLogo3.png" alt="" />
                 </Box>
-                <Typography sx={{ml:5, mt:"100px", width:"855px",fontFamily:"Manrope",fontSize:"20px", fontWeight:"400", color:"#003350"}}>Waze laboral</Typography>
+                <Typography sx={{textDecoration:"underline",ml:5, mt:"100px", width:"855px",fontFamily:"Manrope",fontSize:"20px", fontWeight:"400", color:"#003350"}}>Waze laboral</Typography>
                 </Box>
                 </Box>
      </Box>
@@ -282,7 +282,7 @@ escuchado y así lograr su potencial.</Typography>
                 <Box sx={{mt:"80px", ml:"58px"}}>
                 <img   src="/hrLogo4.png" alt="" />
                 </Box>
-                <Typography sx={{ml:5, mt:"100px", width:"855px",fontFamily:"Manrope",fontSize:"20px", fontWeight:"400", color:"#003350"}}>Te acompañamos en tus primeros pasos
+                <Typography sx={{textDecoration:"underline", ml:5, mt:"100px", width:"855px",fontFamily:"Manrope",fontSize:"20px", fontWeight:"400", color:"#003350"}}>Te acompañamos en tus primeros pasos
 hacia una certificación</Typography>
      </Box>
         
@@ -317,7 +317,7 @@ Estamos comprometidos con tu éxito. Trabajaremos incansablemente para asegurarn
                 <Box sx={{mt:"80px", ml:"58px"}}>
                 <img   src="/hrLogo5.png" alt="" />
                 </Box>
-                <Typography sx={{ml:5, mt:"100px", width:"1011px",fontFamily:"Manrope",fontSize:"20px", fontWeight:"400", color:"#003350"}}>Mentoring personalizado: Abrazando e integrando la Transformación Digital en Recursos Humanos.</Typography>
+                <Typography sx={{textDecoration:"underline",ml:5, mt:"100px", width:"1011px",fontFamily:"Manrope",fontSize:"20px", fontWeight:"400", color:"#003350"}}>Mentoring personalizado: Abrazando e integrando la Transformación Digital en Recursos Humanos.</Typography>
                 </Box>
                 </Box>
      </Box>
@@ -391,9 +391,9 @@ Estamos comprometidos con tu éxito. Trabajaremos incansablemente para asegurarn
         </Typography>
       </Box>
       <Box sx={{ml:10, mb:8}}>
-      <a style={{textDecoration:"none"}} href="/contacto">
+      <Link to={"/contacto"} style={{textDecoration:"none"}}>
       <Button variant='contained' sx={{mt:"31px", padding: "10px 24px", width:"177px", borderRadius:"100px", backgroundColor:"#003350", '&:hover': {borderRadius: "100px", backgroundColor:"#71EAEA", color:"#F9F9F9", textAlign:"center", fontWeight:"700", lineHeight: "20px"}}}>Contactanos</Button>
-        </a>  
+        </Link>  
      
       </Box>
     </Box>

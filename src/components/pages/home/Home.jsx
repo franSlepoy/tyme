@@ -3,8 +3,9 @@ import React from 'react'
 import BasicAccordion from '../../common/basicAccordion/BasicAccordion'
 import BasicAccordion1 from '../../common/basicAccordion/BasicAccordion1'
 import Testimonios from '../../common/testimonios/Testimonios'
-import { NavLink } from 'react-router-dom'
+import { Link, NavLink } from 'react-router-dom'
 import Testimonios1 from '../../common/testimonios/Testimonios1'
+import Carousel from 'react-material-ui-carousel'
 
 const Home = () => {
   return (
@@ -30,7 +31,7 @@ const Home = () => {
           <Typography sx={{ mt:3,fontFamily:"Manrope", fontSize:"24px", fontWeight:"200", color:"#003350",lineHeight:"34px" }}>
           <strong style={{ fontWeight: "800" }}>En Tyme te  ayudamos a encontrar tu fórmula</strong> y de esa manera trabajamos, <strong style={{ fontWeight: "bold" }} >de manera personalizada.</strong> 
           </Typography>
-          <a style={{textDecoration:"none"}} href="/contacto"> <Button  variant='contained' sx={{mt:"31px", padding: "10px 24px", width:"177px", borderRadius:"100px", backgroundColor:"#003350", '&:hover': {borderRadius: "100px", backgroundColor:"#71EAEA", color:"#F9F9F9", textAlign:"center", fontWeight:"700", lineHeight: "20px"}}}>Contactanos</Button></a>
+          <Link to={"/contacto"} style={{textDecoration:"none"}}> <Button  variant='contained' sx={{mt:"31px", padding: "10px 24px", width:"177px", borderRadius:"100px", backgroundColor:"#003350", '&:hover': {borderRadius: "100px", backgroundColor:"#71EAEA", color:"#F9F9F9", textAlign:"center", fontWeight:"700", lineHeight: "20px"}}}>Contactanos</Button></Link>
          
           <Box mt={-18}  ml={-15}><img  src="/Isolation_Mode.png" alt="" /></Box>
           
@@ -75,8 +76,14 @@ const Home = () => {
 
       <Typography sx={{mt: "75px",color: "#003350", textAlign:"center", fontFamily:"Merriweather", fontSize:"36px", fontWeight:400, lineHeight:"normal"}}>Palabras que resuenan, voces que inspiran</Typography>
       
-      <Testimonios/>
+      <Box sx={{ml:-4,width:"1260px", height:"1200px"}}>
+      <Carousel height={"1000px"}>
+        <Testimonios/>
       <Testimonios1/>
+      </Carousel>
+      </Box>
+     
+      
      
       
       
