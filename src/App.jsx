@@ -11,6 +11,7 @@ import TicTac from './components/pages/ticTac/TicTac'
 import Contacto from './components/pages/contacto/Contacto'
 import CharlasYconferencias from './components/pages/charlasYconferencias/CharlasYconferencias'
 import Tendencias from './components/pages/tendencias/Tendencias'
+import Menu from './components/common/navbar/Menu'
 
 
 const App = () => {
@@ -27,6 +28,7 @@ const App = () => {
       <Route path='/charlasYconferencias' element={<CharlasYconferencias/>}/>
       <Route path='/tendencias' element={<Tendencias/>}/>
       <Route path='/contacto' element={<Contacto/>}/>
+      <Route path='/menu' element={<Menu/>}/>
     </Routes>
     
    </Container>

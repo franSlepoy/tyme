@@ -21,7 +21,7 @@ const Formulario = () => {
   return (
     <>
     {mensajeEnviado ? ( // Mostrar el mensaje si mensajeEnviado es true
-        <Typography width={"525px"} mt={30} variant="h5" color="success" align="center">
+        <Typography width={"100%"} mt={30} variant="h5" color="success" align="center">
           ¡Mensaje enviado!
         </Typography>
       ) : (
@@ -34,7 +34,7 @@ const Formulario = () => {
        id="standard-size-normal"
        
        variant="standard"
-       sx={{mt:3,color:"darkblue", width:"452px"}}
+       sx={{mt:3,color:"darkblue",width:"90%"}}
      />
      <TextField
      type="text"
@@ -43,7 +43,7 @@ const Formulario = () => {
        id="standard-size-normal"
        
        variant="standard"
-       sx={{mt:3,color:"darkblue", width:"452px"}}
+       sx={{mt:3,color:"darkblue",width:"90%"}}
      />
      <TextField
      type="email"
@@ -52,16 +52,16 @@ const Formulario = () => {
        id="standard-size-normal"
        
        variant="standard"
-       sx={{mt:3,color:"darkblue", width:"452px"}}
+       sx={{mt:3,color:"darkblue",width:"90%"}}
      />
       <TextField
        type="text"
-       name="user_país"
+       name="user_pais"
        label="País"
        id="standard-size-normal"
        
        variant="standard"
-       sx={{mt:3,color:"darkblue", width:"452px"}}
+       sx={{mt:3,color:"darkblue", width:"90%"}}
      />
      <TextField
        type="text"
@@ -70,7 +70,7 @@ const Formulario = () => {
        id="standard-size-normal"
        
        variant="standard"
-       sx={{mt:3,color:"darkblue", width:"452px"}}
+       sx={{mt:3,color:"darkblue", width:"90%"}}
      />
       <TextField
       type="tel"
@@ -79,7 +79,7 @@ const Formulario = () => {
        id="standard-size-normal"
        
        variant="standard"
-       sx={{mt:3,color:"darkblue", width:"452px"}}
+       sx={{mt:3,color:"darkblue", width:"90%"}}
      />
       <TextField
       type="text"
@@ -88,7 +88,7 @@ const Formulario = () => {
        id="standard-size-normal"
        
        variant="standard"
-       sx={{mt:3,color:"darkblue", width:"452px"}}
+       sx={{mt:3,color:"darkblue", width:"90%"}}
      />
      <TextField
        type='text'
@@ -97,7 +97,7 @@ const Formulario = () => {
        id="standard-size-normal"
        
        variant="standard"
-       sx={{mt:3,color:"darkblue", width:"452px"}}
+       sx={{mt:3,color:"darkblue", width:"90%"}}
      />
      <TextField
      type='text'
@@ -106,7 +106,7 @@ const Formulario = () => {
        id="standard-size-normal"
        
        variant="standard"
-       sx={{mt:3,color:"darkblue", width:"452px"}}
+       sx={{mt:3,color:"darkblue",width:"90%"}}
      />
      <Box  sx={{mt:5, mb:8}}>
    <Button type="submit" value="Send" variant='contained' sx={{mt:"31px", padding: "10px 24px", width:"177px", borderRadius:"100px", backgroundColor:"#003350", '&:hover': {borderRadius: "100px", backgroundColor:"#71EAEA", color:"#F9F9F9", textAlign:"center", fontWeight:"700", lineHeight: "20px"}}}>Enviar</Button>

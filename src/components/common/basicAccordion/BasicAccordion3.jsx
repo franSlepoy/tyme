@@ -8,7 +8,7 @@ import { Box} from '@mui/material';
 
 export default function BasicAccordion3() {
   return (
-    <Box mt={"24px"} width={"430px"} >
+    <Box mt={"24px"} width={"100%"} >
       <Accordion>
         <AccordionSummary
           expandIcon={<AddIcon />}

@@ -1,13 +1,14 @@
 
-import { AppBar, Box, Button, Toolbar } from '@mui/material'
+import { AppBar, Box, Button, Hidden, Toolbar } from '@mui/material'
 import { NavLink } from 'react-router-dom'
+import MenuIcon from '@mui/icons-material/Menu';
 
 
 
 const NavBar = () => {
   return (
     <>
-
+      <Hidden smDown >
       <AppBar position="static" color="transparent" sx={{boxShadow:0}}   >
         <Toolbar sx={{justifyContent:"space-around"}}>
         <Box sx={{mt:"47px", ml:"29px", width:"125px", height:"52px"}}>
@@ -25,7 +26,21 @@ const NavBar = () => {
         
         </Toolbar>
       </AppBar>
+      </Hidden>
       
+      <Hidden smUp>
+      <AppBar position="static" color="transparent" sx={{boxShadow:0}}   >
+        <Toolbar sx={{justifyContent:"space-around"}}>
+        <Box sx={{mt:"47px", ml:"29px", width:"125px", height:"52px"}}>
+        <img src="/logoTyme.png" alt="logo" /> 
+        </Box>
+           
+       
+        <Button component={NavLink} to={"/menu"}  variant="contained" sx={{fontFamily:"Manrope", textTransform: 'none', mt:"47px", color: "#003350", textAlign:"center",fontSize:"16px", fontStyle:"normal",lineHeight:"20px", padding: "30px 40px", borderRadius:"100px", mr:"25.5px", backgroundColor:"#73F0A2",'&:hover': {borderRadius: "100px", backgroundColor:"#71EAEA"}}} > <MenuIcon/>  </Button>
+        
+        </Toolbar>
+      </AppBar>
+      </Hidden>
       
       
      
