@@ -52,25 +52,25 @@ export default function Footer() {
           
         </Box>
         <Box ml={"90px"}>
-  <Box sx={{ display:"flex",ml:40, mt: "56px", textAlign: "end" }}>
+  <Box sx={{ display:"flex",ml:50, mt: "56px", textAlign: "end" }}>
     <Box>
     <a href="https://www.linkedin.com/company/tymeconsulting/" color="#003350" target="_blank" rel="noopener noreferrer">
       <LinkedInIcon sx={{ fontSize: 46, color: "#003350" }} />
     </a>
     </Box>
     
-    <Box mt={"4px"}>
+    {/* <Box mt={"4px"}>
     <a href="https://twitter.com/tymeconsulting" color="#003350" target="_blank" rel="noopener noreferrer"  >
      <img  width={70} src="/twiter.png" alt="" />
     </a>
-    </Box>
+    </Box> */}
     
     {/* <Link href="URL_de_Facebook" color="inherit" target="_blank" rel="noopener noreferrer">
       <FacebookIcon sx={{ fontSize: 46, color: "#003350" }}  />
     </Link> */}
     <Box>
     <a href="https://www.instagram.com/tymeconsulting/" color="inherit" target="_blank" rel="noopener noreferrer">
-      <InstagramIcon sx={{ fontSize: 46, color: "#003350" }}  />
+      <InstagramIcon sx={{ fontSize: 46, color: "#003350", textAlign:"end" }}  />
     </a>
     </Box>
     
@@ -124,11 +124,11 @@ export default function Footer() {
     </a>
     </Box>
     
-    <Box mt={"4px"}>
+   {/*  <Box mt={"4px"}>
     <a href="https://twitter.com/tymeconsulting" color="#003350" target="_blank" rel="noopener noreferrer"  >
      <img  width={70} src="/twiter.png" alt="" />
     </a>
-    </Box>
+    </Box> */}
     
     {/* <Link href="URL_de_Facebook" color="inherit" target="_blank" rel="noopener noreferrer">
       <FacebookIcon sx={{ fontSize: 46, color: "#003350" }}  />

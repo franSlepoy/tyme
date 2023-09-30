@@ -7,7 +7,7 @@ import { Box, Button, CardActionArea, CardActions, Link } from '@mui/material';
 
 export default function ArticuloCard(props) {
   return (
-    <Card sx={{ maxWidth: "352px",  mt:3, p:3, height: "470px", bgcolor:"#E3FBEB"}}>
+    <Card sx={{  mt:3, p:2, height: "470px", bgcolor:"#E3FBEB"}}>
       <Link style={{ textDecoration: 'none' }}  href={props.link} target="_blank">
       <CardActionArea>
         <CardMedia

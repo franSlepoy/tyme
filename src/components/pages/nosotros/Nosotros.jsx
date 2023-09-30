@@ -173,8 +173,8 @@ capital humano. Ahora, con un equipo talentoso e interdisciplinario, asistimos a
 empresas de todo el mundo.
       </Typography>
 
-     <Box ml={3} mt={3}>
-     <Carousel sx={{width:"90%", height:"500px"}}>
+     <Box  mt={3}>
+     <Carousel sx={{width:"100%", height:"100%"}}>
          {
              NosotrosCarouselData.map( imagen => <ImagenCard key={imagen.id}  imagen={imagen.imagen} /> )
          }

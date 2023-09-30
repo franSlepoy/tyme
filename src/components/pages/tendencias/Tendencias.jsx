@@ -11,7 +11,7 @@ const Tendencias = () => {
     <>
 
     <Hidden smDown>
-    <Typography sx={{color:"#003350", fontFamily:"Manrope", fontSize:"58px", fontWeight:"800", lineHeight:"normal", letterSpacing:"-2.32px", ml:6, mt:"80px"}}>Tendencia</Typography>
+    <Typography sx={{color:"#003350", fontFamily:"Manrope", fontSize:"58px", fontWeight:"800", lineHeight:"normal", letterSpacing:"-2.32px", ml:6, mt:"80px"}}>Tendencias</Typography>
     <Typography sx={{ml:6,mt:2,color:"#003350",fontFamily:"Manrope", fontSize:"30px", fontWeight:"500", lineHeight:"20px", letterSpacing:"0.1px"}}>Blog  – never stop learning </Typography>
     <Typography sx={{width:"1028px", ml:6,mt:4, color:"#003350",fontFamily:"Manrope", fontSize:"18px", fontWeight:"300", lineHeight:"28px", letterSpacing:"0.5px"}}> En Tyme nos consideramos eternos estudiantes, y por invertimos entre una y dos horas diarias en leer, aprender y evolucionar. También es lo que nos permite llevarle a nuestros clientes una actualización constante en términos de innovación, nuevas metodologías, casos de éxito, etc.</Typography>
 
@@ -102,7 +102,7 @@ const Tendencias = () => {
 
 
     <Hidden smUp>
-    <Typography sx={{color:"#003350", fontFamily:"Manrope", fontSize:"58px", fontWeight:"800", lineHeight:"normal", letterSpacing:"-2.32px", textAlign:"center", mt:"80px"}}>Tendencia</Typography>
+    <Typography sx={{color:"#003350", fontFamily:"Manrope", fontSize:"58px", fontWeight:"800", lineHeight:"normal", letterSpacing:"-2.32px", textAlign:"center", mt:"80px"}}>Tendencias</Typography>
     <Typography sx={{with:"600px",ml:6,mt:1,color:"#003350",fontFamily:"Manrope", fontSize:"22px", fontWeight:"500", lineHeight:"20px", letterSpacing:"0.1px"}}>Blog  – never stop learning </Typography>
     <Typography sx={{width:"90%", ml:2,mt:4, color:"#003350",fontFamily:"Manrope", fontSize:"18px", fontWeight:"300", lineHeight:"28px", letterSpacing:"0.5px"}}> En Tyme nos consideramos eternos estudiantes, y por invertimos entre una y dos horas diarias en leer, aprender y evolucionar. También es lo que nos permite llevarle a nuestros clientes una actualización constante en términos de innovación, nuevas metodologías, casos de éxito, etc.</Typography>
 
@@ -121,7 +121,7 @@ const Tendencias = () => {
     
     <Typography sx={{ml:3, width:"90%", mt:8,color:"#003350", fontFamily:"Manrope", fontSize:"42px", fontWeight:"800", lineHeight:"normal", letterSpacing:"-1.68px"}} >Artículos propios</Typography>
 
-    <ImageList sx={{ml:3, width: "90%",  }} cols={1} rowHeight={504}>
+    <ImageList sx={{m:"auto", width: "90%",  }} cols={1} rowHeight={504}>
       {ArticulosData.map((item) => (
         <ImageListItem key={item.id}>
           <ArticuloCard  titulo={item.titulo} imagen={item.imagen} link={item.link} />

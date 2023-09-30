@@ -71,7 +71,7 @@ En realidad, es nuestro mejor aliado, nuestro mejor socio. </Typography>
      </Hidden>
 
      <Hidden smUp>
-     <Typography sx={{width:"100%",color:"#003350", fontFamily:"Manrope", fontSize:"58px", fontWeight:"800", lineHeight:"normal", letterSpacing:"-2.32px", ml:6, mt:"80px"}}>Manifiesto</Typography>
+     <Typography sx={{color:"#003350", fontFamily:"Manrope", fontSize:"58px", fontWeight:"800", lineHeight:"normal", letterSpacing:"-2.32px", textAlign:"center", mt:"80px"}}>Manifiesto</Typography>
      <Box sx={{
           display:"flex",
           backgroundColor:"#F9F9F9",  
@@ -81,10 +81,10 @@ En realidad, es nuestro mejor aliado, nuestro mejor socio. </Typography>
           position:"relative"
           
         }} >
-        <Box>
-        <Box sx={{borderRadius:"100px",width:"90px", height:"90px",mt:4,ml:2, backgroundColor:"#71EAEA"}}>
+        <Box m>
+        <Box sx={{borderRadius:"100px",width:"90px", height:"90px",mt:2,ml:2, backgroundColor:"#71EAEA"}}>
           </Box>
-          <Box sx={{mt:"-78px", width:"400px" }}>
+          <Box sx={{mt:"-98px", width:"400px" }}>
             <Typography sx={{position:"absolute",width:"80%", ml:2,color:"#003350", fontFamily:"Manrope", fontSize:"32px", fontWeight:"800", lineHeight:"normal", letterSpacing:"-1.68px" }}>El tiempo es una palabra que paradójicamente toma valor cuando es escaso, pero ¿somos conscientes de esto?</Typography>
             </Box>
         </Box>
@@ -98,7 +98,7 @@ En realidad, es nuestro mejor aliado, nuestro mejor socio. </Typography>
      
     <Box  mt={"87px"}>
         <Box width={"100%"}>
-        <Typography sx={{pl:1,fontFamily:"Manrope",fontSize:"36px", fontWeight:"400", lineHeight:"28px", letterSpacing:"0.5px", color:"#003350"}}>
+        <Typography sx={{pl:1,fontFamily:"Manrope",fontSize:"26px", fontWeight:"400", lineHeight:"28px", letterSpacing:"0.5px", color:"#003350"}}>
           Nuestra razón de ser
           </Typography>
           <Typography sx={{mt:3,pl:1,fontFamily:"Manrope",fontSize:"18px", fontWeight:"300", lineHeight:"28px", letterSpacing:"0.5px", color:"#003350"}}>Pareciera que estamos toda la vida combatiendo contra el tiempo, y siempre decimos que es el culpable. En la vida, no hay culpables, hay responsables.

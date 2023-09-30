@@ -86,18 +86,18 @@ const CharlasYconferencias = () => {
     </Hidden>
 
     <Hidden smUp>
-    <Typography sx={{ width:"90%",color:"#003350", fontFamily:"Manrope", fontSize:"48px", fontWeight:"800", lineHeight:"normal", letterSpacing:"-2.32px", ml:2, mt:"80px"}}>Charlas y Conferencias</Typography>
+    <Typography sx={{ width:"80%", textAlign:"center", color:"#003350", fontFamily:"Manrope", fontSize:"48px", fontWeight:"800", lineHeight:"normal", letterSpacing:"-2.32px", ml:2, mt:"80px"}}>Charlas y Conferencias</Typography>
     <Box sx={{
-          display:"flex",
+          
           backgroundColor:"#F9F9F9",  
           width:"100%", 
           mt: 3,
-          height:"692px",
+          height:"902px",
           position:"relative"
           
         }} >
-        <Box>
-        <Box sx={{borderRadius:"100px",width:"90px", height:"90px",mt:2,ml:2, backgroundColor:"#71EAEA"}}>
+        <Box p={1}>
+        <Box sx={{borderRadius:"100px",width:"60px", height:"60px",mt:2,ml:2, backgroundColor:"#71EAEA"}}>
           </Box>
           <Box sx={{mt:"-68px", width:"300px",}}>
             <Typography  sx={{width:"90%", ml:2,color:"#003350", fontFamily:"Manrope", fontSize:"42px", fontWeight:"800", lineHeight:"normal", letterSpacing:"-1.68px" }} >Lo que evoluciona es la humanidad y la tecnología acompaña</Typography><br />
@@ -106,8 +106,8 @@ const CharlasYconferencias = () => {
             </Box>
         </Box>
 
-      <Box sx={{ml:25, mt:"68px" }}>
-        <img  src="/curso.png" alt="" />
+      <Box sx={{ mt:3, textAlign:"center" }}>
+        <img width={"90%"} src="/curso.png" alt="" />
       </Box>   
     </Box>
 
@@ -141,23 +141,20 @@ const CharlasYconferencias = () => {
          <Typography sx={{mt:3,fontFamily:"Manrope",fontSize:"18px", fontWeight:"300", lineHeight:"28px", letterSpacing:"0.5px", color:"#003350"}}>
             Las conferencias van dirigidas a todo tipo de organización, tanto gubernamental, como no gubernamental, aplicando a todo el nivel de la organización en cualquier parte del mundo e indiferentemente de la industria.
             </Typography>
-            
-         </Box>
-    </Box>
-     
-     <Box sx={{mt:"99px", ml:2 }}>
-
-        <Typography sx={{width:"100%", fontFamily:"Manrope",fontSize:"18px", fontWeight:"700", lineHeight:"28px", letterSpacing:"0.5px", color:"#003350" }}>
+            <Typography sx={{mt:5,mb:3,width:"100%", fontFamily:"Manrope",fontSize:"18px", fontWeight:"700", lineHeight:"28px", letterSpacing:"0.5px", color:"#003350" }}>
         Si quieres contratar alguna charla o hacernos alguna consulta:
         </Typography>
-     <Box mt={-12} ml={-3}>
+         </Box>
+    </Box>
+    
+     <Box  >
+
+       
      <Formulario/>
      </Box>
     </Box>
-  </Box>
-  <Box mt={0} ml={2} >
-    <img width={"100%"} src="/firuleteQueHacemos.png" alt="" />
-    </Box>
+ 
+  
     </Hidden>
     
    

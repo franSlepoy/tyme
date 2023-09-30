@@ -14,6 +14,8 @@ const TextoCard = (props) => {
         </Typography>
     </Box>
     </Hidden>
+   
+    <Hidden smUp>
     <Box>
         <Typography sx={{ml:2, mt:2,width:"90%", fontFamily:"Manrope", fontSize:"18px", fontWeight:"800", lineHeight: "28px", letterSpacing:"0.35px", color:"#003350"}}>
            {props.titulo}
@@ -22,8 +24,6 @@ const TextoCard = (props) => {
            {props.texto}
         </Typography>
     </Box>
-    <Hidden smUp>
-
     </Hidden>
     
     </>
