@@ -23,7 +23,7 @@ const Contacto = () => {
 </Hidden>
 
     <Hidden smUp>
-    <Typography variant='h1' sx={{ padding:0, fontFamily: "Manrope", fontWeight:"800", color: "#003350", fontSize: "58px", textAlign: "center", letterSpacing: -2.23, mt: "70px" }}>We are Open ¡Contáctanos!</Typography>
+    <Typography variant='h1' sx={{width:"90%", padding:0, fontFamily: "Manrope", fontWeight:"800", color: "#003350", fontSize: "58px", textAlign: "center", letterSpacing: -2.23, mt: "70px" }}>We are Open ¡Contáctanos!</Typography>
       
       <Box >
       <Box mt={2} mb={-12}  >

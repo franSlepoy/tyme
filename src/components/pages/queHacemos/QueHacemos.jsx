@@ -195,7 +195,7 @@ escuchado y así lograr su potencial.</Typography>
      <Box display={"flex"}>
                 
                 <Box sx={{  width:"855px",fontFamily:"Manrope",fontSize:"20px", fontWeight:"400", color:"#003350"}}> <Box display={"flex"}>
-                <Box sx={{ ml:"58px"}}>
+                <Box sx={{ ml:"58px", mt:10}}>
                 <img   src="/hrLogo3.png" alt="" />
                 </Box>
                 <Typography sx={{textDecoration:"underline",ml:5, mt:"100px", width:"855px",fontFamily:"Manrope",fontSize:"20px", fontWeight:"400", color:"#003350"}}>Waze laboral</Typography>
@@ -442,19 +442,19 @@ Estamos comprometidos con tu éxito. Trabajaremos incansablemente para asegurarn
             <Typography sx={{fontFamily:"Merriweather",fontSize:"36px", fontWeight:"700", color:"#003350"}}>HR On Demand</Typography>
             <Box display={"flex"} mt={"22px"}>
                 <img  src="/hrLogo1.png" alt="" />
-                <Typography sx={{ml:"10px", fontFamily:"Manrope",fontSize:"14px", fontWeight:"800", letterSpacing:"0.5px", color:"#003350"}}>Radiografía Transformadora de organizaciones: Evaluación y Diagnóstico</Typography>
+                <Typography sx={{ml:"10px", fontFamily:"Manrope",fontSize:"12px", fontWeight:"800", letterSpacing:"0.5px", color:"#003350"}}>Radiografía Transformadora de organizaciones: Evaluación y Diagnóstico</Typography>
             </Box>
             <Box display={"flex"} mt={"22px"}>
                 <img src="/hrLogo2.png" alt="" />
-                <Typography sx={{width:"90%",ml:"10px",fontFamily:"Manrope",fontSize:"14px", fontWeight:"800", letterSpacing:"0.5px", color:"#003350"}}>Conexión real con la Experiencia del empleado</Typography>
+                <Typography sx={{width:"90%",ml:"10px",fontFamily:"Manrope",fontSize:"12px", fontWeight:"800", letterSpacing:"0.5px", color:"#003350"}}>Conexión real con la Experiencia del empleado</Typography>
             </Box>
             <Box display={"flex"} mt={"22px"}>
                 <img src="/hrLogo3.png" alt="" />
-                <Typography sx={{width:"378px",ml:"10px",fontFamily:"Manrope",fontSize:"14px", fontWeight:"800", letterSpacing:"0.5px", color:"#003350"}}>Waze laboral</Typography>
+                <Typography sx={{width:"378px",ml:"10px",fontFamily:"Manrope",fontSize:"12px", fontWeight:"800", letterSpacing:"0.5px", color:"#003350"}}>Waze laboral</Typography>
             </Box>
             <Box display={"flex"} mt={"22px"}>
                 <img src="/hrLogo4.png" alt="" />
-                <Typography sx={{ml:"10px",fontFamily:"Manrope",fontSize:"14px", fontWeight:"800", letterSpacing:"0.5px", color:"#003350"}}>Certificaciones: los primeros pasos</Typography>
+                <Typography sx={{ml:"10px",fontFamily:"Manrope",fontSize:"12px", fontWeight:"800", letterSpacing:"0.5px", color:"#003350"}}>Certificaciones: los primeros pasos</Typography>
             </Box>
         </Box>
         
@@ -462,11 +462,11 @@ Estamos comprometidos con tu éxito. Trabajaremos incansablemente para asegurarn
         <Typography sx={{fontFamily:"Merriweather",fontSize:"36px", fontWeight:"700", color:"#003350"}}>HR Tech Trends</Typography>
         <Box display={"flex"} mt={"22px"}>
                 <img src="/hrLogo5.png" alt="" />
-                <Typography sx={{width:"378px",ml:"10px",fontFamily:"Manrope",fontSize:"14px", fontWeight:"800", letterSpacing:"0.5px", color:"#003350"}}>Mentoring personalizado</Typography>
+                <Typography sx={{width:"378px",ml:"10px",fontFamily:"Manrope",fontSize:"12px", fontWeight:"800", letterSpacing:"0.5px", color:"#003350"}}>Mentoring personalizado</Typography>
             </Box>
             <Box display={"flex"} mt={"22px"}>
                 <img src="/hrLogo6.png" alt="" />
-                <Typography sx={{width:"378px",ml:"10px",fontFamily:"Manrope",fontSize:"14px", fontWeight:"800", letterSpacing:"0.5px", color:"#003350"}}>Training y educación en tecnología para RRHH</Typography>
+                <Typography sx={{width:"378px",ml:"10px",fontFamily:"Manrope",fontSize:"12px", fontWeight:"800", letterSpacing:"0.5px", color:"#003350"}}>Training y educación en tecnología para RRHH</Typography>
             </Box>
         </Box>
     </Box>
@@ -519,7 +519,7 @@ de negocio buscado.
        <BasicAccordion2/>
      </Box>
      
-     <Box sx={{mt:4, width:"100%", height:"2000px", bgcolor:"#F9F9F9"}}>
+     <Box sx={{mt:4, width:"100%",  bgcolor:"#F9F9F9"}}>
      
      <Box display={"flex"}>
                 <Box sx={{mt:"80px", ml:2}}>
@@ -563,7 +563,7 @@ escuchado y así lograr su potencial.</Typography>
      </Box>
      
     
-        <Box width={"90%"}> 
+        <Box  width={"90%"}> 
         <Typography sx={{ml:2, mt:4,fontFamily:"Manrope",fontSize:"24px", fontWeight:"300", lineHeight:"34px", letterSpacing:"0.5px", color:"#003350"}} >
         Resultados transformadores: nuestro enfoque centrado en las personas y la experiencia del empleado ha demostrado generar resultados cuanti y cualitativos en organizaciones de diversas industrias.
         </Typography>
@@ -571,14 +571,15 @@ escuchado y así lograr su potencial.</Typography>
         Confía en nosotros para llevar a tu empresa al siguiente nivel 
         </Typography>
         </Box>
-        {/* <Box sx={{mt:5}}>
-            <img width={"105%"} src="/firuleteQueHacemos.png" alt="" />
-        </Box> */}
+         
       </Box>
+     {/*  <Box sx={{mt:5}}>
+            <img width={"105%"} src="/firuleteQueHacemos.png" alt="" />
+        </Box>  */}
 
 
      
-     <Box mt={105} >
+     <Box mt={4} >
                 
                 <Box sx={{  width:"100%",fontFamily:"Manrope",fontSize:"20px", fontWeight:"400", color:"#003350"}}> 
                 <Box  >
@@ -634,7 +635,7 @@ escuchado y así lograr su potencial.</Typography>
         </Box>
       </Box>
      
-     <Box sx={{mt:4, height:"1266px", bgcolor:"#F9F9F9"}}> 
+     <Box sx={{mt:4, height:"100%", bgcolor:"#F9F9F9"}}> 
      <Box display={"flex"}>
                 <Box sx={{mt:4, ml:2}}>
                 <img   src="/hrLogo4.png" alt="" />
@@ -653,18 +654,19 @@ Estamos comprometidos con tu éxito. Trabajaremos incansablemente para asegurarn
     </Typography>
     
     
-        <Box sx={{   bgcolor:"#E3FBEB", width:"90%", ml:2, mt:2, border:"solid  1px", borderRadius:"20px", color:"#003350" }}>
+       
+        
+    </Box>
+    <Box sx={{mb:2,   bgcolor:"#E3FBEB", width:"90%", ml:2, mt:2, border:"solid  1px", borderRadius:"20px", color:"#003350" }}>
         <Carousel height={"520px"}  >
          {
              CarouselTextoLogoData1.map( card => <TextoLogoCard key={card.id}  titulo={card.titulo} texto={card.texto} logo={card.logo} /> )
          }
        </Carousel>
         </Box>
-        
-    </Box>
   
 
-  <Box sx={{mt:"73%",width:"100%", height:"230px", bgcolor:"#003350"}}>
+  <Box sx={{width:"100%", height:"230px", bgcolor:"#003350"}}>
         <Typography sx={{pt:"92px",ml:3,color:"#F9F9F9",fontFamily:"Merriweather",fontSize:"36px", fontWeight:"700"}}>HR Tech Trends</Typography>
     </Box>
 

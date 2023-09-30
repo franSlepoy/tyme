@@ -119,9 +119,9 @@ const Tendencias = () => {
 
     {/* <Typography sx={{width:"1028px", ml:6,mt:4, color:"#003350",fontFamily:"Manrope", fontSize:"18px", fontWeight:"300", lineHeight:"28px", letterSpacing:"0.5px"}}>Por ello, en esta sección te compartiremos artículos y recomendaremos libros orientados a líderes de cualquier tipo de organización. Son libros basados en metodologías, gestión de las personas, management, etc. Todas herramientas que son aplicables a todo tipo de negocio.</Typography> */}
     
-    <Typography sx={{ml:3, width:"90%", mt:8,color:"#003350", fontFamily:"Manrope", fontSize:"42px", fontWeight:"800", lineHeight:"normal", letterSpacing:"-1.68px"}} >Artículos propios</Typography>
+    <Typography sx={{textAlign:"center", width:"90%", mt:8,color:"#003350", fontFamily:"Manrope", fontSize:"42px", fontWeight:"800", lineHeight:"normal", letterSpacing:"-1.68px"}} >Artículos propios</Typography>
 
-    <ImageList sx={{m:"auto", width: "90%",  }} cols={1} rowHeight={504}>
+    <ImageList sx={{m:"auto", width: "85%",  }} cols={1} rowHeight={504}>
       {ArticulosData.map((item) => (
         <ImageListItem key={item.id}>
           <ArticuloCard  titulo={item.titulo} imagen={item.imagen} link={item.link} />

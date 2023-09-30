@@ -98,7 +98,7 @@ empresas de todo el mundo.
    </Hidden>
     
     <Hidden smUp>
-    <Typography sx={{color:"#003350", fontFamily:"Manrope", fontSize:"58px", fontWeight:"800", lineHeight:"normal", letterSpacing:"-2.32px", ml:6, mt:"80px"}}>Nosotros</Typography>
+    <Typography sx={{color:"#003350", fontFamily:"Manrope", fontSize:"58px", fontWeight:"800", lineHeight:"normal", letterSpacing:"-2.32px", textAlign:"center", mt:"80px"}}>Nosotros</Typography>
 
     <Box sx={{
           backgroundColor:"#F9F9F9",  
@@ -155,8 +155,8 @@ evolución y transformación.
       Ahora, elijo y creo este nuevo emprendimiento con mucho entusiasmo y alegría.
       </Typography>
       </Box>
-      <Box mt={3} ml={3}>
-      <img  width={"90%"} height={"100%"}  src="/nosotros.png" alt="" />
+      <Box mt={3} >
+      <img  width={"100%"} height={"100%"}  src="/nosotros.png" alt="" />
       </Box>
       
      </Box>

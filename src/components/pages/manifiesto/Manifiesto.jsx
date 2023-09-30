@@ -77,20 +77,20 @@ En realidad, es nuestro mejor aliado, nuestro mejor socio. </Typography>
           backgroundColor:"#F9F9F9",  
           width:"100%", 
           mt: "88px",
-          height:"522px",
+          height:"100%",
           position:"relative"
           
         }} >
         <Box m>
-        <Box sx={{borderRadius:"100px",width:"90px", height:"90px",mt:2,ml:2, backgroundColor:"#71EAEA"}}>
+        <Box sx={{borderRadius:"100px",width:"60px", height:"60px",mt:2,ml:2, backgroundColor:"#71EAEA"}}>
           </Box>
-          <Box sx={{mt:"-98px", width:"400px" }}>
+          <Box sx={{mt:"-50px", width:"400px" }}>
             <Typography sx={{position:"absolute",width:"80%", ml:2,color:"#003350", fontFamily:"Manrope", fontSize:"32px", fontWeight:"800", lineHeight:"normal", letterSpacing:"-1.68px" }}>El tiempo es una palabra que paradójicamente toma valor cuando es escaso, pero ¿somos conscientes de esto?</Typography>
             </Box>
         </Box>
 
       <Box  sx={{ml:-57, mt:41}}>
-        <img width={"400px"}  src="/maniefiesto.png" alt="" />
+        <img width={"100%"}  src="/maniefiesto.png" alt="" />
       </Box>   
     </Box>
 

@@ -4,7 +4,7 @@ import React from 'react'
 const TestimonioCard = (props) => {
   return (
     <Box >
-    <Box  sx={{ml:8, borderRadius: '50%', overflow: 'hidden', width: '165px', height: '165px' }}>
+    <Box  sx={{m:"auto", borderRadius: '50%', overflow: 'hidden', width: '165px', height: '165px' }}>
     <img width={"100%"} src={props.imagen} alt="avatar" />
     </Box>
   

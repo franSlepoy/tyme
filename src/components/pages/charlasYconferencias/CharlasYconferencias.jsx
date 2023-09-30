@@ -92,7 +92,7 @@ const CharlasYconferencias = () => {
           backgroundColor:"#F9F9F9",  
           width:"100%", 
           mt: 3,
-          height:"902px",
+          height:"!00%",
           position:"relative"
           
         }} >
@@ -101,8 +101,8 @@ const CharlasYconferencias = () => {
           </Box>
           <Box sx={{mt:"-68px", width:"300px",}}>
             <Typography  sx={{width:"90%", ml:2,color:"#003350", fontFamily:"Manrope", fontSize:"42px", fontWeight:"800", lineHeight:"normal", letterSpacing:"-1.68px" }} >Lo que evoluciona es la humanidad y la tecnología acompaña</Typography><br />
-            <Typography sx={{position:"absolute",width:"90%", ml:2,color:"#003350", fontFamily:"Manrope", fontSize:"18px", fontWeight:"300", lineHeight:"28px", letterSpacing:"-0.5px" }}>Apasionado de la inspiración, la alegría y el poder de transmitir experiencias y conocimientos, Javier Krawicki imparte charlas y conferencias en todo el mundo sobre las Personas y Tecnología, el maridaje perfecto.</Typography>
-            <Typography sx={{width:"90%", ml:2, mt:22,color:"#003350", fontFamily:"Manrope", fontSize:"18px", fontWeight:"300", lineHeight:"28px", letterSpacing:"-0.5px" }}>Contacta con nosotros si quieres contratar a Javier para tu próxima conferencia, team building, evento o curso.</Typography>
+            <Typography sx={{width:"90%", ml:2,mt:1,color:"#003350", fontFamily:"Manrope", fontSize:"18px", fontWeight:"300", lineHeight:"28px", letterSpacing:"-0.5px" }}>Apasionado de la inspiración, la alegría y el poder de transmitir experiencias y conocimientos, Javier Krawicki imparte charlas y conferencias en todo el mundo sobre las Personas y Tecnología, el maridaje perfecto.</Typography>
+            <Typography sx={{width:"90%", ml:2,mt:1, color:"#003350", fontFamily:"Manrope", fontSize:"18px", fontWeight:"300", lineHeight:"28px", letterSpacing:"-0.5px" }}>Contacta con nosotros si quieres contratar a Javier para tu próxima conferencia, team building, evento o curso.</Typography>
             </Box>
         </Box>
 
@@ -131,7 +131,7 @@ const CharlasYconferencias = () => {
         </Box>
     
     <Box >
-       <Box  mb={"150px"} width={"90%"} height={"528px"} sx={{mt:4, ml:2,}} >
+       <Box  width={"90%"}  sx={{mt:4, ml:2,}} >
          <Box>
             <Box>
                <Typography sx={{width:"90%", mt:3,fontFamily:"Manrope",fontSize:"42px", fontWeight:"800", lineHeight:"normal", letterSpacing:"1.68px", color:"#A3B4BF"}}>¿A qué tipo de público van dirigidas las conferencias impartidas por Javier?</Typography>
@@ -147,7 +147,7 @@ const CharlasYconferencias = () => {
          </Box>
     </Box>
     
-     <Box  >
+     <Box mt={-10} >
 
        
      <Formulario/>

@@ -15,7 +15,7 @@ const Home = () => {
      <Hidden smDown>
         <Typography  sx={{  fontFamily: "Manrope", fontWeight:"800", color: "#003350", fontSize: "68px", textAlign: "center", letterSpacing:"-2.23px", mt: "70px" }}>Human Consulting</Typography>
       
-      <Box sx={{width:"1450px",ml:-17, position: 'relative',  mt: "163px", display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh' }}>
+      <Box sx={{width:"1450px",ml:-17, position: 'relative',  mt: "133px", display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh' }}>
         {/* <img src="/header1.png" alt="" style={{ Width: '100%', maxHeight: '100%', objectFit: 'cover' }} /> */}
         <video width={"100%"} autoPlay loop muted style={{ maxWidth:"1564px",  objectFit: 'cover',  }}>
           <source src="/clip.mp4" type="video/mp4" />
@@ -79,7 +79,7 @@ const Home = () => {
 
       <Typography sx={{mt: "75px",color: "#003350", textAlign:"center", fontFamily:"Merriweather", fontSize:"36px", fontWeight:400, lineHeight:"normal"}}>Palabras que resuenan, voces que inspiran</Typography>
       
-      <Box sx={{ml:-4,width:"1260px", height:"1200px"}}>
+      <Box sx={{ml:-4,width:"1260px", height:"950px"}}>
       <Carousel height={"1000px"}>
         <Testimonios/>
       <Testimonios1/>

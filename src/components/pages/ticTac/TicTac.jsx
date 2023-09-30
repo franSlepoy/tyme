@@ -70,7 +70,7 @@ Muchos colaboradores de las organizaciones, y esto generalmente se ve fuertement
 </Hidden>
 
 <Hidden smUp>
-  <Typography sx={{color:"#003350", fontFamily:"Manrope", fontSize:"48px", fontWeight:"800", lineHeight:"normal", letterSpacing:"-2.32px", ml:2, mt:"80px"}}>Tic Tac: El poder del tiempo</Typography>
+  <Typography sx={{color:"#003350", fontFamily:"Manrope", fontSize:"48px", fontWeight:"800", lineHeight:"normal", letterSpacing:"-2.32px",textAlign:"center", mt:"80px"}}>Tic Tac: El poder del tiempo</Typography>
      <Box sx={{
           
           backgroundColor:"#F9F9F9",  
@@ -80,27 +80,29 @@ Muchos colaboradores de las organizaciones, y esto generalmente se ve fuertement
           position:"relative"
           
         }} >
-        <Box  mt={5}>
-        <Box sx={{borderRadius:"100px",width:"90px", height:"90px",mt:4, ml:2, backgroundColor:"#71EAEA"}}>
+        <Box  mt={9}height={"100%"}>
+        <Box sx={{borderRadius:"100px",width:"60px", height:"60px", ml:2, backgroundColor:"#71EAEA"}}>
+        
           </Box>
-          <Box sx={{mt:"-78px", width:"90%"}}>
-            <Typography sx={{p:1, position:"absolute",width:"100%",ml:2,  color:"#003350", fontFamily:"Manrope", fontSize:"42px", fontWeight:"800", lineHeight:"normal", letterSpacing:"-1.68px" }}>El tiempo y la energía son dos aspectos que pocas veces miramos como una inversión. </Typography>
+          <Box sx={{mt:-9, width:"100%"}}>
+            <Typography sx={{p:2, position:"absolute",width:"100%",  color:"#003350", fontFamily:"Manrope", fontSize:"32px", fontWeight:"800", lineHeight:"normal", letterSpacing:"-1.68px" }}>El tiempo y la energía son dos aspectos que pocas veces miramos como una inversión. </Typography>
             </Box>
+          
         </Box>
-        <Typography sx={{mt:50, ml:2,width:"100%",color:"#003350", fontFamily:"Manrope", fontSize:"24px", fontWeight:"300", lineHeight:"34px", letterSpacing:"-1.68px"}}>
-          Con estrategias simples, innovadoras y soluciones personalizadas, actuamos como facilitadores de los cambios necesarios para la prosperidad y sostenibilidad del negocio.
-          </Typography>
+        
 
          
     </Box>
-
-    <Box  mt={30}>
+    <Typography sx={{mt:2, ml:2,width:"100%",color:"#003350", fontFamily:"Manrope", fontSize:"24px", fontWeight:"300", lineHeight:"34px", letterSpacing:"-1.68px"}}>
+          Con estrategias simples, innovadoras y soluciones personalizadas, actuamos como facilitadores de los cambios necesarios para la prosperidad y sostenibilidad del negocio.
+          </Typography>
+    <Box  mt={3}>
        <Box   >
           <img width={"100%"} src="/relojNegocio.png" alt="" />
         </Box>
 
-        <Box width={"100%"} height={"413px"}>
-        <Typography sx={{pl:2,fontFamily:"Manrope",fontSize:"18px", fontWeight:"700", lineHeight:"28px", letterSpacing:"0.5px", color:"#003350"}}>
+        <Box width={"100%"} >
+        <Typography sx={{mt:2,ml:2,fontFamily:"Manrope",fontSize:"18px", fontWeight:"700", lineHeight:"28px", letterSpacing:"0.5px", color:"#003350"}}>
         ¿Qué pasaría si la moneda de intercambio en vez de ser los euros o los dólares sería nuestro tiempo? ¿Cambiaríamos algo de lo que hacemos con nuestro tiempo?
           </Typography>
           <Typography sx={{mt:2,pl:2,fontFamily:"Manrope",fontSize:"18px", fontWeight:"300", lineHeight:"28px", letterSpacing:"0.5px", color:"#003350"}}>Cada persona tiene su lugar, su momento, su energía.
@@ -110,7 +112,7 @@ Muchos colaboradores de las organizaciones, y esto generalmente se ve fuertement
     </Box>
     
     <Box >
-       <Box  mb={"150px"}   sx={{width:"90%", mt:26, ml:2,}} >
+       <Box     sx={{width:"90%", mt:2, ml:2,}} >
          <Box>
             <Box>
             <Typography sx={{width:"100%", fontFamily:"Manrope",fontSize:"18px", fontWeight:"300", lineHeight:"28px", letterSpacing:"0.5px", color:"#003350"}}>
@@ -126,8 +128,10 @@ Muchos colaboradores de las organizaciones, y esto generalmente se ve fuertement
             <Typography sx={{mt:3,fontFamily:"Manrope",fontSize:"42px", fontWeight:"800", lineHeight:"normal", letterSpacing:"1.68px", color:"#A3B4BF"}}>En fin…Todos tenemos 5 minutos… ¿no?, ¿Hablamos?</Typography>
          </Box>
     </Box>
-     
-    <Formulario/>
+     <Box mt={-5}>
+     <Formulario />
+     </Box>
+   
   </Box>
 </Hidden>
    

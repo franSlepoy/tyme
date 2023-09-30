@@ -125,7 +125,7 @@ const Formulario = () => {
           ¡Mensaje enviado!
         </Typography>
       ) : (
-      <Box component="form" ref={form} onSubmit={sendEmail} sx={{ml:"6%",mt:25, display:"flex", flexDirection:"column" }}>
+      <Box component="form" ref={form} onSubmit={sendEmail} sx={{ml:"6%",mt:"25%", display:"flex", flexDirection:"column" }}>
      
      <TextField
       type='text'
