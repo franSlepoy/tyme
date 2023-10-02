@@ -183,7 +183,7 @@ escuchado y así lograr su potencial.</Typography>
         <Typography sx={{fontFamily:"Manrope",fontSize:"24px", fontWeight:"300", lineHeight:"34px", letterSpacing:"0.5px", color:"#003350"}} >
         Resultados transformadores: nuestro enfoque centrado en las personas y la experiencia del empleado ha demostrado generar resultados cuanti y cualitativos en organizaciones de diversas industrias.
         </Typography>
-        <Typography sx={{mt:5,fontFamily:"Manrope",fontSize:"24px", fontWeight:"700", lineHeight:"34px", letterSpacing:"0.5px", color:"#003350"}}>
+        <Typography sx={{textDecoration:"underline",mt:5,fontFamily:"Manrope",fontSize:"24px", fontWeight:"700", lineHeight:"34px", letterSpacing:"0.5px", color:"#003350"}}>
         Confía en nosotros para llevar a tu empresa al siguiente nivel 
         </Typography>
         </Box>
@@ -198,7 +198,7 @@ escuchado y así lograr su potencial.</Typography>
                 <Box sx={{ ml:"58px", mt:10}}>
                 <img   src="/hrLogo3.png" alt="" />
                 </Box>
-                <Typography sx={{textDecoration:"underline",ml:5, mt:"100px", width:"855px",fontFamily:"Manrope",fontSize:"20px", fontWeight:"400", color:"#003350"}}>Waze laboral</Typography>
+                <Typography sx={{ml:5, mt:"100px", width:"855px",fontFamily:"Manrope",fontSize:"20px", fontWeight:"400", color:"#003350"}}>Waze laboral</Typography>
                 </Box>
                 </Box>
      </Box>
@@ -405,7 +405,7 @@ Estamos comprometidos con tu éxito. Trabajaremos incansablemente para asegurarn
           backgroundColor:"#F9F9F9",  
           width:"100%", 
           mt: "88px",
-          height:"340px",
+          height:"100%",
           position:"relative"
           
         }} >
@@ -567,8 +567,8 @@ escuchado y así lograr su potencial.</Typography>
         <Typography sx={{ml:2, mt:4,fontFamily:"Manrope",fontSize:"24px", fontWeight:"300", lineHeight:"34px", letterSpacing:"0.5px", color:"#003350"}} >
         Resultados transformadores: nuestro enfoque centrado en las personas y la experiencia del empleado ha demostrado generar resultados cuanti y cualitativos en organizaciones de diversas industrias.
         </Typography>
-        <Typography sx={{ml:2, mt:4,fontFamily:"Manrope",fontSize:"24px", fontWeight:"700", lineHeight:"34px", letterSpacing:"0.5px", color:"#003350"}}>
-        Confía en nosotros para llevar a tu empresa al siguiente nivel 
+        <Typography sx={{textDecoration:"underline",ml:2, mt:4,fontFamily:"Manrope",fontSize:"24px", fontWeight:"700", lineHeight:"34px", letterSpacing:"0.5px", color:"#003350"}}>
+        Confía en nosotros para llevar a tu empresa al siguiente nivel.
         </Typography>
         </Box>
          
@@ -586,7 +586,7 @@ escuchado y así lograr su potencial.</Typography>
                 <Box sx={{ ml:3  }}>
                 <img   src="/hrLogo3.png" alt="" />
                 </Box>
-                <Typography sx={{mt:-5,textDecoration:"underline",ml:14, width:"90%",fontFamily:"Manrope",fontSize:"20px", fontWeight:"400", color:"#003350"}}>Waze laboral</Typography>
+                <Typography sx={{textDecoration:"underline",mt:-5,textDecoration:"underline",ml:14, width:"90%",fontFamily:"Manrope",fontSize:"20px", fontWeight:"400", color:"#003350"}}>Waze laboral</Typography>
                 </Box>
                 </Box>
      </Box>

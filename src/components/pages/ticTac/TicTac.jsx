@@ -12,21 +12,18 @@ const TicTac = () => {
           backgroundColor:"#F9F9F9",  
           width:"1448px", ml:-16,
           mt: "88px",
-          height:"390px",
+          height:"240px",
           position:"relative"
           
         }} >
         <Box ml={-8} mt={5}>
-        <Box sx={{borderRadius:"100px",width:"90px", height:"90px",mt:4, ml:32, backgroundColor:"#71EAEA"}}>
+        <Box sx={{borderRadius:"100px",width:"60px", height:"60px",mt:4, ml:34, backgroundColor:"#71EAEA"}}>
           </Box>
-          <Box sx={{mt:"-78px"}}>
-            <Typography sx={{position:"absolute",width:"457px",ml:36,  color:"#003350", fontFamily:"Manrope", fontSize:"42px", fontWeight:"800", lineHeight:"normal", letterSpacing:"-1.68px" }}>El tiempo y la energía son dos aspectos que pocas veces miramos como una inversión. </Typography>
+          <Box sx={{mt:"-62px"}}>
+            <Typography sx={{width:"60%",ml:36,  color:"#003350", fontFamily:"Manrope", fontSize:"42px", fontWeight:"800", lineHeight:"normal", letterSpacing:"-1.68px" }}>El tiempo y la energía son dos aspectos que pocas veces miramos como una inversión. </Typography>
             </Box>
         </Box>
-        <Typography sx={{mt:12, ml:65,width:"422px",color:"#003350", fontFamily:"Manrope", fontSize:"24px", fontWeight:"300", lineHeight:"34px", letterSpacing:"-1.68px"}}>
-          Con estrategias simples, innovadoras y soluciones personalizadas, actuamos como facilitadores de los cambios necesarios para la prosperidad y sostenibilidad del negocio.
-          </Typography>
-
+       
       <Box sx={{ml:-41, mt:"-82px"}}>
         
       </Box>   
@@ -76,7 +73,7 @@ Muchos colaboradores de las organizaciones, y esto generalmente se ve fuertement
           backgroundColor:"#F9F9F9",  
           width:"100%", 
           mt: 2,
-          height:"390px",
+          height:"240px",
           position:"relative"
           
         }} >
@@ -93,9 +90,7 @@ Muchos colaboradores de las organizaciones, y esto generalmente se ve fuertement
 
          
     </Box>
-    <Typography sx={{mt:2, ml:2,width:"100%",color:"#003350", fontFamily:"Manrope", fontSize:"24px", fontWeight:"300", lineHeight:"34px", letterSpacing:"-1.68px"}}>
-          Con estrategias simples, innovadoras y soluciones personalizadas, actuamos como facilitadores de los cambios necesarios para la prosperidad y sostenibilidad del negocio.
-          </Typography>
+    
     <Box  mt={3}>
        <Box   >
           <img width={"100%"} src="/relojNegocio.png" alt="" />

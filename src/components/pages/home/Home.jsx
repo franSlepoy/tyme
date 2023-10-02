@@ -18,7 +18,7 @@ const Home = () => {
       <Box sx={{width:"1450px",ml:-17, position: 'relative',  mt: "133px", display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh' }}>
         {/* <img src="/header1.png" alt="" style={{ Width: '100%', maxHeight: '100%', objectFit: 'cover' }} /> */}
         <video width={"100%"} autoPlay loop muted style={{ maxWidth:"1564px",  objectFit: 'cover',  }}>
-          <source src="/clip.mp4" type="video/mp4" />
+          <source src="/clipMedio.mp4" type="video/mp4" />
         </video>
         <Typography sx={{width:"1110px", position: 'absolute', color: 'white', fontSize: '46px', fontWeight:"400", textAlign: 'center', left:'50%', transform:'translate(-50%)', top: "111px", fontFamily:'Manrope' }}>
           Diferentes motivos,
@@ -99,10 +99,10 @@ const Home = () => {
   <Typography  sx={{  fontFamily: "Manrope", fontWeight:"800", color: "#003350", fontSize: "46px", textAlign: "center", letterSpacing:"-2.23px", mt: "70px" }}>Human Consulting</Typography>
   <Box sx={{ position: 'relative',  mt: "60px", display: 'flex', justifyContent: 'center', alignItems: 'center',  }}>
         {/* <img src="/header1.png" alt="" style={{ Width: '100%', maxHeight: '100%', objectFit: 'cover' }} /> */}
-        <video autoPlay loop muted style={{ width:"100%",  objectFit: 'cover',  }}>
+        <video autoPlay loop muted playsInline  style={{ width:"100%",  objectFit: 'cover',  }}>
           <source src="/mobile.mp4" type="video/mp4" />
         </video>
-        <Typography sx={{width:"100%", position: 'absolute', color: 'white', fontSize: '14px', fontWeight:"400", textAlign: 'center', left:'50%', transform:'translate(-50%)', top: 58, fontFamily:'Manrope' }}>
+        <Typography sx={{width:"100%", position: 'absolute', color: 'white', fontSize: '30px', fontWeight:"400", textAlign: 'center', left:'50%', transform:'translate(-50%)', top: 58, fontFamily:'Manrope' }}>
           Diferentes motivos,
           una sencilla solución… Tyme
         </Typography>

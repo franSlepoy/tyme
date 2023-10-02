@@ -31,7 +31,7 @@ export default function BasicAccordion4() {
           aria-controls="panel1a-content"
           id="panel1a-header"
         >
-          <Typography sx={{fontFamily: "Manrope", fontSize:"24px", fontWeight:300, lineHeight:"34px", color:"#003350"}}>Asesoramiento Estratégico: </Typography>
+          <Typography sx={{fontFamily: "Manrope", fontSize:"24px", fontWeight:300, lineHeight:"34px", color:"#003350"}}>Asesoramiento Estratégico </Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography sx={{mt:3,fontFamily: "Manrope", fontSize:"14px", fontWeight:300, lineHeight:"24px", color:"#003350"}}>
@@ -47,7 +47,7 @@ export default function BasicAccordion4() {
           aria-controls="panel1a-content"
           id="panel1a-header"
         >
-          <Typography sx={{fontFamily: "Manrope", fontSize:"24px", fontWeight:300, lineHeight:"34px", color:"#003350"}}> Personalización y Acompañamiento:  </Typography>
+          <Typography sx={{fontFamily: "Manrope", fontSize:"24px", fontWeight:300, lineHeight:"34px", color:"#003350"}}> Personalización y Acompañamiento  </Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography sx={{mt:3,fontFamily: "Manrope", fontSize:"14px", fontWeight:300, lineHeight:"24px", color:"#003350"}}>
@@ -62,7 +62,7 @@ export default function BasicAccordion4() {
           aria-controls="panel1a-content"
           id="panel1a-header"
         >
-          <Typography sx={{fontFamily: "Manrope", fontSize:"24px", fontWeight:300, lineHeight:"34px", color:"#003350"}}>Integración Tecnológica: </Typography>
+          <Typography sx={{fontFamily: "Manrope", fontSize:"24px", fontWeight:300, lineHeight:"34px", color:"#003350"}}>Integración Tecnológica </Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography sx={{mt:3,fontFamily: "Manrope", fontSize:"14px", fontWeight:300, lineHeight:"24px", color:"#003350"}}>
@@ -77,7 +77,7 @@ export default function BasicAccordion4() {
           aria-controls="panel1a-content"
           id="panel1a-header"
         >
-          <Typography sx={{fontFamily: "Manrope", fontSize:"24px", fontWeight:300, lineHeight:"34px", color:"#003350"}}>Cultura Digital: </Typography>
+          <Typography sx={{fontFamily: "Manrope", fontSize:"24px", fontWeight:300, lineHeight:"34px", color:"#003350"}}>Cultura Digital </Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography sx={{mt:3,fontFamily: "Manrope", fontSize:"14px", fontWeight:300, lineHeight:"24px", color:"#003350"}}>
