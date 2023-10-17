@@ -13,8 +13,21 @@ import CharlasYconferencias from './components/pages/charlasYconferencias/Charla
 import Tendencias from './components/pages/tendencias/Tendencias'
 import Menu from './components/common/navbar/Menu'
 
+import ReactGA from 'react-ga';
+import { useEffect } from 'react';
+
+function initializeReactGA() {
+  ReactGA.initialize('G-0S9EX284TH');
+  ReactGA.pageview(window.location.pathname + window.location.search);
+}
+
 
 const App = () => {
+
+  useEffect(() => {
+    initializeReactGA();
+}, []);
+
   return (
     <>
     <NavBar/>

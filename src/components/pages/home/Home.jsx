@@ -79,10 +79,12 @@ const Home = () => {
 
       <Typography sx={{mt: "75px",color: "#003350", textAlign:"center", fontFamily:"Merriweather", fontSize:"36px", fontWeight:400, lineHeight:"normal"}}>Palabras que resuenan, voces que inspiran</Typography>
       
-      <Box sx={{ml:-4,width:"1260px", height:"950px"}}>
-      <Carousel height={"1000px"}>
-        <Testimonios/>
+      <Box sx={{ml:-4,width:"1260px"}}>
+      <Carousel height={"1000px"} >
+     
+      <Testimonios/>
       <Testimonios1/>
+
       </Carousel>
       </Box>
      
