@@ -127,10 +127,11 @@ const Home = () => {
           <Typography
             sx={{
               mt: "75px",
+              mb:"48px",
               color: "#272525",
               textAlign: "center",
               fontFamily: "Merriweather",
-              fontSize: "49px",
+              fontSize: "42px",
               fontWeight: "100",
               lineHeight: "normal",
             }}
@@ -138,7 +139,7 @@ const Home = () => {
             Por qué sumarnos a tu equipo
           </Typography>
 
-          <Box sx={{  width: "88%", margin:"auto" }}>
+          <Box sx={{ mt:"", width: "88%", margin:"auto" }}>
             <Carousel   >
               <Testimonios />
               <Testimonios1 />
