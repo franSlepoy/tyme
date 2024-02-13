@@ -23,7 +23,7 @@ const Testimonios = () => {
             mt: "52px",
             padding: 6,
             backgroundColor: "#E5DE04",
-            borderRadius: "10%",
+            borderRadius: "33px",
           }}
         >
           <Typography
@@ -101,7 +101,7 @@ const Testimonios = () => {
             mt: "52px",
             padding: 6,
             backgroundColor: "#E5DE04",
-            borderRadius: "10%",
+            borderRadius: "33px",
           }}
         >
           <Typography
@@ -181,7 +181,7 @@ const Testimonios = () => {
                 mt: "52px",
                 padding: 6,
                 backgroundColor: "#E5DE04",
-                borderRadius: "10%",
+                borderRadius: "33px",
               }}
         >
           <Typography

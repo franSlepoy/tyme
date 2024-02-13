@@ -1,6 +1,6 @@
 import { Button, Typography } from "@mui/material";
 
-const BlackButtom = ({ texto }) => {
+const GreenButtom = ({ texto }) => {
   return (
     <Button
       variant="contained"
@@ -8,12 +8,12 @@ const BlackButtom = ({ texto }) => {
         height: "43px",
         width: "177px",
         borderRadius: "100px",
-        backgroundColor: "black",
+        backgroundColor: "#18CC66",
         "&:hover": {
-          borderRadius: "100px",
-          backgroundColor: "black", // Mismo color de fondo que el estado normal
-          color: "white", // Mismo color de texto que el estado normal
-          textAlign: "center",
+            height: "43px",
+            width: "177px",
+            borderRadius: "100px",
+            backgroundColor: "#18CC66",
         },
       }}
     >
@@ -21,9 +21,11 @@ const BlackButtom = ({ texto }) => {
         sx={{
           textTransform: "none",
           fontFamily: "Manrope",
+          fontSize: "16px",
           lineHeight: "20px",
-          fontWeight: 400,
+          fontWeight: 600,
           letterSpacing: "0.1",
+          color: "black",
         }}
       >
         {texto}
@@ -32,4 +34,4 @@ const BlackButtom = ({ texto }) => {
   );
 };
 
-export default BlackButtom;
+export default GreenButtom;

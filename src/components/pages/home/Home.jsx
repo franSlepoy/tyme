@@ -1,4 +1,11 @@
-import { Box, Button, Divider, Hidden, IconButton, Typography } from "@mui/material";
+import {
+  Box,
+  Button,
+  Divider,
+  Hidden,
+  IconButton,
+  Typography,
+} from "@mui/material";
 
 import BasicAccordion from "../../common/basicAccordion/BasicAccordion";
 import BasicAccordion1 from "../../common/basicAccordion/BasicAccordion1";
@@ -19,7 +26,7 @@ const Home = () => {
           <img style={{ width: "100%" }} src="/header1.png" alt="" />
         </Box>
 
-        <Box m={"auto"} width={"88%"} display={"flex"} mt={"76px"}>
+        <Box m={"auto"} width={"87%"} display={"flex"} mt={"76px"}>
           <Box width={"45%"}>
             <Typography
               sx={{
@@ -38,10 +45,12 @@ const Home = () => {
               to={"/contacto"}
               style={{ textDecoration: "none", textTransform: "none" }}
             >
-              <BlackButtom texto={"Contáctanos"} />
+              <Box mt={"49px"}>
+                <BlackButtom texto={"Contáctanos"} />
+              </Box>
             </Link>
           </Box>
-          <Box width={"45%"} ml={"5%"}>
+          <Box width={"45%"} ml={"6%"}>
             <Typography
               sx={{
                 fontFamily: "Manrope",
@@ -63,13 +72,13 @@ const Home = () => {
           sx={{
             backgroundColor: "#18CC66",
             width: "100%",
-            
+
             mt: "70px",
             pt: "67px",
-           pb:"67px"
+            pb: "67px",
           }}
         >
-          <Box width={"88%"} m={"auto"}>
+          <Box width={"87%"} m={"auto"}>
             <Typography
               sx={{
                 fontFamily: "Merriweather",
@@ -83,7 +92,7 @@ const Home = () => {
               servicios:
             </Typography>
           </Box>
-          <Box display={"flex"} width={"88%"} m={"auto"}>
+          <Box display={"flex"} width={"87%"} m={"auto"}>
             <Box mt={"30px"} width={"40%"}>
               <Typography
                 sx={{
@@ -99,7 +108,7 @@ const Home = () => {
                 crecimiento a largo plazo.
               </Typography>
             </Box>
-            <Box mt={"30px"} ml={"10%"} width={"40%"}>
+            <Box mt={"30px"} ml={"11%"} width={"40%"}>
               <Typography
                 sx={{
                   fontFamily: "Manrope",
@@ -115,32 +124,30 @@ const Home = () => {
               </Typography>
             </Box>
           </Box>
-          <Box textAlign={"center"}>
-          <BlackButtom texto={"Conoce más"} />
+          <Box ml={"6%"} sx={{ mt: "49px" }}>
+            <BlackButtom texto={"Conoce más"} />
           </Box>
-          
         </Box>
-
-        
 
         <Box>
           <Typography
             sx={{
-              mt: "75px",
-              mb:"48px",
+              ml: "7%",
+              mt: "48px",
+              mb: "48px",
               color: "#272525",
-              textAlign: "center",
+
               fontFamily: "Merriweather",
               fontSize: "42px",
-              fontWeight: "100",
+              fontWeight: 400,
               lineHeight: "normal",
             }}
           >
             Por qué sumarnos a tu equipo
           </Typography>
 
-          <Box sx={{ mt:"", width: "88%", margin:"auto" }}>
-            <Carousel   >
+          <Box sx={{ width: "87%", margin: "auto" }}>
+            <Carousel sx={{ marginBottom: "86px" }}>
               <Testimonios />
               <Testimonios1 />
             </Carousel>

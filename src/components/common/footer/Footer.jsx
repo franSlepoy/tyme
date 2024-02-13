@@ -11,7 +11,7 @@ export default function Footer() {
       <Hidden smDown>
         <Box
           sx={{
-            mt: "49px",
+          
             backgroundColor: "#07659C",
             width: "100%",
             height: "277px",
@@ -35,6 +35,9 @@ export default function Footer() {
                       fontWeight: 100,
                       lineHeight: "20px",
                       letterSpacing: "0.1px",
+                      "&:hover": {
+                        color: "#73F0A2",
+                      },
                     }}
                   >
                     Quiénes somos
@@ -50,6 +53,9 @@ export default function Footer() {
                       fontWeight: 100,
                       lineHeight: "20px",
                       letterSpacing: "0.1px",
+                      "&:hover": {
+                        color: "#73F0A2",
+                      },
                     }}
                   >
                     Qué hacemos
@@ -65,6 +71,9 @@ export default function Footer() {
                       fontWeight: "100",
                       lineHeight: "20px",
                       letterSpacing: "0.1px",
+                      "&:hover": {
+                        color: "#73F0A2",
+                      },
                     }}
                   >
                     Manifiesto: el valor del tiempo
@@ -83,6 +92,9 @@ export default function Footer() {
                       fontWeight: "100",
                       lineHeight: "20px",
                       letterSpacing: "0.1px",
+                      "&:hover": {
+                        color: "#73F0A2",
+                      },
                     }}
                   >
                     Charlas y Conferencias
@@ -99,6 +111,9 @@ export default function Footer() {
                       fontWeight: "100",
                       lineHeight: "20px",
                       letterSpacing: "0.1px",
+                      "&:hover": {
+                        color: "#73F0A2",
+                      },
                     }}
                   >
                     Tendencias
@@ -114,6 +129,9 @@ export default function Footer() {
                       fontWeight: "100",
                       lineHeight: "20px",
                       letterSpacing: "0.1px",
+                      "&:hover": {
+                        color: "#73F0A2",
+                      },
                     }}
                   >
                     Contacto
@@ -138,7 +156,7 @@ export default function Footer() {
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      <LinkedInIcon sx={{ fontSize: 46, color: "white" }} />
+                      <LinkedInIcon sx={{ fontSize: 46, color: "white",  }} />
                     </a>
                   </Box>
 
@@ -163,7 +181,7 @@ export default function Footer() {
                   sx={{
                     ml: "5ovh",
 
-                    mt: "20px",
+                    mt: "9%",
                     fontFamily: "Manrope",
                     color: "white",
                     fontSize: "16px",

@@ -21,11 +21,10 @@ const NavBar = () => {
             width: "91%",
             margin: "auto",
             height: "99px",
-            
           }}
         >
-          <Toolbar  sx={{ mt: 2,}}>
-            <Box  component={NavLink} to={"/"}>
+          <Toolbar sx={{ mt: 2 }}>
+            <Box ml={1} component={NavLink} to={"/"}>
               <img src="/logo.png" alt="logo" />
             </Box>
             <Box display={"flex"} width={"84%"}>
@@ -45,16 +44,12 @@ const NavBar = () => {
                   lineHeight: "20px",
 
                   "&:hover": {
-                    borderRadius: "100px",
-                    backgroundColor: "#71EAEA",
+                    color: "#73F0A2",
                   },
                 }}
                 component={NavLink}
                 to={"/nosotros"}
               >
-                {/* <Typography fontFamily={"Manrope"}>
-                 Quiénes somos
-              </Typography> */}
                 Quiénes somos
               </Typography>
               <Typography
@@ -72,8 +67,7 @@ const NavBar = () => {
                   lineHeight: "20px",
 
                   "&:hover": {
-                    borderRadius: "100px",
-                    backgroundColor: "#71EAEA",
+                    color: "#73F0A2",
                   },
                 }}
                 component={NavLink}
@@ -97,8 +91,7 @@ const NavBar = () => {
                   lineHeight: "20px",
 
                   "&:hover": {
-                    borderRadius: "100px",
-                    backgroundColor: "#71EAEA",
+                    color: "#73F0A2",
                   },
                 }}
                 component={NavLink}
@@ -121,8 +114,7 @@ const NavBar = () => {
                   lineHeight: "20px",
 
                   "&:hover": {
-                    borderRadius: "100px",
-                    backgroundColor: "#71EAEA",
+                    color: "#73F0A2",
                   },
                 }}
                 component={NavLink}
@@ -144,8 +136,7 @@ const NavBar = () => {
                   fontStyle: "normal",
                   lineHeight: "20px",
                   "&:hover": {
-                    borderRadius: "100px",
-                    backgroundColor: "#71EAEA",
+                    color: "#73F0A2",
                   },
                 }}
                 component={NavLink}
