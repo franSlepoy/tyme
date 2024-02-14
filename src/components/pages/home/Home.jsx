@@ -17,14 +17,17 @@ import { TestimoniosCradData } from "../../../servidor/testimoniosData";
 
 import BlackButtom from "../../common/blackButtom/BlackButtom";
 import TestimonioCard from "../../common/testimonios/TestimonioCard/TestimonioCard";
+import { Parallax } from "react-scroll-parallax";
 
 const Home = () => {
   return (
     <>
       <Hidden smDown>
-        <Box width={"100%"}>
-          <img style={{ width: "100%" }} src="/header1.png" alt="" />
-        </Box>
+        <Parallax speed={-8}>
+          <Box width={"100%"}>
+            <img style={{ width: "100%" }} src="/header1.png" alt="" />
+          </Box>
+        </Parallax>
 
         <Box m={"auto"} width={"87%"} display={"flex"} mt={"76px"}>
           <Box width={"45%"}>

@@ -1,4 +1,4 @@
-import { Container } from "@mui/material";
+import React from 'react';
 import { Route, Routes } from "react-router-dom";
 import Footer from "./components/common/footer/Footer";
 import NavBar from "./components/common/navbar/NavBar";
@@ -11,12 +11,14 @@ import Contacto from "./components/pages/contacto/Contacto";
 import CharlasYconferencias from "./components/pages/charlasYconferencias/CharlasYconferencias";
 import Tendencias from "./components/pages/tendencias/Tendencias";
 import Menu from "./components/common/navbar/Menu";
+import { ParallaxProvider } from 'react-scroll-parallax'; // Importa ParallaxProvider aquí
+import CarouselEv from './components/common/onDemand/CarouselEv';
 
 const App = () => {
   return (
-    <>
-      <NavBar />
-      
+    <ParallaxProvider> {/* Envuelve tu aplicación con ParallaxProvider */}
+      <>
+        <NavBar />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/nosotros" element={<Nosotros />} />
@@ -27,11 +29,14 @@ const App = () => {
           <Route path="/tendencias" element={<Tendencias />} />
           <Route path="/contacto" element={<Contacto />} />
           <Route path="/menu" element={<Menu />} />
+          <Route path="/eDyP" element={<CarouselEv />} />
         </Routes>
-     
-      <Footer />
-    </>
+        <Footer />
+      </>
+    </ParallaxProvider>
   );
 };
 
+
 export default App;
+

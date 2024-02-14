@@ -1,19 +1,25 @@
 import { Box, Button, Hidden, Typography } from "@mui/material";
-import React from "react";
 import { NosotrosCarouselData } from "../../../servidor/NosotrosImages";
 import Carousel from "react-material-ui-carousel";
 import ImagenCard from "../../common/imageCard/ImageCard";
 import GreenButtom from "../../common/greenButtom/GreenButtom";
 import BlackButtom from "../../common/blackButtom/BlackButtom";
+import { Parallax } from "react-scroll-parallax";
+import { NavLink } from "react-router-dom";
+
 
 const Nosotros = () => {
+  
+
   return (
     <>
       <Hidden smDown>
-        <Box>
+        <Parallax speed={-12} tagOuter="figure">
           <Box>
             <img src="/nosotros1.png" alt="" />
           </Box>
+        </Parallax>
+        <Box>
           <Box sx={{ position: "absolute", top: "22%", left: "53%" }}>
             <img src="/nosotros2.png" alt="" />
           </Box>
@@ -56,17 +62,19 @@ const Nosotros = () => {
           </Typography>
         </Box>
 
-        <Box sx={{ width: "100%", backgroundColor: "#1296E9", height: "81vh" }}>
+        <Box
+          sx={{ width: "100%", backgroundColor: "#1296E9", minHeight: "70vh" }}
+        >
           <Box sx={{ position: "absolute", mt: "75px" }}>
             <img src="/nosotros3.png" alt="" />
           </Box>
           <Box display={"flex"} width={"90%"} m={"auto"}>
             <Box width={"40%"}>
               <Typography
-                mt={"105px"}
+                mt={"178px"}
                 sx={{
                   fontFamily: "Manrope",
-                  fontWeight: "500",
+                  fontWeight: "600",
                   color: "white",
                   fontSize: "64px",
                 }}
@@ -77,22 +85,59 @@ const Nosotros = () => {
                 mt={"-12px"}
                 sx={{
                   fontFamily: "Manrope",
-                  fontWeight: "300",
+                  fontWeight: "400",
                   fontSize: "40px",
                 }}
               >
                 respuesta a medida
               </Typography>
-              <Box mt={"26%"}>
+              <Box mt={"13%"}>
                 <GreenButtom texto={"Consultanos"} />
               </Box>
             </Box>
             <Box ml={"12%"} width={"40%"}>
-              
-                <Box display={"flex"} mt={"16%"}>
+              <Button
+                disableRipple
+                style={{
+                  textTransform: "none",
+                  textAlign: "initial",
+                  color: "black",
+                }}
+                
+              >
+                <Box display={"flex"} mt={"16%"} component={NavLink} to={"/eDyP"} sx={{textDecoration:"none"}}>
                   <img
-                    style={{ width: "82px" }}
+                    style={{ height: "60px" }}
                     src="/nosotrosLogo1.png"
+                    alt=""
+                  />
+                  <Typography
+                    sx={{
+                      ml: "28px",
+                      fontFamily: "Manrope",
+                      fontSize: "30px",
+                      lineHeight: "34px",
+                      color:"black",
+                      
+                    }}
+                  >
+                    Evaluación, diagnóstico y planificación
+                  </Typography>
+                </Box>
+              </Button>
+
+              <Button
+                disableRipple
+                style={{
+                  textTransform: "none",
+                  textAlign: "initial",
+                  color: "black",
+                }}
+              >
+                <Box display={"flex"} mt={"8%"}>
+                  <img
+                    style={{ height: "60px" }}
+                    src="/nosotrosLogo2.png"
                     alt=""
                   />
                   <Typography
@@ -103,70 +148,76 @@ const Nosotros = () => {
                       lineHeight: "34px",
                     }}
                   >
-                    Evaluación, diagnóstico y planificación
+                    Desarrollo de la cultura organizacional y liderazgos
                   </Typography>
                 </Box>
-            
+              </Button>
+              <Button
+                disableRipple
+                style={{
+                  textTransform: "none",
+                  textAlign: "initial",
+                  color: "black",
+                }}
+              >
+                <Box display={"flex"} mt={"8%"}>
+                  <img
+                    style={{ height: "50px", marginLeft: "4px" }}
+                    src="/nosotrosLogo3.png"
+                    alt=""
+                  />
+                  <Typography
+                    sx={{
+                      mt: "12px",
+                      ml: "42px",
+                      fontFamily: "Manrope",
+                      fontSize: "30px",
+                      lineHeight: "34px",
+                    }}
+                  >
+                    Waze laboral
+                  </Typography>
+                </Box>
+              </Button>
 
-              <Box display={"flex"} mt={"8%"}>
-                <img
-                  style={{ width: "92px", marginLeft: "10px" }}
-                  src="/nosotrosLogo2.png"
-                  alt=""
-                />
-                <Typography
-                  sx={{
-                    ml: "28px",
-                    fontFamily: "Manrope",
-                    fontSize: "30px",
-                    lineHeight: "34px",
-                  }}
-                >
-                  Desarrollo de la cultura organizacional y liderazgos
-                </Typography>
-              </Box>
-
-              <Box display={"flex"} mt={"8%"}>
-                <img
-                  style={{ width: "48px", marginLeft: "12px" }}
-                  src="/nosotrosLogo3.png"
-                  alt=""
-                />
-                <Typography
-                  sx={{
-                    mt: "12px",
-                    ml: "32px",
-                    fontFamily: "Manrope",
-                    fontSize: "30px",
-                    lineHeight: "34px",
-                  }}
-                >
-                  Waze laboral
-                </Typography>
-              </Box>
-
-              <Box display={"flex"} mt={"8%"}>
-                <img
-                  style={{ width: "42px", marginLeft: "22px" }}
-                  src="/nosotrosLogo4.png"
-                  alt=""
-                />
-                <Typography
-                  sx={{
-                    ml: "38px",
-                    fontFamily: "Manrope",
-                    fontSize: "30px",
-                    lineHeight: "34px",
-                  }}
-                >
-                  Acompañamiento para certificaciones
-                </Typography>
-              </Box>
+              <Button
+                disableRipple
+                style={{
+                  textTransform: "none",
+                  textAlign: "initial",
+                  color: "black",
+                }}
+              >
+                <Box display={"flex"} mt={"8%"}>
+                  <img
+                    style={{ height: "40px", marginLeft: "3px" }}
+                    src="/nosotrosLogo4.png"
+                    alt=""
+                  />
+                  <Typography
+                    sx={{
+                      mt: -2,
+                      ml: "38px",
+                      fontFamily: "Manrope",
+                      fontSize: "30px",
+                      lineHeight: "34px",
+                    }}
+                  >
+                    Acompañamiento para certificaciones
+                  </Typography>
+                </Box>
+              </Button>
             </Box>
           </Box>
         </Box>
+        
+    
 
-        <Box sx={{ width: "100%", backgroundColor: "#18CC66", height: "72vh" }}>
+        
+
+        <Box
+          sx={{ width: "100%", backgroundColor: "#18CC66", minHeight: "70vh" }}
+        >
           <Box sx={{ position: "absolute" }}>
             <img src="/nosotros4.png" alt="" />
           </Box>
@@ -198,42 +249,61 @@ const Nosotros = () => {
                 <BlackButtom texto={"Consultanos"} />
               </Box>
             </Box>
-            <Box ml={"12%"} width={"40%"}>
-              <Box display={"flex"} mt={"22%"}>
-                <img
-                  style={{ width: "62px" }}
-                  src="/nosotrosLogo5.png"
-                  alt=""
-                />
-                <Typography
-                  sx={{
-                    ml: "28px",
-                    fontFamily: "Manrope",
-                    fontSize: "30px",
-                    lineHeight: "34px",
-                  }}
-                >
-                  Mentoring personalizado
-                </Typography>
-              </Box>
 
-              <Box display={"flex"} mt={"8%"}>
-                <img
-                  style={{ width: "78px", marginLeft: "10px" }}
-                  src="/nosotrosLogo6.png"
-                  alt=""
-                />
-                <Typography
-                  sx={{
-                    ml: "28px",
-                    fontFamily: "Manrope",
-                    fontSize: "30px",
-                    lineHeight: "34px",
-                  }}
-                >
-                  Training y educación en innovación tecnológica
-                </Typography>
-              </Box>
+            <Box ml={"12%"} mt={"7%"} width={"40%"}>
+              <Button
+                disableRipple
+                style={{
+                  textTransform: "none",
+                  textAlign: "initial",
+                  color: "black",
+                }}
+              >
+                <Box display={"flex"} mt={"22%"}>
+                  <img
+                    style={{ height: "42px" }}
+                    src="/nosotrosLogo5.png"
+                    alt=""
+                  />
+                  <Typography
+                    sx={{
+                      ml: "28px",
+                      fontFamily: "Manrope",
+                      fontSize: "30px",
+                      lineHeight: "34px",
+                    }}
+                  >
+                    Mentoring personalizado
+                  </Typography>
+                </Box>
+              </Button>
+
+              <Button
+                disableRipple
+                style={{
+                  textTransform: "none",
+                  textAlign: "initial",
+                  color: "black",
+                }}
+              >
+                <Box display={"flex"} mt={"8%"}>
+                  <img
+                    style={{ height: "46px", marginTop: 12 }}
+                    src="/nosotrosLogo6.png"
+                    alt=""
+                  />
+                  <Typography
+                    sx={{
+                      ml: "28px",
+                      fontFamily: "Manrope",
+                      fontSize: "30px",
+                      lineHeight: "34px",
+                    }}
+                  >
+                    Training y educación en innovación tecnológica
+                  </Typography>
+                </Box>
+              </Button>
             </Box>
           </Box>
         </Box>

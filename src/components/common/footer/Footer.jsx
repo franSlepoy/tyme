@@ -180,7 +180,6 @@ export default function Footer() {
                 <Typography
                   sx={{
                     ml: "5ovh",
-
                     mt: "9%",
                     fontFamily: "Manrope",
                     color: "white",
