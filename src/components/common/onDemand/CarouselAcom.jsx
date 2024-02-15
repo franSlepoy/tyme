@@ -1,11 +1,10 @@
 // En CarouselEv.jsx, elimina la importación de BrowserRouter
-import React from "react";
-import Carousel from "react-material-ui-carousel";
-import Evaluacion1 from "./Evaluacion1";
-import Evaluacion2 from "./Evaluacion2";
-import { motion } from "framer-motion";
 
-const CarouselEv = () => {
+import Carousel from "react-material-ui-carousel";
+import { motion } from "framer-motion";
+import Acompañamiento1 from "./Acompañamiento1";
+import Acompañamiento2 from "./Acompañamiento2";
+const CarouselAcom = () => {
   return (
     <Carousel
       autoPlay={true}
@@ -26,7 +25,7 @@ const CarouselEv = () => {
         exit={{ opacity: 0, x: "100%", rotateY: "480deg" }}
         transition={{ duration: 0.5 }}
       >
-        <Evaluacion1 />
+        <Acompañamiento1 />
       </motion.div>
       <motion.div
         initial={{ opacity: 0, x: "500%", rotateY: "-480deg" }}
@@ -34,10 +33,10 @@ const CarouselEv = () => {
         exit={{ opacity: 0, x: "100%", rotateY: "180deg" }}
         transition={{ duration: 0.5 }}
       >
-        <Evaluacion2 />
+        <Acompañamiento2 />
       </motion.div>
     </Carousel>
   );
 };
 
-export default CarouselEv;
+export default CarouselAcom;

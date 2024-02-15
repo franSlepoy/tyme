@@ -13,6 +13,11 @@ import Tendencias from "./components/pages/tendencias/Tendencias";
 import Menu from "./components/common/navbar/Menu";
 import { ParallaxProvider } from 'react-scroll-parallax'; // Importa ParallaxProvider aquí
 import CarouselEv from './components/common/onDemand/CarouselEv';
+import CarouselCultura from './components/common/onDemand/CarouselCultura';
+import CarouselWaze from './components/common/onDemand/CarouselWaze';
+import CarouselAcom from './components/common/onDemand/CarouselAcom';
+import CarouselMentoring from './components/common/onDemand/CarouselMentoring';
+import CarouselTrai from './components/common/onDemand/CarouselTrai';
 
 const App = () => {
   return (
@@ -30,6 +35,11 @@ const App = () => {
           <Route path="/contacto" element={<Contacto />} />
           <Route path="/menu" element={<Menu />} />
           <Route path="/eDyP" element={<CarouselEv />} />
+          <Route path="/cultura" element={<CarouselCultura />} />
+          <Route path="/waze" element={<CarouselWaze />} />
+          <Route path="/acompañamiento" element={<CarouselAcom />} />
+          <Route path="/mentoring" element={<CarouselMentoring />} />
+          <Route path="/tYe" element={<CarouselTrai />} />
         </Routes>
         <Footer />
       </>

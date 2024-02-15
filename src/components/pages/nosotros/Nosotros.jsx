@@ -6,6 +6,7 @@ import GreenButtom from "../../common/greenButtom/GreenButtom";
 import BlackButtom from "../../common/blackButtom/BlackButtom";
 import { Parallax } from "react-scroll-parallax";
 import { NavLink } from "react-router-dom";
+import Mentoring2 from "../../common/onDemand/Mentoring2";
 
 
 const Nosotros = () => {
@@ -134,7 +135,7 @@ const Nosotros = () => {
                   color: "black",
                 }}
               >
-                <Box display={"flex"} mt={"8%"}>
+                <Box display={"flex"} mt={"8%"} component={NavLink} to={"/cultura"} sx={{textDecoration:"none"}}>
                   <img
                     style={{ height: "60px" }}
                     src="/nosotrosLogo2.png"
@@ -146,12 +147,14 @@ const Nosotros = () => {
                       fontFamily: "Manrope",
                       fontSize: "30px",
                       lineHeight: "34px",
+                      color:"black"
                     }}
                   >
                     Desarrollo de la cultura organizacional y liderazgos
                   </Typography>
                 </Box>
               </Button>
+              
               <Button
                 disableRipple
                 style={{
@@ -160,7 +163,7 @@ const Nosotros = () => {
                   color: "black",
                 }}
               >
-                <Box display={"flex"} mt={"8%"}>
+                <Box display={"flex"} mt={"8%"} component={NavLink} to={"/waze"} sx={{textDecoration:"none"}}>
                   <img
                     style={{ height: "50px", marginLeft: "4px" }}
                     src="/nosotrosLogo3.png"
@@ -173,6 +176,7 @@ const Nosotros = () => {
                       fontFamily: "Manrope",
                       fontSize: "30px",
                       lineHeight: "34px",
+                      color:"black"
                     }}
                   >
                     Waze laboral
@@ -188,7 +192,7 @@ const Nosotros = () => {
                   color: "black",
                 }}
               >
-                <Box display={"flex"} mt={"8%"}>
+                <Box display={"flex"} mt={"8%"} component={NavLink} to={"/acompañamiento"} sx={{textDecoration:"none"}}>
                   <img
                     style={{ height: "40px", marginLeft: "3px" }}
                     src="/nosotrosLogo4.png"
@@ -201,6 +205,7 @@ const Nosotros = () => {
                       fontFamily: "Manrope",
                       fontSize: "30px",
                       lineHeight: "34px",
+                      color:"black"
                     }}
                   >
                     Acompañamiento para certificaciones
@@ -257,9 +262,12 @@ const Nosotros = () => {
                   textTransform: "none",
                   textAlign: "initial",
                   color: "black",
+                  "&:hover": {
+                    backgroundColor: "transparent",
+                  },
                 }}
               >
-                <Box display={"flex"} mt={"22%"}>
+                <Box display={"flex"} mt={"22%"} component={NavLink} to={"/mentoring"} sx={{textDecoration:"none"}}>
                   <img
                     style={{ height: "42px" }}
                     src="/nosotrosLogo5.png"
@@ -271,6 +279,7 @@ const Nosotros = () => {
                       fontFamily: "Manrope",
                       fontSize: "30px",
                       lineHeight: "34px",
+                      color:"black"
                     }}
                   >
                     Mentoring personalizado
@@ -281,12 +290,16 @@ const Nosotros = () => {
               <Button
                 disableRipple
                 style={{
+
                   textTransform: "none",
                   textAlign: "initial",
                   color: "black",
+                  "&:hover": {
+                    backgroundColor: "transparent",
+                  },
                 }}
               >
-                <Box display={"flex"} mt={"8%"}>
+                <Box display={"flex"} mt={"8%"} component={NavLink} to={"/tYe"} sx={{textDecoration:"none"}}>
                   <img
                     style={{ height: "46px", marginTop: 12 }}
                     src="/nosotrosLogo6.png"
@@ -298,6 +311,7 @@ const Nosotros = () => {
                       fontFamily: "Manrope",
                       fontSize: "30px",
                       lineHeight: "34px",
+                      color:"black"
                     }}
                   >
                     Training y educación en innovación tecnológica
@@ -307,6 +321,7 @@ const Nosotros = () => {
             </Box>
           </Box>
         </Box>
+       
       </Hidden>
 
       <Hidden smUp>
