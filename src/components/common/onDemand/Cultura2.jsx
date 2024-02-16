@@ -80,7 +80,7 @@ const Cultura2 = () => {
             Diagnóstico: identificamos las necesidades futuras de tu empresa, en base al análisis del sector.
           </Typography>
         </Box>
-        <Box ml={"4%"}>
+        <Box ml={"4%"} maxWidth={"200px"}>
           <Typography
             sx={{
               color: "#72C8FF",

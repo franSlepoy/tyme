@@ -1,16 +1,9 @@
-import {
-  Box,
-  Button,
-  Divider,
-  Hidden,
-  IconButton,
-  Typography,
-} from "@mui/material";
+import { Box, Button, Hidden, Typography } from "@mui/material";
 
 import BasicAccordion from "../../common/basicAccordion/BasicAccordion";
 import BasicAccordion1 from "../../common/basicAccordion/BasicAccordion1";
 import Testimonios from "../../common/testimonios/Testimonios";
-import { Link, NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 import Testimonios1 from "../../common/testimonios/Testimonios1";
 import Carousel from "react-material-ui-carousel";
 import { TestimoniosCradData } from "../../../servidor/testimoniosData";
@@ -18,6 +11,7 @@ import { TestimoniosCradData } from "../../../servidor/testimoniosData";
 import BlackButtom from "../../common/blackButtom/BlackButtom";
 import TestimonioCard from "../../common/testimonios/TestimonioCard/TestimonioCard";
 import { Parallax } from "react-scroll-parallax";
+import GreenButtom from "../../common/greenButtom/GreenButtom";
 
 const Home = () => {
   return (
@@ -28,6 +22,37 @@ const Home = () => {
             <img style={{ width: "100%" }} src="/header1.png" alt="" />
           </Box>
         </Parallax>
+        <Box>
+          <Box sx={{ position: "absolute", top: "44%",  }}>
+            <img src="/nosotros4.png" alt="" />
+          </Box>
+          <Box
+            sx={{ position: "absolute", top: "22% ", left: "27%", width: "48%", textAlign:"center" }}
+          >
+            <Typography
+              sx={{
+                fontFamily: "Merriweather",
+                fontSize: "40px",
+                fontWeight: "300",
+                color: "white",
+              }}
+            >
+              Somos el puente entre el equipo que tienes y el que quieres
+
+            </Typography>
+          </Box>
+          <Box
+            sx={{
+              position: "absolute",
+              top: { sm: "95%", md: "90%", lg: "95%" },
+              left: "43%",
+            }}
+          >
+            <GreenButtom texto={"Conoce más"} />
+          </Box>
+        </Box>
+
+
 
         <Box m={"auto"} width={"87%"} display={"flex"} mt={"76px"}>
           <Box width={"45%"}>

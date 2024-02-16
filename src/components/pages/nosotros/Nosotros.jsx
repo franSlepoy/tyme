@@ -2,326 +2,299 @@ import { Box, Button, Hidden, Typography } from "@mui/material";
 import { NosotrosCarouselData } from "../../../servidor/NosotrosImages";
 import Carousel from "react-material-ui-carousel";
 import ImagenCard from "../../common/imageCard/ImageCard";
-import GreenButtom from "../../common/greenButtom/GreenButtom";
-import BlackButtom from "../../common/blackButtom/BlackButtom";
 import { Parallax } from "react-scroll-parallax";
-import { NavLink } from "react-router-dom";
-import Mentoring2 from "../../common/onDemand/Mentoring2";
-
+import { useState } from "react";
 
 const Nosotros = () => {
-  
+  // Estado para almacenar el texto seleccionado
+  const [textoSeleccionado, setTextoSeleccionado] = useState("");
+  const [cambiarColor, setCambiarColor] = useState(false);
+  // Función para manejar la selección de texto
+  const handleTextoSeleccionado = (texto) => {
+    setTextoSeleccionado(texto);
+  };
+
+  const handleMouseEnter = () => {
+    setCambiarColor(true);
+  };
+
+  const handleMouseLeave = () => {
+    setCambiarColor(false);
+  };
 
   return (
     <>
       <Hidden smDown>
-        <Parallax speed={-12} tagOuter="figure">
+        <Box sx={{ width: "100%", height: "97vh" }}>
+          <Parallax speed={-12} tagOuter="figure">
+            <Box
+              sx={{ with: "100%", height: "97vh", backgroundColor: "#453D3B" }}
+            >
+              <Box sx={{ position: "absolute", left: "55%" }}>
+                <img width={"98.5%"} src="/javier.png" alt="" />
+              </Box>
+            </Box>
+          </Parallax>
           <Box>
-            <img src="/nosotros1.png" alt="" />
-          </Box>
-        </Parallax>
-        <Box>
-          <Box sx={{ position: "absolute", top: "22%", left: "53%" }}>
-            <img src="/nosotros2.png" alt="" />
-          </Box>
-          <Box
-            sx={{ position: "absolute", top: "46% ", left: "7%", width: "52%" }}
-          >
-            <Typography
+            <Box sx={{ position: "absolute", top: "62%" }}>
+              <img src="/nosotros3.png" alt="" />
+            </Box>
+
+            <Box
               sx={{
-                fontFamily: "Merriweather",
-                fontSize: "40px",
-                fontWeight: "300",
-                color: "white",
+                position: "absolute",
+                top: "40% ",
+                left: "7%",
+                width: "52%",
               }}
             >
-              Somos tus socios estratégicos para acompañar a tus equipos a dar
-              un salto de crecimiento.
-            </Typography>
+              <Typography
+                sx={{
+                  fontFamily: "Merriweather",
+                  fontSize: "40px",
+                  fontWeight: "300",
+                  color: "white",
+                  ml: "7%",
+                }}
+              >
+                Somos una consultora boutique internacional especializada en
+                potenciar el desarrollo de las organizaciones, a través de la
+                innovación tecnológica y el trabajo personalizado.
+              </Typography>
+            </Box>
+            <Box
+              sx={{
+                position: "absolute",
+                top: { sm: "95%", md: "90%", lg: "97%" },
+                left: "7%",
+              }}
+            >
+              <Button
+                variant="contained"
+                sx={{
+                  height: "43px",
+                  width: "177px",
+                  borderRadius: "100px",
+                  backgroundColor: "#1296E9",
+                  textTransform: "none",
+                  "&:hover": {
+                    height: "43px",
+                    width: "177px",
+                    borderRadius: "100px",
+                    backgroundColor: "#1296E9",
+                  },
+                }}
+              >
+                <Typography
+                  sx={{
+                    textTransform: "none",
+                    fontFamily: "Manrope",
+                    fontSize: "16px",
+                    lineHeight: "20px",
+                    fontWeight: 600,
+                    letterSpacing: "0.1",
+                    color: "black",
+                  }}
+                >
+                  Conoce más
+                </Typography>
+              </Button>
+            </Box>
+            <Box sx={{ position: "absolute", left: "80%", top: "42%" }}>
+              <img src="/ilustracion.png" alt="" />
+            </Box>
           </Box>
-          <Box
-            sx={{
-              position: "absolute",
-              top: { sm: "95%", md: "90%", lg: "80%" },
-              left: "7%",
-            }}
-          >
-            <GreenButtom texto={"Conoce más"} />
-          </Box>
-        </Box>
-        <Box width={"100%"} height={"90px"}>
-          <Typography
-            sx={{
-              mt: "3%",
-              ml: "5%",
-              fontFamily: "Merriweather",
-              fontSize: "42px",
-              fontWeight: "200",
-            }}
-          >
-            Nuestros servicios
-          </Typography>
         </Box>
 
         <Box
-          sx={{ width: "100%", backgroundColor: "#1296E9", minHeight: "70vh" }}
+          sx={{
+            width: "100%",
+            height: "121vh",
+            backgroundColor: "rgba(18,150,233, 0.4)",
+          }}
         >
-          <Box sx={{ position: "absolute", mt: "75px" }}>
-            <img src="/nosotros3.png" alt="" />
-          </Box>
-          <Box display={"flex"} width={"90%"} m={"auto"}>
-            <Box width={"40%"}>
+          <Box display={"flex"} width={"93%"}>
+            <Box sx={{ ml: "6%", mt: "17%", width: "60%" }}>
               <Typography
-                mt={"178px"}
+                onMouseEnter={handleMouseEnter}
+                onMouseLeave={handleMouseLeave}
+                style={
+                  cambiarColor
+                    ? { color: "rgb(18,150,233)" }
+                    : { color: "white" }
+                }
                 sx={{
-                  fontFamily: "Manrope",
-                  fontWeight: "600",
-                  color: "white",
-                  fontSize: "64px",
+                  fontFamily: "Merriweather",
+                  fontWeight: 100,
+                  fontSize: "32px",
+                  lineHeight: "47px",
+                  letterSpacing: "0.5px",
                 }}
               >
-                HR on demand:
-              </Typography>
-              <Typography
-                mt={"-12px"}
-                sx={{
-                  fontFamily: "Manrope",
-                  fontWeight: "400",
-                  fontSize: "40px",
-                }}
-              >
-                respuesta a medida
-              </Typography>
-              <Box mt={"13%"}>
-                <GreenButtom texto={"Consultanos"} />
-              </Box>
-            </Box>
-            <Box ml={"12%"} width={"40%"}>
-              <Button
-                disableRipple
-                style={{
-                  textTransform: "none",
-                  textAlign: "initial",
-                  color: "black",
-                }}
+                Mi{" "}
+                <span
                 
-              >
-                <Box display={"flex"} mt={"16%"} component={NavLink} to={"/eDyP"} sx={{textDecoration:"none"}}>
-                  <img
-                    style={{ height: "60px" }}
-                    src="/nosotrosLogo1.png"
-                    alt=""
-                  />
-                  <Typography
-                    sx={{
-                      ml: "28px",
-                      fontFamily: "Manrope",
-                      fontSize: "30px",
-                      lineHeight: "34px",
-                      color:"black",
-                      
-                    }}
-                  >
-                    Evaluación, diagnóstico y planificación
-                  </Typography>
-                </Box>
-              </Button>
-
-              <Button
-                disableRipple
-                style={{
-                  textTransform: "none",
-                  textAlign: "initial",
-                  color: "black",
-                }}
-              >
-                <Box display={"flex"} mt={"8%"} component={NavLink} to={"/cultura"} sx={{textDecoration:"none"}}>
-                  <img
-                    style={{ height: "60px" }}
-                    src="/nosotrosLogo2.png"
-                    alt=""
-                  />
-                  <Typography
-                    sx={{
-                      ml: "28px",
-                      fontFamily: "Manrope",
-                      fontSize: "30px",
-                      lineHeight: "34px",
-                      color:"black"
-                    }}
-                  >
-                    Desarrollo de la cultura organizacional y liderazgos
-                  </Typography>
-                </Box>
-              </Button>
-              
-              <Button
-                disableRipple
-                style={{
-                  textTransform: "none",
-                  textAlign: "initial",
-                  color: "black",
-                }}
-              >
-                <Box display={"flex"} mt={"8%"} component={NavLink} to={"/waze"} sx={{textDecoration:"none"}}>
-                  <img
-                    style={{ height: "50px", marginLeft: "4px" }}
-                    src="/nosotrosLogo3.png"
-                    alt=""
-                  />
-                  <Typography
-                    sx={{
-                      mt: "12px",
-                      ml: "42px",
-                      fontFamily: "Manrope",
-                      fontSize: "30px",
-                      lineHeight: "34px",
-                      color:"black"
-                    }}
-                  >
-                    Waze laboral
-                  </Typography>
-                </Box>
-              </Button>
-
-              <Button
-                disableRipple
-                style={{
-                  textTransform: "none",
-                  textAlign: "initial",
-                  color: "black",
-                }}
-              >
-                <Box display={"flex"} mt={"8%"} component={NavLink} to={"/acompañamiento"} sx={{textDecoration:"none"}}>
-                  <img
-                    style={{ height: "40px", marginLeft: "3px" }}
-                    src="/nosotrosLogo4.png"
-                    alt=""
-                  />
-                  <Typography
-                    sx={{
-                      mt: -2,
-                      ml: "38px",
-                      fontFamily: "Manrope",
-                      fontSize: "30px",
-                      lineHeight: "34px",
-                      color:"black"
-                    }}
-                  >
-                    Acompañamiento para certificaciones
-                  </Typography>
-                </Box>
-              </Button>
-            </Box>
-          </Box>
-        </Box>
-        
-    
-
-        
-
-        <Box
-          sx={{ width: "100%", backgroundColor: "#18CC66", minHeight: "70vh" }}
-        >
-          <Box sx={{ position: "absolute" }}>
-            <img src="/nosotros4.png" alt="" />
-          </Box>
-          <Box display={"flex"} width={"90%"} m={"auto"}>
-            <Box width={"40%"}>
+                  onMouseEnter={(e) => (e.target.style.color = "white")}
+                  onMouseLeave={(e) =>
+                    (e.target.style.color = "rgb(18,150,233)")
+                  }
+                  onClick={() =>
+                    handleTextoSeleccionado(
+                      "Licenciado en Recursos Humanos egresado de la Universidad Argentina de la Empresa (UADE) y también graduado en UADE Business School y en MIT Sloan School of Management.Se desempeñó como ejecutivo de Recursos Humanos en compañías multinacionales como Toyota, Techint y Unilever, con responsabilidades locales y regionales."
+                    )
+                  }
+                  style={{
+                    cursor: "pointer",
+                    color: "rgb(18,150,233)",
+                    fontWeight: "600",
+                    fontFamily: "Merriweather",
+                  }}
+                >
+                  experiencia
+                </span>{" "}
+                en diversas corporaciones multinacionales y la gestión de{" "}
+                <span
+                  onMouseEnter={(e) => (e.target.style.color = "white")}
+                  onMouseLeave={(e) =>
+                    (e.target.style.color = "rgb(18,150,233)")
+                  }
+                  onClick={() =>
+                    handleTextoSeleccionado(
+                      "Fundó dos startups: Nawaiam, un videojuego que detecta en 15 minutos el perfil conductual y competencias de los usuarios, y TuPrimerLaburo Argentina - TuPrimeraPega Chile - TuPrimerCurro España, una plataforma dirigida a los jóvenes para su autoconocimiento y desarrollo de habilidades que mejoran su índice de inserción laboral."
+                    )
+                  }
+                  style={{
+                    cursor: "pointer",
+                    color: "rgb(18,150,233)",
+                    fontWeight: "600",
+                    fontFamily: "Merriweather",
+                  }}
+                >
+                  mis propias startups
+                </span>{" "}
+                y pymes a nivel internacional, con la tecnología como eje
+                central, me brindaron{" "}
+                <span
+                  onMouseEnter={(e) => (e.target.style.color = "white")}
+                  onMouseLeave={(e) =>
+                    (e.target.style.color = "rgb(18,150,233)")
+                  }
+                  onClick={() =>
+                    handleTextoSeleccionado(
+                      "Speaker internacional con más de 150 conferencias dictadas en 10 países sobre gestión del talento, gaming, startups y HR Tech Trends, entre otras temáticas centradas en los Recursos Humanos y la tecnología."
+                    )
+                  }
+                  style={{
+                    cursor: "pointer",
+                    color: "rgb(18,150,233)",
+                    fontWeight: "600",
+                    fontFamily: "Merriweather",
+                  }}
+                >
+                  aprendizajes valiosos sobre las conductas{" "}
+                </span>{" "}
+                y soft skills de{" "}
+                <span
+                  onMouseEnter={(e) => (e.target.style.color = "white")}
+                  onMouseLeave={(e) =>
+                    (e.target.style.color = "rgb(18,150,233)")
+                  }
+                  onClick={() =>
+                    handleTextoSeleccionado(
+                      "Fue reconocido internacionalmente como emprendedor por el rey Felipe VI de España, AT&T (Estados Unidos), Latin American Excellence Awards (Brasil), Endeavor y Orgullo UADE (Argentina), Premios Latinoamérica Verde (Ecuador), Acelerar España, 100 mejores ideas empresariales de El Mundo y la Caixa Bank y los Premios Reyes Católicos (España), entre otros. Fue docente universitario por más de 15 años en Argentina, Chile y España en materias como Dirección Estratégica de RRHH y Digital Talent Management.Es columnista en radio, TV, periódicos y podcasts sobre talento y tecnología."
+                    )
+                  }
+                  style={{
+                    cursor: "pointer",
+                    color: "rgb(18,150,233)",
+                    fontWeight: "600",
+                    fontFamily: "Merriweather",
+                  }}
+                >
+                  líderes de todo tipo de industrias.
+                </span>{" "}
+                Con un equipo interdisciplinario, desde Tyme ponemos esa
+                experiencia en juego y asistimos a empresas de todo el mundo en
+                la gestión del capital humano
+              </Typography>
               <Typography
-                mt={"105px"}
                 sx={{
                   fontFamily: "Manrope",
-                  fontWeight: "500",
+                  fontSize: "30px",
+                  lineHeight: "123.3%",
+                  color: "#1296E9",
+                  fontWeight: "600",
+                  mt: "7%",
+                }}
+              >
+                Kavier Krawicki
+              </Typography>
+              <Typography
+                sx={{
+                  fontFamily: "Manrope",
+                  fontSize: "22px",
+                  lineHeight: "123.3%",
                   color: "white",
-                  fontSize: "64px",
+                  width: "260px",
                 }}
               >
-                HR on demand:
+                Fundador y Co-Director de Tyme Consulting
               </Typography>
-              <Typography
-                mt={"-12px"}
-                sx={{
-                  fontFamily: "Manrope",
-                  fontWeight: "400",
-                  fontSize: "40px",
-                  width: "330px",
-                }}
-              >
-                tecnología para la gestión del capital humano
-              </Typography>
-              <Box mt={"6%"}>
-                <BlackButtom texto={"Consultanos"} />
-              </Box>
             </Box>
 
-            <Box ml={"12%"} mt={"7%"} width={"40%"}>
-              <Button
-                disableRipple
-                style={{
-                  textTransform: "none",
-                  textAlign: "initial",
-                  color: "black",
-                  "&:hover": {
-                    backgroundColor: "transparent",
-                  },
-                }}
-              >
-                <Box display={"flex"} mt={"22%"} component={NavLink} to={"/mentoring"} sx={{textDecoration:"none"}}>
-                  <img
-                    style={{ height: "42px" }}
-                    src="/nosotrosLogo5.png"
-                    alt=""
-                  />
-                  <Typography
-                    sx={{
-                      ml: "28px",
-                      fontFamily: "Manrope",
-                      fontSize: "30px",
-                      lineHeight: "34px",
-                      color:"black"
-                    }}
-                  >
-                    Mentoring personalizado
-                  </Typography>
-                </Box>
-              </Button>
-
-              <Button
-                disableRipple
-                style={{
-
-                  textTransform: "none",
-                  textAlign: "initial",
-                  color: "black",
-                  "&:hover": {
-                    backgroundColor: "transparent",
-                  },
-                }}
-              >
-                <Box display={"flex"} mt={"8%"} component={NavLink} to={"/tYe"} sx={{textDecoration:"none"}}>
-                  <img
-                    style={{ height: "46px", marginTop: 12 }}
-                    src="/nosotrosLogo6.png"
-                    alt=""
-                  />
-                  <Typography
-                    sx={{
-                      ml: "28px",
-                      fontFamily: "Manrope",
-                      fontSize: "30px",
-                      lineHeight: "34px",
-                      color:"black"
-                    }}
-                  >
-                    Training y educación en innovación tecnológica
-                  </Typography>
-                </Box>
-              </Button>
+            <Box width={"24%"} ml={"12%"} mt={"17%"} w>
+              {textoSeleccionado && (
+                <Typography
+                  sx={{
+                    fontFamily: "Manrope",
+                    fontSize: "20px",
+                    lineHeight: "30px",
+                    letterSpacing: "0.5px",
+                    color: "#1296E9",
+                  }}
+                >
+                  {textoSeleccionado}
+                </Typography>
+              )}
             </Box>
           </Box>
+          <Box sx={{ position: "absolute", top: "130%", left: "92%" }}>
+            <Button onClick={() =>
+                    handleTextoSeleccionado(
+                      "Licenciado en Recursos Humanos egresado de la Universidad Argentina de la Empresa (UADE) y también graduado en UADE Business School y en MIT Sloan School of Management.Se desempeñó como ejecutivo de Recursos Humanos en compañías multinacionales como Toyota, Techint y Unilever, con responsabilidades locales y regionales."
+                    )
+                  }>
+              <img src="/iconoN1.png" alt="" />
+            </Button>
+          </Box>
+          <Box sx={{ position: "absolute", top: "140%", left: "62%" }}>
+            <Button  onClick={() =>
+                    handleTextoSeleccionado(
+                      "Fundó dos startups: Nawaiam, un videojuego que detecta en 15 minutos el perfil conductual y competencias de los usuarios, y TuPrimerLaburo Argentina - TuPrimeraPega Chile - TuPrimerCurro España, una plataforma dirigida a los jóvenes para su autoconocimiento y desarrollo de habilidades que mejoran su índice de inserción laboral."
+                    )
+                  }>
+              <img src="/iconoN2.png" alt="" />
+            </Button>
+          </Box>
+          <Box sx={{ position: "absolute", top: "190%", left: "62%" }}>
+            <Button onClick={() =>
+                    handleTextoSeleccionado(
+                      "Speaker internacional con más de 150 conferencias dictadas en 10 países sobre gestión del talento, gaming, startups y HR Tech Trends, entre otras temáticas centradas en los Recursos Humanos y la tecnología."
+                    )
+                  }>
+              <img src="/iconoN3.png" alt="" />
+            </Button>
+          </Box>
+          <Box sx={{ position: "absolute", top: "204%", left: "52%" }}>
+            <Button onClick={() =>
+                    handleTextoSeleccionado(
+                      "Fue reconocido internacionalmente como emprendedor por el rey Felipe VI de España, AT&T (Estados Unidos), Latin American Excellence Awards (Brasil), Endeavor y Orgullo UADE (Argentina), Premios Latinoamérica Verde (Ecuador), Acelerar España, 100 mejores ideas empresariales de El Mundo y la Caixa Bank y los Premios Reyes Católicos (España), entre otros. Fue docente universitario por más de 15 años en Argentina, Chile y España en materias como Dirección Estratégica de RRHH y Digital Talent Management.Es columnista en radio, TV, periódicos y podcasts sobre talento y tecnología."
+                    )
+                  }>
+              <img src="/iconoN4.png" alt="" />
+            </Button>
+          </Box>
         </Box>
-       
       </Hidden>
 
       <Hidden smUp>

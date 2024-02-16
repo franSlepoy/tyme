@@ -8,7 +8,7 @@ const Mentoring2 = () => {
       <Box sx={{ width: "100%", height: "94vh", display: "flex" }}>
         <Box
           width={"50%"}
-          height={"94vh"}
+          height={"100vh"}
           sx={{
             p: "6%",
             backgroundImage: 'url("/personaTrabajando.png")', // Aquí debes especificar la URL de la imagen con la palabra clave 'url'
@@ -57,7 +57,7 @@ const Mentoring2 = () => {
           </Box>
         </Box>
 
-        <Box sx={{ width: "50%", p: "6%", backgroundColor: "#73F0A2" }}>
+        <Box sx={{ height:"100vh", width: "50%", p: "6%", backgroundColor: "#73F0A2" }}>
           <Typography sx={{fontFamily:"Manrope", fontSize:"20px", lineHeight:"26px", color:"black", mt:"15%"}}>
             1- Evaluación digitalizada: diagnóstico para la implementación de
             soluciones tecnológicas.

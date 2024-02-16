@@ -77,10 +77,10 @@ const Acompañamiento2 = () => {
               mt: 2,
             }}
           >
-            Aumenta la credibilidad y la confianza de tus socios comerciales, clientes y colaboradores.
+           Impulsa la competitividad de tu empresa y abre nuevas oportunidades de negocio.
           </Typography>
         </Box>
-        <Box ml={"4%"}>
+        <Box ml={"4%"} maxWidth={"200px"}>
           <Typography
             sx={{
               color: "#72C8FF",

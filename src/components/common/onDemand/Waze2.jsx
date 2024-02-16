@@ -87,7 +87,7 @@ const Waze2 = () => {
             base al análisis del sector.
           </Typography>
         </Box>
-        <Box ml={"4%"}>
+        <Box ml={"4%"} maxWidth={"200px"}>
           <Typography
             sx={{
               color: "#72C8FF",
