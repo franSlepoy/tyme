@@ -20,7 +20,7 @@ const Mentoring2 = () => {
           <Box
             display={"flex"}
             component={NavLink}
-            to={"/nosotros"}
+            to={"/queHacemos"}
             sx={{ textDecoration: "none" }}
           >
             <img height={"30px"} src="/arrowButton.png" alt="" />

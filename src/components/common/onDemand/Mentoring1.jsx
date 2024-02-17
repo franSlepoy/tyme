@@ -9,7 +9,7 @@ const Mentoring1 = () => {
       p={"6%"}
       sx={{ width: "100%", height: "94vh", backgroundColor: "#046C31" }}
     >
-      <Box display={"flex"} component={NavLink} to={"/nosotros"} sx={{textDecoration:"none"}}>
+      <Box display={"flex"} component={NavLink} to={"/queHacemos"} sx={{textDecoration:"none"}}>
         <img height={"30px"} src="/arrowButton.png" alt="" />
         <Typography
           sx={{

@@ -1,15 +1,48 @@
-import { Box, Button, Hidden, TextField, Typography } from "@mui/material";
-import { useState } from "react";
+import { Box, Button, Hidden, Typography } from "@mui/material";
 import { CharlasData } from "../../../servidor/CharlasData";
 import Carousel from "react-material-ui-carousel";
 import TextoCard1 from "../../common/textoCard/TextoCard1";
 import Formulario from "../../common/formulario/Formulario";
 import { Parallax } from "react-scroll-parallax";
+import Charlas1 from "../../common/charlas/Charlas1";
+import { useState } from "react";
+import Charlas2 from "../../common/charlas/Charlas2";
+import Charlas3 from "../../common/charlas/Charlas3";
+import Charlas4 from "../../common/charlas/Charlas4";
+import BlackButtom from "../../common/blackButtom/BlackButtom";
+import Charlas5 from "../../common/charlas/Charlas5";
+import Charlas6 from "../../common/charlas/Charlas6";
+import Charlas7 from "../../common/charlas/Charlas7";
 
 const CharlasYconferencias = () => {
-  const [open, setOpen] = useState(false);
-  const handleOpen = () => setOpen(true);
-  const handleClose = () => setOpen(false);
+  // Estado para controlar qué componente se muestra
+  const [componenteVisible, setComponenteVisible] = useState(null);
+
+  const handleCloseComponente = () => {
+    setComponenteVisible(null); // Al hacer clic en la flecha, ocultar el componente
+  };
+  // Funciones para manejar el clic en cada botón
+  const handleClickA = () => {
+    setComponenteVisible("ComponenteA");
+  };
+  const handleClickB = () => {
+    setComponenteVisible("ComponenteB");
+  };
+  const handleClickC = () => {
+    setComponenteVisible("ComponenteC");
+  };
+  const handleClickD = () => {
+    setComponenteVisible("ComponenteD");
+  };
+  const handleClickE = () => {
+    setComponenteVisible("ComponenteE");
+  };
+  const handleClickF = () => {
+    setComponenteVisible("ComponenteF");
+  };
+  const handleClickG = () => {
+    setComponenteVisible("ComponenteG");
+  };
   return (
     <>
       <Hidden smDown>
@@ -48,7 +81,7 @@ const CharlasYconferencias = () => {
               para organizaciones, compañías e industrias.
             </Typography>
           </Box>
-          <Box sx={{ position: "absolute", top: "98vh", left: "50%" }}>
+          <Box sx={{ position: "absolute", top: "90vh", left: "50%" }}>
             <img src="/flechaBajo.png" alt="" />
           </Box>
         </Box>
@@ -57,7 +90,7 @@ const CharlasYconferencias = () => {
           style={{
             backgroundImage: "linear-gradient(to right, #18CC66, #1296E9)",
           }}
-          sx={{ width: "100%", height: "117vh" }}
+          sx={{ width: "100%", height: "147vh" }}
         >
           <Box display={"flex"} width={"88%"} margin={"auto"}>
             <Box mt={"15%"} width={"50%"}>
@@ -96,6 +129,7 @@ const CharlasYconferencias = () => {
             <Box
               width={"20%"}
               component={Button}
+              onClick={handleClickA}
               sx={{
                 textTransform: "none",
                 display: "flex",
@@ -133,6 +167,7 @@ const CharlasYconferencias = () => {
               width={"20%"}
               ml={4}
               component={Button}
+              onClick={handleClickB}
               sx={{
                 textTransform: "none",
                 display: "flex",
@@ -169,6 +204,7 @@ const CharlasYconferencias = () => {
               width={"21%"}
               ml={4}
               component={Button}
+              onClick={handleClickC}
               sx={{
                 textTransform: "none",
                 display: "flex",
@@ -205,6 +241,7 @@ const CharlasYconferencias = () => {
               width={"23%"}
               ml={4}
               component={Button}
+              onClick={handleClickD}
               sx={{
                 textTransform: "none",
                 display: "flex",
@@ -238,7 +275,191 @@ const CharlasYconferencias = () => {
               </Typography>
             </Box>
           </Box>
+          <Box ml={"44%"} mt={"5%"} mb={"5%"}>
+            <BlackButtom texto={"Consultanos"} />
+          </Box>
         </Box>
+        {componenteVisible === "ComponenteA" && (
+          <Charlas1 handleCloseComponente={handleCloseComponente} />
+        )}
+        {componenteVisible === "ComponenteB" && (
+          <Charlas2 handleCloseComponente={handleCloseComponente} />
+        )}
+        {componenteVisible === "ComponenteC" && (
+          <Charlas3 handleCloseComponente={handleCloseComponente} />
+        )}
+        {componenteVisible === "ComponenteD" && (
+          <Charlas4 handleCloseComponente={handleCloseComponente} />
+        )}
+
+        <Parallax speed={-12}>
+          <Box mt={-3}>
+            <img src="/charlasGente.png" alt="" />
+          </Box>
+        </Parallax>
+
+        <Box
+          width={"100%"}
+          height={"120vh"}
+          style={{
+            backgroundImage: "linear-gradient(to right, #1296E9, #18CC66)",
+          }}
+        >
+          <Box pt={20}>
+            <Typography
+              sx={{
+                fontFamily: "Manrope",
+                fontSize: "100px",
+                fontWeight: "300",
+                color: "white",
+                textAlign: "center",
+              }}
+            >
+              Tecnología
+            </Typography>
+            <Typography
+              m={"auto"}
+              sx={{
+                width: "83%",
+                fontFamily: "Manrope",
+                fontSize: "32px",
+                fontWeight: "300",
+                color: "white",
+                textAlign: "center",
+              }}
+            >
+              Capacitaciones sobre estrategias de transformación digital e
+              incorporación de Inteligencia Artificial y nuevas tecnologías,
+              para convertirlas en un factor diferencial clave que generen un
+              salto de crecimiento en tu negocio. 
+            </Typography>
+          </Box>
+          <Box display={"flex"} width={"100%"} ml={"10%"} mt={5}>
+          <Box
+              width={"23%"}
+              ml={4}
+              component={Button}
+              onClick={handleClickE}
+              sx={{
+                textTransform: "none",
+                display: "flex",
+                flexDirection: "column",
+              }}
+            >
+              <img src="/iconC5.png" alt="" />
+              <Typography
+                sx={{
+                  fontFamily: "Manrope",
+                  fontSize: "20px",
+                  fontWeight: "700",
+                  lineHeight: "30px",
+                  color: "black",
+                  mt: 3,
+                }}
+              >
+               HR 5.0: abrazando la revolución de las tendencias en RRHH
+              </Typography>
+              <Typography
+                sx={{
+                  fontFamily: "Manrope",
+                  fontSize: "20px",
+                  fontWeight: "400",
+                  lineHeight: "30px",
+                  color: "black",
+                }}
+              >
+                Cómo incorporar nuevas tecnologías que sumen...
+              </Typography>
+            </Box>
+            <Box
+              width={"23%"}
+              ml={4}
+              component={Button}
+              onClick={handleClickF}
+              sx={{
+                textTransform: "none",
+                display: "flex",
+                flexDirection: "column",
+              }}
+            >
+              <img src="/iconC6.png" alt="" />
+              <Typography
+                sx={{
+                  fontFamily: "Manrope",
+                  fontSize: "20px",
+                  fontWeight: "700",
+                  lineHeight: "30px",
+                  color: "black",
+                  mt: 3,
+                }}
+              >
+                Game on: IA, gaming y metaverso redefiniendo el mercado laboral
+              </Typography>
+              <Typography
+                sx={{
+                  fontFamily: "Manrope",
+                  fontSize: "20px",
+                  fontWeight: "400",
+                  lineHeight: "30px",
+                  color: "black",
+                }}
+              >
+                Herramientas para aprender cómo estas tres realidades...
+              </Typography>
+            </Box>
+            <Box
+              width={"23%"}
+              ml={4}
+              component={Button}
+              onClick={handleClickG}
+              sx={{
+                textTransform: "none",
+                display: "flex",
+                flexDirection: "column",
+              }}
+            >
+              <img src="/iconC7.png" alt="" />
+              <Typography
+                sx={{
+                  fontFamily: "Manrope",
+                  fontSize: "20px",
+                  fontWeight: "700",
+                  lineHeight: "30px",
+                  color: "black",
+                  mt: 3,
+                }}
+              >
+                Cryptowork: desbloqueando el potencial de las criptomonedas
+              </Typography>
+              <Typography
+                sx={{
+                  fontFamily: "Manrope",
+                  fontSize: "20px",
+                  fontWeight: "400",
+                  lineHeight: "30px",
+                  color: "black",
+                }}
+              >
+                Exploración del impacto y las oportunidades que las...
+              </Typography>
+            </Box>
+            
+          </Box>
+          <Box mt={"5%"} ml={"43%"}>
+          <BlackButtom texto={"Consultanos"}/>
+          </Box>
+          {componenteVisible === "ComponenteE" && (
+          <Charlas5 handleCloseComponente={handleCloseComponente} />
+        )}
+        {componenteVisible === "ComponenteF" && (
+          <Charlas6 handleCloseComponente={handleCloseComponente} />
+        )}
+        {componenteVisible === "ComponenteG" && (
+          <Charlas7 handleCloseComponente={handleCloseComponente} />
+        )}
+        </Box>
+        
+        
       </Hidden>
 
       <Hidden smUp>
