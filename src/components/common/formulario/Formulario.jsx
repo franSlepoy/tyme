@@ -46,8 +46,8 @@ const Formulario = () => {
             ref={form}
             onSubmit={sendEmail}
             sx={{
-              ml: "6%",
-              mt: "99px",
+              
+              
               display: "flex",
               flexDirection: "column",
             }}
@@ -57,72 +57,72 @@ const Formulario = () => {
               name="user_name"
               label="Nombre"
               id="standard-size-normal"
-              variant="standard"
-              sx={{ mt: 3, color: "darkblue", width: "400px" }}
+              variant="filled"
+              sx={{ mt: 3, color: "darkblue", width: "100%", bgcolor:"white", borderRadius:"4px" }}
             />
             <TextField
               type="text"
               name="user_lastName"
               label="Apellido"
               id="standard-size-normal"
-              variant="standard"
-              sx={{ mt: 3, color: "darkblue", width: "400px" }}
+              variant="filled"
+              sx={{ mt: 2, color: "darkblue", width: "100%", bgcolor:"white", borderRadius:"4px" }}
             />
             <TextField
               type="email"
               name="user_email"
               label="Email"
               id="standard-size-normal"
-              variant="standard"
-              sx={{ mt: 3, color: "darkblue", width: "400px" }}
+              variant="filled"
+              sx={{ mt: 2, color: "darkblue", width: "100%", bgcolor:"white", borderRadius:"4px" }}
             />
             <TextField
               type="text"
               name="user_pais"
               label="País"
               id="standard-size-normal"
-              variant="standard"
-              sx={{ mt: 3, color: "darkblue", width: "400px" }}
+              variant="filled"
+              sx={{ mt: 2, color: "darkblue", width: "100%", bgcolor:"white", borderRadius:"4px" }}
             />
             <TextField
               type="text"
               name="user_empresa"
               label="Empresa"
               id="standard-size-normal"
-              variant="standard"
-              sx={{ mt: 3, color: "darkblue", width: "400px" }}
+              variant="filled"
+              sx={{ mt: 2, color: "darkblue", width: "100%", bgcolor:"white", borderRadius:"4px" }}
             />
             <TextField
               type="tel"
               name="user_tel"
               label="Teléfono"
               id="standard-size-normal"
-              variant="standard"
-              sx={{ mt: 3, color: "darkblue", width: "400px" }}
+              variant="filled"
+              sx={{ mt: 2, color: "darkblue", width: "100%", bgcolor:"white", borderRadius:"4px" }}
             />
             <TextField
               type="text"
               name="user_comoNosConocio"
               label="¿Como nos conoció?"
               id="standard-size-normal"
-              variant="standard"
-              sx={{ mt: 3, color: "darkblue", width: "400px" }}
+              variant="filled"
+              sx={{ mt: 2, color: "darkblue", width: "100%", bgcolor:"white", borderRadius:"4px" }}
             />
             <TextField
               type="text"
               name="user_servicio"
               label="En que servicio está interesado."
               id="standard-size-normal"
-              variant="standard"
-              sx={{ mt: 3, color: "darkblue", width: "400px" }}
+              variant="filled"
+              sx={{ mt: 2, color: "darkblue", width: "100%", bgcolor:"white", borderRadius:"4px" }}
             />
             <TextField
               type="text"
               name="message"
               label="Mensaje"
               id="standard-size-normal"
-              variant="standard"
-              sx={{ mt: 3, color: "darkblue", width: "400px" }}
+              variant="filled"
+              sx={{ mt: 2, color: "darkblue", width: "100%", bgcolor:"white", borderRadius:"4px" }}
             />
             <Box sx={{ mt: 5, mb: 8 }}>
               <Button
@@ -134,10 +134,10 @@ const Formulario = () => {
                   padding: "10px 24px",
                   width: "177px",
                   borderRadius: "100px",
-                  backgroundColor: "#003350",
+                  backgroundColor: "#000000",
                   "&:hover": {
                     borderRadius: "100px",
-                    backgroundColor: "#71EAEA",
+                    backgroundColor: "#000000",
                     color: "#F9F9F9",
                     textAlign: "center",
                     fontWeight: "700",
