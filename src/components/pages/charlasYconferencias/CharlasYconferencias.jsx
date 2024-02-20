@@ -276,7 +276,7 @@ const CharlasYconferencias = () => {
             </Box>
           </Box>
           <Box ml={"44%"} mt={"5%"} mb={"5%"}>
-            <BlackButtom texto={"Consultanos"} />
+            <BlackButtom texto={"Consultanos"} linkTo={"/contacto"} />
           </Box>
         </Box>
         {componenteVisible === "ComponenteA" && (
@@ -335,7 +335,7 @@ const CharlasYconferencias = () => {
             </Typography>
           </Box>
           <Box display={"flex"} width={"100%"} ml={"10%"} mt={5}>
-          <Box
+            <Box
               width={"23%"}
               ml={4}
               component={Button}
@@ -357,7 +357,7 @@ const CharlasYconferencias = () => {
                   mt: 3,
                 }}
               >
-               HR 5.0: abrazando la revolución de las tendencias en RRHH
+                HR 5.0: abrazando la revolución de las tendencias en RRHH
               </Typography>
               <Typography
                 sx={{
@@ -443,23 +443,20 @@ const CharlasYconferencias = () => {
                 Exploración del impacto y las oportunidades que las...
               </Typography>
             </Box>
-            
           </Box>
           <Box mt={"5%"} ml={"43%"}>
-          <BlackButtom texto={"Consultanos"}/>
+            <BlackButtom texto={"Consultanos"} linkTo={"/contacto"} />
           </Box>
           {componenteVisible === "ComponenteE" && (
-          <Charlas5 handleCloseComponente={handleCloseComponente} />
-        )}
-        {componenteVisible === "ComponenteF" && (
-          <Charlas6 handleCloseComponente={handleCloseComponente} />
-        )}
-        {componenteVisible === "ComponenteG" && (
-          <Charlas7 handleCloseComponente={handleCloseComponente} />
-        )}
+            <Charlas5 handleCloseComponente={handleCloseComponente} />
+          )}
+          {componenteVisible === "ComponenteF" && (
+            <Charlas6 handleCloseComponente={handleCloseComponente} />
+          )}
+          {componenteVisible === "ComponenteG" && (
+            <Charlas7 handleCloseComponente={handleCloseComponente} />
+          )}
         </Box>
-        
-        
       </Hidden>
 
       <Hidden smUp>

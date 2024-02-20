@@ -97,7 +97,7 @@ const Manifiesto = () => {
                 ¿Nos hacemos un tiempo para conocernos y trabajar juntos?
               </Typography>
               <Box mt={"5%"}>
-                <BlackButtom texto={"Contactanos"} />
+                <BlackButtom texto={"Contactanos"} linkTo={"/contacto"} />
               </Box>
             </Box>
           </Box>

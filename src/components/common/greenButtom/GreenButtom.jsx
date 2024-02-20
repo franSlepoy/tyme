@@ -1,8 +1,10 @@
 import { Button, Typography } from "@mui/material";
-
-const GreenButtom = ({ texto }) => {
+import { Link } from "react-router-dom";
+const GreenButtom = ({ texto, linkTo }) => {
   return (
     <Button
+      component={Link} // Usa Link como el componente de Button
+      to={linkTo} // Pasa la URL a la que se debe dirigir el enlace
       variant="contained"
       sx={{
         height: "43px",
@@ -10,10 +12,10 @@ const GreenButtom = ({ texto }) => {
         borderRadius: "100px",
         backgroundColor: "#18CC66",
         "&:hover": {
-            height: "43px",
-            width: "177px",
-            borderRadius: "100px",
-            backgroundColor: "#18CC66",
+          height: "43px",
+          width: "177px",
+          borderRadius: "100px",
+          backgroundColor: "#18CC66",
         },
       }}
     >

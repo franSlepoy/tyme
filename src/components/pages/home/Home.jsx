@@ -48,7 +48,7 @@ const Home = () => {
               left: "43%",
             }}
           >
-            <GreenButtom texto={"Conoce más"} />
+            <GreenButtom texto={"Conoce más"} linkTo={"/nosotros"} />
           </Box>
         </Box>
 
@@ -74,7 +74,7 @@ const Home = () => {
               style={{ textDecoration: "none", textTransform: "none" }}
             >
               <Box mt={"49px"}>
-                <BlackButtom texto={"Contáctanos"} />
+                <BlackButtom texto={"Contáctanos"} linkTo={"/contacto"} />
               </Box>
             </Link>
           </Box>
@@ -153,7 +153,7 @@ const Home = () => {
             </Box>
           </Box>
           <Box ml={"6%"} sx={{ mt: "49px" }}>
-            <BlackButtom texto={"Conoce más"} />
+            <BlackButtom texto={"Conoce más"} linkTo={"/queHacemos"} />
           </Box>
         </Box>
 

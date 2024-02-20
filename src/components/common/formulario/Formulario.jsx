@@ -46,8 +46,6 @@ const Formulario = () => {
             ref={form}
             onSubmit={sendEmail}
             sx={{
-              
-              
               display: "flex",
               flexDirection: "column",
             }}
@@ -58,7 +56,13 @@ const Formulario = () => {
               label="Nombre"
               id="standard-size-normal"
               variant="filled"
-              sx={{ mt: 3, color: "darkblue", width: "100%", bgcolor:"white", borderRadius:"4px" }}
+              sx={{
+                mt: 3,
+                color: "darkblue",
+                width: "100%",
+                bgcolor: "white",
+                borderRadius: "4px",
+              }}
             />
             <TextField
               type="text"
@@ -66,7 +70,13 @@ const Formulario = () => {
               label="Apellido"
               id="standard-size-normal"
               variant="filled"
-              sx={{ mt: 2, color: "darkblue", width: "100%", bgcolor:"white", borderRadius:"4px" }}
+              sx={{
+                mt: 2,
+                color: "darkblue",
+                width: "100%",
+                bgcolor: "white",
+                borderRadius: "4px",
+              }}
             />
             <TextField
               type="email"
@@ -74,7 +84,13 @@ const Formulario = () => {
               label="Email"
               id="standard-size-normal"
               variant="filled"
-              sx={{ mt: 2, color: "darkblue", width: "100%", bgcolor:"white", borderRadius:"4px" }}
+              sx={{
+                mt: 2,
+                color: "darkblue",
+                width: "100%",
+                bgcolor: "white",
+                borderRadius: "4px",
+              }}
             />
             <TextField
               type="text"
@@ -82,7 +98,13 @@ const Formulario = () => {
               label="País"
               id="standard-size-normal"
               variant="filled"
-              sx={{ mt: 2, color: "darkblue", width: "100%", bgcolor:"white", borderRadius:"4px" }}
+              sx={{
+                mt: 2,
+                color: "darkblue",
+                width: "100%",
+                bgcolor: "white",
+                borderRadius: "4px",
+              }}
             />
             <TextField
               type="text"
@@ -90,7 +112,13 @@ const Formulario = () => {
               label="Empresa"
               id="standard-size-normal"
               variant="filled"
-              sx={{ mt: 2, color: "darkblue", width: "100%", bgcolor:"white", borderRadius:"4px" }}
+              sx={{
+                mt: 2,
+                color: "darkblue",
+                width: "100%",
+                bgcolor: "white",
+                borderRadius: "4px",
+              }}
             />
             <TextField
               type="tel"
@@ -98,7 +126,13 @@ const Formulario = () => {
               label="Teléfono"
               id="standard-size-normal"
               variant="filled"
-              sx={{ mt: 2, color: "darkblue", width: "100%", bgcolor:"white", borderRadius:"4px" }}
+              sx={{
+                mt: 2,
+                color: "darkblue",
+                width: "100%",
+                bgcolor: "white",
+                borderRadius: "4px",
+              }}
             />
             <TextField
               type="text"
@@ -106,7 +140,13 @@ const Formulario = () => {
               label="¿Como nos conoció?"
               id="standard-size-normal"
               variant="filled"
-              sx={{ mt: 2, color: "darkblue", width: "100%", bgcolor:"white", borderRadius:"4px" }}
+              sx={{
+                mt: 2,
+                color: "darkblue",
+                width: "100%",
+                bgcolor: "white",
+                borderRadius: "4px",
+              }}
             />
             <TextField
               type="text"
@@ -114,7 +154,13 @@ const Formulario = () => {
               label="En que servicio está interesado."
               id="standard-size-normal"
               variant="filled"
-              sx={{ mt: 2, color: "darkblue", width: "100%", bgcolor:"white", borderRadius:"4px" }}
+              sx={{
+                mt: 2,
+                color: "darkblue",
+                width: "100%",
+                bgcolor: "white",
+                borderRadius: "4px",
+              }}
             />
             <TextField
               type="text"
@@ -122,7 +168,13 @@ const Formulario = () => {
               label="Mensaje"
               id="standard-size-normal"
               variant="filled"
-              sx={{ mt: 2, color: "darkblue", width: "100%", bgcolor:"white", borderRadius:"4px" }}
+              sx={{
+                mt: 2,
+                color: "darkblue",
+                width: "100%",
+                bgcolor: "white",
+                borderRadius: "4px",
+              }}
             />
             <Box sx={{ mt: 5, mb: 8 }}>
               <Button
@@ -140,8 +192,7 @@ const Formulario = () => {
                     backgroundColor: "#000000",
                     color: "#F9F9F9",
                     textAlign: "center",
-                    fontWeight: "700",
-                    lineHeight: "20px",
+
                   },
                 }}
               >

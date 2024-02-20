@@ -2,7 +2,8 @@ import Box from "@mui/material/Box";
 import Typography from "@mui/material/Typography";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import InstagramIcon from "@mui/icons-material/Instagram";
-import { Link, NavLink } from "react-router-dom";
+import XIcon from '@mui/icons-material/X';
+import { Link } from "react-router-dom";
 import { Hidden } from "@mui/material";
 
 export default function Footer() {
@@ -160,6 +161,17 @@ export default function Footer() {
                     </a>
                   </Box>
 
+                  {/* <Box>
+                    <a
+                      href="https://www.linkedin.com/company/tymeconsulting/"
+                      color="#003350"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <XIcon sx={{ fontSize: 40, color: "white", mt:0.5, ml:1  }} />
+                    </a>
+                  </Box> */}
+
                   <Box>
                     <a
                       href="https://www.instagram.com/tymeconsulting/"
@@ -172,6 +184,7 @@ export default function Footer() {
                           fontSize: 46,
                           color: "white",
                           textAlign: "end",
+                          ml:1
                         }}
                       />
                     </a>
@@ -194,7 +207,7 @@ export default function Footer() {
                 </Typography>
                 <Typography
                   sx={{
-                    ml: "51vh",
+                    ml: "53vh",
                     fontFamily: "Manrope",
                     color: "white",
                     fontSize: "16px",

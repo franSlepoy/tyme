@@ -97,7 +97,7 @@ const QueHacemos = () => {
                 respuesta a medida
               </Typography>
               <Box mt={"13%"}>
-                <GreenButtom texto={"Consultanos"} />
+                <GreenButtom texto={"Consultanos"} linkTo={"/contacto"} />
               </Box>
             </Box>
             <Box ml={"12%"} width={"40%"}>
@@ -106,7 +106,7 @@ const QueHacemos = () => {
                 style={{
                   textTransform: "none",
                   textAlign: "initial",
-                  color: "black",
+                  position: "relative",
                 }}
               >
                 <Box
@@ -115,6 +115,16 @@ const QueHacemos = () => {
                   component={NavLink}
                   to={"/eDyP"}
                   sx={{ textDecoration: "none" }}
+                  onMouseEnter={(e) => {
+                    e.currentTarget.querySelector(
+                      ".highlighted-text"
+                    ).style.color = "#73F0A2";
+                  }}
+                  onMouseLeave={(e) => {
+                    e.currentTarget.querySelector(
+                      ".highlighted-text"
+                    ).style.color = "black";
+                  }}
                 >
                   <img
                     style={{ height: "60px" }}
@@ -130,7 +140,10 @@ const QueHacemos = () => {
                       color: "black",
                     }}
                   >
-                    Evaluación, diagnóstico y planificación
+                    <span>Evaluación,</span>{" "}
+                    <span className="highlighted-text">
+                      diagnóstico y planificación
+                    </span>{" "}
                   </Typography>
                 </Box>
               </Button>
@@ -149,6 +162,16 @@ const QueHacemos = () => {
                   component={NavLink}
                   to={"/cultura"}
                   sx={{ textDecoration: "none" }}
+                  onMouseEnter={(e) => {
+                    e.currentTarget.querySelector(
+                      ".highlighted-text"
+                    ).style.color = "#73F0A2";
+                  }}
+                  onMouseLeave={(e) => {
+                    e.currentTarget.querySelector(
+                      ".highlighted-text"
+                    ).style.color = "black";
+                  }}
                 >
                   <img
                     style={{ height: "60px" }}
@@ -164,7 +187,11 @@ const QueHacemos = () => {
                       color: "black",
                     }}
                   >
-                    Desarrollo de la cultura organizacional y liderazgos
+                    Desarrollo de la{" "}
+                    <span className="highlighted-text">
+                      cultura organizacional
+                    </span>{" "}
+                    y liderazgos
                   </Typography>
                 </Box>
               </Button>
@@ -183,6 +210,16 @@ const QueHacemos = () => {
                   component={NavLink}
                   to={"/waze"}
                   sx={{ textDecoration: "none" }}
+                  onMouseEnter={(e) => {
+                    e.currentTarget.querySelector(
+                      ".highlighted-text"
+                    ).style.color = "#73F0A2";
+                  }}
+                  onMouseLeave={(e) => {
+                    e.currentTarget.querySelector(
+                      ".highlighted-text"
+                    ).style.color = "black";
+                  }}
                 >
                   <img
                     style={{ height: "50px", marginLeft: "4px" }}
@@ -199,7 +236,7 @@ const QueHacemos = () => {
                       color: "black",
                     }}
                   >
-                    Waze laboral
+                    <span className="highlighted-text">Waze laboral</span>
                   </Typography>
                 </Box>
               </Button>
@@ -218,6 +255,16 @@ const QueHacemos = () => {
                   component={NavLink}
                   to={"/acompañamiento"}
                   sx={{ textDecoration: "none" }}
+                  onMouseEnter={(e) => {
+                    e.currentTarget.querySelector(
+                      ".highlighted-text"
+                    ).style.color = "#73F0A2";
+                  }}
+                  onMouseLeave={(e) => {
+                    e.currentTarget.querySelector(
+                      ".highlighted-text"
+                    ).style.color = "black";
+                  }}
                 >
                   <img
                     style={{ height: "40px", marginLeft: "3px" }}
@@ -234,7 +281,8 @@ const QueHacemos = () => {
                       color: "black",
                     }}
                   >
-                    Acompañamiento para certificaciones
+                    Acompañamiento para{" "}
+                    <span className="highlighted-text">certificaciones</span>
                   </Typography>
                 </Box>
               </Button>
@@ -273,7 +321,7 @@ const QueHacemos = () => {
                 tecnología para la gestión del capital humano
               </Typography>
               <Box mt={"6%"}>
-                <BlackButtom texto={"Consultanos"} />
+                <BlackButtom texto={"Consultanos"} linkTo={"/contacto"} />
               </Box>
             </Box>
 
@@ -295,6 +343,16 @@ const QueHacemos = () => {
                   component={NavLink}
                   to={"/mentoring"}
                   sx={{ textDecoration: "none" }}
+                  onMouseEnter={(e) => {
+                    e.currentTarget.querySelector(
+                      ".highlighted-text"
+                    ).style.color = "#73F0A2";
+                  }}
+                  onMouseLeave={(e) => {
+                    e.currentTarget.querySelector(
+                      ".highlighted-text"
+                    ).style.color = "black";
+                  }}
                 >
                   <img
                     style={{ height: "42px" }}
@@ -310,7 +368,8 @@ const QueHacemos = () => {
                       color: "black",
                     }}
                   >
-                    Mentoring personalizado
+                    <span className="highlighted-text">Mentoring</span> {""}
+                    personalizado
                   </Typography>
                 </Box>
               </Button>
@@ -322,7 +381,7 @@ const QueHacemos = () => {
                   textAlign: "initial",
                   color: "black",
                   "&:hover": {
-                    backgroundColor: "transparent",
+                    backgroundColor: "blue",
                   },
                 }}
               >
@@ -332,8 +391,20 @@ const QueHacemos = () => {
                   component={NavLink}
                   to={"/tYe"}
                   sx={{ textDecoration: "none" }}
+                  onMouseEnter={(e) => {
+                    e.currentTarget.querySelector(
+                      ".highlighted-text"
+                    ).style.color = "#73F0A2";
+                  }}
+                  onMouseLeave={(e) => {
+                    e.currentTarget.querySelector(
+                      ".highlighted-text"
+                    ).style.color = "black";
+                  }}
                 >
                   <img
+                    className="highlighted-image"
+                    
                     style={{ height: "46px", marginTop: 12 }}
                     src="/nosotrosLogo6.png"
                     alt=""
@@ -347,7 +418,11 @@ const QueHacemos = () => {
                       color: "black",
                     }}
                   >
-                    Training y educación en innovación tecnológica
+                    Training y{" "}
+                    <span className="highlighted-text">
+                      educación en innovación
+                    </span>{" "}
+                    {""} tecnológica
                   </Typography>
                 </Box>
               </Button>
