@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom'
 
 const Menu = () => {
   return (
-    <Box display={"flex"} flexDirection={"column"}> 
+    <Box display={"flex"} flexDirection={"column"} bgcolor={""}> 
        <Typography sx={{ fontFamily:"Manrope",textTransform: 'none', textDecoration:"none", mt:3, ml:2,  fontSize:"16px", fontStyle:"normal",lineHeight:"20px",'&:hover': {borderRadius: "100px", backgroundColor:"#71EAEA"} }} component={NavLink} to={"/"}>Inicio</Typography>
         <Typography sx={{ fontFamily:"Manrope", textTransform: 'none',textDecoration:"none", mt:3, ml:2,  fontSize:"16px", fontStyle:"normal",lineHeight:"20px",'&:hover': {borderRadius: "100px", backgroundColor:"#71EAEA"}}} component={NavLink} to={"/nosotros"} >Nosotros</Typography>
         <Typography  sx={{ fontFamily:"Manrope", textTransform: 'none',textDecoration:"none", mt:3, ml:2,  fontSize:"16px", fontStyle:"normal",lineHeight:"20px" ,'&:hover': {borderRadius: "100px", backgroundColor:"#71EAEA"}}} component={NavLink} to={"/queHacemos"} >Qué hacemos</Typography>

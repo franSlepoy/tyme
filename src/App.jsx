@@ -1,4 +1,3 @@
-import React from 'react';
 import { Route, Routes } from "react-router-dom";
 import Footer from "./components/common/footer/Footer";
 import NavBar from "./components/common/navbar/NavBar";
@@ -11,17 +10,19 @@ import Contacto from "./components/pages/contacto/Contacto";
 import CharlasYconferencias from "./components/pages/charlasYconferencias/CharlasYconferencias";
 import Tendencias from "./components/pages/tendencias/Tendencias";
 import Menu from "./components/common/navbar/Menu";
-import { ParallaxProvider } from 'react-scroll-parallax'; // Importa ParallaxProvider aquí
-import CarouselEv from './components/common/onDemand/CarouselEv';
-import CarouselCultura from './components/common/onDemand/CarouselCultura';
-import CarouselWaze from './components/common/onDemand/CarouselWaze';
-import CarouselAcom from './components/common/onDemand/CarouselAcom';
-import CarouselMentoring from './components/common/onDemand/CarouselMentoring';
-import CarouselTrai from './components/common/onDemand/CarouselTrai';
+import { ParallaxProvider } from "react-scroll-parallax"; // Importa ParallaxProvider aquí
+import CarouselEv from "./components/common/onDemand/CarouselEv";
+import CarouselCultura from "./components/common/onDemand/CarouselCultura";
+import CarouselWaze from "./components/common/onDemand/CarouselWaze";
+import CarouselAcom from "./components/common/onDemand/CarouselAcom";
+import CarouselMentoring from "./components/common/onDemand/CarouselMentoring";
+import CarouselTrai from "./components/common/onDemand/CarouselTrai";
 
 const App = () => {
   return (
-    <ParallaxProvider> {/* Envuelve tu aplicación con ParallaxProvider */}
+    <ParallaxProvider>
+      {" "}
+      {/* Envuelve tu aplicación con ParallaxProvider */}
       <>
         <NavBar />
         <Routes>
@@ -30,7 +31,10 @@ const App = () => {
           <Route path="/queHacemos" element={<QueHacemos />} />
           <Route path="/manifiesto" element={<Manifiesto />} />
           <Route path="/ticTacElTiempo" element={<TicTac />} />
-          <Route path="/charlasYconferencias"element={<CharlasYconferencias />}/>
+          <Route
+            path="/charlasYconferencias"
+            element={<CharlasYconferencias />}
+          />
           <Route path="/tendencias" element={<Tendencias />} />
           <Route path="/contacto" element={<Contacto />} />
           <Route path="/menu" element={<Menu />} />
@@ -47,6 +51,4 @@ const App = () => {
   );
 };
 
-
 export default App;
-
