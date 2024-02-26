@@ -8,7 +8,7 @@ const CarouselAcom = () => {
   return (
     <Carousel
       autoPlay={true}
-      timeout={100}
+      timeout={200}
       sx={{
         backgroundColor: "#104B70",
         height: "100vh",

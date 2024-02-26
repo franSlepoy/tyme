@@ -10,7 +10,7 @@ const CarouselCultura = () => {
   return (
     <Carousel
       autoPlay={true}
-      timeout={100}
+  
       sx={{
         backgroundColor: "#104B70",
         height: "100vh",
