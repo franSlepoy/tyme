@@ -327,47 +327,42 @@ const Nosotros = () => {
       </Hidden>
 
       <Hidden lgUp smDown>
-        
-          <Parallax speed={-12} tagOuter="figure">
-            <Box
-              sx={{ width: "100%", height: "94vh", backgroundColor: "#453D3B" }}
-            >
-              <Box sx={{ ml: "34%" }}>
-                <img height={"624vh"} src="/javier.png" alt="" />
-              </Box>
+        <Parallax speed={-12} tagOuter="figure">
+          <Box
+            sx={{ width: "100%", height: "94vh", backgroundColor: "#453D3B" }}
+          >
+            <Box sx={{ ml: "34%" }}>
+              <img height={"624vh"} src="/javier.png" alt="" />
             </Box>
-          </Parallax>
-          <Box>
-            <Box sx={{  position: "absolute", top: "62%" }}>
-              <img width={"100%"} src="/nosotros3.png" alt="" />
-            </Box>
+          </Box>
+        </Parallax>
+        <Box>
+          <Box sx={{ position: "absolute", top: "62%" }}>
+            <img width={"100%"} src="/nosotros3.png" alt="" />
+          </Box>
 
-            <Box
+          <Box
+            sx={{
+              position: "absolute",
+              top: "20% ",
+              left: "7%",
+              width: "52%",
+            }}
+          >
+            <Typography
               sx={{
-                position: "absolute",
-                top: "20% ",
-                left: "7%",
-                width: "52%",
+                fontFamily: "Merriweather",
+                fontSize: "30px",
+                fontWeight: "300",
+                color: "white",
               }}
             >
-              <Typography
-                sx={{
-                  fontFamily: "Merriweather",
-                  fontSize: "30px",
-                  fontWeight: "300",
-                  color: "white",
-                  
-                }}
-              >
-                Somos una consultora boutique internacional especializada en
-                potenciar el desarrollo de las organizaciones, a través de la
-                innovación tecnológica y el trabajo personalizado.
-              </Typography>
-            </Box>
-
-            
+              Somos una consultora boutique internacional especializada en
+              potenciar el desarrollo de las organizaciones, a través de la
+              innovación tecnológica y el trabajo personalizado.
+            </Typography>
           </Box>
-       
+        </Box>
 
         <Box
           sx={{
@@ -556,16 +551,32 @@ const Nosotros = () => {
       </Hidden>
 
       <Hidden smUp>
-        <Box >
+        <Box>
           <Parallax speed={-12} tagOuter="figure">
-           
-              <Box >
-                <img width={"100%"} src="/javier.png" alt="" />
-              </Box>
-           
+            <Box>
+              <img width={"100%"} src="/javier.png" alt="" />
+            </Box>
           </Parallax>
           <Box>
-           
+            <Box
+              sx={{
+                position: "absolute",
+                top: "18% ",
+                left: "7%",
+                width: "52%",
+              }}
+            >
+              <Typography
+                sx={{
+                  fontFamily: "Manrope",
+                  fontSize: "16px",
+                  fontWeight: "700",
+                  color: "#1296E9",
+                }}
+              >
+                Quienes somos
+              </Typography>
+            </Box>
 
             <Box
               sx={{
@@ -600,7 +611,7 @@ const Nosotros = () => {
           }}
         >
           <Box
-           width={"93%"}
+            width={"93%"}
             display={"flex"}
             mt={-5}
             pt={25}
@@ -619,7 +630,7 @@ const Nosotros = () => {
                 <img width={"70px"} src="/iconoN1.png" alt="" />
               </Button>
             </Box>
-            <Box >
+            <Box>
               <Button
                 onClick={() =>
                   handleOpenDialog(
@@ -643,7 +654,7 @@ const Nosotros = () => {
                 <img width={"70px"} src="/iconoN3.png" alt="" />
               </Button>
             </Box>
-            <Box >
+            <Box>
               <Button
                 onClick={() =>
                   handleOpenDialog(
@@ -746,21 +757,19 @@ const Nosotros = () => {
             </Box>
 
             <Dialog open={open} onClose={handleCloseDialog}>
-              
-                <Box width={"100%"} p={5} bgcolor={"#1296E9"}>
-                  <Typography 
-                    sx={{
-                      fontFamily: "Manrope",
-                      fontSize: "16px",
-                      lineHeight: "30px",
-                      letterSpacing: "0.5px",
-                      color: "white",
-                    }}
-                  >
-                    {selectedText}
-                  </Typography>
-                </Box>
-             
+              <Box width={"100%"} p={5} bgcolor={"#1296E9"}>
+                <Typography
+                  sx={{
+                    fontFamily: "Manrope",
+                    fontSize: "16px",
+                    lineHeight: "30px",
+                    letterSpacing: "0.5px",
+                    color: "white",
+                  }}
+                >
+                  {selectedText}
+                </Typography>
+              </Box>
             </Dialog>
           </Box>
         </Box>

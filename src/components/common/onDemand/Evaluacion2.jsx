@@ -76,6 +76,7 @@ const Evaluacion2 = () => {
               color: "#73F0A2",
               fontFamily: "Manrope",
               fontSize: "24px",
+              lineHeight:"30px",
               fontWeight: "800",
               mt: 2,
             }}
@@ -101,6 +102,7 @@ const Evaluacion2 = () => {
               fontSize: "24px",
               fontWeight: "800",
               mt: 2,
+              lineHeight:"30px",
             }}>Plan a medida.</Typography>
         </Box>
         <Box ml={"4%"} maxWidth={"200px"}>
@@ -122,6 +124,7 @@ const Evaluacion2 = () => {
               fontSize: "24px",
               fontWeight: "800",
               mt: 2,
+              lineHeight:"30px",
             }}>
             Guía constante para la incorporación de los cambios
             organizacionales.
@@ -145,6 +148,7 @@ const Evaluacion2 = () => {
               fontSize: "24px",
               fontWeight: "800",
               mt: 2,
+              lineHeight:"30px",
             }}>Acompañamiento para adaptar las estrategias.</Typography>
         </Box>
       </Box>

@@ -41,7 +41,7 @@ const QueHacemos = () => {
               left: "7%",
             }}
           >
-            <GreenButtom texto={"Conoce más"} />
+            <BlackButtom texto={"Conoce más"} />
           </Box>
         </Box>
         <Box width={"100%"} height={"90px"}>
@@ -298,7 +298,7 @@ const QueHacemos = () => {
                   fontSize: "64px",
                 }}
               >
-                HR on demand:
+                HR  Tech Trends 
               </Typography>
               <Typography
                 mt={"-12px"}
@@ -306,7 +306,7 @@ const QueHacemos = () => {
                   fontFamily: "Manrope",
                   fontWeight: "400",
                   fontSize: "40px",
-                  width: "330px",
+                  width: "105%",
                 }}
               >
                 tecnología para la gestión del capital humano
@@ -851,9 +851,37 @@ const QueHacemos = () => {
           <Box
             sx={{
               position: "absolute",
-              top: "26% ",
+              top: "18% ",
+              left: "7%",
+              width: "72%",
+            }}
+          >
+            <Typography
+              sx={{
+                fontFamily: "Manrope",
+                fontSize: "16px",
+                fontWeight: "700",
+                color: "white",
+              }}
+            >
+              Que hacemos
+            </Typography>
+          </Box>
+          <Box sx={{
+              position: "absolute",
+              top: "60% ",
               left: "7%",
               width: "70%",
+            }}>
+            <GreenButtom texto={"Conoce más"} linkTo={"/"} />
+          </Box>
+
+          <Box
+            sx={{
+              position: "absolute",
+              top: "22% ",
+              left: "7%",
+              width: "90%",
             }}
           >
             <Typography
@@ -886,16 +914,20 @@ const QueHacemos = () => {
         <Box
           sx={{
             width: "100%",
-            backgroundColor: "#1296E9",
-            minHeight: "70vh",
+            background: "linear-gradient(to bottom, #1296E9, #39B3FF, #1779B6)",            minHeight: "70vh",
             pb: 5,
             pt: 1,
           }}
         >
           <Box width={"100%"}>
+
+            <Box pt={4} textAlign={"center"}>
+              <img src="/hrmobile.png" alt="" />
+            </Box>
+
             <Box width={"95%"} textAlign={"center"}>
               <Typography
-                mt={"20%"}
+                mt={"2%"}
                 sx={{
                   fontFamily: "Manrope",
                   fontWeight: "600",
@@ -903,7 +935,7 @@ const QueHacemos = () => {
                   fontSize: "44px",
                 }}
               >
-                HR on demand:
+               on demand:
               </Typography>
               <Typography
                 mt={"-12px"}
@@ -981,7 +1013,7 @@ const QueHacemos = () => {
                       lineHeight: "34px",
                       color: "black",
                       textAlign: "center",
-                      p:2
+                      p: 2,
                     }}
                   >
                     Cultura organizacional y liderazgo
@@ -992,14 +1024,12 @@ const QueHacemos = () => {
               <Button
                 disableRipple
                 style={{
-                
                   textTransform: "none",
-                  width:"100vw",
+                  width: "100vw",
                   position: "relative",
                 }}
               >
                 <Box
-                
                   component={NavLink}
                   to={"/waze"}
                   sx={{ textDecoration: "none" }}
@@ -1016,11 +1046,11 @@ const QueHacemos = () => {
                       lineHeight: "34px",
                       color: "black",
                       textAlign: "center",
-                      p:2,
-                      width:"100%"
+                      p: 2,
+                      width: "100%",
                     }}
                   >
-                   Waze Laboral
+                    Waze Laboral
                   </Typography>
                 </Box>
               </Button>
@@ -1028,7 +1058,7 @@ const QueHacemos = () => {
               <Button
                 disableRipple
                 style={{
-                  width:"100vw",
+                  width: "100vw",
                   textTransform: "none",
                   textAlign: "center",
                   color: "black",
@@ -1077,16 +1107,21 @@ const QueHacemos = () => {
         <Box
           sx={{
             width: "100%",
-            backgroundColor: "#18CC66",
+            background: "linear-gradient(to bottom, #18CC66, #17E36F, #18BA5E)",
+
             minHeight: "70vh",
             pt: 1,
             pb: 5,
           }}
         >
-           <Box width={"100%"}>
+          <Box width={"100%"}>
+
+          <Box pt={4} textAlign={"center"}>
+              <img src="/hrmobil1.png" alt="" />
+            </Box>
             <Box width={"95%"} textAlign={"center"}>
               <Typography
-                mt={"20%"}
+                mt={"2%"}
                 sx={{
                   fontFamily: "Manrope",
                   fontWeight: "600",
@@ -1113,13 +1148,12 @@ const QueHacemos = () => {
 
             <Box mt={5} width={"100%"}>
               <Button
-              
                 disableRipple
                 style={{
                   textTransform: "none",
                   textAlign: "center",
                   position: "relative",
-                  width:"100vw"
+                  width: "100vw",
                 }}
               >
                 <Box
@@ -1171,7 +1205,7 @@ const QueHacemos = () => {
                       lineHeight: "34px",
                       color: "black",
                       textAlign: "center",
-                      p:2
+                      p: 2,
                     }}
                   >
                     Training en innovación tecnológica
@@ -1182,16 +1216,11 @@ const QueHacemos = () => {
               <Button
                 disableRipple
                 style={{
-                
                   textTransform: "none",
-                  width:"100vw",
+                  width: "100vw",
                   position: "relative",
                 }}
-              >
-              
-              </Button>
-
-            
+              ></Button>
             </Box>
           </Box>
         </Box>

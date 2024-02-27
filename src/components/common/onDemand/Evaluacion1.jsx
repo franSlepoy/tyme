@@ -34,7 +34,7 @@ const Evaluacion1 = () => {
           sx={{
             fontFamily: "Manrope",
             fontSize: "48px",
-            lineHeight: "45px",
+            lineHeight: "55px",
             fontWeight: "700",
             color: "white",
             mt: "7%",

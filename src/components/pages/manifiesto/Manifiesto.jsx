@@ -214,7 +214,7 @@ const Manifiesto = () => {
             <Typography
               sx={{
                 fontFamily: "Merriweather",
-                fontSize: "32px",
+                fontSize: "20px",
                 fontWeight: "300",
                 color: "white",
               }}
@@ -233,11 +233,29 @@ const Manifiesto = () => {
           sx={{ bgcolor: "rgba(15, 150, 233, 0.4)",  }}
         >
           <Box   m={"auto"}>
-            <Box width={"93%"} m={"auto"} pt={"10%"} >
+          <Box width={"88%"} pt={5} m={"auto"}>
+              <Typography
+                sx={{
+                  width:"66%",
+                  textAlign:"center",
+                  margin:"auto",
+                  fontFamily: "Marriweather",
+                  fontSize: "30px",
+                  color: "black",
+                  lineHeight: "52px",
+                }}
+              >
+                ¿Nos hacemos un tiempo para conocernos y trabajar juntos?
+              </Typography>
+              <Box mt={"12%"} mb={"12%"} textAlign={"center"}>
+                <BlackButtom texto={"Contactanos"} linkTo={"/contacto"} />
+              </Box>
+            </Box>
+            <Box width={"93%"} m={"auto"} pt={"4%"} >
               <Typography
                 sx={{
                   fontFamily: "Manrope",
-                  fontSize: "24px",
+                  fontSize: "20px",
                   lineHeight: "34px",
                   fontWeight: "300",
                 }}
@@ -266,21 +284,7 @@ const Manifiesto = () => {
                 atravesar una <strong>experiencia que valoren.</strong>
               </Typography>
             </Box>
-            <Box width={"93%"} pt={5} m={"auto"}>
-              <Typography
-                sx={{
-                  fontFamily: "Marriweather",
-                  fontSize: "38px",
-                  color: "black",
-                  lineHeight: "52px",
-                }}
-              >
-                ¿Nos hacemos un tiempo para conocernos y trabajar juntos?
-              </Typography>
-              <Box mt={"5%"}>
-                <BlackButtom texto={"Contactanos"} linkTo={"/contacto"} />
-              </Box>
-            </Box>
+           
           </Box>
         </Box>
       </Hidden>

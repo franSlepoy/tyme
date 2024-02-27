@@ -358,7 +358,7 @@ const Home = () => {
           mt={"-25px"}
           bgcolor={"#73F0A2"}
           width={"100%"}
-          height={"50vh"}
+          height={"60vh"}
           m={"auto"}
         >
           <Box
@@ -380,39 +380,20 @@ const Home = () => {
               Somos el puente entre el equipo que tienes y el que quieres
             </Typography>
           </Box>
+          <Box pt={4} ml={"7%"} >
+              <BlackButtom texto={"Conócenos"} linkTo={"/quienesSomos"} />
+            </Box>
         </Box>
      
         
 
         <Box m={"auto"} width={"87%"} mt={"76px"}>
-          <Box width={"95%"}>
-            <Typography
-              sx={{
-                fontFamily: "Marriweather",
-                fontSize: "37px",
-                lineHeight: "40px",
-                fontWeight: "100",
-                color: "#07659C",
-              }}
-            >
-              Te acompañamos a potenciar tu compañía y a encontrar una fórmula
-              propia para impulsar su desarrollo
-            </Typography>
-
-            <Link
-              to={"/contacto"}
-              style={{ textDecoration: "none", textTransform: "none" }}
-            >
-              <Box mt={"49px"}>
-                <BlackButtom texto={"Contáctanos"} linkTo={"/contacto"} />
-              </Box>
-            </Link>
-          </Box>
+          
           <Box width={"95%"} mt={5}>
             <Typography
               sx={{
                 fontFamily: "Manrope",
-                fontSize: "24px",
+                fontSize: "16px",
                 lineHeight: "34px",
                 fontWeight: 300,
               }}

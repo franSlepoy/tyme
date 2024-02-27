@@ -40,7 +40,7 @@ const Testimonios1 = () => {
                   fontFamily: "Manrope",
                   fontSize: "16px",
                   fontWeight: 400,
-                  lineHeight: "28px",
+                  lineHeight: "26px",
                   color: "black",
                 }}
               >

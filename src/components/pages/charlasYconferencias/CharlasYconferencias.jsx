@@ -911,7 +911,7 @@ const CharlasYconferencias = () => {
           sx={{
             width: "100%",
             bgcolor: "#1296E9",
-            p: "4%",
+            p: "7%",
             mt: -1,
           }}
         >
@@ -929,37 +929,15 @@ const CharlasYconferencias = () => {
           </Typography>
         </Box>
 
-        <Box
-          style={{
-            backgroundImage: "linear-gradient(to right, #18CC66, #1296E9)",
-          }}
-          sx={{ width: "100%",  pt: "4%", pb: "4%" }}
-        >
-          <Box width={"88%"} margin={"auto"}>
-            <Box>
+        <Box sx={{ bgcolor: "#18CC66", width: "100%" }}>
+          <Box p={"7%"} margin={"auto"}>
+            <Box textAlign={"center"} pt={"12%"}>
               <Typography
                 sx={{
                   fontFamily: "Manrope",
-                  fontSize: "24px",
-                  lineHeight: "34px",
-                  fontWeight: "300",
-                  color: "black",
-                }}
-              >
-                Capacitaciones enfocadas en las nuevas tendencias y estrategias
-                para la gestión del capital humano, fortalecimiento de la
-                cultura organizacional y los liderazgos, teambuilding y fomento
-                de la creatividad y la innovación.
-              </Typography>
-            </Box>
-
-            <Box width={"20%"} pt={"7%"}>
-              <Typography
-                sx={{
-                  fontFamily: "Manrope",
-                  fontWeight: "300",
-                  fontSize: "60px",
-                  lineHeight: "90%",
+                  fontWeight: "100",
+                  fontSize: "40px",
+                  lineHeight: "36px",
                   color: "white",
                 }}
               >
@@ -967,8 +945,11 @@ const CharlasYconferencias = () => {
               </Typography>
             </Box>
           </Box>
+          <Box textAlign={"center"} mt={"5%"} mb={"5%"}>
+            <BlackButtom texto={"Consultanos"} linkTo={"/contacto"} />
+          </Box>
 
-          <Box width={"98%"} mt={"7%"}>
+          <Box p={"7%"} mt={"7%"}>
             <Box
               component={Button}
               onClick={handleClickA}
@@ -976,6 +957,7 @@ const CharlasYconferencias = () => {
                 textTransform: "none",
                 display: "flex",
                 flexDirection: "column",
+                justifyContent: "start",
               }}
             >
               <img src="/iconC1.png" alt="" />
@@ -989,7 +971,7 @@ const CharlasYconferencias = () => {
                   mt: 3,
                 }}
               >
-                Amplifying impact:{" "}
+                Amplifying impact:
               </Typography>
               <Typography
                 sx={{
@@ -1111,9 +1093,6 @@ const CharlasYconferencias = () => {
               </Typography>
             </Box>
           </Box>
-          <Box textAlign={"center"} mt={"5%"} mb={"5%"}>
-            <BlackButtom texto={"Consultanos"} linkTo={"/contacto"} />
-          </Box>
         </Box>
         {componenteVisible === "ComponenteA" && (
           <Charlas1 handleCloseComponente={handleCloseComponente} />
@@ -1128,53 +1107,42 @@ const CharlasYconferencias = () => {
           <Charlas4 handleCloseComponente={handleCloseComponente} />
         )}
 
-       
-
-        <Box
-          sx={{ p: "5%"}}
-          width={"100%"}
-          
-          style={{
-            backgroundImage: "linear-gradient(to right, #1296E9, #18CC66)",
-          }}
-        >
-          <Box >
+        <Box sx={{ p: "7%" }} width={"100%"} bgcolor={"#1296E9"}>
+          <Box textAlign={"center"}>
             <Typography
+             p={"7%"}
               sx={{
                 fontFamily: "Manrope",
-                fontSize: "60px",
-                fontWeight: "300",
+                fontWeight: "100",
+                fontSize: "40px",
+                lineHeight: "36px",
                 color: "white",
-                
               }}
             >
               Tecnología
             </Typography>
-            <Typography
+            <Box mt={"5%"} textAlign={"center"}>
+              <BlackButtom texto={"Consultanos"} linkTo={"/contacto"} />
+            </Box>
+
+            {/* texto que hay que pregunta si va */}
+            {/*  <Typography
               m={"auto"}
               sx={{
-             
                 fontFamily: "Manrope",
                 fontSize: "32px",
                 fontWeight: "300",
                 color: "white",
-               
               }}
             >
               Capacitaciones sobre estrategias de transformación digital e
               incorporación de Inteligencia Artificial y nuevas tecnologías,
               para convertirlas en un factor diferencial clave que generen un
               salto de crecimiento en tu negocio. 
-            </Typography>
+            </Typography> */}
           </Box>
-          <Box
-           
-            width={"100%"}
-            mt={5}
-          >
+          <Box width={"100%"} mt={5}>
             <Box
-         
-          
               component={Button}
               onClick={handleClickE}
               sx={{
@@ -1209,7 +1177,6 @@ const CharlasYconferencias = () => {
               </Typography>
             </Box>
             <Box
-           
               component={Button}
               onClick={handleClickF}
               sx={{
@@ -1244,7 +1211,6 @@ const CharlasYconferencias = () => {
               </Typography>
             </Box>
             <Box
-          
               component={Button}
               onClick={handleClickG}
               sx={{
@@ -1279,9 +1245,7 @@ const CharlasYconferencias = () => {
               </Typography>
             </Box>
           </Box>
-          <Box mt={"5%"} textAlign={"center"}>
-            <BlackButtom texto={"Consultanos"} linkTo={"/contacto"} />
-          </Box>
+
           {componenteVisible === "ComponenteE" && (
             <Charlas5 handleCloseComponente={handleCloseComponente} />
           )}

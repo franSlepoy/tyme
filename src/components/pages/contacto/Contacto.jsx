@@ -6,14 +6,14 @@ const Contacto = () => {
   return (
     <>
       <Hidden smDown>
-        <Box width={"100%"} sx={{ bgcolor: "rgba(120, 145, 162, 0.2)" }}>
+        <Box width={"100%"} sx={{ bgcolor: "rgba(120, 145, 162, 0.3)" }}>
           <Box display={"flex"} m={"auto"}>
             <Box ml={"7%"}>
               <Typography
                 variant="h1"
                 sx={{
-                  fontFamily: "Manrope",
-                  fontWeight: "400",
+                  fontFamily: "Merriweather",
+                  fontWeight: "100",
                   color: "black",
                   fontSize: "40px",
                   width: "50%",
