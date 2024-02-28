@@ -1,17 +1,8 @@
-import {
-  Box,
-  Button,
-  Hidden,
-  Typography,
-  Dialog,
-  DialogTitle,
-  DialogContent,
-} from "@mui/material";
-import { NosotrosCarouselData } from "../../../servidor/NosotrosImages";
-import Carousel from "react-material-ui-carousel";
-import ImagenCard from "../../common/imageCard/ImageCard";
+import { Box, Button, Hidden, Typography, Dialog } from "@mui/material";
+
 import { Parallax } from "react-scroll-parallax";
 import { useState } from "react";
+import { Link as ScrollLink } from "react-scroll";
 
 const Nosotros = () => {
   // Estado para almacenar el texto seleccionado
@@ -75,8 +66,8 @@ const Nosotros = () => {
                   fontFamily: "Merriweather",
                   fontSize: "40px",
                   fontWeight: "300",
+                  lineHeight:"50px",
                   color: "white",
-                  ml: "7%",
                 }}
               >
                 Somos una consultora boutique internacional especializada en
@@ -84,6 +75,7 @@ const Nosotros = () => {
                 innovación tecnológica y el trabajo personalizado.
               </Typography>
             </Box>
+
             <Box
               sx={{
                 position: "absolute",
@@ -91,36 +83,40 @@ const Nosotros = () => {
                 left: "7%",
               }}
             >
-              <Button
-                variant="contained"
-                sx={{
-                  height: "43px",
-                  width: "177px",
-                  borderRadius: "100px",
-                  backgroundColor: "#1296E9",
-                  textTransform: "none",
-                  "&:hover": {
+              <ScrollLink
+                to="seccionDestino" // ID de la sección de destino
+                smooth={true} // Desplazamiento suave
+              >
+                <Button
+                  disableRipple={true}
+                  variant="contained"
+                  sx={{
                     height: "43px",
                     width: "177px",
                     borderRadius: "100px",
                     backgroundColor: "#1296E9",
-                  },
-                }}
-              >
-                <Typography
-                  sx={{
                     textTransform: "none",
-                    fontFamily: "Manrope",
-                    fontSize: "16px",
-                    lineHeight: "20px",
-                    fontWeight: 600,
-                    letterSpacing: "0.1",
-                    color: "black",
+                    "&:hover": {
+                      
+                      backgroundColor: "transparent",
+                    },
                   }}
                 >
-                  Conoce más
-                </Typography>
-              </Button>
+                  <Typography
+                    sx={{
+                      textTransform: "none",
+                      fontFamily: "Manrope",
+                      fontSize: "16px",
+                      lineHeight: "20px",
+                      fontWeight: 600,
+                      letterSpacing: "0.1",
+                      color: "black",
+                    }}
+                  >
+                    Conoce más
+                  </Typography>
+                </Button>
+              </ScrollLink>
             </Box>
             <Box sx={{ position: "absolute", left: "80%", top: "42%" }}>
               <img src="/ilustracion.png" alt="" />
@@ -135,7 +131,7 @@ const Nosotros = () => {
             backgroundColor: "rgba(18,150,233, 0.4)",
           }}
         >
-          <Box display={"flex"} width={"93%"}>
+          <Box display={"flex"} width={"93%"} id="seccionDestino">
             <Box sx={{ ml: "6%", mt: "17%", width: "60%" }}>
               <Typography
                 onMouseEnter={handleMouseEnter}

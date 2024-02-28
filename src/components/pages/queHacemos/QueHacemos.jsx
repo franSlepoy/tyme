@@ -1,17 +1,74 @@
-import { Box, Button, Hidden, Typography } from "@mui/material";
+import { Box, Button, Dialog, Hidden, Typography } from "@mui/material";
 
 import { NavLink } from "react-router-dom";
 
 import { Parallax } from "react-scroll-parallax";
 import GreenButtom from "../../common/greenButtom/GreenButtom";
 import BlackButtom from "../../common/blackButtom/BlackButtom";
+import { Link as ScrollLink } from "react-scroll";
+import { useState } from "react";
+import CarouselEv from "../../common/onDemand/CarouselEv";
+import CarouselCultura from "../../common/onDemand/CarouselCultura";
+import CarouselWaze from "../../common/onDemand/CarouselWaze";
+import CarouselAcom from "../../common/onDemand/CarouselAcom";
+import CarouselMentoring from "../../common/onDemand/CarouselMentoring";
 
 const QueHacemos = () => {
+  const [openModal1, setOpenModal1] = useState(false);
+  const [openModal2, setOpenModal2] = useState(false);
+  const [openModal3, setOpenModal3] = useState(false);
+  const [openModal4, setOpenModal4] = useState(false);
+  const [openModal5, setOpenModal5] = useState(false);
+  const [openModal6, setOpenModal6] = useState(false);
+
+  const handleOpenModal1 = () => {
+    setOpenModal1(true);
+  };
+
+  const handleCloseModal1 = () => {
+    setOpenModal1(false);
+  };
+  const handleOpenModal2 = () => {
+    setOpenModal2(true);
+  };
+
+  const handleCloseModal2 = () => {
+    setOpenModal2(false);
+  };
+  const handleOpenModal3 = () => {
+    setOpenModal3(true);
+  };
+
+  const handleCloseModal3 = () => {
+    setOpenModal3(false);
+  };
+  const handleOpenModal4 = () => {
+    setOpenModal4(true);
+  };
+
+  const handleCloseModal4 = () => {
+    setOpenModal4(false);
+  };
+  const handleOpenModal5 = () => {
+    setOpenModal5(true);
+  };
+
+  const handleCloseModal5 = () => {
+    setOpenModal5(false);
+  };
+  const handleOpenModal6 = () => {
+    setOpenModal6(true);
+  };
+
+  const handleCloseModal6 = () => {
+    setOpenModal6(false);
+  };
+
   return (
     <>
       <Hidden lgDown>
         <Parallax speed={-12} tagOuter="figure">
-          <Box>
+          <Box width={"100%"} height={"100vh"} overflow="hidden">
             <img width={"100%"} src="/nosotros1.png" alt="" />
           </Box>
         </Parallax>
@@ -41,13 +98,15 @@ const QueHacemos = () => {
               left: "7%",
             }}
           >
-            <BlackButtom texto={"Conoce más"} />
+            <ScrollLink to="seccionDestino" smooth={true}>
+              <BlackButtom texto={"Conoce más"} />
+            </ScrollLink>
           </Box>
         </Box>
-        <Box width={"100%"} height={"90px"}>
+        <Box width={"100%"} height={"90px"} id={"seccionDestino"}>
           <Typography
             sx={{
-              mt: "3%",
+              mt: "10%",
               ml: "5%",
               fontFamily: "Merriweather",
               fontSize: "42px",
@@ -91,6 +150,7 @@ const QueHacemos = () => {
                 <GreenButtom texto={"Consultanos"} linkTo={"/contacto"} />
               </Box>
             </Box>
+
             <Box ml={"12%"} width={"40%"}>
               <Button
                 disableRipple
@@ -103,8 +163,7 @@ const QueHacemos = () => {
                 <Box
                   display={"flex"}
                   mt={"16%"}
-                  component={NavLink}
-                  to={"/eDyP"}
+                  onClick={handleOpenModal1}
                   sx={{ textDecoration: "none" }}
                   onMouseEnter={(e) => {
                     e.currentTarget.querySelector(
@@ -139,6 +198,15 @@ const QueHacemos = () => {
                 </Box>
               </Button>
 
+              <Dialog
+                fullWidth={true}
+                maxWidth="lg"
+                open={openModal1}
+                onClose={handleCloseModal1}
+              >
+                <CarouselEv />
+              </Dialog>
+
               <Button
                 disableRipple
                 style={{
@@ -148,10 +216,9 @@ const QueHacemos = () => {
                 }}
               >
                 <Box
+                  onClick={handleOpenModal2}
                   display={"flex"}
                   mt={"8%"}
-                  component={NavLink}
-                  to={"/cultura"}
                   sx={{ textDecoration: "none" }}
                   onMouseEnter={(e) => {
                     e.currentTarget.querySelector(
@@ -187,6 +254,15 @@ const QueHacemos = () => {
                 </Box>
               </Button>
 
+              <Dialog
+                fullWidth={true}
+                maxWidth="lg"
+                open={openModal2}
+                onClose={handleCloseModal2}
+              >
+                <CarouselCultura />
+              </Dialog>
+
               <Button
                 disableRipple
                 style={{
@@ -198,8 +274,7 @@ const QueHacemos = () => {
                 <Box
                   display={"flex"}
                   mt={"8%"}
-                  component={NavLink}
-                  to={"/waze"}
+                  onClick={handleOpenModal3}
                   sx={{ textDecoration: "none" }}
                   onMouseEnter={(e) => {
                     e.currentTarget.querySelector(
@@ -232,6 +307,15 @@ const QueHacemos = () => {
                 </Box>
               </Button>
 
+              <Dialog
+                fullWidth={true}
+                maxWidth="lg"
+                open={openModal3}
+                onClose={handleCloseModal3}
+              >
+                <CarouselWaze />
+              </Dialog>
+
               <Button
                 disableRipple
                 style={{
@@ -243,8 +327,7 @@ const QueHacemos = () => {
                 <Box
                   display={"flex"}
                   mt={"8%"}
-                  component={NavLink}
-                  to={"/acompañamiento"}
+                  onClick={handleOpenModal4}
                   sx={{ textDecoration: "none" }}
                   onMouseEnter={(e) => {
                     e.currentTarget.querySelector(
@@ -277,6 +360,15 @@ const QueHacemos = () => {
                   </Typography>
                 </Box>
               </Button>
+
+              <Dialog
+                fullWidth={true}
+                maxWidth="lg"
+                open={openModal4}
+                onClose={handleCloseModal4}
+              >
+                <CarouselAcom />
+              </Dialog>
             </Box>
           </Box>
         </Box>
@@ -298,7 +390,7 @@ const QueHacemos = () => {
                   fontSize: "64px",
                 }}
               >
-                HR  Tech Trends 
+                HR Tech Trends
               </Typography>
               <Typography
                 mt={"-12px"}
@@ -316,7 +408,7 @@ const QueHacemos = () => {
               </Box>
             </Box>
 
-            <Box ml={"12%"} mt={"7%"} width={"40%"}>
+            <Box ml={"12%"} mt={"3%"} width={"40%"}>
               <Button
                 disableRipple
                 style={{
@@ -329,10 +421,9 @@ const QueHacemos = () => {
                 }}
               >
                 <Box
+                  onClick={handleOpenModal5}
                   display={"flex"}
                   mt={"22%"}
-                  component={NavLink}
-                  to={"/mentoring"}
                   sx={{ textDecoration: "none" }}
                   onMouseEnter={(e) => {
                     e.currentTarget.querySelector(
@@ -365,6 +456,15 @@ const QueHacemos = () => {
                 </Box>
               </Button>
 
+              <Dialog
+                fullWidth={true}
+                maxWidth="lg"
+                open={openModal5}
+                onClose={handleCloseModal5}
+              >
+                <CarouselMentoring />
+              </Dialog>
+
               <Button
                 disableRipple
                 style={{
@@ -379,8 +479,7 @@ const QueHacemos = () => {
                 <Box
                   display={"flex"}
                   mt={"8%"}
-                  component={NavLink}
-                  to={"/tYe"}
+                  onClick={handleOpenModal6}
                   sx={{ textDecoration: "none" }}
                   onMouseEnter={(e) => {
                     e.currentTarget.querySelector(
@@ -416,6 +515,15 @@ const QueHacemos = () => {
                   </Typography>
                 </Box>
               </Button>
+
+              <Dialog
+                fullWidth={true}
+                maxWidth="lg"
+                open={openModal6}
+                onClose={handleCloseModal6}
+              >
+                <CarouselMentoring />
+              </Dialog>
             </Box>
           </Box>
         </Box>
@@ -867,12 +975,14 @@ const QueHacemos = () => {
               Que hacemos
             </Typography>
           </Box>
-          <Box sx={{
+          <Box
+            sx={{
               position: "absolute",
               top: "60% ",
               left: "7%",
               width: "70%",
-            }}>
+            }}
+          >
             <GreenButtom texto={"Conoce más"} linkTo={"/"} />
           </Box>
 
@@ -914,13 +1024,13 @@ const QueHacemos = () => {
         <Box
           sx={{
             width: "100%",
-            background: "linear-gradient(to bottom, #1296E9, #39B3FF, #1779B6)",            minHeight: "70vh",
+            background: "linear-gradient(to bottom, #1296E9, #39B3FF, #1779B6)",
+            minHeight: "70vh",
             pb: 5,
             pt: 1,
           }}
         >
           <Box width={"100%"}>
-
             <Box pt={4} textAlign={"center"}>
               <img src="/hrmobile.png" alt="" />
             </Box>
@@ -935,7 +1045,7 @@ const QueHacemos = () => {
                   fontSize: "44px",
                 }}
               >
-               on demand:
+                on demand:
               </Typography>
               <Typography
                 mt={"-12px"}
@@ -1115,8 +1225,7 @@ const QueHacemos = () => {
           }}
         >
           <Box width={"100%"}>
-
-          <Box pt={4} textAlign={"center"}>
+            <Box pt={4} textAlign={"center"}>
               <img src="/hrmobil1.png" alt="" />
             </Box>
             <Box width={"95%"} textAlign={"center"}>

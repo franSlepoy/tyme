@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 const GreenButtom = ({ texto, linkTo }) => {
   return (
     <Button
+    disableRipple={true}
       component={Link} // Usa Link como el componente de Button
       to={linkTo} // Pasa la URL a la que se debe dirigir el enlace
       variant="contained"

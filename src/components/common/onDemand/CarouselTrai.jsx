@@ -1,7 +1,6 @@
 import Carousel from "react-material-ui-carousel";
 import { motion } from "framer-motion";
-import Mentoring1 from "./Mentoring1";
-import Mentoring2 from "./Mentoring2";
+
 import Training1 from "./Training1";
 import Training2 from "./Training2";
 
@@ -12,12 +11,24 @@ const CarouselTrai = () => {
       timeout={100}
       sx={{
         backgroundColor: "#046C31",
-        height: "100vh",
+        margin: "auto",
+        pb: "2%",
         width: "100%",
-        position: "fixed",
-        top: 0,
-        left: 1,
-        zIndex: 999,
+        "& .MuiButtonBase-root.MuiIconButton-root.MuiIconButton-sizeSmall.MuiIconButton-edgeStart":
+          {
+            marginLeft: "222px", // Posición a la izquierda para el botón de navegación previa
+          },
+      }}
+      indicatorIconButtonProps={{
+        style: {
+          color: "white", // Color blanco para los botones de navegación
+        },
+      }}
+      prevIconButtonProps={{
+        style: {
+          color: "white", // Color blanco para los botones de navegación
+          marginLeft: -30, // Posición a la izquierda
+        },
       }}
     >
       <motion.div

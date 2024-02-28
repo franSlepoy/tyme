@@ -8,7 +8,7 @@ const Mentoring1 = () => {
       <Hidden smDown>
       <Box
       p={"6%"}
-      sx={{ width: "100%", height: "94vh", backgroundColor: "#046C31" }}
+      sx={{ width: "100%", height: "70vh", backgroundColor: "#046C31" }}
     >
       <Box display={"flex"} component={NavLink} to={"/queHacemos"} sx={{textDecoration:"none"}}>
         <img height={"30px"} src="/arrowButton.png" alt="" />
@@ -36,7 +36,7 @@ const Mentoring1 = () => {
             lineHeight: "45px",
             fontWeight: "700",
             color: "white",
-            mt: "7%",
+            mt: "2%",
           }}
         >
          <span style={{ color: '#73F0A2' }}>Mentoring</span>  personalizado
@@ -50,7 +50,7 @@ const Mentoring1 = () => {
             lineHeight: "30px",
             color: "white",
             fontWeight: "300",
-            mt: "8%",
+            mt: "3%",
           }}
         >
           Creamos un servicio para líderes que buscan dar un paso hacia la transformación digital, a partir de la planificación estratégica y un asesoramiento especializado. Con este programa, capacitamos en el uso de la tecnología aplicada a la gestión del talento, impulsando la eficiencia para mejorar la experiencia y las habilidades de tu equipo de trabajo.

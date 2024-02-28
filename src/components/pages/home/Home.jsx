@@ -1,4 +1,4 @@
-import { Box, Button, Hidden, Typography } from "@mui/material";
+import { Box, Hidden, Typography } from "@mui/material";
 import TestimonioCard from "../../common/testimonios/TestimonioCard/TestimonioCard";
 import { TestimoniosCradData } from "../../../servidor/testimoniosData";
 import Testimonios from "../../common/testimonios/Testimonios";
@@ -9,17 +9,18 @@ import Carousel from "react-material-ui-carousel";
 import BlackButtom from "../../common/blackButtom/BlackButtom";
 import { Parallax } from "react-scroll-parallax";
 import GreenButtom from "../../common/greenButtom/GreenButtom";
+import { Link as ScrollLink } from 'react-scroll';
 
 const Home = () => {
   return (
     <>
       <Hidden lgDown>
         <Parallax speed={-8}>
-          <Box width={"100%"}>
+          <Box width={"100%"} height={"100vh"} overflow="hidden">
             <img style={{ width: "100%" }} src="/header1.png" alt="" />
           </Box>
         </Parallax>
-        <Box>
+        <Box >
           <Box sx={{ position: "absolute", top: "44%" }}>
             <img src="/nosotros4.png" alt="" />
           </Box>
@@ -50,11 +51,20 @@ const Home = () => {
               left: "43%",
             }}
           >
-            <GreenButtom texto={"Conoce más"} linkTo={"/nosotros"} />
+            {/* <GreenButtom texto={"Conoce más"} linkTo={"/#seccionDestino"} /> */}
+            <ScrollLink to="seccionDestino" smooth={true} >
+    <GreenButtom texto={"Conoce más"} />
+  </ScrollLink>
           </Box>
         </Box>
 
-        <Box m={"auto"} width={"87%"} display={"flex"} mt={"76px"}>
+        <Box
+          id="seccionDestino"
+          m={"auto"}
+          width={"87%"}
+          display={"flex"}
+          pt={"20vh"}
+        >
           <Box width={"45%"}>
             <Typography
               sx={{
@@ -185,12 +195,12 @@ const Home = () => {
 
       <Hidden lgUp smDown>
         <Parallax speed={-8}>
-          <Box mt={-2} width={"100%"} >
+          <Box mt={-2} width={"100%"}>
             <img width={"100%"} src="/header1.png" alt="" />
           </Box>
         </Parallax>
         <Box height={"500%"}>
-         {/*  <Box sx={{ position: "absolute", top: "44%" }}>
+          {/*  <Box sx={{ position: "absolute", top: "44%" }}>
             <img src="/nosotros4.png" alt="" />
           </Box> */}
           <Box
@@ -353,7 +363,6 @@ const Home = () => {
       </Hidden>
 
       <Hidden smUp>
-       
         <Box
           mt={"-25px"}
           bgcolor={"#73F0A2"}
@@ -380,20 +389,17 @@ const Home = () => {
               Somos el puente entre el equipo que tienes y el que quieres
             </Typography>
           </Box>
-          <Box pt={4} ml={"7%"} >
-              <BlackButtom texto={"Conócenos"} linkTo={"/quienesSomos"} />
-            </Box>
+          <Box pt={4} ml={"7%"}>
+            <BlackButtom texto={"Conócenos"} linkTo={"/quienesSomos"} />
+          </Box>
         </Box>
-     
-        
 
         <Box m={"auto"} width={"87%"} mt={"76px"}>
-          
           <Box width={"95%"} mt={5}>
             <Typography
               sx={{
                 fontFamily: "Manrope",
-                fontSize: "16px",
+                fontSize: "14px",
                 lineHeight: "34px",
                 fontWeight: 300,
               }}
@@ -474,7 +480,7 @@ const Home = () => {
               textAlign: "center",
               mt: "48px",
               mb: "48px",
-              
+
               color: "#272525",
               width: "90%",
               fontFamily: "Merriweather",

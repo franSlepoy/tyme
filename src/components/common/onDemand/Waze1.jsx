@@ -9,7 +9,7 @@ const Evaluacion1 = () => {
     <Hidden smDown>
     <Box
       p={"6%"}
-      sx={{ width: "100%", height: "94vh", backgroundColor: "#104B70" }}
+      sx={{ width: "100%", height: "70vh", backgroundColor: "#104B70" }}
     >
       <Box display={"flex"} component={NavLink} to={"/queHacemos"} sx={{textDecoration:"none"}}>
         <img height={"30px"} src="/arrowButton.png" alt="" />
@@ -37,7 +37,7 @@ const Evaluacion1 = () => {
             lineHeight: "45px",
             fontWeight: "700",
             color: "white",
-            mt: "7%",
+            mt: "2%",
           }}
         >
           Waze laboral
@@ -51,7 +51,7 @@ const Evaluacion1 = () => {
             lineHeight: "30px",
             color: "white",
             fontWeight: "300",
-            mt: "8%",
+            mt: "3%",
           }}
         >
          Diseñamos soluciones innovadoras para transformar los puestos de trabajo y potenciar el talento de tu empresa, adaptándolo a un mundo laboral que cambia constantemente, con planes de reskilling y upskilling. Nuestra metodología se basa en la personalización y en un enfoque integral que prepara a tus equipos para nuevos desafíos y demandas del mercado.

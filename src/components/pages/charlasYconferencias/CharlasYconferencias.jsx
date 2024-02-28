@@ -1,8 +1,5 @@
 import { Box, Button, Hidden, Typography } from "@mui/material";
-import { CharlasData } from "../../../servidor/CharlasData";
-import Carousel from "react-material-ui-carousel";
-import TextoCard1 from "../../common/textoCard/TextoCard1";
-import Formulario from "../../common/formulario/Formulario";
+
 import { Parallax } from "react-scroll-parallax";
 import Charlas1 from "../../common/charlas/Charlas1";
 import { useState } from "react";
@@ -13,6 +10,7 @@ import BlackButtom from "../../common/blackButtom/BlackButtom";
 import Charlas5 from "../../common/charlas/Charlas5";
 import Charlas6 from "../../common/charlas/Charlas6";
 import Charlas7 from "../../common/charlas/Charlas7";
+import { Link as ScrollLink } from "react-scroll";
 
 const CharlasYconferencias = () => {
   // Estado para controlar qué componente se muestra
@@ -49,11 +47,13 @@ const CharlasYconferencias = () => {
         <Parallax speed={-12} tagOuter="figure">
           <Box
             width={"100%"}
+            height={"100vh"}
+            overflow="hidden"
             style={{
               backgroundImage: "linear-gradient(to left, #264185, #4D4747)",
             }}
           >
-            <img width={"100%"} src="/charlas1.png" alt="" />
+            <img height={"100%"} src="/charlas1.png" alt="" />
           </Box>
         </Parallax>
         <Box>
@@ -65,7 +65,7 @@ const CharlasYconferencias = () => {
               position: "absolute",
               top: "28% ",
               left: "51%",
-              width: "42%",
+              width: "45%",
             }}
           >
             <Typography
@@ -81,12 +81,19 @@ const CharlasYconferencias = () => {
               para organizaciones, compañías e industrias.
             </Typography>
           </Box>
-          <Box sx={{ position: "absolute", top: "90vh", left: "50%" }}>
-            <img src="/flechaBajo.png" alt="" />
-          </Box>
+
+          <ScrollLink to={"seccionDestino"} smooth={true}>
+            <Button
+              disableRipple={true}
+              sx={{ position: "absolute", top: "94vh", left: "50%" }}
+            >
+              <img src="/flechaBajo.png" alt="" />
+            </Button>
+          </ScrollLink>
         </Box>
 
         <Box
+          id={"seccionDestino"}
           style={{
             backgroundImage: "linear-gradient(to right, #18CC66, #1296E9)",
           }}
@@ -135,11 +142,15 @@ const CharlasYconferencias = () => {
             <Box
               width={"19%"}
               component={Button}
+              disableRipple={true}
               onClick={handleClickA}
               sx={{
                 textTransform: "none",
                 display: "flex",
                 flexDirection: "column",
+                "&:hover": {
+                  backgroundColor: "transparent",
+                },
               }}
             >
               <img src="/iconC1.png" alt="" />
@@ -173,11 +184,15 @@ const CharlasYconferencias = () => {
               width={"20%"}
               ml={4}
               component={Button}
+              disableRipple={true}
               onClick={handleClickB}
               sx={{
                 textTransform: "none",
                 display: "flex",
                 flexDirection: "column",
+                "&:hover": {
+                  backgroundColor: "transparent",
+                },
               }}
             >
               <img src="/iconC2.png" alt="" />
@@ -210,11 +225,15 @@ const CharlasYconferencias = () => {
               width={"21%"}
               ml={4}
               component={Button}
+              disableRipple={true}
               onClick={handleClickC}
               sx={{
                 textTransform: "none",
                 display: "flex",
                 flexDirection: "column",
+                "&:hover": {
+                  backgroundColor: "transparent",
+                },
               }}
             >
               <img src="/iconC3.png" alt="" />
@@ -247,11 +266,15 @@ const CharlasYconferencias = () => {
               width={"23%"}
               ml={4}
               component={Button}
+              disableRipple={true}
               onClick={handleClickD}
               sx={{
                 textTransform: "none",
                 display: "flex",
                 flexDirection: "column",
+                "&:hover": {
+                  backgroundColor: "transparent",
+                },
               }}
             >
               <img src="/iconC4.png" alt="" />
@@ -351,11 +374,15 @@ const CharlasYconferencias = () => {
             <Box
               width={"19%"}
               component={Button}
+              disableRipple={true}
               onClick={handleClickE}
               sx={{
                 textTransform: "none",
                 display: "flex",
                 flexDirection: "column",
+                "&:hover": {
+                  backgroundColor: "transparent",
+                },
               }}
             >
               <img src="/iconC5.png" alt="" />
@@ -387,11 +414,15 @@ const CharlasYconferencias = () => {
               width={"23%"}
               ml={4}
               component={Button}
+              disableRipple={true}
               onClick={handleClickF}
               sx={{
                 textTransform: "none",
                 display: "flex",
                 flexDirection: "column",
+                "&:hover": {
+                  backgroundColor: "transparent",
+                },
               }}
             >
               <img src="/iconC6.png" alt="" />
@@ -423,11 +454,16 @@ const CharlasYconferencias = () => {
               width={"23%"}
               ml={4}
               component={Button}
+              disableRipple={true}
               onClick={handleClickG}
               sx={{
                 textTransform: "none",
                 display: "flex",
                 flexDirection: "column",
+                "&:hover": {
+                
+                  backgroundColor: "transparent",
+                },
               }}
             >
               <img src="/iconC7.png" alt="" />
@@ -1110,7 +1146,7 @@ const CharlasYconferencias = () => {
         <Box sx={{ p: "7%" }} width={"100%"} bgcolor={"#1296E9"}>
           <Box textAlign={"center"}>
             <Typography
-             p={"7%"}
+              p={"7%"}
               sx={{
                 fontFamily: "Manrope",
                 fontWeight: "100",

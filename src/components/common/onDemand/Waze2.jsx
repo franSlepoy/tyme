@@ -8,7 +8,7 @@ const Waze2 = () => {
     <Hidden smDown>
     <Box
       p={"6%"}
-      sx={{ width: "100%", height: "94vh", backgroundColor: "#104B70" }}
+      sx={{ width: "100%", height: "70vh", backgroundColor: "#104B70" }}
     >
       <Box
         display={"flex"}
@@ -64,7 +64,7 @@ const Waze2 = () => {
       </Box>
 
       <Box display={"flex"} mt={"3%"}>
-        <Box maxWidth={"230px"}>
+        <Box >
           <Typography
             sx={{
               color: "#72C8FF",
@@ -89,7 +89,7 @@ const Waze2 = () => {
             base al análisis del sector.
           </Typography>
         </Box>
-        <Box ml={"4%"} maxWidth={"200px"}>
+        <Box ml={"4%"} >
           <Typography
             sx={{
               color: "#72C8FF",
@@ -114,7 +114,7 @@ const Waze2 = () => {
             talentos.
           </Typography>
         </Box>
-        <Box ml={"4%"} maxWidth={"200px"}>
+        <Box ml={"4%"} >
           <Typography
             sx={{
               color: "#72C8FF",
@@ -140,7 +140,7 @@ const Waze2 = () => {
             crecimiento.
           </Typography>
         </Box>
-        <Box ml={"4%"} maxWidth={"200px"}>
+        <Box ml={"4%"} >
           <Typography
             sx={{
               color: "#72C8FF",

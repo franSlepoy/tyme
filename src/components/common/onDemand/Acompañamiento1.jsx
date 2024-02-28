@@ -9,7 +9,7 @@ const Acompañamiento1 = () => {
     <Hidden smDown>
     <Box
       p={"6%"}
-      sx={{ width: "100%", height: "94vh", backgroundColor: "#104B70" }}
+      sx={{ width: "100%", height: "70vh", backgroundColor: "#104B70" }}
     >
       <Box display={"flex"} component={NavLink} to={"/queHacemos"} sx={{textDecoration:"none"}}>
         <img height={"30px"} src="/arrowButton.png" alt="" />
@@ -37,7 +37,7 @@ const Acompañamiento1 = () => {
             lineHeight: "45px",
             fontWeight: "700",
             color: "white",
-            mt: "7%",
+            mt: "2%",
           }}
         >
          Acompañamiento para certificaciones
@@ -52,7 +52,7 @@ const Acompañamiento1 = () => {
             lineHeight: "30px",
             color: "white",
             fontWeight: "300",
-            mt: "8%",
+            mt: "3%",
           }}
         >
           Te asistimos en cada paso hasta su aprobación, como una herramienta que valida el compromiso de tu empresa con altos estándares de calidad. Esto suma un valor diferencial que permite atraer nuevos clientes y acceder a nuevos mercados, y promueve una revisión continua de los procesos internos que potencian un crecimiento sostenible y a largo plazo.

@@ -1,14 +1,16 @@
 import { Box, Button, Hidden, Typography } from "@mui/material";
 import { Parallax } from "react-scroll-parallax";
 import BlackButtom from "../../common/blackButtom/BlackButtom";
+import { Link as ScrollLink } from "react-scroll";
+
 
 const Manifiesto = () => {
   return (
     <>
       <Hidden lgDown>
         <Parallax speed={-12} tagOuter="figure">
-          <Box mt={2}>
-            <img width={"103%"} src="/manifiesto1.png" alt="" />
+          <Box mt={2} width={"100%"} height={"100vh"} overflow="hidden" >
+            <img width={"103%"}  src="/manifiesto1.png" alt="" />
           </Box>
         </Parallax>
         <Box>
@@ -36,12 +38,17 @@ const Manifiesto = () => {
               todos tus talentos.
             </Typography>
           </Box>
-          <Box sx={{ position: "absolute", top: "92vh", left: "50%" }}>
+
+         <ScrollLink to="seccionDestino" smooth={true}>
+         <Button sx={{ position: "absolute", top: "92vh", left: "50%" }}>
             <img src="/flechaBajo.png" alt="" />
-          </Box>
+          </Button>
+         </ScrollLink>
+          
         </Box>
 
         <Box
+            id="seccionDestino"
           width={"100%"}
           height={"84vh"}
           sx={{ bgcolor: "rgba(15, 150, 233, 0.4)" }}
@@ -99,7 +106,7 @@ const Manifiesto = () => {
         </Box>
       </Hidden>
 
-      <Hidden lgup smDown>
+      <Hidden lgUp smDown>
         <Box sx={{ bgcolor: "rgba(15, 150, 233, 0.1)" }} height={"107vh"}>
           <img width={"100%"} height={"710vh"} src="/manifiesto1.png" alt="" />
         </Box>

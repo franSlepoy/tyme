@@ -8,7 +8,7 @@ const Cultura2 = () => {
       <Hidden smDown>
         <Box
           p={"6%"}
-          sx={{ width: "100%", height: "94vh", backgroundColor: "#104B70" }}
+          sx={{ width: "100%", height: "70vh", backgroundColor: "#104B70" }}
         >
           <Box
             display={"flex"}
@@ -48,7 +48,7 @@ const Cultura2 = () => {
             </Typography>
 
             <Typography
-              maxWidth={"780px"}
+              maxWidth={"980px"}
               sx={{
                 fontFamily: "Manrope",
                 fontSize: "26px",
@@ -64,7 +64,7 @@ const Cultura2 = () => {
           </Box>
 
           <Box display={"flex"} mt={"3%"}>
-            <Box maxWidth={"230px"}>
+            <Box >
               <Typography
                 sx={{
                   color: "#72C8FF",
@@ -89,7 +89,7 @@ const Cultura2 = () => {
                 empresa, en base al análisis del sector.
               </Typography>
             </Box>
-            <Box ml={"4%"} maxWidth={"200px"}>
+            <Box ml={"4%"} >
               <Typography
                 sx={{
                   color: "#72C8FF",
@@ -114,7 +114,7 @@ const Cultura2 = () => {
                 desarrollo de talentos.
               </Typography>
             </Box>
-            <Box ml={"4%"} maxWidth={"200px"}>
+            <Box ml={"4%"}>
               <Typography
                 sx={{
                   color: "#72C8FF",
@@ -140,7 +140,7 @@ const Cultura2 = () => {
                 de crecimiento.
               </Typography>
             </Box>
-            <Box ml={"4%"} maxWidth={"200px"}>
+            <Box ml={"4%"} >
               <Typography
                 sx={{
                   color: "#72C8FF",

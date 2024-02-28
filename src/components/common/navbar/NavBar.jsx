@@ -177,7 +177,7 @@ const NavBar = () => {
                   backgroundColor: "#18CC66",
                   "&:hover": {
                     borderRadius: "100px",
-                    backgroundColor: "#71EAEA",
+                    backgroundColor: "#18CC66",
                   },
                 }}
               >

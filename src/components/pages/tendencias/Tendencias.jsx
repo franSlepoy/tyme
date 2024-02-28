@@ -1,18 +1,17 @@
 import {
   Box,
+  Button,
   Hidden,
   ImageList,
   ImageListItem,
   Typography,
 } from "@mui/material";
-import React from "react";
-import { ArticulosData } from "../../../servidor/ArticulosData";
-import ArticuloCard from "../../common/articulosCard/ArticulosCard";
-import Carousel from "react-material-ui-carousel";
-import { CharlasData } from "../../../servidor/CharlasData";
-import TextoCard1 from "../../common/textoCard/TextoCard1";
+
 import { Parallax } from "react-scroll-parallax";
 import BlackButtom from "../../common/blackButtom/BlackButtom";
+import { Link as ScrollLink } from "react-scroll";
+import { ArticulosData } from "../../../servidor/ArticulosData";
+import ArticuloCard from "../../common/articulosCard/ArticulosCard";
 
 const Tendencias = () => {
   return (
@@ -59,12 +58,15 @@ const Tendencias = () => {
               organizacional
             </Typography>
           </Box>
-          <Box sx={{ position: "absolute", top: "108vh", left: "50%" }}>
-            <img src="/flechaVerde.png" alt="" />
-          </Box>
+
+          <ScrollLink to="seccionDestino" smooth={true}>
+            <Button sx={{ position: "absolute", top: "108vh", left: "50%" }}>
+              <img src="/flechaVerde.png" alt="" />
+            </Button>
+          </ScrollLink>
         </Box>
 
-        <Box width={"100%"} mt={"15%"}>
+        <Box width={"100%"} mt={"15%"} id="seccionDestino">
           <Typography
             sx={{
               fontFamily: "Merriweather",
