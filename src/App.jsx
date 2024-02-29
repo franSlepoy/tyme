@@ -38,12 +38,6 @@ const App = () => {
           <Route path="/tendencias" element={<Tendencias />} />
           <Route path="/contacto" element={<Contacto />} />
           <Route path="/menu" element={<Menu />} />
-          <Route path="/eDyP" element={<CarouselEv />} />
-          <Route path="/cultura" element={<CarouselCultura />} />
-          <Route path="/waze" element={<CarouselWaze />} />
-          <Route path="/acompañamiento" element={<CarouselAcom />} />
-          <Route path="/mentoring" element={<CarouselMentoring />} />
-          <Route path="/tYe" element={<CarouselTrai />} />
         </Routes>
         <Footer />
       </>

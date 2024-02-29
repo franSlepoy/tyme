@@ -41,7 +41,7 @@ const Acompañamiento2 = () => {
                 lineHeight: "45px",
                 fontWeight: "700",
                 color: "white",
-                mt: "4%",
+                mt: "2%",
               }}
             >
               Por qué es importante certificar
@@ -78,10 +78,10 @@ const Acompañamiento2 = () => {
               </Typography>
               <Typography
                 sx={{
-                  color: "#73F0A2",
+                  color: "white",
                   fontFamily: "Manrope",
                   fontSize: "24px",
-                  fontWeight: "800",
+                  fontWeight: "100",
                   mt: 2,
                 }}
               >
@@ -103,10 +103,10 @@ const Acompañamiento2 = () => {
               </Typography>
               <Typography
                 sx={{
-                  color: "#73F0A2",
+                  color: "white",
                   fontFamily: "Manrope",
                   fontSize: "24px",
-                  fontWeight: "800",
+                  fontWeight: "100",
                   mt: 2,
                 }}
               >
@@ -129,10 +129,10 @@ const Acompañamiento2 = () => {
 
               <Typography
                 sx={{
-                  color: "#73F0A2",
+                  color: "white",
                   fontFamily: "Manrope",
                   fontSize: "24px",
-                  fontWeight: "800",
+                  fontWeight: "100",
                   mt: 2,
                 }}
               >
@@ -154,10 +154,10 @@ const Acompañamiento2 = () => {
               </Typography>
               <Typography
                 sx={{
-                  color: "#73F0A2",
+                  color: "white",
                   fontFamily: "Manrope",
                   fontSize: "24px",
-                  fontWeight: "800",
+                  fontWeight: "100",
                   mt: 2,
                 }}
               >

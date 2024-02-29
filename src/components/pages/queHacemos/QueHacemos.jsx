@@ -421,10 +421,13 @@ const QueHacemos = () => {
                 }}
               >
                 <Box
+                  
                   onClick={handleOpenModal5}
                   display={"flex"}
                   mt={"22%"}
-                  sx={{ textDecoration: "none" }}
+                  sx={{ textDecoration: "none", "&:hover": {
+                    backgroundColor: "transparent",
+                  }, }}
                   onMouseEnter={(e) => {
                     e.currentTarget.querySelector(
                       ".highlighted-text"

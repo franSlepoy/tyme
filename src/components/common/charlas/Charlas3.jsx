@@ -6,23 +6,24 @@ const Charlas3 = ({ handleCloseComponente }) => {
     <Box
       position={"absolute"}
       top={"128%"}
+      left={"6%"}
       display={"flex"}
-      height={"90vh"}
-      width={"100%"}
+      height={"78vh"}
+      width={"87%"}
       sx={{ bgcolor: "#73F0A2" }}
       zIndex={100}
     >
-      <Box ml={"7%"} mt={"6%"} width={"53%"}>
+      <Box ml={"10%"} mt={"6%"} width={"53%"}>
         <Button onClick={handleCloseComponente} sx={{ ml: -3 }}>
-          <img height={"40px"} src="/arrowButton.png" alt="" />
+          <img src="/flechaCH.png" alt="" />
         </Button>
 
         <Typography
           sx={{
-            mt: "22px",
+            mt: "3%",
             fontFamily: "Manrope",
             fontSize: "48px",
-            fontWeight: "800",
+            fontWeight: "700",
             lineHeight: "45px",
             color: "white",
           }}
@@ -31,8 +32,8 @@ const Charlas3 = ({ handleCloseComponente }) => {
         </Typography>
         <Typography
           sx={{
-            mt: 2,
-            width: "54%",
+            mt: "1%",
+            width: "74%",
             fontFamily: "Manrope",
             fontSize: "30px",
             fontWeight: "600",
@@ -40,15 +41,15 @@ const Charlas3 = ({ handleCloseComponente }) => {
             color: "black",
           }}
         >
-         liderazgo transformador en tiempos de incertidumbre
+          liderazgo transformador en tiempos de incertidumbre
         </Typography>
         <Typography
           sx={{
-            mt: "28px",
-            mb: "14%",
+            mt: "4%",
+            mb: "5%",
             fontFamily: "Manrope",
             fontSize: "24px",
-            fontWeight: "400",
+            fontWeight: "300",
             lineHeight: "30px",
             color: "black",
           }}
@@ -58,24 +59,10 @@ const Charlas3 = ({ handleCloseComponente }) => {
           cultivar una cultura de confianza y herramientas para implementar el
           cambio midiendo su impacto en el negocio.
         </Typography>
-        <BlackButtom texto={"Consultanos"} />
+        <BlackButtom texto={"Consultanos"} linkTo={"/contacto"} />
       </Box>
       <Box width={"40%"} ml={6}>
-        <img height={"100%"} src="/iconCH1.png" alt="" />
-        <Typography
-          position={"absolute"}
-          top={"28%"}
-          ml={"6%"}
-          width={"25%"}
-          sx={{
-            fontFamily: "Marriweather",
-            fontSize: "48px",
-            fontWeight: "100",
-            color: "white",
-          }}
-        >
-         Potenciar el rendimiento en tiempo de pocas certezas
-        </Typography>
+        <img height={"100%"} src="/ch03.png" alt="" />
       </Box>
     </Box>
   );

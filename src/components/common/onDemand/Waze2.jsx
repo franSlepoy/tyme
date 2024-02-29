@@ -41,7 +41,7 @@ const Waze2 = () => {
             lineHeight: "45px",
             fontWeight: "700",
             color: "white",
-            mt: "4%",
+            mt: "2%",
           }}
         >
           Cómo lo hacemos
@@ -85,7 +85,18 @@ const Waze2 = () => {
               mt: 2,
             }}
           >
-            Diagnóstico: identificamos las necesidades futuras de tu empresa, en
+            Diagnóstico: 
+          </Typography>
+          <Typography
+            sx={{
+              color: "white",
+              fontFamily: "Manrope",
+              fontSize: "24px",
+              fontWeight: "100",
+              
+            }}
+          >
+        identificamos las necesidades futuras de tu empresa, en
             base al análisis del sector.
           </Typography>
         </Box>
@@ -110,7 +121,18 @@ const Waze2 = () => {
               mt: 2,
             }}
           >
-            Planificación: creamos planes a medida, con foco en el desarrollo de
+            Planificación: 
+          </Typography>
+          <Typography
+            sx={{
+              color: "white",
+              fontFamily: "Manrope",
+              fontSize: "24px",
+              fontWeight: "100",
+              
+            }}
+          >
+            creamos planes a medida, con foco en el desarrollo de
             talentos.
           </Typography>
         </Box>
@@ -136,7 +158,18 @@ const Waze2 = () => {
               mt: 2,
             }}
           >
-            Ejecución: ponemos en marcha la estrategia, alineada a tus metas de
+            Ejecución:
+          </Typography>
+          <Typography
+            sx={{
+              color: "white",
+              fontFamily: "Manrope",
+              fontSize: "24px",
+              fontWeight: "100",
+            
+            }}
+          >
+           ponemos en marcha la estrategia, alineada a tus metas de
             crecimiento.
           </Typography>
         </Box>
@@ -161,7 +194,18 @@ const Waze2 = () => {
               mt: 2,
             }}
           >
-            Evaluación: monitoreamos los resultados y medimos su impacto directo
+            Evaluación: 
+          </Typography>
+          <Typography
+            sx={{
+              color: "white",
+              fontFamily: "Manrope",
+              fontSize: "24px",
+              fontWeight: "100",
+           
+            }}
+          >
+            monitoreamos los resultados y medimos su impacto directo
             en el negocio.
           </Typography>
         </Box>
@@ -237,7 +281,7 @@ const Waze2 = () => {
       </Box>
 
       <Box  mt={"3%"}>
-        <Box maxWidth={"230px"}>
+        <Box >
           <Typography
             sx={{
               color: "#72C8FF",
@@ -258,11 +302,22 @@ const Waze2 = () => {
               mt: 2,
             }}
           >
-            Diagnóstico: identificamos las necesidades futuras de tu empresa, en
+            Diagnóstico: 
+          </Typography>
+          <Typography
+            sx={{
+              color: "white",
+              fontFamily: "Manrope",
+              fontSize: "24px",
+              fontWeight: "100",
+              mt: 2,
+            }}
+          >
+        identificamos las necesidades futuras de tu empresa, en
             base al análisis del sector.
           </Typography>
         </Box>
-        <Box ml={"4%"} maxWidth={"200px"}>
+        <Box ml={"4%"} >
           <Typography
             sx={{
               color: "#72C8FF",
@@ -283,7 +338,18 @@ const Waze2 = () => {
               mt: 2,
             }}
           >
-            Planificación: creamos planes a medida, con foco en el desarrollo de
+            Planificación: 
+          </Typography>
+          <Typography
+            sx={{
+              color: "white",
+              fontFamily: "Manrope",
+              fontSize: "24px",
+              fontWeight: "100",
+             
+            }}
+          >
+            creamos planes a medida, con foco en el desarrollo de
             talentos.
           </Typography>
         </Box>
@@ -309,7 +375,18 @@ const Waze2 = () => {
               mt: 2,
             }}
           >
-            Ejecución: ponemos en marcha la estrategia, alineada a tus metas de
+            Ejecución: 
+          </Typography>
+          <Typography
+            sx={{
+              color: "white",
+              fontFamily: "Manrope",
+              fontSize: "24px",
+              fontWeight: "800",
+            
+            }}
+          >
+           ponemos en marcha la estrategia, alineada a tus metas de
             crecimiento.
           </Typography>
         </Box>

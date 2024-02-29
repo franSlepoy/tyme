@@ -50,7 +50,7 @@ const CharlasYconferencias = () => {
             height={"100vh"}
             overflow="hidden"
             style={{
-              backgroundImage: "linear-gradient(to left, #264185, #4D4747)",
+              backgroundImage: "linear-gradient(to top , #264185, #4D4747)",
             }}
           >
             <img height={"100%"} src="/charlas1.png" alt="" />
@@ -95,7 +95,7 @@ const CharlasYconferencias = () => {
         <Box
           id={"seccionDestino"}
           style={{
-            backgroundImage: "linear-gradient(to right, #18CC66, #1296E9)",
+            backgroundImage: "linear-gradient(to right top, #18CC66, #1296E9)",
           }}
           sx={{ width: "100%", height: "147vh", pb: "5%" }}
         >
@@ -332,7 +332,7 @@ const CharlasYconferencias = () => {
           height={"120vh"}
           pb={"5%"}
           style={{
-            backgroundImage: "linear-gradient(to right, #1296E9, #18CC66)",
+            backgroundImage: "linear-gradient(to right top, #1296E9, #18CC66)",
           }}
         >
           <Box pt={20}>
