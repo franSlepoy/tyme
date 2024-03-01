@@ -222,7 +222,6 @@ const Cultura2 = () => {
             overflowY: "auto", // Permitir scroll vertical si es necesario
           }}
         >
-          >
           <Box
             display={"flex"}
             component={NavLink}
@@ -275,7 +274,7 @@ const Cultura2 = () => {
             </Typography>
           </Box>
           <Box mt={"3%"}>
-            <Box maxWidth={"230px"}>
+            <Box>
               <Typography
                 sx={{
                   color: "#72C8FF",
@@ -296,11 +295,21 @@ const Cultura2 = () => {
                   mt: 2,
                 }}
               >
-                Diagnóstico: identificamos las necesidades futuras de tu
-                empresa, en base al análisis del sector.
+                Diagnóstico:
+              </Typography>
+              <Typography
+                sx={{
+                  color: "white",
+                  fontFamily: "Manrope",
+                  fontSize: "24px",
+                  fontWeight: "100",
+                }}
+              >
+                identificamos las necesidades futuras de tu empresa, en base al
+                análisis del sector.
               </Typography>
             </Box>
-            <Box maxWidth={"200px"}>
+            <Box>
               <Typography
                 sx={{
                   color: "#72C8FF",
@@ -324,8 +333,18 @@ const Cultura2 = () => {
                 Planificación: creamos planes a medida, con foco en el
                 desarrollo de talentos.
               </Typography>
+              <Typography
+                sx={{
+                  color: "white",
+                  fontFamily: "Manrope",
+                  fontSize: "24px",
+                  fontWeight: "100",
+                }}
+              >
+                creamos planes a medida, con foco en el desarrollo de talentos.
+              </Typography>
             </Box>
-            <Box maxWidth={"200px"}>
+            <Box>
               <Typography
                 sx={{
                   color: "#72C8FF",
@@ -347,11 +366,21 @@ const Cultura2 = () => {
                   mt: 2,
                 }}
               >
-                Ejecución: ponemos en marcha la estrategia, alineada a tus metas
-                de crecimiento.
+                Ejecución:
+              </Typography>
+              <Typography
+                sx={{
+                  color: "white",
+                  fontFamily: "Manrope",
+                  fontSize: "24px",
+                  fontWeight: "100",
+                }}
+              >
+                ponemos en marcha la estrategia, alineada a tus metas de
+                crecimiento.
               </Typography>
             </Box>
-            <Box maxWidth={"200px"}>
+            <Box>
               <Typography
                 sx={{
                   color: "#72C8FF",
@@ -372,8 +401,18 @@ const Cultura2 = () => {
                   mt: 2,
                 }}
               >
-                monitoreamos los resultados y medimos su impacto directo en el
-                negocio.
+                Evaluación:{" "}
+              </Typography>
+              <Typography
+                sx={{
+                  color: "white",
+                  fontFamily: "Manrope",
+                  fontSize: "24px",
+                  fontWeight: "100",
+                }}
+              >
+                medimos resultados, con seguimientos periódicos para implementar
+                ajustes.
               </Typography>
             </Box>
           </Box>

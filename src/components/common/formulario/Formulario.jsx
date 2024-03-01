@@ -37,6 +37,7 @@ const Formulario = () => {
             variant="h5"
             color="success"
             align="center"
+            fontFamily={"Manrope"}
           >
             ¡Mensaje enviado!
           </Typography>
@@ -58,10 +59,17 @@ const Formulario = () => {
               variant="filled"
               sx={{
                 mt: 3,
-                color: "darkblue",
+                color: "black",
                 width: "100%",
                 bgcolor: "white",
                 borderRadius: "4px",
+                "& .MuiInputBase-input": {
+                  fontFamily: "Manrope", // Tipografía
+                  color: "black", // Color del texto
+                },
+                "& .MuiFilledInput-underline:before": {
+                  borderBottom: "none", // Eliminar la línea negra
+                },
               }}
             />
             <TextField
@@ -72,10 +80,17 @@ const Formulario = () => {
               variant="filled"
               sx={{
                 mt: 2,
-                color: "darkblue",
+
                 width: "100%",
                 bgcolor: "white",
                 borderRadius: "4px",
+                "& .MuiInputBase-input": {
+                  fontFamily: "Manrope", // Tipografía
+                  color: "black", // Color del texto
+                },
+                "& .MuiFilledInput-underline:before": {
+                  borderBottom: "none", // Eliminar la línea negra
+                },
               }}
             />
             <TextField
@@ -85,8 +100,15 @@ const Formulario = () => {
               id="standard-size-normal"
               variant="filled"
               sx={{
+                "& .MuiInputBase-input": {
+                  fontFamily: "Manrope", // Tipografía
+                  color: "black", // Color del texto
+                },
+                "& .MuiFilledInput-underline:before": {
+                  borderBottom: "none", // Eliminar la línea negra
+                },
                 mt: 2,
-                color: "darkblue",
+
                 width: "100%",
                 bgcolor: "white",
                 borderRadius: "4px",
@@ -100,6 +122,13 @@ const Formulario = () => {
               variant="filled"
               sx={{
                 mt: 2,
+                "& .MuiInputBase-input": {
+                  fontFamily: "Manrope", // Tipografía
+                  color: "black", // Color del texto
+                },
+                "& .MuiFilledInput-underline:before": {
+                  borderBottom: "none", // Eliminar la línea negra
+                },
                 color: "darkblue",
                 width: "100%",
                 bgcolor: "white",
@@ -114,7 +143,7 @@ const Formulario = () => {
               variant="filled"
               sx={{
                 mt: 2,
-                color: "darkblue",
+
                 width: "100%",
                 bgcolor: "white",
                 borderRadius: "4px",
@@ -127,8 +156,15 @@ const Formulario = () => {
               id="standard-size-normal"
               variant="filled"
               sx={{
+                "& .MuiInputBase-input": {
+                  fontFamily: "Manrope", // Tipografía
+                  color: "black", // Color del texto
+                },
+                "& .MuiFilledInput-underline:before": {
+                  borderBottom: "none", // Eliminar la línea negra
+                },
                 mt: 2,
-                color: "darkblue",
+           
                 width: "100%",
                 bgcolor: "white",
                 borderRadius: "4px",
@@ -141,8 +177,15 @@ const Formulario = () => {
               id="standard-size-normal"
               variant="filled"
               sx={{
+                "& .MuiInputBase-input": {
+                  fontFamily: "Manrope", // Tipografía
+                  color: "black", // Color del texto
+                },
+                "& .MuiFilledInput-underline:before": {
+                  borderBottom: "none", // Eliminar la línea negra
+                },
                 mt: 2,
-                color: "darkblue",
+             
                 width: "100%",
                 bgcolor: "white",
                 borderRadius: "4px",
@@ -156,7 +199,13 @@ const Formulario = () => {
               variant="filled"
               sx={{
                 mt: 2,
-                color: "darkblue",
+                "& .MuiInputBase-input": {
+                  fontFamily: "Manrope", // Tipografía
+                  color: "black", // Color del texto
+                },
+                "& .MuiFilledInput-underline:before": {
+                  borderBottom: "none", // Eliminar la línea negra
+                },
                 width: "100%",
                 bgcolor: "white",
                 borderRadius: "4px",
@@ -170,7 +219,13 @@ const Formulario = () => {
               variant="filled"
               sx={{
                 mt: 2,
-                color: "darkblue",
+                "& .MuiInputBase-input": {
+                  fontFamily: "Manrope", // Tipografía
+                  color: "black", // Color del texto
+                },
+                "& .MuiFilledInput-underline:before": {
+                  borderBottom: "none", // Eliminar la línea negra
+                },
                 width: "100%",
                 bgcolor: "white",
                 borderRadius: "4px",
@@ -192,7 +247,6 @@ const Formulario = () => {
                     backgroundColor: "#000000",
                     color: "#F9F9F9",
                     textAlign: "center",
-
                   },
                 }}
               >

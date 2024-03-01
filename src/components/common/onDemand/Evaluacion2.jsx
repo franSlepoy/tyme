@@ -64,7 +64,7 @@ const Evaluacion2 = () => {
           </Box>
 
           <Box display={"flex"} mt={"3%"}>
-            <Box maxWidth={"230px"}>
+            <Box >
               <Typography
                 sx={{
                   color: "#72C8FF",
@@ -179,7 +179,7 @@ const Evaluacion2 = () => {
           p={"6%"}
           sx={{
             width: "100%",
-            height: "10vh", // Ajustar la altura al 100% del viewport height
+            height: "100vh", // Ajustar la altura al 100% del viewport height
             backgroundColor: "#104B70",
             overflowY: "auto", // Permitir scroll vertical si es necesario
           }}
@@ -238,7 +238,7 @@ const Evaluacion2 = () => {
           </Box>
 
           <Box mt={"3%"}>
-            <Box maxWidth={"230px"}>
+          <Box >
               <Typography
                 sx={{
                   color: "#72C8FF",
@@ -255,6 +255,7 @@ const Evaluacion2 = () => {
                   color: "#73F0A2",
                   fontFamily: "Manrope",
                   fontSize: "24px",
+                  lineHeight: "30px",
                   fontWeight: "800",
                   mt: 2,
                 }}
@@ -262,7 +263,7 @@ const Evaluacion2 = () => {
                 Análisis integral y diagnóstico personalizado.
               </Typography>
             </Box>
-            <Box>
+            <Box ml={"4%"}>
               <Typography
                 sx={{
                   color: "#72C8FF",
@@ -281,12 +282,13 @@ const Evaluacion2 = () => {
                   fontSize: "24px",
                   fontWeight: "800",
                   mt: 2,
+                  lineHeight: "30px",
                 }}
               >
                 Plan a medida.
               </Typography>
             </Box>
-            <Box maxWidth={"200px"}>
+            <Box ml={"4%"} maxWidth={"200px"}>
               <Typography
                 sx={{
                   color: "#72C8FF",
@@ -306,13 +308,14 @@ const Evaluacion2 = () => {
                   fontSize: "24px",
                   fontWeight: "800",
                   mt: 2,
+                  lineHeight: "30px",
                 }}
               >
                 Guía constante para la incorporación de los cambios
                 organizacionales.
               </Typography>
             </Box>
-            <Box maxWidth={"200px"}>
+            <Box ml={"4%"} maxWidth={"200px"}>
               <Typography
                 sx={{
                   color: "#72C8FF",
@@ -331,6 +334,7 @@ const Evaluacion2 = () => {
                   fontSize: "24px",
                   fontWeight: "800",
                   mt: 2,
+                  lineHeight: "30px",
                 }}
               >
                 Acompañamiento para adaptar las estrategias.

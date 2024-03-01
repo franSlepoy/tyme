@@ -5,44 +5,43 @@ const Charlas5 = ({ handleCloseComponente }) => {
   return (
     <Box
       position={"absolute"}
-      top={"342%"}
+      top={"348%"}
+      left={"6%"}
       display={"flex"}
-      height={"97vh"}
-      width={"100%"}
-      style={{
-        backgroundImage: "linear-gradient(to right, #18CC66, #D9D9D9)",
+      height={"78vh"}
+      width={"87%"}
+      sx={{
+        backgroundImage: `url("/hr01.png")`, // Reemplaza con la ruta de tu imagen
+        backgroundSize: "cover",
+        backgroundPosition: "center",
       }}
-     
-     
-    >
       
-    <Box position={"absolute"}>
-      <img width={"120%"} src="/hr.png" alt="" />
-    </Box>
-      <Box ml={"7%"} mt={"6%"} width={"53%"}>
+    >
+     
+      <Box ml={"10%"} mt={"6%"} width={"53%"}>
         <Button onClick={handleCloseComponente} sx={{ ml: -3 }}>
-          <img height={"40px"} src="/arrowButton.png" alt="" />
+          <img  src="/flechaCH.png" alt="" />
         </Button>
 
         <Typography
           sx={{
-            mt: "22px",
+            mt: "3%",
             fontFamily: "Manrope",
             fontSize: "48px",
-            fontWeight: "800",
+            fontWeight: "700",
             lineHeight: "45px",
             color: "white",
           }}
         >
-         HR 5.0
+          HR 5.0
         </Typography>
         <Typography
           sx={{
-            mt: 2,
-            width: "54%",
+            mt: "1%",
+            width: "97%",
             fontFamily: "Manrope",
             fontSize: "30px",
-            fontWeight: "600",
+            fontWeight: "500",
             lineHeight: "36px",
             color: "black",
           }}
@@ -51,24 +50,27 @@ const Charlas5 = ({ handleCloseComponente }) => {
         </Typography>
         <Typography
           sx={{
-            mt: "28px",
-            mb: "14%",
+            mt: "4%",
+            mb: "7%",
             fontFamily: "Manrope",
             fontSize: "24px",
-            fontWeight: "400",
+            fontWeight: "300",
             lineHeight: "30px",
             color: "black",
           }}
         >
-          Cómo incorporar nuevas tecnologías que sumen productividad y sean un salto de calidad para tu empresa y tus equipos. De qué manera identificar por qué y para qué sumarlas como un valor a la organización y aprovechar su potencial.
+          Cómo incorporar nuevas tecnologías que sumen productividad y sean un
+          salto de calidad para tu empresa y tus equipos. De qué manera
+          identificar por qué y para qué sumarlas como un valor a la
+          organización y aprovechar su potencial.
         </Typography>
-        <BlackButtom texto={"Consultanos"} />
+        <BlackButtom texto={"Consultanos"} linkTo={"/contacto"}  />
       </Box>
-      <Box  ml={"5%"}>
-        <Box position={"absolute"} top={"35%"} left={"72%"}>
+      <Box ml={"5%"}>
+        <Box position={"absolute"} top={"35%"} left={"75%"}>
           <img src="/iconCH5.png" alt="" />
         </Box>
-        <Box ml={"1%"} mt={"45%"}>
+        <Box ml={"1%"} mt={"35%"}>
           <img src="/redondo.png" alt="" />
         </Box>
       </Box>

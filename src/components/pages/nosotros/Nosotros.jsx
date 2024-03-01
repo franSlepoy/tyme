@@ -579,13 +579,13 @@ const Nosotros = () => {
                 position: "absolute",
                 top: "20% ",
                 left: "7%",
-                width: "52%",
+                width: "72%",
               }}
             >
               <Typography
                 sx={{
                   fontFamily: "Merriweather",
-                  fontSize: "20px",
+                  fontSize: "30px",
                   fontWeight: "300",
                   color: "white",
                   ml: "%",
@@ -671,8 +671,8 @@ const Nosotros = () => {
                   mt: "8%",
                   fontFamily: "Merriweather",
                   fontWeight: 100,
-                  fontSize: "32px",
-                  lineHeight: "47px",
+                  fontSize: "20px",
+                  lineHeight: "30px",
                   letterSpacing: "0.5px",
                   color: "white",
                 }}

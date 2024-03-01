@@ -3,7 +3,6 @@ import {
   Box,
   Button,
   Hidden,
-  Menu,
   Toolbar,
   Typography,
 } from "@mui/material";
@@ -188,7 +187,7 @@ const NavBar = () => {
         </AppBar>
       </Hidden>
 
-      <Hidden lgUp>
+      <Hidden lgUp smDown>
         <AppBar
           position="static"
           sx={{ boxShadow: 0, bgcolor: "#0A3A5B", height: "13vh" }}
@@ -201,7 +200,183 @@ const NavBar = () => {
               m: "auto",
             }}
           >
-            <Button sx={{color:"white"}} onClick={toggleDrawer} variant="text">
+            <Button
+              sx={{ color: "white" }}
+              onClick={toggleDrawer}
+              variant="text"
+            >
+              <MenuIcon fontSize="large" />
+            </Button>
+
+            <Box component={NavLink} to={"/"}>
+              <img src="/logoM.png" alt="logo" />
+            </Box>
+
+            <Button
+              component={NavLink}
+              to={"/contacto"}
+              variant="text"
+              sx={{
+                color: "white",
+
+                "&:hover": {},
+              }}
+            >
+              <MailOutlineIcon fontSize="large" />
+            </Button>
+          </Toolbar>
+        </AppBar>
+        <Drawer anchor="top" open={drawerOpen} onClose={toggleDrawer}>
+          <Box>
+            <Box display={"flex"} flexDirection={"column"} bgcolor={"#0C4A75"}>
+              <AppBar
+                position="static"
+                sx={{ boxShadow: 0, bgcolor: "#0A3A5B", height: "13vh" }}
+              >
+                <Toolbar
+                  sx={{
+                    justifyContent: "space-between",
+                    mt: "2%",
+                    width: "93%",
+                    m: "auto",
+                  }}
+                >
+                  <Button
+                    sx={{ color: "white" }}
+                    onClick={toggleDrawer}
+                    variant="text"
+                  >
+                    <MenuIcon fontSize="large" />
+                  </Button>
+
+                  <Box component={NavLink} to={"/"}>
+                    <img src="/logoM.png" alt="logo" />
+                  </Box>
+
+                  <Button
+                    sx={{ color: "white" }}
+                    component={NavLink}
+                    to={"/contacto"}
+                    variant="text"
+                  >
+                    <MailOutlineIcon fontSize="large" />
+                  </Button>
+                </Toolbar>
+              </AppBar>
+              <Typography
+                sx={{
+                  fontFamily: "Manrope",
+                  textTransform: "none",
+                  textDecoration: "none",
+                  mt: 1,
+                  fontSize: "20px",
+                  color: "white",
+                  textAlign: "center",
+                }}
+                component={NavLink}
+                to={"/nosotros"}
+              >
+                Quiénes somos
+              </Typography>
+              <Typography
+                sx={{
+                  fontFamily: "Manrope",
+                  textTransform: "none",
+                  textDecoration: "none",
+                  mt: 1,
+                  fontSize: "20px",
+                  color: "white",
+                  textAlign: "center",
+                }}
+                component={NavLink}
+                to={"/queHacemos"}
+              >
+                Qué hacemos
+              </Typography>
+              <Typography
+                sx={{
+                  fontFamily: "Manrope",
+                  textTransform: "none",
+                  textDecoration: "none",
+                  mt: 1,
+                  fontSize: "20px",
+                  color: "white",
+                  textAlign: "center",
+                }}
+                component={NavLink}
+                to={"/manifiesto"}
+              >
+                Manifiesto: el valor del tiempo
+              </Typography>
+
+              <Typography
+                sx={{
+                  fontFamily: "Manrope",
+                  textTransform: "none",
+                  textDecoration: "none",
+                  mt: 1,
+                  fontSize: "20px",
+                  color: "white",
+                  textAlign: "center",
+                }}
+                component={NavLink}
+                to={"/charlasYconferencias"}
+              >
+                Charlas y Conferencias
+              </Typography>
+              <Typography
+                sx={{
+                  fontFamily: "Manrope",
+                  textTransform: "none",
+                  textDecoration: "none",
+                  mt: 1,
+                  fontSize: "20px",
+                  color: "white",
+                  textAlign: "center",
+                }}
+                component={NavLink}
+                to={"/tendencias"}
+              >
+                Tendencias
+              </Typography>
+              <Typography
+                sx={{
+                  fontFamily: "Manrope",
+                  textTransform: "none",
+                  textDecoration: "none",
+                  mt: 1,
+                  fontSize: "20px",
+                  color: "white",
+                  textAlign: "center",
+                }}
+                component={NavLink}
+                to={"/contacto"}
+              >
+                Contacto
+              </Typography>
+            </Box>
+          </Box>
+        </Drawer>
+      </Hidden>
+
+      <Hidden smUp>
+        <AppBar
+          position="static"
+          sx={{ boxShadow: 0, bgcolor: "#0A3A5B", height: "9vh",  }}
+        >
+          <Toolbar
+            sx={{
+              justifyContent:"space-between",
+             
+              width: "100%",
+              m: "auto",
+            }}
+          >
+            <Button
+              sx={{ color: "white" }}
+              onClick={toggleDrawer}
+              variant="text"
+            >
               <MenuIcon fontSize="large" />
             </Button>
 

@@ -63,7 +63,7 @@ const CharlasYconferencias = () => {
           <Box
             sx={{
               position: "absolute",
-              top: "28% ",
+              top: "33% ",
               left: "51%",
               width: "45%",
             }}
@@ -72,6 +72,7 @@ const CharlasYconferencias = () => {
               sx={{
                 fontFamily: "Merriweather",
                 fontSize: "40px",
+                lineHeight:"50px",
                 fontWeight: "300",
                 color: "white",
               }}
@@ -148,12 +149,16 @@ const CharlasYconferencias = () => {
                 textTransform: "none",
                 display: "flex",
                 flexDirection: "column",
+                textAlign: "left",
                 "&:hover": {
                   backgroundColor: "transparent",
                 },
               }}
             >
-              <img src="/iconC1.png" alt="" />
+              <Box ml={-18}>
+                <img src="/iconC1.png" alt="" />
+              </Box>
+
               <Typography
                 sx={{
                   fontFamily: "Manrope",
@@ -162,6 +167,7 @@ const CharlasYconferencias = () => {
                   lineHeight: "30px",
                   color: "black",
                   mt: 5,
+                  ml: -4,
                 }}
               >
                 Amplifying impact:{" "}
@@ -187,6 +193,7 @@ const CharlasYconferencias = () => {
               disableRipple={true}
               onClick={handleClickB}
               sx={{
+                textAlign: "left",
                 textTransform: "none",
                 display: "flex",
                 flexDirection: "column",
@@ -195,7 +202,10 @@ const CharlasYconferencias = () => {
                 },
               }}
             >
-              <img src="/iconC2.png" alt="" />
+              <Box ml={-20}>
+                <img src="/iconC2.png" alt="" />
+              </Box>
+
               <Typography
                 sx={{
                   fontFamily: "Manrope",
@@ -228,6 +238,7 @@ const CharlasYconferencias = () => {
               disableRipple={true}
               onClick={handleClickC}
               sx={{
+                textAlign: "left",
                 textTransform: "none",
                 display: "flex",
                 flexDirection: "column",
@@ -236,7 +247,10 @@ const CharlasYconferencias = () => {
                 },
               }}
             >
-              <img src="/iconC3.png" alt="" />
+              <Box ml={-20}>
+                <img src="/iconC3.png" alt="" />
+              </Box>
+
               <Typography
                 sx={{
                   fontFamily: "Manrope",
@@ -269,6 +283,7 @@ const CharlasYconferencias = () => {
               disableRipple={true}
               onClick={handleClickD}
               sx={{
+                textAlign: "left",
                 textTransform: "none",
                 display: "flex",
                 flexDirection: "column",
@@ -277,7 +292,10 @@ const CharlasYconferencias = () => {
                 },
               }}
             >
-              <img src="/iconC4.png" alt="" />
+              <Box ml={-22}>
+                <img src="/iconC4.png" alt="" />
+              </Box>
+
               <Typography
                 sx={{
                   fontFamily: "Manrope",
@@ -329,7 +347,7 @@ const CharlasYconferencias = () => {
 
         <Box
           width={"100%"}
-          height={"120vh"}
+          height={"140vh"}
           pb={"5%"}
           style={{
             backgroundImage: "linear-gradient(to right top, #1296E9, #18CC66)",
@@ -366,7 +384,7 @@ const CharlasYconferencias = () => {
           </Box>
           <Box
             display={"flex"}
-            width={"100%"}
+            width={"80%"}
             m={"auto"}
             justifyContent={"space-evenly"}
             mt={5}
@@ -377,6 +395,7 @@ const CharlasYconferencias = () => {
               disableRipple={true}
               onClick={handleClickE}
               sx={{
+                textAlign: "left",
                 textTransform: "none",
                 display: "flex",
                 flexDirection: "column",
@@ -385,7 +404,10 @@ const CharlasYconferencias = () => {
                 },
               }}
             >
-              <img src="/iconC5.png" alt="" />
+              <Box ml={-14}>
+                <img src="/iconC5.png" alt="" />
+              </Box>
+
               <Typography
                 sx={{
                   fontFamily: "Manrope",
@@ -417,6 +439,7 @@ const CharlasYconferencias = () => {
               disableRipple={true}
               onClick={handleClickF}
               sx={{
+                textAlign: "left",
                 textTransform: "none",
                 display: "flex",
                 flexDirection: "column",
@@ -425,7 +448,10 @@ const CharlasYconferencias = () => {
                 },
               }}
             >
-              <img src="/iconC6.png" alt="" />
+              <Box ml={-19}>
+                <img src="/iconC6.png" alt="" />
+              </Box>
+
               <Typography
                 sx={{
                   fontFamily: "Manrope",
@@ -457,16 +483,19 @@ const CharlasYconferencias = () => {
               disableRipple={true}
               onClick={handleClickG}
               sx={{
+                textAlign: "left",
                 textTransform: "none",
                 display: "flex",
                 flexDirection: "column",
                 "&:hover": {
-                
                   backgroundColor: "transparent",
                 },
               }}
             >
-              <img src="/iconC7.png" alt="" />
+              <Box ml={-20}>
+                <img src="/iconC7.png" alt="" />
+              </Box>
+
               <Typography
                 sx={{
                   fontFamily: "Manrope",
@@ -954,9 +983,10 @@ const CharlasYconferencias = () => {
           <Typography
             sx={{
               fontFamily: "Merriweather",
-              fontSize: "30px",
+              fontSize: "20px",
               fontWeight: "300",
-              color: "white",
+              color: "black",
+              lineHeight:"30px"
             }}
           >
             Desde nuestra experiencia en startups, empresas, consultoría y

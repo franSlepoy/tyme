@@ -374,33 +374,35 @@ const Home = () => {
             sx={{
               width: "88%",
 
-              pt: "50px",
+              pt: "12%",
             }}
           >
             <Typography
               sx={{
                 fontFamily: "Merriweather",
-                fontSize: "2em",
-                fontWeight: "300",
+                fontSize: "30px",
+                fontWeight: "100",
+                lineHeight:"40px",
                 color: "white",
-                ml: "7%",
+                ml: "12%",
               }}
             >
               Somos el puente entre el equipo que tienes y el que quieres
             </Typography>
           </Box>
-          <Box pt={4} ml={"7%"}>
+          
+          <Box pt={11} ml={"10%"}>
             <BlackButtom texto={"Conócenos"} linkTo={"/quienesSomos"} />
           </Box>
         </Box>
 
-        <Box m={"auto"} width={"87%"} mt={"76px"}>
-          <Box width={"95%"} mt={5}>
+        <Box m={"auto"} width={"80%"} mt={"7%"}>
+          <Box width={"98%"} mt={5} mb={5}>
             <Typography
               sx={{
                 fontFamily: "Manrope",
-                fontSize: "14px",
-                lineHeight: "34px",
+                fontSize: "16px",
+                lineHeight: "24px",
                 fontWeight: 300,
               }}
             >
@@ -413,66 +415,9 @@ const Home = () => {
           </Box>
         </Box>
 
-        <Box
-          sx={{
-            backgroundColor: "#18CC66",
-            width: "100%",
+        
 
-            mt: "70px",
-            pt: "67px",
-            pb: "67px",
-          }}
-        >
-          <Box width={"90%"} m={"auto"}>
-            <Typography
-              sx={{
-                fontFamily: "Merriweather",
-                fontWeight: "500",
-                fontSize: "32px",
-                color: "white",
-              }}
-            >
-              Diseñamos soluciones a medida de las necesidades de tu empresa,
-              alineadas con tus objetivos de negocios, a través de dos tipos de
-              servicios:
-            </Typography>
-          </Box>
-          <Box width={"90%"} m={"auto"}>
-            <Box mt={"30px"}>
-              <Typography
-                sx={{
-                  fontFamily: "Manrope",
-                  fontSize: "24px",
-                  lineHeight: "34px",
-                  fontWeight: 300,
-                }}
-              >
-                <strong>HR on demandas:</strong> trabajamos de manera
-                personalizada e interdisciplinaria con tus equipos, para
-                ejecutar planes de acción que te acompañen a dar un salto de
-                crecimiento a largo plazo.
-              </Typography>
-            </Box>
-            <Box mt={"30px"} width={"90%"}>
-              <Typography
-                sx={{
-                  fontFamily: "Manrope",
-                  fontSize: "24px",
-                  lineHeight: "34px",
-                  fontWeight: 300,
-                }}
-              >
-                <strong>HR Tech Trends: </strong> te ayudamos a aplicar la
-                tecnología en la gestión del capital humano, para que puedas
-                implementar herramientas digitales y una estrategia de
-                transformación exitosa.
-              </Typography>
-            </Box>
-          </Box>
-          <Box ml={"6%"} sx={{ mt: "49px" }}>
-            <BlackButtom texto={"Conoce más"} linkTo={"/queHacemos"} />
-          </Box>
-        </Box>
+        
 
         <Box>
           <Typography

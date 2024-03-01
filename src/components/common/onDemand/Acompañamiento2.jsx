@@ -231,97 +231,107 @@ const Acompañamiento2 = () => {
       </Box>
 
       <Box  mt={"3%"}>
-        <Box maxWidth={"230px"}>
-          <Typography
-            sx={{
-              color: "#72C8FF",
-              fontFamily: "Manrope",
-              fontSize: "40px",
-              fontWeight: "700",
-              lineHeight: "30px",
-            }}
-          >
-            1
-          </Typography>
-          <Typography
-            sx={{
-              color: "#73F0A2",
-              fontFamily: "Manrope",
-              fontSize: "24px",
-              fontWeight: "800",
-              mt: 2,
-            }}
-          >
-           Impulsa la competitividad de tu empresa y abre nuevas oportunidades de negocio.
-          </Typography>
-        </Box>
-        <Box  maxWidth={"200px"}>
-          <Typography
-            sx={{
-              color: "#72C8FF",
-              fontFamily: "Manrope",
-              fontSize: "40px",
-              fontWeight: "700",
-              lineHeight: "30px",
-            }}
-          >
-            2
-          </Typography>
-          <Typography sx={{
-              color: "#73F0A2",
-              fontFamily: "Manrope",
-              fontSize: "24px",
-              fontWeight: "800",
-              mt: 2,
-            }}>
-                Mejora la relación con tus empleados porque ratifica el compromiso con políticas de bienestar.
-            </Typography>
-        </Box>
-        <Box  maxWidth={"200px"}>
-          <Typography
-            sx={{
-              color: "#72C8FF",
-              fontFamily: "Manrope",
-              fontSize: "40px",
-              fontWeight: "700",
-              lineHeight: "30px",
-            }}
-          >
-            3
-          </Typography>
-          
-          <Typography sx={{
-              color: "#73F0A2",
-              fontFamily: "Manrope",
-              fontSize: "24px",
-              fontWeight: "800",
-              mt: 2,
-            }}>
-           Mejora la relación con tus empleados porque ratifica el compromiso con políticas de bienestar.
-          </Typography>
-        </Box>
-        <Box  maxWidth={"200px"}>
-          <Typography
-            sx={{
-              color: "#72C8FF",
-              fontFamily: "Manrope",
-              fontSize: "40px",
-              fontWeight: "700",
-              lineHeight: "30px",
-            }}
-          >
-            4
-          </Typography>
-          <Typography sx={{
-              color: "#73F0A2",
-              fontFamily: "Manrope",
-              fontSize: "24px",
-              fontWeight: "800",
-              mt: 2,
-            }}>
-                Fomenta la mejora continua y la eficiencia, y asegura el cumplimiento de marcos regulatorios.
-            </Typography>
-        </Box>
+      <Box >
+              <Typography
+                sx={{
+                  color: "#72C8FF",
+                  fontFamily: "Manrope",
+                  fontSize: "40px",
+                  fontWeight: "700",
+                  lineHeight: "30px",
+                }}
+              >
+                1
+              </Typography>
+              <Typography
+                sx={{
+                  color: "white",
+                  fontFamily: "Manrope",
+                  fontSize: "24px",
+                  fontWeight: "100",
+                  mt: 2,
+                }}
+              >
+                Impulsa la competitividad de tu empresa y abre nuevas
+                oportunidades de negocio.
+              </Typography>
+            </Box>
+            <Box ml={"4%"} >
+              <Typography
+                sx={{
+                  color: "#72C8FF",
+                  fontFamily: "Manrope",
+                  fontSize: "40px",
+                  fontWeight: "700",
+                  lineHeight: "30px",
+                }}
+              >
+                2
+              </Typography>
+              <Typography
+                sx={{
+                  color: "white",
+                  fontFamily: "Manrope",
+                  fontSize: "24px",
+                  fontWeight: "100",
+                  mt: 2,
+                }}
+              >
+                Mejora la relación con tus empleados porque ratifica el
+                compromiso con políticas de bienestar.
+              </Typography>
+            </Box>
+            <Box ml={"4%"} >
+              <Typography
+                sx={{
+                  color: "#72C8FF",
+                  fontFamily: "Manrope",
+                  fontSize: "40px",
+                  fontWeight: "700",
+                  lineHeight: "30px",
+                }}
+              >
+                3
+              </Typography>
+
+              <Typography
+                sx={{
+                  color: "white",
+                  fontFamily: "Manrope",
+                  fontSize: "24px",
+                  fontWeight: "100",
+                  mt: 2,
+                }}
+              >
+                Mejora la relación con tus empleados porque ratifica el
+                compromiso con políticas de bienestar.
+              </Typography>
+            </Box>
+            <Box ml={"4%"} >
+              <Typography
+                sx={{
+                  color: "#72C8FF",
+                  fontFamily: "Manrope",
+                  fontSize: "40px",
+                  fontWeight: "700",
+                  lineHeight: "30px",
+                }}
+              >
+                4
+              </Typography>
+              <Typography
+                sx={{
+                  color: "white",
+                  fontFamily: "Manrope",
+                  fontSize: "24px",
+                  fontWeight: "100",
+                  mt: 2,
+                }}
+              >
+                Fomenta la mejora continua y la eficiencia, y asegura el
+                cumplimiento de marcos regulatorios.
+              </Typography>
+            </Box>
       </Box>
 
       <Box position={"absolute"}  top={"10%"}>

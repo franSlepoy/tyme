@@ -281,7 +281,7 @@ const Waze2 = () => {
       </Box>
 
       <Box  mt={"3%"}>
-        <Box >
+      <Box >
           <Typography
             sx={{
               color: "#72C8FF",
@@ -310,7 +310,7 @@ const Waze2 = () => {
               fontFamily: "Manrope",
               fontSize: "24px",
               fontWeight: "100",
-              mt: 2,
+              
             }}
           >
         identificamos las necesidades futuras de tu empresa, en
@@ -346,14 +346,14 @@ const Waze2 = () => {
               fontFamily: "Manrope",
               fontSize: "24px",
               fontWeight: "100",
-             
+              
             }}
           >
             creamos planes a medida, con foco en el desarrollo de
             talentos.
           </Typography>
         </Box>
-        <Box ml={"4%"} maxWidth={"200px"}>
+        <Box ml={"4%"} >
           <Typography
             sx={{
               color: "#72C8FF",
@@ -375,14 +375,14 @@ const Waze2 = () => {
               mt: 2,
             }}
           >
-            Ejecución: 
+            Ejecución:
           </Typography>
           <Typography
             sx={{
               color: "white",
               fontFamily: "Manrope",
               fontSize: "24px",
-              fontWeight: "800",
+              fontWeight: "100",
             
             }}
           >
@@ -390,7 +390,7 @@ const Waze2 = () => {
             crecimiento.
           </Typography>
         </Box>
-        <Box ml={"4%"} maxWidth={"200px"}>
+        <Box ml={"4%"} >
           <Typography
             sx={{
               color: "#72C8FF",
@@ -411,7 +411,18 @@ const Waze2 = () => {
               mt: 2,
             }}
           >
-            Evaluación: monitoreamos los resultados y medimos su impacto directo
+            Evaluación: 
+          </Typography>
+          <Typography
+            sx={{
+              color: "white",
+              fontFamily: "Manrope",
+              fontSize: "24px",
+              fontWeight: "100",
+           
+            }}
+          >
+            monitoreamos los resultados y medimos su impacto directo
             en el negocio.
           </Typography>
         </Box>

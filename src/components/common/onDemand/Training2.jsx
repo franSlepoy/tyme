@@ -132,7 +132,7 @@ const Training2 = () => {
             overflowY: "auto", // Permitir scroll vertical si es necesario
           }}
         >
-          <Box
+          {/* <Box
             width={"100%"}
             height={"100vh"}
             sx={{
@@ -182,7 +182,7 @@ const Training2 = () => {
                 <strong> integrar la tecnología</strong>a la gestión de RRHH?
               </Typography>
             </Box>
-          </Box>
+          </Box> */}
 
           <Box
             sx={{

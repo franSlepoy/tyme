@@ -12,6 +12,7 @@ import CarouselCultura from "../../common/onDemand/CarouselCultura";
 import CarouselWaze from "../../common/onDemand/CarouselWaze";
 import CarouselAcom from "../../common/onDemand/CarouselAcom";
 import CarouselMentoring from "../../common/onDemand/CarouselMentoring";
+import CarouselTrai from "../../common/onDemand/CarouselTrai";
 
 const QueHacemos = () => {
   const [openModal1, setOpenModal1] = useState(false);
@@ -421,13 +422,15 @@ const QueHacemos = () => {
                 }}
               >
                 <Box
-                  
                   onClick={handleOpenModal5}
                   display={"flex"}
                   mt={"22%"}
-                  sx={{ textDecoration: "none", "&:hover": {
-                    backgroundColor: "transparent",
-                  }, }}
+                  sx={{
+                    textDecoration: "none",
+                    "&:hover": {
+                      backgroundColor: "transparent",
+                    },
+                  }}
                   onMouseEnter={(e) => {
                     e.currentTarget.querySelector(
                       ".highlighted-text"
@@ -525,7 +528,7 @@ const QueHacemos = () => {
                 open={openModal6}
                 onClose={handleCloseModal6}
               >
-                <CarouselMentoring />
+                <CarouselTrai />
               </Dialog>
             </Box>
           </Box>
@@ -948,7 +951,7 @@ const QueHacemos = () => {
 
       <Hidden smUp>
         <Parallax speed={-12} tagOuter="figure">
-          <Box width={"100%"} mt={-4}>
+          <Box width={"100%"} mt={-1.6}>
             <img
               style={{ objectFit: "cover" }}
               height={"470vh"}
@@ -962,20 +965,20 @@ const QueHacemos = () => {
           <Box
             sx={{
               position: "absolute",
-              top: "18% ",
-              left: "7%",
-              width: "72%",
+              top: "17% ",
+              left: "10%",
+              width: "80%",
             }}
           >
             <Typography
               sx={{
                 fontFamily: "Manrope",
                 fontSize: "16px",
-                fontWeight: "700",
+                fontWeight: "400",
                 color: "white",
               }}
             >
-              Que hacemos
+              Qué hacemos
             </Typography>
           </Box>
           <Box
@@ -986,23 +989,29 @@ const QueHacemos = () => {
               width: "70%",
             }}
           >
-            <GreenButtom texto={"Conoce más"} linkTo={"/"} />
+            <ScrollLink to="seccionDestino" smooth={true}>
+              <GreenButtom texto={"Conoce más"} />
+            </ScrollLink>
+          </Box>
+          <Box position={"absolute"} top={"30vh"}>
+            <img width={"100%"} src="/qH1.png" alt="" />
           </Box>
 
           <Box
             sx={{
               position: "absolute",
               top: "22% ",
-              left: "7%",
+              left: "10%",
               width: "90%",
             }}
           >
             <Typography
               sx={{
                 fontFamily: "Merriweather",
-                fontSize: "2em",
-                fontWeight: "300",
+                fontSize: "30px",
+                fontWeight: "100",
                 color: "white",
+                lineHeight: "40px",
               }}
             >
               Somos tus socios estratégicos para acompañar a tus equipos a dar
@@ -1010,59 +1019,70 @@ const QueHacemos = () => {
             </Typography>
           </Box>
         </Box>
-        <Box width={"100%"} height={"10vh"}>
-          <Typography
-            sx={{
-              mt: "33%",
-              ml: "5%",
-              fontFamily: "Merriweather",
-              fontSize: "32px",
-              fontWeight: "200",
-            }}
-          >
-            Nuestros servicios
-          </Typography>
-        </Box>
 
         <Box
+          id={"seccionDestino"}
           sx={{
             width: "100%",
             background: "linear-gradient(to bottom, #1296E9, #39B3FF, #1779B6)",
-            minHeight: "70vh",
+
             pb: 5,
-            pt: 1,
+            pt: 20,
           }}
         >
+          <Box>
+            <Typography
+              sx={{
+                fontFamily: "Manrope",
+                fontSize: "20px",
+                fontWeight: "400",
+                width: "88%",
+                textAlign: "center",
+                m: "auto",
+              }}
+            >
+              Diseñamos soluciones a medida de las necesidades de tu empresa,
+              alineadas con tus objetivos de negocios, a través de dos tipos de
+              servicios:
+            </Typography>
+          </Box>
+
           <Box width={"100%"}>
-            <Box pt={4} textAlign={"center"}>
+            <Box mt={6} textAlign={"center"}>
               <img src="/hrmobile.png" alt="" />
             </Box>
 
-            <Box width={"95%"} textAlign={"center"}>
+            <Box
+              width={"88%"}
+              m={"auto"}
+              textAlign={"center"}
+              pt={0}
+              pr={3}
+              pl={3}
+              pb={3}
+              bgcolor={"#14A4FF"}
+            >
               <Typography
                 mt={"2%"}
                 sx={{
                   fontFamily: "Manrope",
-                  fontWeight: "600",
+                  fontWeight: "100",
                   color: "white",
-                  fontSize: "44px",
+                  fontSize: "39px",
                 }}
               >
-                on demand:
+                On demand:
               </Typography>
               <Typography
-                mt={"-12px"}
                 sx={{
-                  fontFamily: "Manrope",
-                  fontWeight: "400",
-                  fontSize: "30px",
+                  fontFamily: "Merriaweather",
+                  fontWeight: "100",
+                  fontSize: "18px",
+                  lineHeight: "25px",
                 }}
               >
-                respuesta a medida
+                Respuesta a medida
               </Typography>
-              <Box mt={"4%"}>
-                <GreenButtom texto={"Consultanos"} linkTo={"/contacto"} />
-              </Box>
             </Box>
 
             <Box mt={5} width={"100%"}>
@@ -1074,20 +1094,12 @@ const QueHacemos = () => {
                   position: "relative",
                 }}
               >
-                <Box
-                  component={NavLink}
-                  to={"/eDyP"}
-                  sx={{ textDecoration: "none" }}
-                >
-                  <img
-                    style={{ height: "60px" }}
-                    src="/nosotrosLogo1.png"
-                    alt=""
-                  />
+                <Box onClick={handleOpenModal1} sx={{ textDecoration: "none" }}>
+                  <img src="/qhBlanco1.png" alt="" />
                   <Typography
                     sx={{
                       fontFamily: "Manrope",
-                      fontSize: "30px",
+                      fontSize: "22px",
                       lineHeight: "34px",
                       color: "black",
                       textAlign: "center",
@@ -1101,6 +1113,15 @@ const QueHacemos = () => {
                 </Box>
               </Button>
 
+              <Dialog
+                fullWidth={true}
+                maxWidth="lg"
+                open={openModal1}
+                onClose={handleCloseModal1}
+              >
+                <CarouselEv />
+              </Dialog>
+
               <Button
                 disableRipple
                 style={{
@@ -1109,30 +1130,30 @@ const QueHacemos = () => {
                   position: "relative",
                 }}
               >
-                <Box
-                  component={NavLink}
-                  to={"/cultura"}
-                  sx={{ textDecoration: "none" }}
-                >
-                  <img
-                    style={{ height: "60px" }}
-                    src="/nosotrosLogo2.png"
-                    alt=""
-                  />
+                <Box onClick={handleOpenModal2} sx={{ textDecoration: "none" }}>
+                  <img style={{ height: "60px" }} src="/qhblanco2.png" alt="" />
                   <Typography
                     sx={{
                       fontFamily: "Manrope",
-                      fontSize: "30px",
+                      fontSize: "22px",
                       lineHeight: "34px",
                       color: "black",
                       textAlign: "center",
-                      p: 2,
                     }}
                   >
                     Cultura organizacional y liderazgo
                   </Typography>
                 </Box>
               </Button>
+
+              <Dialog
+                fullWidth={true}
+                maxWidth="lg"
+                open={openModal2}
+                onClose={handleCloseModal2}
+              >
+                <CarouselCultura />
+              </Dialog>
 
               <Button
                 disableRipple
@@ -1142,31 +1163,29 @@ const QueHacemos = () => {
                   position: "relative",
                 }}
               >
-                <Box
-                  component={NavLink}
-                  to={"/waze"}
-                  sx={{ textDecoration: "none" }}
-                >
-                  <img
-                    style={{ height: "60px" }}
-                    src="/nosotrosLogo3.png"
-                    alt=""
-                  />
+                <Box onClick={handleOpenModal3} sx={{ textDecoration: "none" }}>
+                  <img style={{ height: "60px" }} src="/qhblanco3.png" alt="" />
                   <Typography
                     sx={{
                       fontFamily: "Manrope",
-                      fontSize: "30px",
+                      fontSize: "22px",
                       lineHeight: "34px",
                       color: "black",
                       textAlign: "center",
-                      p: 2,
-                      width: "100%",
                     }}
                   >
                     Waze Laboral
                   </Typography>
                 </Box>
               </Button>
+              <Dialog
+                fullWidth={true}
+                maxWidth="lg"
+                open={openModal3}
+                onClose={handleCloseModal3}
+              >
+                <CarouselWaze />
+              </Dialog>
 
               <Button
                 disableRipple
@@ -1179,8 +1198,7 @@ const QueHacemos = () => {
               >
                 <Box
                   mt={"8%"}
-                  component={NavLink}
-                  to={"/acompañamiento"}
+                  onClick={handleOpenModal4}
                   sx={{ textDecoration: "none" }}
                   onMouseEnter={(e) => {
                     e.currentTarget.querySelector(
@@ -1193,19 +1211,14 @@ const QueHacemos = () => {
                     ).style.color = "black";
                   }}
                 >
-                  <img
-                    style={{ height: "40px" }}
-                    src="/nosotrosLogo4.png"
-                    alt=""
-                  />
+                  <img style={{ height: "40px" }} src="/qhblanco4.png" alt="" />
                   <Typography
                     sx={{
-                      m: "auto",
-                      width: "300px",
                       fontFamily: "Manrope",
-                      fontSize: "30px",
+                      fontSize: "22px",
                       lineHeight: "34px",
                       color: "black",
+                      textAlign: "center",
                     }}
                   >
                     Acompañamiento para{" "}
@@ -1213,6 +1226,14 @@ const QueHacemos = () => {
                   </Typography>
                 </Box>
               </Button>
+              <Dialog
+                fullWidth={true}
+                maxWidth="lg"
+                open={openModal4}
+                onClose={handleCloseModal4}
+              >
+                <CarouselAcom />
+              </Dialog>
             </Box>
           </Box>
         </Box>
@@ -1231,31 +1252,37 @@ const QueHacemos = () => {
             <Box pt={4} textAlign={"center"}>
               <img src="/hrmobil1.png" alt="" />
             </Box>
-            <Box width={"95%"} textAlign={"center"}>
+            <Box
+              width={"88%"}
+              m={"auto"}
+              textAlign={"center"}
+              pt={0}
+              pr={3}
+              pl={3}
+              pb={3}
+              bgcolor={"#18CC66"}
+            >
               <Typography
                 mt={"2%"}
                 sx={{
                   fontFamily: "Manrope",
-                  fontWeight: "600",
+                  fontWeight: "100",
                   color: "white",
-                  fontSize: "44px",
+                  fontSize: "39px",
                 }}
               >
-                HR on demand:
+                Tech trends
               </Typography>
               <Typography
-                mt={"-12px"}
                 sx={{
-                  fontFamily: "Manrope",
-                  fontWeight: "400",
-                  fontSize: "30px",
+                  fontFamily: "Merriaweather",
+                  fontWeight: "100",
+                  fontSize: "18px",
+                  lineHeight: "25px",
                 }}
               >
-                respuesta a medida
+                Tecnología para la gestión del Capital Humano
               </Typography>
-              <Box mt={"4%"}>
-                <BlackButtom texto={"Consultanos"} linkTo={"/contacto"} />
-              </Box>
             </Box>
 
             <Box mt={5} width={"100%"}>
@@ -1268,20 +1295,12 @@ const QueHacemos = () => {
                   width: "100vw",
                 }}
               >
-                <Box
-                  component={NavLink}
-                  to={"/mentoring"}
-                  sx={{ textDecoration: "none" }}
-                >
-                  <img
-                    style={{ height: "60px" }}
-                    src="/nosotrosLogo5.png"
-                    alt=""
-                  />
+                <Box onClick={handleOpenModal5} sx={{ textDecoration: "none" }}>
+                  <img style={{ height: "60px" }} src="/qhblanco5.png" alt="" />
                   <Typography
                     sx={{
                       fontFamily: "Manrope",
-                      fontSize: "30px",
+                      fontSize: "22px",
                       lineHeight: "34px",
                       color: "black",
                       textAlign: "center",
@@ -1291,6 +1310,14 @@ const QueHacemos = () => {
                   </Typography>
                 </Box>
               </Button>
+              <Dialog
+                fullWidth={true}
+                maxWidth="lg"
+                open={openModal5}
+                onClose={handleCloseModal5}
+              >
+                <CarouselMentoring />
+              </Dialog>
 
               <Button
                 disableRipple
@@ -1300,39 +1327,29 @@ const QueHacemos = () => {
                   position: "relative",
                 }}
               >
-                <Box
-                  component={NavLink}
-                  to={"/tYe"}
-                  sx={{ textDecoration: "none" }}
-                >
-                  <img
-                    style={{ height: "60px" }}
-                    src="/nosotrosLogo6.png"
-                    alt=""
-                  />
+                <Box onClick={handleOpenModal6} sx={{ textDecoration: "none" }}>
+                  <img style={{ height: "60px" }} src="/qhblanco6.png" alt="" />
                   <Typography
                     sx={{
                       fontFamily: "Manrope",
-                      fontSize: "30px",
+                      fontSize: "22px",
                       lineHeight: "34px",
                       color: "black",
                       textAlign: "center",
-                      p: 2,
                     }}
                   >
                     Training en innovación tecnológica
                   </Typography>
                 </Box>
               </Button>
-
-              <Button
-                disableRipple
-                style={{
-                  textTransform: "none",
-                  width: "100vw",
-                  position: "relative",
-                }}
-              ></Button>
+              <Dialog
+                fullWidth={true}
+                maxWidth="lg"
+                open={openModal6}
+                onClose={handleCloseModal6}
+              >
+                <CarouselTrai />
+              </Dialog>
             </Box>
           </Box>
         </Box>
