@@ -25,39 +25,39 @@ const Contacto = () => {
               <Formulario />
             </Box>
 
-            <Box ml={"7%"} >
-              <img  height={"83%"} src="/contacto.png" alt="" />
+            <Box ml={"7%"}>
+              <img height={"83%"} src="/contacto.png" alt="" />
             </Box>
           </Box>
         </Box>
       </Hidden>
 
       <Hidden smUp>
-        <Typography
-          variant="h1"
+        <Box
+          width={"100%"}
           sx={{
-            width: "90%",
-            padding: 0,
-            fontFamily: "Manrope",
-            fontWeight: "800",
-            color: "#003350",
-            fontSize: "58px",
-            textAlign: "center",
-            letterSpacing: -2.23,
-            mt: "70px",
+            backgroundImage: "url('/contacto.png')", // Ruta de la imagen de fondo
+            backgroundSize: "cover", // Ajusta el tamaño de la imagen para cubrir todo el contenedor
+            backgroundPosition: "center", // Centra la imagen de fondo
+            pt:"10%"
           }}
         >
-          We are Open ¡Contáctanos!
-        </Typography>
-
-        <Box>
-          <Box mt={2} mb={-12}>
-            <img width={"100%"} src="/open.jpg" alt="" />
+          <Box m={"auto"}>
+            <Box ml={"7%"}>
+              <Typography
+                variant="h1"
+                sx={{
+                  fontFamily: "Manrope",
+                  fontSize: "16px",
+                  color: "white",
+                  
+                }}
+              >
+                We are Open ¡Contáctanos!
+              </Typography>
+              <Formulario />
+            </Box>
           </Box>
-          <Formulario />
-        </Box>
-        <Box mt={-40} ml={76}>
-          <img src="/firuleteQueHacemos.png" alt="" />
         </Box>
       </Hidden>
     </>

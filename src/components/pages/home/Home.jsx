@@ -184,7 +184,7 @@ const Home = () => {
             Por qué sumarnos a tu equipo
           </Typography>
 
-          <Box sx={{ width: "87%", margin: "auto" }}>
+          <Box sx={{ width: "87%", margin: "auto", }}>
             <Carousel sx={{ marginBottom: "86px" }}>
               <Testimonios />
               <Testimonios1 />

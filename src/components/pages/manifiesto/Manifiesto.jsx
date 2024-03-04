@@ -10,7 +10,7 @@ const Manifiesto = () => {
       <Hidden lgDown>
         <Parallax speed={-12} tagOuter="figure">
           <Box mt={2} width={"100%"} height={"100vh"} overflow="hidden" >
-            <img width={"103%"}  src="/manifiesto1.png" alt="" />
+            <img width={"100%"}  src="/maniefiesto1.png" alt="" />
           </Box>
         </Parallax>
         <Box>
@@ -98,7 +98,7 @@ const Manifiesto = () => {
               >
                 ¿Nos hacemos un tiempo para conocernos y trabajar juntos?
               </Typography>
-              <Box mt={"5%"}>
+              <Box mt={"15%"}>
                 <BlackButtom texto={"Contactanos"} linkTo={"/contacto"} />
               </Box>
             </Box>
@@ -236,7 +236,7 @@ const Manifiesto = () => {
 
         <Box
           width={"100%"}
-          height={"174vh"}
+          height={"144vh"}
           sx={{ bgcolor: "rgba(15, 150, 233, 0.4)",  }}
         >
           <Box   m={"auto"}>
@@ -249,7 +249,7 @@ const Manifiesto = () => {
                   fontFamily: "Marriweather",
                   fontSize: "30px",
                   color: "black",
-                  lineHeight: "52px",
+                  lineHeight: "32px",
                 }}
               >
                 ¿Nos hacemos un tiempo para conocernos y trabajar juntos?
@@ -279,7 +279,7 @@ const Manifiesto = () => {
               <Typography
                 sx={{
                   fontFamily: "Manrope",
-                  fontSize: "24px",
+                  fontSize: "20px",
                   lineHeight: "34px",
                   fontWeight: "300",
                 }}

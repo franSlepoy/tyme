@@ -17,7 +17,7 @@ const Testimonios = () => {
                 left: "52px",
               }}
             >
-              <img width={"100%"} src="/testimonios1.jpeg" alt="avatar" />
+              <img width={"100%"} src="/testimonios1.png" alt="avatar" />
             </Box>
 
             <Box
@@ -38,12 +38,12 @@ const Testimonios = () => {
                   color: "black",
                 }}
               >
-                Siempre que he tenido el privilegio de conversar con Javi, quedo
-                sorprendida por su profundo conocimiento y entendimiento sobre
-                el mundo de los recursos humanos y la gestión de personas. Su
-                enfoque innovador, combinado con su genuina pasión por el
-                desarrollo del talento, lo convierte en una fuente invaluable de
-                insights y recomendaciones.
+                Siempre que converso con Javier, quedo sorprendida por su
+                profundo conocimiento y entendimiento sobre el mundo de los
+                Recursos Humanos y la gestión de personas. Su enfoque innovador,
+                combinado con su genuina pasión por el desarrollo del talento,
+                lo convierten en una fuente invaluable de insights y
+                recomendaciones. 
               </Typography>
               <Typography
                 sx={{
@@ -116,13 +116,7 @@ const Testimonios = () => {
                   color: "black",
                 }}
               >
-                Tyme ha sido más que un simple asesor para nosotros; han sido un
-                verdadero socio estratégico en la digitalización de nuestro
-                Departamento de Talento. Gracias a su colaboración crucial,
-                hemos podido implementar herramientas digitales innovadoras que
-                no solo han agilizado nuestros procesos operativos, sino que
-                también han permitido una mayor personalización en el desarrollo
-                y crecimiento profesional de todo nuestro equipo.
+                Tyme ha sido un socio estratégico en la digitalización de nuestro Departamento de Talento. Gracias a su colaboración crucial, implementamos herramientas digitales innovadoras que han agilizado nuestros procesos operativos y permitido una mayor personalización en el desarrollo y crecimiento profesional de nuestro equipo.
               </Typography>
               <Typography
                 sx={{
@@ -196,13 +190,7 @@ const Testimonios = () => {
                   color: "black",
                 }}
               >
-                “Tyme ha sido un socio esencial para nuestra estrategia de
-                gestión de talento. Somos una organización en constante
-                crecimiento y nos ayudó a diagnosticar a nuestros líderes,
-                captando también nuevos talentos, y logrando así una positiva
-                transformación hacia un equipo de alto rendimiento. Se nota la
-                vocación de servicio, entusiasmo y profesionalismo de todo el
-                equipo de Tyme”.
+                Tyme fue un socio esencial para nuestra estrategia de gestión de capital humano, gracias a su vocación de servicio y profesionalismo. Somos una organización en constante crecimiento y su ayuda nos permitió diagnosticar a nuestros líderes, captar nuevos talentos y transformarnos en un equipo de alto rendimiento. 
               </Typography>
               <Typography
                 sx={{
@@ -268,8 +256,6 @@ Restaurante.</Typography>
         </Box> */}
         </Box>
       </Hidden>
-
-   
     </>
   );
 };

@@ -11,7 +11,7 @@ const Charlas4 = ({ handleCloseComponente }) => {
     height={"78vh"}
     width={"87%"}
     style={{
-      backgroundImage: "linear-gradient(to top , #D9D9D9, #1296E9)",
+      backgroundColor: "#A0D5F6",
     }}
     zIndex={100}
     >

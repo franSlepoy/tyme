@@ -11,6 +11,7 @@ const Charlas5 = ({ handleCloseComponente }) => {
       height={"78vh"}
       width={"87%"}
       sx={{
+        
         backgroundImage: `url("/hr01.png")`, // Reemplaza con la ruta de tu imagen
         backgroundSize: "cover",
         backgroundPosition: "center",

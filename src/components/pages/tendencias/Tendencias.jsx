@@ -126,7 +126,7 @@ const Tendencias = () => {
         </Box>
       </Hidden>
 
-      <Hidden lgUp>
+      <Hidden lgUp smDown>
         <Parallax speed={-12} tagOuter="figure">
           <Box mt={1}>
             <img width={"100%"} src="/tendencias1.png" alt="" />
@@ -230,6 +230,85 @@ const Tendencias = () => {
               ))}
             </ImageList>
           </Box>
+        </Box>
+      </Hidden>
+
+      <Hidden smUp>
+        <Box>
+          <img width={"100%"} src="/tendencias1.png" alt="" />
+        </Box>
+
+        <Box>
+          <Box
+            sx={{
+              mt: -1,
+              width: "100%",
+              bgcolor: "#18CC66",
+              p: "11%",
+            }}
+          >
+            <Typography
+              sx={{
+                fontFamily: "Merriweather",
+                fontSize: "20px",
+                fontWeight: "100",
+                color: "black",
+                width: "90%",
+              }}
+            >
+               “El aprendizaje solo cobra verdadero valor cuando se comparte con
+              otros, ya que, al hacerlo, se enriquece el entorno y se potencia
+              el crecimiento colectivo. Compartir el conocimiento fomenta la
+              colaboración, el aprendizaje continuo y el desarrollo de
+              soluciones más innovadoras y efectivas”.
+            </Typography>
+            <Typography
+              sx={{
+                fontFamily: "Merriweather",
+                fontSize: "20px",
+                fontWeight: "300",
+                color: "white",
+                mt: 2,
+              }}
+            >
+              <strong>Peter Senge</strong> , experto en desarrollo
+              organizacional
+            </Typography>
+          </Box>
+        </Box>
+
+        <Box width={"100%"} bgcolor={"#A0D5F6"}>
+          <Box width={"58%"} ml={"12%"} pt={"6%"} pb={"6%"}>
+            <Typography
+              sx={{
+                color: "black",
+                fontFamily: "Manrope",
+                fontSize: "40px",
+                fontWeight: "300",
+                lineHeight: "36px",
+                mt: 2,
+              }}
+            >
+              Artículos propios
+            </Typography>
+            <Box position={"absolute"} left={"60%"} top={"172%"}>
+              <img width={"100%"} src="/tendencias4.png" alt="" />
+            </Box>
+            <Box position={"absolute"} left={"72%"} top={"138%"}>
+              <img width={"80%"} src="/tendencias6.png" alt="" />
+            </Box>
+          </Box>
+          <ImageList sx={{ width: "85%", m:"auto" }} cols={1} rowHeight={510}>
+            {ArticulosData.map((item) => (
+              <ImageListItem key={item.id}>
+                <ArticuloCard
+                  titulo={item.titulo}
+                  imagen={item.imagen}
+                  link={item.link}
+                />
+              </ImageListItem>
+            ))}
+          </ImageList>
         </Box>
       </Hidden>
     </>

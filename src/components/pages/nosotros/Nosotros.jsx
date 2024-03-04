@@ -38,14 +38,10 @@ const Nosotros = () => {
   return (
     <>
       <Hidden lgDown>
-        <Box sx={{ width: "100%", height: "97vh" }}>
+        <Box sx={{ width: "100%" }}>
           <Parallax speed={-12} tagOuter="figure">
-            <Box
-              sx={{ with: "100%", height: "97vh", backgroundColor: "#453D3B" }}
-            >
-              <Box sx={{ position: "absolute", left: "55%" }}>
-                <img width={"98.5%"} src="/javier.png" alt="" />
-              </Box>
+            <Box>
+              <img width={"100%"} src="/javier1.png" alt="" />
             </Box>
           </Parallax>
           <Box>
@@ -66,7 +62,7 @@ const Nosotros = () => {
                   fontFamily: "Merriweather",
                   fontSize: "40px",
                   fontWeight: "300",
-                  lineHeight:"50px",
+                  lineHeight: "50px",
                   color: "white",
                 }}
               >
@@ -97,8 +93,7 @@ const Nosotros = () => {
                     backgroundColor: "#1296E9",
                     textTransform: "none",
                     "&:hover": {
-                      
-                      backgroundColor: "transparent",
+                      backgroundColor: "#1296E9",
                     },
                   }}
                 >
@@ -277,6 +272,13 @@ const Nosotros = () => {
           </Box>
           <Box sx={{ position: "absolute", top: "130%", left: "92%" }}>
             <Button
+              disableRipple={true}
+              sx={{
+                bgcolor: "transparent",
+                "&:hover": {
+                  backgroundColor: "transparent",
+                },
+              }}
               onClick={() =>
                 handleTextoSeleccionado(
                   "Licenciado en Recursos Humanos egresado de la Universidad Argentina de la Empresa (UADE) y también graduado en UADE Business School y en MIT Sloan School of Management.Se desempeñó como ejecutivo de Recursos Humanos en compañías multinacionales como Toyota, Techint y Unilever, con responsabilidades locales y regionales."
@@ -288,6 +290,13 @@ const Nosotros = () => {
           </Box>
           <Box sx={{ position: "absolute", top: "140%", left: "62%" }}>
             <Button
+             sx={{
+              bgcolor: "transparent",
+              "&:hover": {
+                backgroundColor: "transparent",
+              },
+            }}
+              disableRipple={true}
               onClick={() =>
                 handleTextoSeleccionado(
                   "Fundó dos startups: Nawaiam, un videojuego que detecta en 15 minutos el perfil conductual y competencias de los usuarios, y TuPrimerLaburo Argentina - TuPrimeraPega Chile - TuPrimerCurro España, una plataforma dirigida a los jóvenes para su autoconocimiento y desarrollo de habilidades que mejoran su índice de inserción laboral."
@@ -299,6 +308,13 @@ const Nosotros = () => {
           </Box>
           <Box sx={{ position: "absolute", top: "190%", left: "62%" }}>
             <Button
+             sx={{
+              bgcolor: "transparent",
+              "&:hover": {
+                backgroundColor: "transparent",
+              },
+            }}
+              disableRipple={true}
               onClick={() =>
                 handleTextoSeleccionado(
                   "Speaker internacional con más de 150 conferencias dictadas en 10 países sobre gestión del talento, gaming, startups y HR Tech Trends, entre otras temáticas centradas en los Recursos Humanos y la tecnología."
@@ -308,8 +324,16 @@ const Nosotros = () => {
               <img src="/iconoN3.png" alt="" />
             </Button>
           </Box>
-          <Box sx={{ position: "absolute", top: "204%", left: "52%" }}>
+          <Box
+           sx={{ position: "absolute", top: "204%", left: "52%" }}>
             <Button
+             sx={{
+              bgcolor: "transparent",
+              "&:hover": {
+                backgroundColor: "transparent",
+              },
+            }}
+              disableRipple={true}
               onClick={() =>
                 handleTextoSeleccionado(
                   "Fue reconocido internacionalmente como emprendedor por el rey Felipe VI de España, AT&T (Estados Unidos), Latin American Excellence Awards (Brasil), Endeavor y Orgullo UADE (Argentina), Premios Latinoamérica Verde (Ecuador), Acelerar España, 100 mejores ideas empresariales de El Mundo y la Caixa Bank y los Premios Reyes Católicos (España), entre otros. Fue docente universitario por más de 15 años en Argentina, Chile y España en materias como Dirección Estratégica de RRHH y Digital Talent Management.Es columnista en radio, TV, periódicos y podcasts sobre talento y tecnología."
@@ -548,11 +572,10 @@ const Nosotros = () => {
 
       <Hidden smUp>
         <Box>
-          <Parallax speed={-12} tagOuter="figure">
-            <Box>
-              <img width={"100%"} src="/javier.png" alt="" />
-            </Box>
-          </Parallax>
+          <Box>
+            <img width={"100%"} src="/javier.png" alt="" />
+          </Box>
+
           <Box>
             <Box
               sx={{

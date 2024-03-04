@@ -45,14 +45,7 @@ const CharlasYconferencias = () => {
     <>
       <Hidden lgDown>
         <Parallax speed={-12} tagOuter="figure">
-          <Box
-            width={"100%"}
-            height={"100vh"}
-            overflow="hidden"
-            style={{
-              backgroundImage: "linear-gradient(to top , #264185, #4D4747)",
-            }}
-          >
+          <Box width={"100%"} overflow="hidden">
             <img height={"100%"} src="/charlas1.png" alt="" />
           </Box>
         </Parallax>
@@ -72,7 +65,7 @@ const CharlasYconferencias = () => {
               sx={{
                 fontFamily: "Merriweather",
                 fontSize: "40px",
-                lineHeight:"50px",
+                lineHeight: "50px",
                 fontWeight: "300",
                 color: "white",
               }}
@@ -986,7 +979,7 @@ const CharlasYconferencias = () => {
               fontSize: "20px",
               fontWeight: "300",
               color: "black",
-              lineHeight:"30px"
+              lineHeight: "30px",
             }}
           >
             Desde nuestra experiencia en startups, empresas, consultoría y

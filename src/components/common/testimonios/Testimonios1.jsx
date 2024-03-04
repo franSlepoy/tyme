@@ -44,13 +44,7 @@ const Testimonios1 = () => {
                   color: "black",
                 }}
               >
-                Javier tiene muy buen ojo para evaluar a las organizaciones,
-                encontrando asertivamente las fortalezas y oportunidades de los
-                líderes. Siempre con mucho entusiasmo, pero por sobre todo con
-                mucha escucha y empatía. Se nota la formación constante que
-                tienen en todo lo referido a Recursos Humanos, demostrando ser
-                expertos en la optimización de talento y desarrollo
-                organizacional.
+                Javier tiene muy buen ojo para evaluar a las organizaciones y encontrar asertivamente las fortalezas y oportunidades de los líderes, con mucha escucha y empatía. Se nota la formación constante que él y su equipo tienen en RRHH, demostrando ser expertos en la optimización de talento y el desarrollo organizacional.
               </Typography>
               <Typography
                 sx={{
@@ -102,7 +96,7 @@ const Testimonios1 = () => {
                 left: "40%",
               }}
             >
-              <img width={"100%px"} src="/testimonios6.JPG" alt="avatar" />
+              <img width={"100%px"} src="/testimonios6.png" alt="avatar" />
             </Box>
 
             <Box
@@ -123,13 +117,7 @@ const Testimonios1 = () => {
                   color: "black",
                 }}
               >
-                Como CEO de organizaciones, puedo decir con confianza que
-                trabajar con Tyme es una experiencia transformadora. Su profundo
-                conocimiento en Recursos Humanos y su enfoque estratégico han
-                tenido un impacto significativo en nuestro crecimiento. Con una
-                mirada muy fuerte en el negocio, han demostrado ser socios
-                valiosos, proporcionando soluciones innovadoras y adaptadas a
-                nuestras necesidades específicas.
+                Como CEO de organizaciones, puedo decir que trabajar con Tyme es una experiencia transformadora. Con su profundo conocimiento en Recursos Humanos, su enfoque estratégico y una mirada muy fuerte en el negocio, fueron socios valiosos que proporcionaron soluciones innovadoras y adaptadas a nuestras necesidades específicas.
               </Typography>
               <Typography
                 sx={{
@@ -270,7 +258,7 @@ const Testimonios1 = () => {
                 left: "75%",
               }}
             >
-              <img width={"100%"} src="/testimonios8.jpg" alt="avatar" />
+              <img width={"100%"} src="/testimonio8.png" alt="avatar" />
             </Box>
 
             <Box
@@ -291,14 +279,7 @@ const Testimonios1 = () => {
                   color: "black",
                 }}
               >
-                Al embarcarme en el desafiante viaje de construir una startup,
-                me encontré con muchos obstáculos, especialmente en el terreno
-                de gestionar un equipo en constante crecimiento. Tyme ha sido
-                una luz en ese camino. Su expertise en recursos humanos y su
-                habilidad para transformar líderes son simplemente
-                incomparables. Su enfoque no sólo es técnico, sino también
-                profundamente humano, entendiendo las particularidades de una
-                empresa emergente.
+                Al embarcarme en el desafiante viaje de construir una startup, encontré muchos obstáculos, especialmente al gestionar un equipo en constante crecimiento. Tyme ha sido una luz en ese camino, con su expertise en RRHH y su habilidad para transformar líderes. Su enfoque es técnico, pero también profundamente humano.
               </Typography>
               <Typography
                 sx={{
