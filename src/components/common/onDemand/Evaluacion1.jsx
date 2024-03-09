@@ -7,21 +7,23 @@ const Evaluacion1 = () => {
     <>
       <Hidden smDown>
         <Box
-          p={"6%"}
-          sx={{ width: "100%", height: "70vh", backgroundColor: "#104B70" }}
+          pl={"10%"}
+          pt={"6%"}
+          sx={{ width: "100%", height: "73vh", backgroundColor: "#104B70" }}
         >
           <Box
             display={"flex"}
             component={NavLink}
             to={"/queHacemos"}
             sx={{ textDecoration: "none" }}
+            ml={-3.5}
           >
             <img height={"30px"} src="/arrowButton.png" alt="" />
             <Typography
               sx={{
                 fontSize: "20px",
                 fontFamily: "Manrope",
-                fontWeight: "300",
+                fontWeight: "200",
                 color: "white",
                 lineHeight: "34px",
                 ml: "4px",
@@ -34,12 +36,12 @@ const Evaluacion1 = () => {
 
           <Box>
             <Typography
-              maxWidth={"580px"}
+              maxWidth={"540px"}
               sx={{
                 fontFamily: "Manrope",
-                fontSize: "48px",
+                fontSize: "45px",
                 lineHeight: "55px",
-                fontWeight: "500",
+                fontWeight: "700",
                 color: "white",
                 mt: "2%",
               }}
@@ -51,11 +53,12 @@ const Evaluacion1 = () => {
               maxWidth={"780px"}
               sx={{
                 fontFamily: "Manrope",
-                fontSize: "24px",
+                fontSize: "22px",
                 lineHeight: "30px",
                 color: "white",
-                fontWeight: "300",
-                mt: "3%",
+                fontWeight: "100",
+                mt: "5%",
+                width:"700px"
               }}
             >
               Con un equipo interdisciplinario y a través de herramientas

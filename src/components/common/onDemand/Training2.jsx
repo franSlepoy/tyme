@@ -6,7 +6,7 @@ const Training2 = () => {
   return (
     <>
       <Hidden smDown>
-        <Box sx={{ width: "100%", height: "94vh", display: "flex" }}>
+        <Box sx={{ width: "100%", height: "74vh", display: "flex" }}>
           <Box
             width={"50%"}
             height={"100vh"}

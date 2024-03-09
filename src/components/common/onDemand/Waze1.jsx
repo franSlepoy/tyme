@@ -8,33 +8,40 @@ const Evaluacion1 = () => {
     <>
     <Hidden smDown>
     <Box
-      p={"6%"}
-      sx={{ width: "100%", height: "70vh", backgroundColor: "#104B70" }}
+      pl={"10%"}
+      pt={"6%"}
+      sx={{ width: "100%", height: "74vh", backgroundColor: "#104B70" }}
     >
-      <Box display={"flex"} component={NavLink} to={"/queHacemos"} sx={{textDecoration:"none"}}>
-        <img height={"30px"} src="/arrowButton.png" alt="" />
-        <Typography
-          sx={{
-            fontSize: "20px",
-            fontFamily: "Manrope",
-            fontWeight: "300",
-            color: "white",
-            lineHeight: "34px",
-            ml: "4px",
-            mt: "-2px",
-          }}
-        >
-          HR on demand
-        </Typography>
-      </Box>
+       <Box
+            display={"flex"}
+            component={NavLink}
+            to={"/queHacemos"}
+            sx={{ textDecoration: "none" }}
+            ml={-3.5}
+          >
+            <img height={"30px"} src="/arrowButton.png" alt="" />
+            <Typography
+              sx={{
+                fontSize: "20px",
+                fontFamily: "Manrope",
+                fontWeight: "200",
+                color: "white",
+                lineHeight: "34px",
+                ml: "4px",
+                mt: "-2px",
+              }}
+            >
+              HR on demand
+            </Typography>
+          </Box>
 
       <Box>
         <Typography
           maxWidth={"580px"}
           sx={{
             fontFamily: "Manrope",
-            fontSize: "48px",
-            lineHeight: "45px",
+            fontSize: "45px",
+            lineHeight: "55px",
             fontWeight: "700",
             color: "white",
             mt: "2%",
@@ -47,11 +54,12 @@ const Evaluacion1 = () => {
           maxWidth={"780px"}
           sx={{
             fontFamily: "Manrope",
-            fontSize: "24px",
+            fontSize: "22px",
             lineHeight: "30px",
             color: "white",
-            fontWeight: "300",
-            mt: "3%",
+            fontWeight: "100",
+            mt: "9%",
+            width:"700px"
           }}
         >
          Diseñamos soluciones innovadoras para transformar los puestos de trabajo y potenciar el talento de tu empresa, adaptándolo a un mundo laboral que cambia constantemente, con planes de reskilling y upskilling. Nuestra metodología se basa en la personalización y en un enfoque integral que prepara a tus equipos para nuevos desafíos y demandas del mercado.

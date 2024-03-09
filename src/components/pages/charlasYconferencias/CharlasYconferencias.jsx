@@ -128,7 +128,7 @@ const CharlasYconferencias = () => {
 
           <Box
             display={"flex"}
-            width={"88%"}
+            width={"93%"}
             m={"auto"}
             justifyContent={"space-evenly"}
             mt={"82px"}

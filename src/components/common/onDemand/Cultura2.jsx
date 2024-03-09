@@ -7,21 +7,23 @@ const Cultura2 = () => {
     <>
       <Hidden smDown>
         <Box
-          p={"6%"}
-          sx={{ width: "100%", height: "70vh", backgroundColor: "#104B70" }}
+          pl={"10%"}
+          pt={"6%"}
+          sx={{ width: "100%", height: "74vh", backgroundColor: "#104B70" }}
         >
           <Box
             display={"flex"}
             component={NavLink}
             to={"/queHacemos"}
             sx={{ textDecoration: "none" }}
+            ml={-3.5}
           >
             <img height={"30px"} src="/arrowButton.png" alt="" />
             <Typography
               sx={{
                 fontSize: "20px",
                 fontFamily: "Manrope",
-                fontWeight: "300",
+                fontWeight: "200",
                 color: "white",
                 lineHeight: "34px",
                 ml: "4px",
@@ -37,11 +39,11 @@ const Cultura2 = () => {
               maxWidth={"980px"}
               sx={{
                 fontFamily: "Manrope",
-                fontSize: "48px",
-                lineHeight: "45px",
+                fontSize: "45px",
+                lineHeight: "55px",
                 fontWeight: "700",
                 color: "white",
-                mt: "2%",
+                mt: 2,
               }}
             >
               Cómo lo hacemos
@@ -63,7 +65,7 @@ const Cultura2 = () => {
             </Typography>
           </Box>
 
-          <Box display={"flex"} mt={"3%"}>
+          <Box display={"flex"} mt={"2%"}>
             <Box>
               <Typography
                 sx={{
@@ -80,9 +82,10 @@ const Cultura2 = () => {
                 sx={{
                   color: "#73F0A2",
                   fontFamily: "Manrope",
-                  fontSize: "24px",
-                  fontWeight: "800",
-                  mt: 2,
+                  fontSize: "22px",
+                  lineHeight: "30px",
+                  fontWeight: "600",
+                  mt: 1,
                 }}
               >
                 Diagnóstico:
@@ -91,12 +94,12 @@ const Cultura2 = () => {
                 sx={{
                   color: "white",
                   fontFamily: "Manrope",
-                  fontSize: "24px",
+                  fontSize: "22px",
                   fontWeight: "100",
                 }}
               >
-                identificamos las necesidades futuras de tu empresa, en base al
-                análisis del sector.
+                utilizamos nuevas tecnologías para detectar datos precisos y
+                significativos.
               </Typography>
             </Box>
             <Box ml={"4%"}>
@@ -115,9 +118,9 @@ const Cultura2 = () => {
                 sx={{
                   color: "#73F0A2",
                   fontFamily: "Manrope",
-                  fontSize: "24px",
-                  fontWeight: "800",
-                  mt: 2,
+                  fontSize: "22px",
+                  fontWeight: "600",
+                  mt: 1,
                 }}
               >
                 Planificación:
@@ -126,11 +129,12 @@ const Cultura2 = () => {
                 sx={{
                   color: "white",
                   fontFamily: "Manrope",
-                  fontSize: "24px",
+                  fontSize: "22px",
                   fontWeight: "100",
                 }}
               >
-                creamos planes a medida, con foco en el desarrollo de talentos.
+                creamos un plan a medida para desarrollar liderazgos en tu
+                empresa.
               </Typography>
             </Box>
             <Box ml={"4%"}>
@@ -150,9 +154,9 @@ const Cultura2 = () => {
                 sx={{
                   color: "#73F0A2",
                   fontFamily: "Manrope",
-                  fontSize: "24px",
-                  fontWeight: "800",
-                  mt: 2,
+                  fontSize: "22px",
+                  fontWeight: "600",
+                  mt: 1,
                 }}
               >
                 Ejecución:
@@ -185,9 +189,9 @@ const Cultura2 = () => {
                 sx={{
                   color: "#73F0A2",
                   fontFamily: "Manrope",
-                  fontSize: "24px",
-                  fontWeight: "800",
-                  mt: 2,
+                  fontSize: "22px",
+                  fontWeight: "600",
+                  mt: 1,
                 }}
               >
                 Evaluación:
@@ -196,7 +200,7 @@ const Cultura2 = () => {
                 sx={{
                   color: "white",
                   fontFamily: "Manrope",
-                  fontSize: "24px",
+                  fontSize: "22px",
                   fontWeight: "100",
                 }}
               >

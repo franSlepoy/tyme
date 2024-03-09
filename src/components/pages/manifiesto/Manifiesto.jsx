@@ -21,15 +21,16 @@ const Manifiesto = () => {
             sx={{
               position: "absolute",
               top: "34% ",
-              left: "56%",
-              width: "42%",
+              left: "45%",
+              width: "52%",
             }}
           >
             <Typography
               sx={{
                 fontFamily: "Merriweather",
-                fontSize: "42px",
-                fontWeight: "300",
+                fontSize: "40px",
+                lineHeight:"54px",
+                fontWeight: "400",
                 color: "black",
               }}
             >

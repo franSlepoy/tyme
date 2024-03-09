@@ -6,14 +6,14 @@ import Mentoring2 from "./Mentoring2";
 const CarouselMentoring = () => {
   return (
 <Carousel
-  autoPlay={true}
+  autoPlay={false}
   timeout={100}
   sx={{
     backgroundColor: "#046C31",
     margin: "auto",
     pb: "2%",
     width: "100%",
-    "& .MuiButtonBase-root.MuiIconButton-root.MuiIconButton-sizeSmall.MuiIconButton-edgeStart":
+   /*  "& .MuiButtonBase-root.MuiIconButton-root.MuiIconButton-sizeSmall.MuiIconButton-edgeStart":
       {
         position: "absolute",
         color: "white", // Color blanco para los botones de navegación
@@ -35,7 +35,7 @@ const CarouselMentoring = () => {
       color: "white", // Color blanco para los indicadores del carousel
       position: "absolute",
       left: "7%", // Ajusta la posición de los indicadores
-    },
+    }, */
   }}
 >
   <motion.div

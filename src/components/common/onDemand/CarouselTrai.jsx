@@ -7,7 +7,7 @@ import Training2 from "./Training2";
 const CarouselTrai = () => {
   return (
     <Carousel
-      autoPlay={true}
+      autoPlay={false}
       timeout={100}
       sx={{
         backgroundColor: "#046C31",

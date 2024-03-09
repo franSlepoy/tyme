@@ -12,14 +12,14 @@ const Charlas5 = ({ handleCloseComponente }) => {
       width={"87%"}
       sx={{
         
-        backgroundImage: `url("/hr01.png")`, // Reemplaza con la ruta de tu imagen
+        backgroundImage: `url("/gameOn.png")`, // Reemplaza con la ruta de tu imagen
         backgroundSize: "cover",
         backgroundPosition: "center",
       }}
       
     >
      
-      <Box ml={"10%"} mt={"6%"} width={"53%"}>
+      <Box ml={"10%"} mt={"3.4%"} width={"53%"}>
         <Button onClick={handleCloseComponente} sx={{ ml: -3 }}>
           <img  src="/flechaCH.png" alt="" />
         </Button>

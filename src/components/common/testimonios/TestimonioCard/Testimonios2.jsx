@@ -1,10 +1,10 @@
 import { Box, Hidden, Typography } from "@mui/material";
 
-const Testimonios = () => {
+const Testimonios2 = () => {
   return (
     <>
       <Hidden lgDown>
-        <Box sx={{ display: "flex", width: "82%", m:"auto" }}>
+        <Box sx={{ display: "flex", width: "82%", m: "auto" }}>
           <Box sx={{ width: "33%" }}>
             <Box
               sx={{
@@ -17,7 +17,7 @@ const Testimonios = () => {
                 left: "12%",
               }}
             >
-              <img width={"100%"} src="/testimonios1.png" alt="avatar" />
+              <img width={"100%"} src="/testimonio7.png" alt="avatar" />
             </Box>
 
             <Box
@@ -38,12 +38,16 @@ const Testimonios = () => {
                   color: "black",
                 }}
               >
-               Siempre que converso con Javier, quedo sorprendida por su profundo conocimiento y entendimiento sobre el mundo de los Recursos Humanos y la gestión de personas. Su enfoque innovador, combinado con su genuina pasión por el desarrollo del talento, lo convierten en una fuente invaluable de insights y recomendaciones. 
-
+                El acompañamiento y nivel de involucramiento que tienen es
+                excelente. Hoy, los cambios son cada vez más rápidos y en Tyme
+                las propuestas de trabajo son disruptivas, con metodologías
+                propias y sólidas. Javier tiene la fortaleza de hacer un trabajo
+                que crea valor para los equipos y permite alcanzar nuevos
+                niveles de eficiencia.
               </Typography>
               <Typography
                 sx={{
-                  mt: 4,
+                  mt: 3,
                   fontFamily: "Manrope",
 
                   fontWeight: 800,
@@ -54,27 +58,28 @@ const Testimonios = () => {
                   textTransform: "uppercase",
                 }}
               >
-                Melina Cotlar
+                Pedro Pieczanski
               </Typography>
               <Typography
                 sx={{
                   fontSize: "16px",
                   fontWeight: "400",
-                  lineHeight: "24px",
+                  lineHeight: "20px",
                   color: "black",
                 }}
               >
-                Chief Risk Officer en AXA 
+                Founder y CEO PHV LATAM
               </Typography>
               <Typography
                 sx={{
                   fontSize: "16px",
                   fontWeight: 100,
-                  lineHeight: "18px",
+                  lineHeight: "16px",
                   color: "black",
+                 
                 }}
               >
-                International Markets
+                (Europa, África, Asia y LATAM)
               </Typography>
             </Box>
           </Box>
@@ -91,7 +96,7 @@ const Testimonios = () => {
                 left: "40%",
               }}
             >
-              <img width={"100%"} src="/testimonios2.png" alt="avatar" />
+              <img width={"100%"} src="/testimonio8.png" alt="avatar" />
             </Box>
 
             <Box
@@ -112,11 +117,16 @@ const Testimonios = () => {
                   color: "black",
                 }}
               >
-                Tyme ha sido un socio estratégico en la digitalización de nuestro Departamento de Talento. Gracias a su colaboración crucial, implementamos herramientas digitales innovadoras que han agilizado nuestros procesos operativos y permitido una mayor personalización en el desarrollo y crecimiento profesional de nuestro equipo.
+                Al embarcarme en el desafiante viaje de construir una startup,
+                encontré muchos obstáculos, especialmente al gestionar un equipo
+                en constante crecimiento. Tyme ha sido una luz en ese camino,
+                con su expertise en RRHH y su habilidad para transformar
+                líderes. Su enfoque es técnico, pero también profundamente
+                humano.
               </Typography>
               <Typography
                 sx={{
-                  mt: 2,
+                  mt: 4,
                   fontFamily: "Manrope",
 
                   fontWeight: 800,
@@ -125,10 +135,11 @@ const Testimonios = () => {
                   lineHeight: "26px",
                   color: "black",
                   textTransform: "uppercase",
+                  mt:9
                 }}
               >
                 {" "}
-                Alberto Benbunan
+                Ximena Sureda
               </Typography>
               <Typography
                 sx={{
@@ -138,7 +149,7 @@ const Testimonios = () => {
                   color: "black",
                 }}
               >
-                Founder & CEO Global | {" "}
+                Founder y CEO Mutare Life
               </Typography>
               <Typography
                 sx={{
@@ -146,9 +157,10 @@ const Testimonios = () => {
                   fontWeight: 300,
                   lineHeight: "18px",
                   color: "black",
+                  pb: 0,
                 }}
               >
-                Emprendedor Endeavor 
+                (Panamá)
               </Typography>
             </Box>
           </Box>
@@ -165,7 +177,7 @@ const Testimonios = () => {
                 left: "68%",
               }}
             >
-              <img width={"100%"} src="/testimonios3.png" alt="avatar" />
+              <img width={"100%"} src="/testimonios9.png" alt="avatar" />
             </Box>
 
             <Box
@@ -186,11 +198,16 @@ const Testimonios = () => {
                   color: "black",
                 }}
               >
-                Tyme fue un socio esencial para nuestra estrategia de gestión de capital humano, gracias a su vocación de servicio y profesionalismo. Somos una organización en constante crecimiento y su ayuda nos permitió diagnosticar a nuestros líderes, captar nuevos talentos y transformarnos en un equipo de alto rendimiento. 
+                El servicio de Tyme en capacitación tecnológica es realmente
+                valioso. Javier es un gran speaker que deja pensando en cada
+                charla. Como profesionales, tenemos que integrar la IA y la
+                tecnología a nuestro trabajo diario. Sin duda, estoy más
+                preparado para los desafíos al haber sumado herramientas que
+                hacen más eficiente mi gestión.
               </Typography>
               <Typography
                 sx={{
-                  mt: 2,
+                  mt: 6,
                   fontFamily: "Manrope",
 
                   fontWeight: 800,
@@ -201,7 +218,7 @@ const Testimonios = () => {
                   textTransform: "uppercase",
                 }}
               >
-                Carlos Zucchi
+                Hernán Barletta
               </Typography>
               <Typography
                 sx={{
@@ -209,51 +226,17 @@ const Testimonios = () => {
                   fontWeight: 300,
                   lineHeight: "18px",
                   color: "black",
+                  pb: 2,
                 }}
               >
-                CEO & Partner de ARGIS 
-              </Typography>
-              <Typography
-                sx={{
-                  fontSize: "16px",
-                  fontWeight: 300,
-                  lineHeight: "18px",
-                  color: "black",
-                }}
-              >
-               (España e Israel)
+                Director de RRHH en la compañía 
               </Typography>
             </Box>
           </Box>
-
-          {/*  <Box ml={2}>
-        <Box  sx={{ borderRadius: '50%', overflow: 'hidden', width: '165px', height: '165px' }}>
-        <img width={"200px"} height={"170px"} src="/testimonios4.jpeg" alt="avatar" />
-        </Box>
-      
-       <Box sx={{width:"300px",padding:5,backgroundColor:"#FEEC92", borderRadius:"20px",}}>
-        <Typography sx={{fontFamily:"Manrope", fontSize:"14px", fontWeight:400, lineHeight:"26px", color:"#003350"}}>"En mis años al mando de diversas compañías, he cruzado caminos con numerosos
-profesionales de RRHH, pero pocos han dejado una huella tan profunda como Javier.
-Su entendimiento agudo de los recursos humanos, combinado con una destreza única
-para cultivar y guiar a líderes, le distingue en un mar de expertos. Más allá de su
-experiencia, es su enfoque humano y su visión clara lo que realmente transforma
-equipos y organizaciones. Si hay alguien que entiende la temperatura real de una
-organización y cómo elevarla, es sin duda él". </Typography>
-        <Typography sx={{mt:2, fontFamily:"Manrope",fontSize:"14px", fontWeight:"800px" , lineHeight:"26px", color:"#003350", textTransform:"uppercase" }}>
-        Ruben Sanchez
-</Typography>
-<Typography sx={{mt:1, fontFamily:"Manrope",fontSize:"14px", fontWeight:"800px" , lineHeight:"26px", color:"#003350", textTransform:"uppercase" }}>
-CEO – Perú
-</Typography>
-<Typography sx={{mt:1, fontFamily:"Manrope",fontSize:"14px", fontWeight:"800px" , lineHeight:"26px", color:"#003350", textTransform:"uppercase" }}>
-Pastelería San Antonio, empresa líder de Pastelería, Panadería, Cafetería y
-Restaurante.</Typography>
-        </Box> 
-        </Box> */}
         </Box>
       </Hidden>
     </>
   );
 };
 
-export default Testimonios;
+export default Testimonios2;

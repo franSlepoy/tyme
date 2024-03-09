@@ -37,7 +37,7 @@ const Nosotros = () => {
 
   return (
     <>
-      <Hidden lgDown>
+      <Hidden lgDown >
         <Box sx={{ width: "100%" }}>
           <Parallax speed={-12} tagOuter="figure">
             <Box>
@@ -122,7 +122,7 @@ const Nosotros = () => {
         <Box
           sx={{
             width: "100%",
-            height: "121vh",
+            height: "141vh",
             backgroundColor: "rgba(18,150,233, 0.4)",
           }}
         >
@@ -270,7 +270,7 @@ const Nosotros = () => {
               )}
             </Box>
           </Box>
-          <Box sx={{ position: "absolute", top: "130%", left: "92%" }}>
+          <Box sx={{ position: "absolute", top: "140%", left: "92%" }}>
             <Button
               disableRipple={true}
               sx={{
@@ -288,14 +288,14 @@ const Nosotros = () => {
               <img src="/iconoN1.png" alt="" />
             </Button>
           </Box>
-          <Box sx={{ position: "absolute", top: "140%", left: "62%" }}>
+          <Box sx={{ position: "absolute", top: "150%", left: "62%" }}>
             <Button
-             sx={{
-              bgcolor: "transparent",
-              "&:hover": {
-                backgroundColor: "transparent",
-              },
-            }}
+              sx={{
+                bgcolor: "transparent",
+                "&:hover": {
+                  backgroundColor: "transparent",
+                },
+              }}
               disableRipple={true}
               onClick={() =>
                 handleTextoSeleccionado(
@@ -308,12 +308,12 @@ const Nosotros = () => {
           </Box>
           <Box sx={{ position: "absolute", top: "190%", left: "62%" }}>
             <Button
-             sx={{
-              bgcolor: "transparent",
-              "&:hover": {
-                backgroundColor: "transparent",
-              },
-            }}
+              sx={{
+                bgcolor: "transparent",
+                "&:hover": {
+                  backgroundColor: "transparent",
+                },
+              }}
               disableRipple={true}
               onClick={() =>
                 handleTextoSeleccionado(
@@ -324,15 +324,14 @@ const Nosotros = () => {
               <img src="/iconoN3.png" alt="" />
             </Button>
           </Box>
-          <Box
-           sx={{ position: "absolute", top: "204%", left: "52%" }}>
+          <Box sx={{ position: "absolute", top: "214%", left: "52%" }}>
             <Button
-             sx={{
-              bgcolor: "transparent",
-              "&:hover": {
-                backgroundColor: "transparent",
-              },
-            }}
+              sx={{
+                bgcolor: "transparent",
+                "&:hover": {
+                  backgroundColor: "transparent",
+                },
+              }}
               disableRipple={true}
               onClick={() =>
                 handleTextoSeleccionado(
@@ -348,13 +347,11 @@ const Nosotros = () => {
 
       <Hidden lgUp smDown>
         <Parallax speed={-12} tagOuter="figure">
-          <Box
-            sx={{ width: "100%", height: "94vh", backgroundColor: "#453D3B" }}
-          >
-            <Box sx={{ ml: "34%" }}>
-              <img height={"624vh"} src="/javier.png" alt="" />
+       
+            <Box>
+              <img width={"100%"}  src="/javier1.png" alt="" />
             </Box>
-          </Box>
+          
         </Parallax>
         <Box>
           <Box sx={{ position: "absolute", top: "62%" }}>

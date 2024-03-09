@@ -9,7 +9,8 @@ import Carousel from "react-material-ui-carousel";
 import BlackButtom from "../../common/blackButtom/BlackButtom";
 import { Parallax } from "react-scroll-parallax";
 import GreenButtom from "../../common/greenButtom/GreenButtom";
-import { Link as ScrollLink } from 'react-scroll';
+import { Link as ScrollLink } from "react-scroll";
+import Testimonios2 from "../../common/testimonios/TestimonioCard/testimonios2";
 
 const Home = () => {
   return (
@@ -20,7 +21,7 @@ const Home = () => {
             <img style={{ width: "100%" }} src="/header1.png" alt="" />
           </Box>
         </Parallax>
-        <Box >
+        <Box>
           <Box sx={{ position: "absolute", top: "44%" }}>
             <img src="/nosotros4.png" alt="" />
           </Box>
@@ -52,9 +53,9 @@ const Home = () => {
             }}
           >
             {/* <GreenButtom texto={"Conoce más"} linkTo={"/#seccionDestino"} /> */}
-            <ScrollLink to="seccionDestino" smooth={true} >
-    <GreenButtom texto={"Conoce más"} />
-  </ScrollLink>
+            <ScrollLink to="seccionDestino" smooth={true}>
+              <GreenButtom texto={"Conoce más"} />
+            </ScrollLink>
           </Box>
         </Box>
 
@@ -184,12 +185,14 @@ const Home = () => {
             Por qué sumarnos a tu equipo
           </Typography>
 
-          <Box sx={{ width: "87%", margin: "auto", }}>
-            <Carousel sx={{ marginBottom: "86px" }}>
+          <Box sx={{ margin: "auto" }}>
+            <Carousel  sx={{ marginBottom: "86px" }}>
               <Testimonios />
               <Testimonios1 />
+              <Testimonios2 />
             </Carousel>
           </Box>
+        
         </Box>
       </Hidden>
 
@@ -346,7 +349,10 @@ const Home = () => {
           </Typography>
 
           <Box sx={{ width: "87%", margin: "auto" }}>
-            <Carousel sx={{ width: "90%", m: "auto", mt: 8, mb: 8 }}>
+            <Carousel
+             
+              sx={{ width: "90%", m: "auto", mt: 8, mb: 8 }}
+            >
               {TestimoniosCradData.map((persona) => (
                 <TestimonioCard
                   nombre={persona.nombre}
@@ -382,7 +388,7 @@ const Home = () => {
                 fontFamily: "Merriweather",
                 fontSize: "30px",
                 fontWeight: "100",
-                lineHeight:"40px",
+                lineHeight: "40px",
                 color: "white",
                 ml: "12%",
               }}
@@ -390,7 +396,7 @@ const Home = () => {
               Somos el puente entre el equipo que tienes y el que quieres
             </Typography>
           </Box>
-          
+
           <Box pt={11} ml={"10%"}>
             <BlackButtom texto={"Conócenos"} linkTo={"/quienesSomos"} />
           </Box>
@@ -414,10 +420,6 @@ const Home = () => {
             </Typography>
           </Box>
         </Box>
-
-        
-
-        
 
         <Box>
           <Typography

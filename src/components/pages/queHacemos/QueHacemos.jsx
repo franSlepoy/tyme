@@ -14,6 +14,7 @@ import CarouselAcom from "../../common/onDemand/CarouselAcom";
 import CarouselMentoring from "../../common/onDemand/CarouselMentoring";
 import CarouselTrai from "../../common/onDemand/CarouselTrai";
 
+
 const QueHacemos = () => {
   const [openModal1, setOpenModal1] = useState(false);
   const [openModal2, setOpenModal2] = useState(false);
@@ -86,6 +87,8 @@ const QueHacemos = () => {
                 fontSize: "40px",
                 fontWeight: "300",
                 color: "white",
+                lineHeight:"55px",
+                
               }}
             >
               Somos tus socios estratégicos para acompañar a tus equipos a dar
@@ -95,12 +98,13 @@ const QueHacemos = () => {
           <Box
             sx={{
               position: "absolute",
-              top: { sm: "95%", md: "90%", lg: "80%" },
+              top: { sm: "95%", md: "90%", lg: "92%" },
               left: "7%",
+
             }}
           >
             <ScrollLink to="seccionDestino" smooth={true}>
-              <BlackButtom texto={"Conoce más"} />
+              <GreenButtom texto={"Conoce más"} />
             </ScrollLink>
           </Box>
         </Box>
@@ -127,7 +131,7 @@ const QueHacemos = () => {
           <Box display={"flex"} width={"90%"} m={"auto"}>
             <Box width={"40%"}>
               <Typography
-                mt={"178px"}
+                mt={"168px"}
                 sx={{
                   fontFamily: "Manrope",
                   fontWeight: "600",
@@ -147,12 +151,12 @@ const QueHacemos = () => {
               >
                 respuesta a medida
               </Typography>
-              <Box mt={"13%"}>
+              <Box mt={"6%"}>
                 <GreenButtom texto={"Consultanos"} linkTo={"/contacto"} />
               </Box>
             </Box>
 
-            <Box ml={"12%"} width={"40%"}>
+            <Box ml={"12%"} mt={"-22px"} width={"40%"}>
               <Button
                 disableRipple
                 style={{

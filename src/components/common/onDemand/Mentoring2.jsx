@@ -6,7 +6,7 @@ const Mentoring2 = () => {
   return (
     <>
       <Hidden smDown>
-        <Box sx={{ width: "100%", height: "94vh", display: "flex" }}>
+        <Box sx={{ width: "100%", height: "74vh", display: "flex" }}>
           <Box
             width={"50%"}
             height={"100vh"}
@@ -53,8 +53,7 @@ const Mentoring2 = () => {
                   ml: "5%",
                 }}
               >
-                ¿Por qué
-                <strong> integrar la tecnología</strong>a la gestión de RRHH?
+                Cómo lo hacemos
               </Typography>
             </Box>
           </Box>
@@ -76,8 +75,7 @@ const Mentoring2 = () => {
                 mt: "15%",
               }}
             >
-              Permite acceder a las nuevas herramientas que están transformando
-              la gestión en RRHH.
+              1- Evaluación digitalizada: diagnóstico para la implementación de soluciones tecnológicas.
             </Typography>
             <Typography
               sx={{
@@ -88,8 +86,7 @@ const Mentoring2 = () => {
                 mt: "5%",
               }}
             >
-              Mejora la toma de decisiones basadas en datos, utilizando análisis
-              y métricas para estrategias más efectivas.
+              2- Asesoramiento: transformación digital para impulsar las metas de tu organización y acompañamiento del proceso de cambio.
             </Typography>
             <Typography
               sx={{
@@ -100,8 +97,7 @@ const Mentoring2 = () => {
                 mt: "5%",
               }}
             >
-              Optimiza la eficiencia de los procesos, abre oportunidades de
-              negocios y fomenta la innovación.
+              3- Integración tecnológica: adopción de herramientas digitales para gestión del talento.
             </Typography>
             <Typography
               sx={{
@@ -112,8 +108,7 @@ const Mentoring2 = () => {
                 mt: "5%",
               }}
             >
-              Potencia la experiencia del empleado e impulsa sus habilidades
-              digitales.
+            4- Fomento de la cultura digital: incorporación de nuevas tecnologías y prácticas innovadoras.
             </Typography>
           </Box>
         </Box>
@@ -132,8 +127,6 @@ const Mentoring2 = () => {
             overflowY: "auto", // Permitir scroll vertical si es necesario
           }}
         >
-          
-
           <Box
             sx={{
               height: "100vh",

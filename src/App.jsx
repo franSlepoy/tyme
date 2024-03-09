@@ -11,12 +11,6 @@ import CharlasYconferencias from "./components/pages/charlasYconferencias/Charla
 import Tendencias from "./components/pages/tendencias/Tendencias";
 import Menu from "./components/common/navbar/Menu";
 import { ParallaxProvider } from "react-scroll-parallax"; // Importa ParallaxProvider aquí
-import CarouselEv from "./components/common/onDemand/CarouselEv";
-import CarouselCultura from "./components/common/onDemand/CarouselCultura";
-import CarouselWaze from "./components/common/onDemand/CarouselWaze";
-import CarouselAcom from "./components/common/onDemand/CarouselAcom";
-import CarouselMentoring from "./components/common/onDemand/CarouselMentoring";
-import CarouselTrai from "./components/common/onDemand/CarouselTrai";
 
 const App = () => {
   return (
