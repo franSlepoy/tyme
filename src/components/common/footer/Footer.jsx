@@ -2,7 +2,7 @@ import Box from "@mui/material/Box";
 import Typography from "@mui/material/Typography";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import InstagramIcon from "@mui/icons-material/Instagram";
-import XIcon from '@mui/icons-material/X';
+import XIcon from "@mui/icons-material/X";
 import { Link } from "react-router-dom";
 import { Hidden } from "@mui/material";
 
@@ -12,21 +12,20 @@ export default function Footer() {
       <Hidden smDown>
         <Box
           sx={{
-          
             backgroundColor: "#07659C",
             width: "100%",
             height: "277px",
           }}
         >
           <Box width={"88%"} m={"auto"}>
-            <Box sx={{ display: "flex", justifyContent:"space-between" }}>
-              <Box  sx={{ mt: "47px" }}>
+            <Box sx={{ display: "flex", justifyContent: "space-between" }}>
+              <Box sx={{ mt: "47px" }}>
                 <a style={{ textDecoration: "none" }} href="/">
                   <img src="/logoFooter.png" alt="logo" />
                 </a>
               </Box>
-              
-              <Box sx={{  mt: "42px",  width:"62%", pl:5 }}>
+
+              <Box sx={{ mt: "42px", width: "62%", pl: 5 }}>
                 <Link to={"/nosotros"} style={{ textDecoration: "none" }}>
                   <Typography
                     sx={{
@@ -141,24 +140,22 @@ export default function Footer() {
                 </Link>
               </Box>
 
-             
-              <Box >
+              <Box>
                 <Box
                   sx={{
                     display: "flex",
-                   justifyContent:"flex-end",
+                    justifyContent: "flex-end",
                     mt: "56px",
-                    
                   }}
                 >
-                  <Box >
+                  <Box>
                     <a
                       href="https://www.linkedin.com/company/tymeconsulting/"
                       color="#003350"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      <LinkedInIcon sx={{ fontSize: 46, color: "white",  }} />
+                      <LinkedInIcon sx={{ fontSize: 46, color: "white" }} />
                     </a>
                   </Box>
 
@@ -185,16 +182,15 @@ export default function Footer() {
                           fontSize: 46,
                           color: "white",
                           textAlign: "end",
-                          ml:1
+                          ml: 1,
                         }}
                       />
                     </a>
                   </Box>
                 </Box>
-                
+
                 <Typography
                   sx={{
-                
                     mt: "9%",
                     fontFamily: "Manrope",
                     color: "white",
@@ -209,8 +205,8 @@ export default function Footer() {
                 </Typography>
                 <Typography
                   sx={{
-                    minWidth:"232px",
-                   
+                    minWidth: "232px",
+
                     fontFamily: "Manrope",
                     color: "white",
                     fontSize: "16px",
@@ -222,49 +218,43 @@ export default function Footer() {
                   Todos los derechos reservados.
                 </Typography>
               </Box>
-            
             </Box>
           </Box>
         </Box>
       </Hidden>
 
       <Hidden smUp>
-      <Box
+        <Box
           sx={{
-          
             backgroundColor: "#07659C",
             width: "100%",
             height: "277px",
           }}
         >
-          <Box width={"88%"} m={"auto"}>
-            <Box sx={{ display: "flex", justifyContent:"space-between" }}>
-              <Box  sx={{ mt: "47px" }}>
+          <Box width={"80%"} m={"auto"}>
+            <Box sx={{ display: "flex", justifyContent: "space-between" }}>
+              <Box sx={{ mt: "47px" }}>
                 <a style={{ textDecoration: "none" }} href="/">
-                  <img src="/logoFooter.png" alt="logo" />
+                  <img width={"80%"} src="/logoFooter.png" alt="logo" />
                 </a>
               </Box>
-              
-             
 
-             
-              <Box >
+              <Box>
                 <Box
                   sx={{
                     display: "flex",
-                   justifyContent:"flex-end",
+                    justifyContent: "flex-end",
                     mt: "56px",
-                    
                   }}
                 >
-                  <Box >
+                  <Box>
                     <a
                       href="https://www.linkedin.com/company/tymeconsulting/"
                       color="#003350"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      <LinkedInIcon sx={{ fontSize: 46, color: "white",  }} />
+                      <LinkedInIcon sx={{ fontSize: 40, color: "white" }} />
                     </a>
                   </Box>
 
@@ -288,51 +278,45 @@ export default function Footer() {
                     >
                       <InstagramIcon
                         sx={{
-                          fontSize: 46,
+                          fontSize: 40,
                           color: "white",
                           textAlign: "end",
-                          ml:1
+                          ml: 1,
                         }}
                       />
                     </a>
                   </Box>
                 </Box>
-                
-               
               </Box>
-            
             </Box>
             <Typography
-                  sx={{
-                
-                    mt: "9%",
-                    fontFamily: "Manrope",
-                    color: "white",
-                    fontSize: "16px",
-                    fontWeight: "300",
-                    lineHeight: "20px",
-                    letterSpacing: "0.1px",
-                    
-                  }}
-                >
-                  2023 © Tyme.
-                </Typography>
-                <Typography
-                  sx={{
-                    minWidth:"232px",
-                   
-                    fontFamily: "Manrope",
-                    color: "white",
-                    fontSize: "16px",
-                    fontWeight: "300",
-                    lineHeight: "20px",
-                    letterSpacing: "0.1px",
-                  }}
-                >
-                  Todos los derechos reservados.
-                </Typography>
+              sx={{
+                mt: "9%",
+                fontFamily: "Manrope",
+                color: "white",
+                fontSize: "13px",
+                fontWeight: "200",
+                lineHeight: "20px",
+                letterSpacing: "0.1px",
+              }}
+            >
+              2023 © Tyme.
+            </Typography>
+            <Typography
+              sx={{
+                minWidth: "232px",
+
+                fontFamily: "Manrope",
+                color: "white",
+                fontSize: "13px",
+                fontWeight: "200",
+                lineHeight: "20px",
+                letterSpacing: "0.1px",
+              }}
+            >
+              Todos los derechos reservados.
+            </Typography>
           </Box>
-          
         </Box>
       </Hidden>
     </>

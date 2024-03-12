@@ -179,66 +179,17 @@ const Evaluacion2 = () => {
 
       <Hidden smUp>
         <Box
-          p={"6%"}
+          p={"10%"}
           sx={{
             width: "100%",
-            height: "100vh", // Ajustar la altura al 100% del viewport height
+          // Ajustar la altura al 100% del viewport height
             backgroundColor: "#104B70",
-            overflowY: "auto", // Permitir scroll vertical si es necesario
+           // Permitir scroll vertical si es necesario
           }}
         >
-          <Box
-            display={"flex"}
-            component={NavLink}
-            to={"/queHacemos"}
-            sx={{ textDecoration: "none" }}
-          >
-            <img height={"30px"} src="/arrowButton.png" alt="" />
-            <Typography
-              sx={{
-                fontSize: "20px",
-                fontFamily: "Manrope",
-                fontWeight: "300",
-                color: "white",
-                lineHeight: "34px",
-                ml: "4px",
-                mt: "-2px",
-              }}
-            >
-              HR on demand
-            </Typography>
-          </Box>
+         
 
-          <Box>
-            <Typography
-              maxWidth={"980px"}
-              sx={{
-                fontFamily: "Manrope",
-                fontSize: "48px",
-                lineHeight: "45px",
-                fontWeight: "700",
-                color: "white",
-                mt: "4%",
-              }}
-            >
-              Equipo de expertos en gestión del talento
-            </Typography>
-
-            <Typography
-              maxWidth={"780px"}
-              sx={{
-                fontFamily: "Manrope",
-                fontSize: "26px",
-                lineHeight: "35px",
-                color: "white",
-                fontWeight: "300",
-                mt: "2%",
-              }}
-            >
-              Junto a profesionales de diversas disciplinas y experiencia en
-              management y RRHH, desarrollamos planes de mejora.
-            </Typography>
-          </Box>
+         
 
           <Box mt={"3%"}>
             <Box>
@@ -257,16 +208,16 @@ const Evaluacion2 = () => {
                 sx={{
                   color: "#73F0A2",
                   fontFamily: "Manrope",
-                  fontSize: "24px",
+                  fontSize: "20px",
                   lineHeight: "30px",
-                  fontWeight: "800",
+                  fontWeight: "100",
                   mt: 2,
                 }}
               >
                 Análisis integral y diagnóstico personalizado.
               </Typography>
             </Box>
-            <Box ml={"4%"}>
+            <Box >
               <Typography
                 sx={{
                   color: "#72C8FF",
@@ -274,6 +225,7 @@ const Evaluacion2 = () => {
                   fontSize: "40px",
                   fontWeight: "700",
                   lineHeight: "30px",
+                  mt:2
                 }}
               >
                 2
@@ -282,8 +234,8 @@ const Evaluacion2 = () => {
                 sx={{
                   color: "#73F0A2",
                   fontFamily: "Manrope",
-                  fontSize: "24px",
-                  fontWeight: "800",
+                  fontSize: "20px",
+                  fontWeight: "100",
                   mt: 2,
                   lineHeight: "30px",
                 }}
@@ -291,7 +243,7 @@ const Evaluacion2 = () => {
                 Plan a medida.
               </Typography>
             </Box>
-            <Box ml={"4%"} maxWidth={"200px"}>
+            <Box  >
               <Typography
                 sx={{
                   color: "#72C8FF",
@@ -299,6 +251,7 @@ const Evaluacion2 = () => {
                   fontSize: "40px",
                   fontWeight: "700",
                   lineHeight: "30px",
+                  mt:2
                 }}
               >
                 3
@@ -308,8 +261,8 @@ const Evaluacion2 = () => {
                 sx={{
                   color: "#73F0A2",
                   fontFamily: "Manrope",
-                  fontSize: "24px",
-                  fontWeight: "800",
+                  fontSize: "20px",
+                  fontWeight: "100",
                   mt: 2,
                   lineHeight: "30px",
                 }}
@@ -318,7 +271,7 @@ const Evaluacion2 = () => {
                 organizacionales.
               </Typography>
             </Box>
-            <Box ml={"4%"} maxWidth={"200px"}>
+            <Box>
               <Typography
                 sx={{
                   color: "#72C8FF",
@@ -326,6 +279,7 @@ const Evaluacion2 = () => {
                   fontSize: "40px",
                   fontWeight: "700",
                   lineHeight: "30px",
+                  mt:2
                 }}
               >
                 4
@@ -334,8 +288,8 @@ const Evaluacion2 = () => {
                 sx={{
                   color: "#73F0A2",
                   fontFamily: "Manrope",
-                  fontSize: "24px",
-                  fontWeight: "800",
+                  fontSize: "20px",
+                  fontWeight: "100",
                   mt: 2,
                   lineHeight: "30px",
                 }}
@@ -345,8 +299,8 @@ const Evaluacion2 = () => {
             </Box>
           </Box>
 
-          <Box position={"absolute"} left={"75%"} top={"10%"}>
-            <img src="/evolucion.png" alt="" />
+          <Box position={"absolute"} left={"12%"} top={"123%"}>
+            <img width={"80%"} src="/evolucion.png" alt="" />
           </Box>
         </Box>
       </Hidden>

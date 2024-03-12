@@ -954,22 +954,22 @@ const QueHacemos = () => {
       </Hidden>
 
       <Hidden smUp>
-        <Parallax speed={-12} tagOuter="figure">
-          <Box width={"100%"} mt={-1.6}>
+       {/*  <Parallax speed={-12} tagOuter="figure"> */}
+          <Box width={"100%"}  zIndex={2}>
             <img
-              style={{ objectFit: "cover" }}
-              height={"470vh"}
+             
+              
               width={"100%"}
               src="/nosotros1.png"
               alt=""
             />
           </Box>
-        </Parallax>
+    {/*     </Parallax> */}
         <Box>
           <Box
             sx={{
               position: "absolute",
-              top: "17% ",
+              top: "12% ",
               left: "10%",
               width: "80%",
             }}
@@ -985,7 +985,7 @@ const QueHacemos = () => {
               Qué hacemos
             </Typography>
           </Box>
-          <Box
+          {/* <Box
             sx={{
               position: "absolute",
               top: "60% ",
@@ -996,32 +996,8 @@ const QueHacemos = () => {
             <ScrollLink to="seccionDestino" smooth={true}>
               <GreenButtom texto={"Conoce más"} />
             </ScrollLink>
-          </Box>
-          <Box position={"absolute"} top={"30vh"}>
-            <img width={"100%"} src="/qH1.png" alt="" />
-          </Box>
-
-          <Box
-            sx={{
-              position: "absolute",
-              top: "22% ",
-              left: "10%",
-              width: "90%",
-            }}
-          >
-            <Typography
-              sx={{
-                fontFamily: "Merriweather",
-                fontSize: "30px",
-                fontWeight: "100",
-                color: "white",
-                lineHeight: "40px",
-              }}
-            >
-              Somos tus socios estratégicos para acompañar a tus equipos a dar
-              un salto de crecimiento.
-            </Typography>
-          </Box>
+          </Box> */}
+           
         </Box>
 
         <Box
@@ -1031,7 +1007,8 @@ const QueHacemos = () => {
             background: "linear-gradient(to bottom, #1296E9, #39B3FF, #1779B6)",
 
             pb: 5,
-            pt: 20,
+            pt: 5,
+            mt:-1
           }}
         >
           <Box>
@@ -1039,8 +1016,8 @@ const QueHacemos = () => {
               sx={{
                 fontFamily: "Manrope",
                 fontSize: "20px",
-                fontWeight: "400",
-                width: "88%",
+                fontWeight: "500",
+                width: "86%",
                 textAlign: "center",
                 m: "auto",
               }}
@@ -1051,7 +1028,7 @@ const QueHacemos = () => {
             </Typography>
           </Box>
 
-          <Box width={"100%"}>
+          <Box width={"90%"} m={"auto"}>
             <Box mt={6} textAlign={"center"}>
               <img src="/hrmobile.png" alt="" />
             </Box>
@@ -1093,12 +1070,13 @@ const QueHacemos = () => {
               <Button
                 disableRipple
                 style={{
+                  width:"96%",
                   textTransform: "none",
                   textAlign: "center",
                   position: "relative",
                 }}
               >
-                <Box onClick={handleOpenModal1} sx={{ textDecoration: "none" }}>
+                <Box  m={"auto"} onClick={handleOpenModal1} sx={{ textDecoration: "none" }}>
                   <img src="/qhBlanco1.png" alt="" />
                   <Typography
                     sx={{
@@ -1107,12 +1085,11 @@ const QueHacemos = () => {
                       lineHeight: "34px",
                       color: "black",
                       textAlign: "center",
+                    
                     }}
                   >
-                    <span>Evaluación,</span>{" "}
-                    <span className="highlighted-text">
-                      diagnóstico y planificación
-                    </span>{" "}
+                    Evaluación y diagnóstico 
+                  
                   </Typography>
                 </Box>
               </Button>
@@ -1163,7 +1140,7 @@ const QueHacemos = () => {
                 disableRipple
                 style={{
                   textTransform: "none",
-                  width: "100vw",
+                  width: "96%",
                   position: "relative",
                 }}
               >
@@ -1194,13 +1171,14 @@ const QueHacemos = () => {
               <Button
                 disableRipple
                 style={{
-                  width: "100vw",
+                  width: "96%",
                   textTransform: "none",
                   textAlign: "center",
                   color: "black",
                 }}
               >
                 <Box
+                  width={"90%"}
                   mt={"8%"}
                   onClick={handleOpenModal4}
                   sx={{ textDecoration: "none" }}
@@ -1225,8 +1203,7 @@ const QueHacemos = () => {
                       textAlign: "center",
                     }}
                   >
-                    Acompañamiento para{" "}
-                    <span className="highlighted-text">certificaciones</span>
+                    Certificaciones
                   </Typography>
                 </Box>
               </Button>
@@ -1240,6 +1217,11 @@ const QueHacemos = () => {
               </Dialog>
             </Box>
           </Box>
+          <Box mt={3} mb={3}
+           textAlign={"center"}>
+          <BlackButtom texto={"Conocé más"} linkTo={"contacto"}/>
+          </Box>
+         
         </Box>
 
         <Box
@@ -1257,7 +1239,7 @@ const QueHacemos = () => {
               <img src="/hrmobil1.png" alt="" />
             </Box>
             <Box
-              width={"88%"}
+              width={"80%"}
               m={"auto"}
               textAlign={"center"}
               pt={0}
@@ -1281,7 +1263,7 @@ const QueHacemos = () => {
                 sx={{
                   fontFamily: "Merriaweather",
                   fontWeight: "100",
-                  fontSize: "18px",
+                  fontSize: "22px",
                   lineHeight: "25px",
                 }}
               >
@@ -1289,7 +1271,7 @@ const QueHacemos = () => {
               </Typography>
             </Box>
 
-            <Box mt={5} width={"100%"}>
+            <Box mt={5} width={"96%"}>
               <Button
                 disableRipple
                 style={{
@@ -1355,6 +1337,10 @@ const QueHacemos = () => {
                 <CarouselTrai />
               </Dialog>
             </Box>
+          </Box>
+          <Box mt={3} mb={3}
+           textAlign={"center"}>
+          <BlackButtom texto={"Conocé más"} linkTo={"contacto"}/>
           </Box>
         </Box>
       </Hidden>

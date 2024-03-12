@@ -568,7 +568,7 @@ const Nosotros = () => {
       </Hidden>
 
       <Hidden smUp>
-        <Box>
+     <Box>
           <Box>
             <img width={"100%"} src="/javier.png" alt="" />
           </Box>
@@ -577,7 +577,7 @@ const Nosotros = () => {
             <Box
               sx={{
                 position: "absolute",
-                top: "18% ",
+                top: "15% ",
                 left: "7%",
                 width: "52%",
               }}
@@ -593,48 +593,29 @@ const Nosotros = () => {
                 Quienes somos
               </Typography>
             </Box>
+           
 
-            <Box
-              sx={{
-                position: "absolute",
-                top: "20% ",
-                left: "7%",
-                width: "72%",
-              }}
-            >
-              <Typography
-                sx={{
-                  fontFamily: "Merriweather",
-                  fontSize: "30px",
-                  fontWeight: "300",
-                  color: "white",
-                  ml: "%",
-                  mt: "30px",
-                }}
-              >
-                Somos una consultora boutique internacional especializada en
-                potenciar el desarrollo de las organizaciones, a través de la
-                innovación tecnológica y el trabajo personalizado.
-              </Typography>
-            </Box>
+           
           </Box>
-        </Box>
+        </Box> 
 
         <Box
           sx={{
+            pl:2,
             width: "100%",
             backgroundColor: "rgba(18,150,233, 0.4)",
           }}
         >
           <Box
-            width={"93%"}
+            width={"98%"}
             display={"flex"}
             mt={-5}
-            pt={25}
-            pl={1}
+            pt={10}
+           
             bgcolor={"rgba(18,150,233, 0.01)"}
           >
-            <Box>
+            <Box display={"flex"} width={"100%"} m={"auto"}>
+            <Box  >
               <Button
                 onClick={() =>
                   handleOpenDialog(
@@ -643,10 +624,10 @@ const Nosotros = () => {
                   )
                 }
               >
-                <img width={"70px"} src="/iconoN1.png" alt="" />
+                <img width={"80%"} src="/iconoN1.png" alt="" />
               </Button>
             </Box>
-            <Box>
+            <Box ml={1}>
               <Button
                 onClick={() =>
                   handleOpenDialog(
@@ -655,10 +636,10 @@ const Nosotros = () => {
                   )
                 }
               >
-                <img width={"70px"} src="/iconoN2.png" alt="" />
+                <img width={"80%"} src="/iconoN2.png" alt="" />
               </Button>
             </Box>
-            <Box>
+            <Box ml={1}>
               <Button
                 onClick={() =>
                   handleOpenDialog(
@@ -667,10 +648,10 @@ const Nosotros = () => {
                   )
                 }
               >
-                <img width={"70px"} src="/iconoN3.png" alt="" />
+                <img width={"80%"} src="/iconoN3.png" alt="" />
               </Button>
             </Box>
-            <Box>
+            <Box ml={1}>
               <Button
                 onClick={() =>
                   handleOpenDialog(
@@ -679,18 +660,20 @@ const Nosotros = () => {
                   )
                 }
               >
-                <img width={"70px"} src="/iconoN4.png" alt="" />
+                <img width={"80%"} src="/iconoN4.png" alt="" />
               </Button>
             </Box>
           </Box>
+            </Box>
+            
 
-          <Box width={"93%"}>
-            <Box sx={{ ml: "6%", width: "95%" }}>
+          <Box  width={"88%"} m={"auto"}>
+            <Box>
               <Typography
                 sx={{
                   mt: "8%",
                   fontFamily: "Merriweather",
-                  fontWeight: 100,
+                  fontWeight: "100",
                   fontSize: "20px",
                   lineHeight: "30px",
                   letterSpacing: "0.5px",
@@ -702,7 +685,7 @@ const Nosotros = () => {
                   style={{
                     cursor: "pointer",
                     color: "rgb(18,150,233)",
-                    fontWeight: "600",
+                    fontWeight: "400",
                     fontFamily: "Merriweather",
                   }}
                 >
@@ -749,7 +732,7 @@ const Nosotros = () => {
               <Typography
                 sx={{
                   fontFamily: "Manrope",
-                  fontSize: "30px",
+                  fontSize: "20px",
                   lineHeight: "123.3%",
                   color: "#1296E9",
                   fontWeight: "600",
@@ -761,11 +744,13 @@ const Nosotros = () => {
               <Typography
                 sx={{
                   fontFamily: "Manrope",
-                  fontSize: "22px",
+                  fontSize: "16px",
                   lineHeight: "123.3%",
-                  color: "white",
-                  width: "260px",
+                  fontWeight:"100",
+                  color: "#1296E9",
+                  width: "60%",
                   pb: 5,
+                
                 }}
               >
                 Fundador y Co-Director de Tyme Consulting

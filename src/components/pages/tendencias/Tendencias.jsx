@@ -66,7 +66,7 @@ const Tendencias = () => {
           </ScrollLink>
         </Box>
 
-        <Box width={"100%"} mt={"15%"} id="seccionDestino">
+        <Box width={"100%"} mt={"15%"} pb={"2.2%"} id="seccionDestino">
           <Typography
             sx={{
               fontFamily: "Merriweather",
@@ -104,10 +104,10 @@ const Tendencias = () => {
             >
               Artículos propios
             </Typography>
-            <Box position={"absolute"} left={"60%"} top={"186%"}>
+            <Box position={"absolute"} left={"60%"} top={"206vh"}>
               <img src="/tendencias4.png" alt="" />
             </Box>
-            <Box position={"absolute"} left={"87%"} top={"198%"}>
+            <Box position={"absolute"} left={"87%"} top={"212vh"}>
               <img src="/tendencias6.png" alt="" />
             </Box>
 

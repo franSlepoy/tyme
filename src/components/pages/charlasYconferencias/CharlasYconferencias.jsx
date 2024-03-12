@@ -134,21 +134,23 @@ const CharlasYconferencias = () => {
             mt={"82px"}
           >
             <Box
-              width={"19%"}
+              width={"24%"}
               component={Button}
               disableRipple={true}
               onClick={handleClickA}
               sx={{
+                p: 0,
+
                 textTransform: "none",
                 display: "flex",
                 flexDirection: "column",
-                textAlign: "left",
+
                 "&:hover": {
                   backgroundColor: "transparent",
                 },
               }}
             >
-              <Box ml={-18}>
+              <Box ml={-23}>
                 <img src="/iconC1.png" alt="" />
               </Box>
 
@@ -160,7 +162,7 @@ const CharlasYconferencias = () => {
                   lineHeight: "30px",
                   color: "black",
                   mt: 5,
-                  ml: -4,
+                  ml: -12,
                 }}
               >
                 Amplifying impact:{" "}
@@ -172,6 +174,8 @@ const CharlasYconferencias = () => {
                   fontWeight: "400",
                   lineHeight: "30px",
                   color: "black",
+                  textAlign: "left",
+                  ml: 2,
                 }}
               >
                 Cómo la influencia puede ayudarte a motivar a tu equipo y tus
@@ -180,8 +184,8 @@ const CharlasYconferencias = () => {
             </Box>
 
             <Box
-              width={"20%"}
-              ml={4}
+              width={"24%"}
+              ml={1}
               component={Button}
               disableRipple={true}
               onClick={handleClickB}
@@ -195,7 +199,7 @@ const CharlasYconferencias = () => {
                 },
               }}
             >
-              <Box ml={-20}>
+              <Box ml={-27}>
                 <img src="/iconC2.png" alt="" />
               </Box>
 
@@ -221,12 +225,12 @@ const CharlasYconferencias = () => {
                 }}
               >
                 La importancia del autoconocimiento para la estabilidad, el
-                equilibrio y el desarrollo del potencial de cada...{" "}
+                equilibrio y el d...{" "}
               </Typography>
             </Box>
             <Box
-              width={"21%"}
-              ml={4}
+              width={"24%"}
+              ml={1}
               component={Button}
               disableRipple={true}
               onClick={handleClickC}
@@ -240,7 +244,7 @@ const CharlasYconferencias = () => {
                 },
               }}
             >
-              <Box ml={-20}>
+              <Box ml={-32}>
                 <img src="/iconC3.png" alt="" />
               </Box>
 
@@ -252,6 +256,7 @@ const CharlasYconferencias = () => {
                   lineHeight: "30px",
                   color: "black",
                   mt: 3,
+                  ml: -2,
                 }}
               >
                 Construyendo un legado: liderazgo transformador en tiempos de
@@ -264,18 +269,21 @@ const CharlasYconferencias = () => {
                   fontWeight: "400",
                   lineHeight: "30px",
                   color: "black",
+                  width: "280px",
+                  textAlign: "left",
+                  ml: -7,
                 }}
               >
                 Cómo guiar a tus equipos y cuidar los liderazgos...{" "}
               </Typography>
             </Box>
             <Box
-              width={"23%"}
-              ml={4}
+              width={"24%"}
               component={Button}
               disableRipple={true}
               onClick={handleClickD}
               sx={{
+                mt:1,
                 textAlign: "left",
                 textTransform: "none",
                 display: "flex",
@@ -285,7 +293,7 @@ const CharlasYconferencias = () => {
                 },
               }}
             >
-              <Box ml={-22}>
+              <Box ml={-27}>
                 <img src="/iconC4.png" alt="" />
               </Box>
 
@@ -340,13 +348,14 @@ const CharlasYconferencias = () => {
 
         <Box
           width={"100%"}
-          height={"140vh"}
+          height={"160vh"}
           pb={"5%"}
+          mt={-20}
           style={{
             backgroundImage: "linear-gradient(to right top, #1296E9, #18CC66)",
           }}
         >
-          <Box pt={20}>
+          <Box pt={40}>
             <Typography
               sx={{
                 fontFamily: "Manrope",
@@ -377,13 +386,14 @@ const CharlasYconferencias = () => {
           </Box>
           <Box
             display={"flex"}
-            width={"80%"}
+            width={"72%"}
             m={"auto"}
             justifyContent={"space-evenly"}
             mt={5}
           >
             <Box
-              width={"19%"}
+            
+              width={"30%"}
               component={Button}
               disableRipple={true}
               onClick={handleClickE}
@@ -397,7 +407,7 @@ const CharlasYconferencias = () => {
                 },
               }}
             >
-              <Box ml={-14}>
+              <Box ml={-26}>
                 <img src="/iconC5.png" alt="" />
               </Box>
 
@@ -426,8 +436,8 @@ const CharlasYconferencias = () => {
               </Typography>
             </Box>
             <Box
-              width={"23%"}
-              ml={4}
+              width={"30%"}
+             
               component={Button}
               disableRipple={true}
               onClick={handleClickF}
@@ -441,7 +451,7 @@ const CharlasYconferencias = () => {
                 },
               }}
             >
-              <Box ml={-19}>
+              <Box ml={-26}>
                 <img src="/iconC6.png" alt="" />
               </Box>
 
@@ -470,7 +480,7 @@ const CharlasYconferencias = () => {
               </Typography>
             </Box>
             <Box
-              width={"23%"}
+              width={"30%"}
               ml={4}
               component={Button}
               disableRipple={true}
@@ -485,7 +495,7 @@ const CharlasYconferencias = () => {
                 },
               }}
             >
-              <Box ml={-20}>
+              <Box ml={-26}>
                 <img src="/iconC7.png" alt="" />
               </Box>
 

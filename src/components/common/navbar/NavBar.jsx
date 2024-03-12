@@ -30,6 +30,7 @@ const NavBar = () => {
             width: "91%",
             margin: "auto",
             height: "99px",
+            zIndex:100
           }}
         >
           <Toolbar sx={{ mt: 2 }}>
@@ -362,7 +363,7 @@ const NavBar = () => {
       <Hidden smUp>
         <AppBar
           position="static"
-          sx={{ boxShadow: 0, bgcolor: "#0A3A5B", height: "9vh",  }}
+          sx={{ boxShadow: 0, bgcolor: "#0A3A5B", height: "9vh", zIndex:100  }}
         >
           <Toolbar
             sx={{

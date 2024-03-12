@@ -7,7 +7,7 @@ import Acompañamiento2 from "./Acompañamiento2";
 const CarouselAcom = () => {
   return (
     <Carousel
-      autoPlay={true}
+      autoPlay={false}
       timeout={200}
       sx={{
         backgroundColor: "#104B70",

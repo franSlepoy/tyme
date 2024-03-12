@@ -76,7 +76,6 @@ const Testimonios2 = () => {
                   fontWeight: 100,
                   lineHeight: "16px",
                   color: "black",
-                 
                 }}
               >
                 (Europa, África, Asia y LATAM)
@@ -135,7 +134,7 @@ const Testimonios2 = () => {
                   lineHeight: "26px",
                   color: "black",
                   textTransform: "uppercase",
-                  mt:9
+                  mt: 6,
                 }}
               >
                 {" "}
@@ -207,7 +206,7 @@ const Testimonios2 = () => {
               </Typography>
               <Typography
                 sx={{
-                  mt: 6,
+                  mt: 3,
                   fontFamily: "Manrope",
 
                   fontWeight: 800,
@@ -229,7 +228,7 @@ const Testimonios2 = () => {
                   pb: 2,
                 }}
               >
-                Director de RRHH en la compañía 
+                Director de RRHH en la compañía
               </Typography>
             </Box>
           </Box>

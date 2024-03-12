@@ -47,7 +47,7 @@ const Testimonios1 = () => {
               </Typography>
               <Typography
                 sx={{
-                  mt: 4,
+                  mt: 1,
                   fontFamily: "Manrope",
 
                   fontWeight: 800,
@@ -125,7 +125,7 @@ const Testimonios1 = () => {
               </Typography>
               <Typography
                 sx={{
-                  mt: 4,
+                  mt: 1,
                   fontFamily: "Manrope",
 
                   fontWeight: 800,
@@ -206,7 +206,7 @@ const Testimonios1 = () => {
               </Typography>
               <Typography
                 sx={{
-                  mt: 4,
+                  mt: 1,
                   fontFamily: "Manrope",
 
                   fontWeight: 800,

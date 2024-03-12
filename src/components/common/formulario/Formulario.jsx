@@ -27,6 +27,17 @@ const Formulario = () => {
       );
   };
 
+  const inputStyle = {
+    fontFamily: "Manrope",
+    fontSize: "12px",
+    color: "black",
+    "& .MuiFilledInput-underline:before": {
+      borderBottom: "none",
+    },
+    "& .MuiFilledInput-underline:after": {
+      borderBottom: "none",
+    },
+  };
   return (
     <>
       <Hidden smDown>
@@ -57,6 +68,7 @@ const Formulario = () => {
               label="Nombre"
               id="standard-size-normal"
               variant="filled"
+              
               sx={{
                 mt: 3,
                 color: "black",
@@ -70,6 +82,9 @@ const Formulario = () => {
                 "& .MuiFilledInput-underline:before": {
                   borderBottom: "none", // Eliminar la línea negra
                 },
+                "& .MuiFilledInput-underline:after": {
+                  borderBottom: "none",
+                },
               }}
             />
             <TextField
@@ -80,7 +95,7 @@ const Formulario = () => {
               variant="filled"
               sx={{
                 mt: 2,
-
+                fontFamily: "Manrope",
                 width: "100%",
                 bgcolor: "white",
                 borderRadius: "4px",
@@ -100,13 +115,7 @@ const Formulario = () => {
               id="standard-size-normal"
               variant="filled"
               sx={{
-                "& .MuiInputBase-input": {
-                  fontFamily: "Manrope", // Tipografía
-                  color: "black", // Color del texto
-                },
-                "& .MuiFilledInput-underline:before": {
-                  borderBottom: "none", // Eliminar la línea negra
-                },
+               ...inputStyle,
                 mt: 2,
 
                 width: "100%",
@@ -264,7 +273,7 @@ const Formulario = () => {
       </Hidden>
 
       <Hidden smUp>
-      {mensajeEnviado ? ( // Mostrar el mensaje si mensajeEnviado es true
+        {mensajeEnviado ? ( // Mostrar el mensaje si mensajeEnviado es true
           <Typography
             width={"100%"}
             mt={30}
@@ -283,7 +292,7 @@ const Formulario = () => {
             sx={{
               display: "flex",
               flexDirection: "column",
-              width:"90%"
+              width: "90%",
             }}
           >
             <TextField

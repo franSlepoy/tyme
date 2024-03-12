@@ -7,8 +7,169 @@ const Acompañamiento2 = () => {
     <>
       <Hidden smDown>
         <Box
+          pl={"10%"}
+          pt={"6%"}
+          sx={{ width: "100%", height: "74vh", backgroundColor: "#104B70" }}
+        >
+          <Box
+            display={"flex"}
+            component={NavLink}
+            to={"/queHacemos"}
+            sx={{ textDecoration: "none" }}
+            ml={-3.5}
+          >
+            <img height={"30px"} src="/arrowButton.png" alt="" />
+            <Typography
+              sx={{
+                fontSize: "20px",
+                fontFamily: "Manrope",
+                fontWeight: "200",
+                color: "white",
+                lineHeight: "34px",
+                ml: "4px",
+                mt: "-2px",
+              }}
+            >
+              HR on demand
+            </Typography>
+          </Box>
+
+          <Box>
+            <Typography
+              maxWidth={"980px"}
+              sx={{
+                fontFamily: "Manrope",
+                fontSize: "48px",
+                lineHeight: "45px",
+                fontWeight: "700",
+                color: "white",
+                mt: "2%",
+              }}
+            >
+              Por qué es importante certificar
+            </Typography>
+          </Box>
+
+          <Box display={"flex"} mt={"4%"}>
+            <Box width={"20%"}>
+              <Typography
+                sx={{
+                  color: "#72C8FF",
+                  fontFamily: "Manrope",
+                  fontSize: "40px",
+                  fontWeight: "700",
+                  lineHeight: "30px",
+                }}
+              >
+                1
+              </Typography>
+              <Typography
+                sx={{
+                  color: "white",
+                  fontFamily: "Manrope",
+                  fontSize: "22px",
+                  fontWeight: "100",
+                  mt: 1,
+
+                }}
+              >
+                Aumenta la credibilidad y la confianza de tus socios
+                comerciales, clientes y colaboradores.
+              </Typography>
+            </Box>
+            <Box width={"18%"} ml={"4%"}>
+              <Typography
+                sx={{
+                  color: "#72C8FF",
+                  fontFamily: "Manrope",
+                  fontSize: "40px",
+                  fontWeight: "700",
+                  lineHeight: "30px",
+                }}
+              >
+                2
+              </Typography>
+              <Typography
+                sx={{
+                  color: "white",
+                  fontFamily: "Manrope",
+                  fontSize: "22px",
+                  fontWeight: "100",
+                  mt: 1,
+                }}
+              >
+                Impulsa la competitividad de tu empresa y abre nuevas
+                oportunidades de negocio.
+              </Typography>
+            </Box>
+            <Box width={"19%"} ml={"4%"}>
+              <Typography
+                sx={{
+                  color: "#72C8FF",
+                  fontFamily: "Manrope",
+                  fontSize: "40px",
+                  fontWeight: "700",
+                  lineHeight: "30px",
+                }}
+              >
+                3
+              </Typography>
+
+              <Typography
+                sx={{
+                  color: "white",
+                  fontFamily: "Manrope",
+                  fontSize: "22px",
+                  fontWeight: "100",
+                  mt: 1,
+                }}
+              >
+                Mejora la relación con tus empleados porque ratifica el
+                compromiso con políticas de bienestar.
+              </Typography>
+            </Box>
+            <Box width={"20%"} ml={"4%"}>
+              <Typography
+                sx={{
+                  color: "#72C8FF",
+                  fontFamily: "Manrope",
+                  fontSize: "40px",
+                  fontWeight: "700",
+                  lineHeight: "30px",
+                }}
+              >
+                4
+              </Typography>
+              <Typography
+                sx={{
+                  color: "white",
+                  fontFamily: "Manrope",
+                  fontSize: "22px",
+                  fontWeight: "100",
+                  mt: 1,
+                }}
+              >
+                Fomenta la mejora continua y la eficiencia, y asegura el
+                cumplimiento de marcos regulatorios.
+              </Typography>
+            </Box>
+          </Box>
+
+          <Box position={"absolute"} left={"75%"} top={"10%"}>
+            <img src="/Acom.png" alt="" />
+          </Box>
+        </Box>
+      </Hidden>
+
+      <Hidden smUp>
+        <Box
           p={"6%"}
-          sx={{ width: "100%", height: "70vh", backgroundColor: "#104B70" }}
+          sx={{
+            width: "100%",
+            height: "100vh", // Ajustar la altura al 100% del viewport height
+            backgroundColor: "#104B70",
+            overflowY: "auto", // Permitir scroll vertical si es necesario
+          }}
         >
           <Box
             display={"flex"}
@@ -41,7 +202,7 @@ const Acompañamiento2 = () => {
                 lineHeight: "45px",
                 fontWeight: "700",
                 color: "white",
-                mt: "2%",
+                mt: "4%",
               }}
             >
               Por qué es importante certificar
@@ -63,8 +224,8 @@ const Acompañamiento2 = () => {
             </Typography>
           </Box>
 
-          <Box display={"flex"} mt={"3%"}>
-            <Box >
+          <Box mt={"3%"}>
+            <Box>
               <Typography
                 sx={{
                   color: "#72C8FF",
@@ -89,7 +250,7 @@ const Acompañamiento2 = () => {
                 oportunidades de negocio.
               </Typography>
             </Box>
-            <Box ml={"4%"} >
+            <Box ml={"4%"}>
               <Typography
                 sx={{
                   color: "#72C8FF",
@@ -114,7 +275,7 @@ const Acompañamiento2 = () => {
                 compromiso con políticas de bienestar.
               </Typography>
             </Box>
-            <Box ml={"4%"} >
+            <Box ml={"4%"}>
               <Typography
                 sx={{
                   color: "#72C8FF",
@@ -140,7 +301,7 @@ const Acompañamiento2 = () => {
                 compromiso con políticas de bienestar.
               </Typography>
             </Box>
-            <Box ml={"4%"} >
+            <Box ml={"4%"}>
               <Typography
                 sx={{
                   color: "#72C8FF",
@@ -167,177 +328,10 @@ const Acompañamiento2 = () => {
             </Box>
           </Box>
 
-          <Box position={"absolute"} left={"75%"} top={"10%"}>
+          <Box position={"absolute"} top={"10%"}>
             <img src="/Acom.png" alt="" />
           </Box>
         </Box>
-      </Hidden>
-     
-      <Hidden smUp>
-      <Box
-      p={"6%"}
-      sx={{
-        width: "100%",
-        height: "100vh", // Ajustar la altura al 100% del viewport height
-        backgroundColor: "#104B70",
-        overflowY: "auto", // Permitir scroll vertical si es necesario
-      }}
-    >
-      <Box display={"flex"} component={NavLink} to={"/queHacemos"} sx={{textDecoration:"none"}}>
-        <img height={"30px"} src="/arrowButton.png" alt="" />
-        <Typography
-          sx={{
-            fontSize: "20px",
-            fontFamily: "Manrope",
-            fontWeight: "300",
-            color: "white",
-            lineHeight: "34px",
-            ml: "4px",
-            mt: "-2px",
-          }}
-        >
-          HR on demand
-        </Typography>
-      </Box>
-
-      <Box>
-        <Typography
-          maxWidth={"980px"}
-          sx={{
-            fontFamily: "Manrope",
-            fontSize: "48px",
-            lineHeight: "45px",
-            fontWeight: "700",
-            color: "white",
-            mt: "4%",
-          }}
-        >
-         Por qué es importante certificar
-        </Typography>
-
-        <Typography
-          maxWidth={"780px"}
-          sx={{
-            fontFamily: "Manrope",
-            fontSize: "26px",
-            lineHeight: "35px",
-            color: "white",
-            fontWeight: "300",
-            mt: "2%",
-          }}
-        >
-          Aumenta la credibilidad y la confianza de tus socios comerciales, clientes y colaboradores.
-        </Typography>
-      </Box>
-
-      <Box  mt={"3%"}>
-      <Box >
-              <Typography
-                sx={{
-                  color: "#72C8FF",
-                  fontFamily: "Manrope",
-                  fontSize: "40px",
-                  fontWeight: "700",
-                  lineHeight: "30px",
-                }}
-              >
-                1
-              </Typography>
-              <Typography
-                sx={{
-                  color: "white",
-                  fontFamily: "Manrope",
-                  fontSize: "24px",
-                  fontWeight: "100",
-                  mt: 2,
-                }}
-              >
-                Impulsa la competitividad de tu empresa y abre nuevas
-                oportunidades de negocio.
-              </Typography>
-            </Box>
-            <Box ml={"4%"} >
-              <Typography
-                sx={{
-                  color: "#72C8FF",
-                  fontFamily: "Manrope",
-                  fontSize: "40px",
-                  fontWeight: "700",
-                  lineHeight: "30px",
-                }}
-              >
-                2
-              </Typography>
-              <Typography
-                sx={{
-                  color: "white",
-                  fontFamily: "Manrope",
-                  fontSize: "24px",
-                  fontWeight: "100",
-                  mt: 2,
-                }}
-              >
-                Mejora la relación con tus empleados porque ratifica el
-                compromiso con políticas de bienestar.
-              </Typography>
-            </Box>
-            <Box ml={"4%"} >
-              <Typography
-                sx={{
-                  color: "#72C8FF",
-                  fontFamily: "Manrope",
-                  fontSize: "40px",
-                  fontWeight: "700",
-                  lineHeight: "30px",
-                }}
-              >
-                3
-              </Typography>
-
-              <Typography
-                sx={{
-                  color: "white",
-                  fontFamily: "Manrope",
-                  fontSize: "24px",
-                  fontWeight: "100",
-                  mt: 2,
-                }}
-              >
-                Mejora la relación con tus empleados porque ratifica el
-                compromiso con políticas de bienestar.
-              </Typography>
-            </Box>
-            <Box ml={"4%"} >
-              <Typography
-                sx={{
-                  color: "#72C8FF",
-                  fontFamily: "Manrope",
-                  fontSize: "40px",
-                  fontWeight: "700",
-                  lineHeight: "30px",
-                }}
-              >
-                4
-              </Typography>
-              <Typography
-                sx={{
-                  color: "white",
-                  fontFamily: "Manrope",
-                  fontSize: "24px",
-                  fontWeight: "100",
-                  mt: 2,
-                }}
-              >
-                Fomenta la mejora continua y la eficiencia, y asegura el
-                cumplimiento de marcos regulatorios.
-              </Typography>
-            </Box>
-      </Box>
-
-      <Box position={"absolute"}  top={"10%"}>
-        <img src="/Acom.png" alt="" />
-      </Box>
-    </Box>
       </Hidden>
     </>
   );

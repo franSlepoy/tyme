@@ -77,7 +77,7 @@ const Evaluacion1 = () => {
 
       <Hidden smUp>
         <Box
-          p={"6%"}
+          p={"7%"}
           sx={{
             width: "100%",
             height: "100vh", // Ajustar la altura al 100% del viewport height
@@ -85,34 +85,14 @@ const Evaluacion1 = () => {
             overflowY: "auto", // Permitir scroll vertical si es necesario
           }}
         >
-          <Box
-            display={"flex"}
-            component={NavLink}
-            to={"/queHacemos"}
-            sx={{ textDecoration: "none" }}
-          >
-            <img height={"30px"} src="/arrowButton.png" alt="" />
-            <Typography
-              sx={{
-                fontSize: "20px",
-                fontFamily: "Manrope",
-                fontWeight: "300",
-                color: "white",
-                lineHeight: "34px",
-                ml: "4px",
-                mt: "-2px",
-              }}
-            >
-              HR on demand
-            </Typography>
-          </Box>
+         
 
           <Box>
             <Typography
               maxWidth={"580px"}
               sx={{
                 fontFamily: "Manrope",
-                fontSize: "48px",
+                fontSize: "38px",
                 lineHeight: "45px",
                 fontWeight: "700",
                 color: "white",
@@ -126,7 +106,7 @@ const Evaluacion1 = () => {
               maxWidth={"780px"}
               sx={{
                 fontFamily: "Manrope",
-                fontSize: "24px",
+                fontSize: "20px",
                 lineHeight: "30px",
                 color: "white",
                 fontWeight: "300",
@@ -142,7 +122,7 @@ const Evaluacion1 = () => {
             </Typography>
           </Box>
           <Box position={"absolute"} top={"10%"}>
-            <img src="/evolucion.png" alt="" />
+            <img width={"80%"} src="/evolucion.png" alt="" />
           </Box>
         </Box>
       </Hidden>

@@ -17,14 +17,14 @@ export default function ArticuloCard(props) {
           
           
         />
-        <CardContent >
-          <Typography sx={{color: "black", fontFamily:"Manrope", fontSize:"20px", fontWeight:"400", lineHeight:"30px", letterSpacing:"0.5", }} gutterBottom variant="h5" component="div">
+        <CardContent  >
+          <Typography sx={{color: "black", fontFamily:"Manrope", fontSize:"20px", fontWeight:"400", lineHeight:"30px", letterSpacing:"0.5", width:"100%", ml:-1}} gutterBottom variant="h5" component="div">
             {props.titulo}
           </Typography>
           
         </CardContent>
      
-      <Box ml={"12px"}  >
+      <Box position={"absolute"} top={"50vh"} ml={"12px"}  >
         <Typography sx={{fontFamily:"Manrope", fontSize:"14", lineHeight:"20px", letterSpacing:"0.1px", color:"black", textTransform:"uppercase", mb:"22px"}}  >
           ver artículo
         </Typography>
