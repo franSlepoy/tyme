@@ -2,7 +2,7 @@ import { Hidden, Typography } from "@mui/material";
 import { Box } from "@mui/system";
 import { NavLink } from "react-router-dom";
 
-const Cultura2 = () => {
+const Cultura2 = ({ handleOpenModal2, handleCloseModal2, openModal2 }) => {
   return (
     <>
       <Hidden smDown>
@@ -13,9 +13,12 @@ const Cultura2 = () => {
         >
           <Box
             display={"flex"}
-            component={NavLink}
-            to={"/queHacemos"}
-            sx={{ textDecoration: "none" }}
+            onClick={() => {
+              handleCloseModal2();
+            }}
+            bgcolor={"transparent"}
+            border={"none"}
+            sx={{ textDecoration: "none", cursor: "pointer" }}
             ml={-3.5}
           >
             <img height={"30px"} src="/arrowButton.png" alt="" />
@@ -96,13 +99,15 @@ const Cultura2 = () => {
                   fontFamily: "Manrope",
                   fontSize: "22px",
                   fontWeight: "100",
+                  lineHeight: "28px",
+                  width:"200px"
                 }}
               >
                 utilizamos nuevas tecnologías para detectar datos precisos y
                 significativos.
               </Typography>
             </Box>
-            <Box ml={"4%"}>
+            <Box ml={"5%"}>
               <Typography
                 sx={{
                   color: "#72C8FF",
@@ -110,6 +115,7 @@ const Cultura2 = () => {
                   fontSize: "40px",
                   fontWeight: "700",
                   lineHeight: "30px",
+                 
                 }}
               >
                 2
@@ -131,13 +137,16 @@ const Cultura2 = () => {
                   fontFamily: "Manrope",
                   fontSize: "22px",
                   fontWeight: "100",
+                  lineHeight: "28px",
+                  width:"220px",
+                  
                 }}
               >
                 creamos un plan a medida para desarrollar liderazgos en tu
                 empresa.
               </Typography>
             </Box>
-            <Box ml={"4%"}>
+            <Box ml={"3%"}>
               <Typography
                 sx={{
                   color: "#72C8FF",
@@ -167,13 +176,16 @@ const Cultura2 = () => {
                   fontFamily: "Manrope",
                   fontSize: "24px",
                   fontWeight: "100",
+                  lineHeight: "28px",
+                  width:"240px",
+                  
                 }}
               >
                 acompañamos la puesta en marcha de la estrategia para asegurar
                 su eficacia.
               </Typography>
             </Box>
-            <Box ml={"4%"}>
+            <Box ml={"3%"}>
               <Typography
                 sx={{
                   color: "#72C8FF",
@@ -202,6 +214,8 @@ const Cultura2 = () => {
                   fontFamily: "Manrope",
                   fontSize: "22px",
                   fontWeight: "100",
+                  lineHeight: "28px",
+                  width:"250px"
                 }}
               >
                 medimos resultados, con seguimientos periódicos para implementar

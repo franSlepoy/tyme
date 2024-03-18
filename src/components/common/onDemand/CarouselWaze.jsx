@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 import Waze2 from "./Waze2";
 import Waze1 from "./Waze1";
 
-const CarouselWaze = () => {
+const CarouselWaze = ({ handleOpenModal3, handleCloseModal3, openModal3 }) => {
   return (
     <Carousel
       autoPlay={true}
@@ -38,7 +38,11 @@ const CarouselWaze = () => {
         exit={{ opacity: 0, x: "100%", rotateY: "480deg" }}
         transition={{ duration: 0.5 }}
       >
-        <Waze1 />
+        <Waze1
+          handleOpenModal3={handleOpenModal3}
+          handleCloseModal3={handleCloseModal3}
+          openModal3={openModal3}
+        />
       </motion.div>
       <motion.div
         initial={{ opacity: 0, x: "500%", rotateY: "-480deg" }}
@@ -46,7 +50,11 @@ const CarouselWaze = () => {
         exit={{ opacity: 0, x: "100%", rotateY: "180deg" }}
         transition={{ duration: 0.5 }}
       >
-        <Waze2 />
+        <Waze2
+          handleOpenModal3={handleOpenModal3}
+          handleCloseModal3={handleCloseModal3}
+          openModal3={openModal3}
+        />
       </motion.div>
     </Carousel>
   );

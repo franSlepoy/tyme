@@ -1,8 +1,9 @@
 import { Hidden, Typography } from "@mui/material";
 import { Box } from "@mui/system";
-import { NavLink } from "react-router-dom";
 
-const Evaluacion2 = () => {
+import { Button } from "react-scroll";
+
+const Evaluacion2 = ({ handleOpenModal1, handleCloseModal1, openModal1 }) => {
   return (
     <>
       <Hidden smDown>
@@ -13,9 +14,13 @@ const Evaluacion2 = () => {
         >
           <Box
             display={"flex"}
-            component={NavLink}
-            to={"/queHacemos"}
-            sx={{ textDecoration: "none" }}
+            component={Button}
+            onClick={() => {
+              handleCloseModal1();
+            }}
+            bgcolor={"transparent"}
+            border={"none"}
+            sx={{ textDecoration: "none", cursor:"pointer" }}
             ml={-3.5}
           >
             <img height={"30px"} src="/arrowButton.png" alt="" />
@@ -182,15 +187,11 @@ const Evaluacion2 = () => {
           p={"10%"}
           sx={{
             width: "100%",
-          // Ajustar la altura al 100% del viewport height
+            // Ajustar la altura al 100% del viewport height
             backgroundColor: "#104B70",
-           // Permitir scroll vertical si es necesario
+            // Permitir scroll vertical si es necesario
           }}
         >
-         
-
-         
-
           <Box mt={"3%"}>
             <Box>
               <Typography
@@ -217,7 +218,7 @@ const Evaluacion2 = () => {
                 Análisis integral y diagnóstico personalizado.
               </Typography>
             </Box>
-            <Box >
+            <Box>
               <Typography
                 sx={{
                   color: "#72C8FF",
@@ -225,7 +226,7 @@ const Evaluacion2 = () => {
                   fontSize: "40px",
                   fontWeight: "700",
                   lineHeight: "30px",
-                  mt:2
+                  mt: 2,
                 }}
               >
                 2
@@ -243,7 +244,7 @@ const Evaluacion2 = () => {
                 Plan a medida.
               </Typography>
             </Box>
-            <Box  >
+            <Box>
               <Typography
                 sx={{
                   color: "#72C8FF",
@@ -251,7 +252,7 @@ const Evaluacion2 = () => {
                   fontSize: "40px",
                   fontWeight: "700",
                   lineHeight: "30px",
-                  mt:2
+                  mt: 2,
                 }}
               >
                 3
@@ -279,7 +280,7 @@ const Evaluacion2 = () => {
                   fontSize: "40px",
                   fontWeight: "700",
                   lineHeight: "30px",
-                  mt:2
+                  mt: 2,
                 }}
               >
                 4

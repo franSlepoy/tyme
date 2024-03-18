@@ -1,8 +1,9 @@
 import { Hidden, Typography } from "@mui/material";
 import { Box } from "@mui/system";
 import { NavLink } from "react-router-dom";
+import { Button } from "react-scroll";
 
-const Training2 = () => {
+const Training2 = ({ handleOpenModal6, handleCloseModal6, openModal6 }) => {
   return (
     <>
       <Hidden smDown>
@@ -20,9 +21,14 @@ const Training2 = () => {
           >
             <Box
               display={"flex"}
-              component={NavLink}
-              to={"/queHacemos"}
-              sx={{ textDecoration: "none" }}
+              component={Button}
+            onClick={() => {
+              handleCloseModal6();
+            }}
+            bgcolor={"transparent"}
+            border={"none"}
+            sx={{ textDecoration: "none", cursor:"pointer" }}
+             
             >
               <img height={"30px"} src="/arrowButton.png" alt="" />
               <Typography

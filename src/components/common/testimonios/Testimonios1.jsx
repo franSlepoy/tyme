@@ -5,7 +5,7 @@ const Testimonios1 = () => {
     <>
       <Hidden lgDown>
         <Box sx={{ display: "flex", width: "82%", m: "auto" }}>
-          <Box sx={{ width: "33%" }}>
+          <Box sx={{ width: "33%",  }}>
             <Box
               sx={{
                 borderRadius: "50%",
@@ -76,14 +76,15 @@ const Testimonios1 = () => {
                   fontWeight: 100,
                   lineHeight: "18px",
                   color: "black",
+                  pb:0
                 }}
               >
-                Director en Pastelería San Antonio (Perú)
+                Director en Pastelería San Antonio 
               </Typography>
             </Box>
           </Box>
 
-          <Box sx={{ width: "33%" }} ml={"2.5%"}>
+          <Box sx={{ width: "33%",  }} ml={"2.5%"}>
             <Box
               sx={{
                 borderRadius: "50%",
@@ -145,7 +146,6 @@ const Testimonios1 = () => {
                   fontWeight: 300,
                   lineHeight: "18px",
                   color: "black",
-                  
                 }}
               >
                 CEO & Director Warner Bros.
@@ -156,7 +156,7 @@ const Testimonios1 = () => {
                   fontWeight: 300,
                   lineHeight: "18px",
                   color: "black",
-                  pb: 3,
+                  pb: 1,
                 }}
               >
                 (España y Portugal)
@@ -225,7 +225,7 @@ const Testimonios1 = () => {
                   fontWeight: 300,
                   lineHeight: "18px",
                   color: "black",
-                  pb:5
+                  pb: 3,
                 }}
               >
                 CEO & Partner The Cyranos

@@ -11,6 +11,7 @@ import { Parallax } from "react-scroll-parallax";
 import GreenButtom from "../../common/greenButtom/GreenButtom";
 import { Link as ScrollLink } from "react-scroll";
 import Testimonios2 from "../../common/testimonios/TestimonioCard/testimonios2";
+import QueHacemos from "../queHacemos/QueHacemos";
 
 const Home = () => {
   return (
@@ -421,7 +422,11 @@ const Home = () => {
           </Box>
         </Box>
 
-        <Box>
+   <QueHacemos/>
+  <Testimonios/>
+  <Testimonios1/>
+  <Testimonios2/>
+       {/* carrusel <Box>
           <Typography
             sx={{
               textAlign: "center",
@@ -453,7 +458,7 @@ const Home = () => {
               ))}
             </Carousel>
           </Box>
-        </Box>
+        </Box> */}
       </Hidden>
     </>
   );

@@ -4,7 +4,7 @@ import Evaluacion2 from "./Evaluacion2";
 import { motion } from "framer-motion";
 import { Box, Hidden } from "@mui/material";
 
-const CarouselEv = () => {
+const CarouselEv = ({ handleOpenModal1, handleCloseModal1, openModal1 }) => {
   return (
     <>
       <Hidden smDown>
@@ -39,7 +39,11 @@ const CarouselEv = () => {
             exit={{ opacity: 0, x: "100%", rotateY: "480deg" }}
             transition={{ duration: 0.5 }}
           >
-            <Evaluacion1 />
+            <Evaluacion1
+              handleOpenModal1={handleOpenModal1}
+              handleCloseModal1={handleCloseModal1}
+              openModal1={openModal1}
+            />
           </motion.div>
           <motion.div
             initial={{ opacity: 0, x: "500%", rotateY: "-480deg" }}
@@ -47,12 +51,16 @@ const CarouselEv = () => {
             exit={{ opacity: 0, x: "100%", rotateY: "180deg" }}
             transition={{ duration: 0.5 }}
           >
-            <Evaluacion2 />
+            <Evaluacion2
+              handleOpenModal1={handleOpenModal1}
+              handleCloseModal1={handleCloseModal1}
+              openModal1={openModal1}
+            />
           </motion.div>
         </Carousel>
       </Hidden>
       <Hidden smUp>
-      {/* <Carousel
+        {/* <Carousel
           autoPlay={false}
           timeout={100}
           sx={{
@@ -95,12 +103,11 @@ const CarouselEv = () => {
           </motion.div>
         </Carousel>
      */}
-        <Box >
-        <Evaluacion1 /> 
-       <Evaluacion2 />
+        <Box>
+          <Evaluacion1 />
+          <Evaluacion2 />
         </Box>
-         
-       </Hidden> 
+      </Hidden>
     </>
   );
 };

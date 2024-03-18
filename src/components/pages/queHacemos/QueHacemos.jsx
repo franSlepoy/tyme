@@ -14,7 +14,6 @@ import CarouselAcom from "../../common/onDemand/CarouselAcom";
 import CarouselMentoring from "../../common/onDemand/CarouselMentoring";
 import CarouselTrai from "../../common/onDemand/CarouselTrai";
 
-
 const QueHacemos = () => {
   const [openModal1, setOpenModal1] = useState(false);
   const [openModal2, setOpenModal2] = useState(false);
@@ -87,8 +86,7 @@ const QueHacemos = () => {
                 fontSize: "40px",
                 fontWeight: "300",
                 color: "white",
-                lineHeight:"55px",
-                
+                lineHeight: "55px",
               }}
             >
               Somos tus socios estratégicos para acompañar a tus equipos a dar
@@ -100,7 +98,6 @@ const QueHacemos = () => {
               position: "absolute",
               top: { sm: "95%", md: "90%", lg: "92%" },
               left: "7%",
-
             }}
           >
             <ScrollLink to="seccionDestino" smooth={true}>
@@ -111,7 +108,7 @@ const QueHacemos = () => {
         <Box width={"100%"} height={"90px"} id={"seccionDestino"}>
           <Typography
             sx={{
-              mt: "10%",
+              mt: "8%",
               ml: "5%",
               fontFamily: "Merriweather",
               fontSize: "42px",
@@ -209,7 +206,11 @@ const QueHacemos = () => {
                 open={openModal1}
                 onClose={handleCloseModal1}
               >
-                <CarouselEv />
+                <CarouselEv
+                  handleOpenModal1={handleOpenModal1}
+                  handleCloseModal1={handleCloseModal1}
+                  openModal1={openModal1}
+                />
               </Dialog>
 
               <Button
@@ -265,7 +266,11 @@ const QueHacemos = () => {
                 open={openModal2}
                 onClose={handleCloseModal2}
               >
-                <CarouselCultura />
+                <CarouselCultura
+                  handleOpenModal2={handleOpenModal2}
+                  handleCloseModal2={handleCloseModal2}
+                  openModal2={openModal2}
+                />
               </Dialog>
 
               <Button
@@ -318,7 +323,11 @@ const QueHacemos = () => {
                 open={openModal3}
                 onClose={handleCloseModal3}
               >
-                <CarouselWaze />
+                <CarouselWaze
+                  handleOpenModal3={handleOpenModal3}
+                  handleCloseModal3={handleCloseModal3}
+                  openModal3={openModal3}
+                />
               </Dialog>
 
               <Button
@@ -372,7 +381,11 @@ const QueHacemos = () => {
                 open={openModal4}
                 onClose={handleCloseModal4}
               >
-                <CarouselAcom />
+                <CarouselAcom 
+                handleOpenModal4={handleOpenModal4}
+                handleCloseModal4={handleCloseModal4}
+                openModal4={openModal4}
+                />
               </Dialog>
             </Box>
           </Box>
@@ -472,7 +485,11 @@ const QueHacemos = () => {
                 open={openModal5}
                 onClose={handleCloseModal5}
               >
-                <CarouselMentoring />
+                <CarouselMentoring
+                handleOpenModal5={handleOpenModal5}
+                handleCloseModal5={handleCloseModal5}
+                openModal5={openModal5}
+                />
               </Dialog>
 
               <Button
@@ -532,7 +549,11 @@ const QueHacemos = () => {
                 open={openModal6}
                 onClose={handleCloseModal6}
               >
-                <CarouselTrai />
+                <CarouselTrai
+                handleOpenModal6={handleOpenModal6}
+                handleCloseModal6={handleCloseModal6}
+                openModal6={openModal6}
+                />
               </Dialog>
             </Box>
           </Box>
@@ -954,17 +975,11 @@ const QueHacemos = () => {
       </Hidden>
 
       <Hidden smUp>
-       {/*  <Parallax speed={-12} tagOuter="figure"> */}
-          <Box width={"100%"}  zIndex={2}>
-            <img
-             
-              
-              width={"100%"}
-              src="/nosotros1.png"
-              alt=""
-            />
-          </Box>
-    {/*     </Parallax> */}
+        {/*  <Parallax speed={-12} tagOuter="figure"> */}
+        <Box width={"100%"} zIndex={2}>
+          <img width={"100%"} src="/nosotros1.png" alt="" />
+        </Box>
+        {/*     </Parallax> */}
         <Box>
           <Box
             sx={{
@@ -997,7 +1012,6 @@ const QueHacemos = () => {
               <GreenButtom texto={"Conoce más"} />
             </ScrollLink>
           </Box> */}
-           
         </Box>
 
         <Box
@@ -1008,7 +1022,7 @@ const QueHacemos = () => {
 
             pb: 5,
             pt: 5,
-            mt:-1
+            mt: -1,
           }}
         >
           <Box>
@@ -1070,13 +1084,17 @@ const QueHacemos = () => {
               <Button
                 disableRipple
                 style={{
-                  width:"96%",
+                  width: "96%",
                   textTransform: "none",
                   textAlign: "center",
                   position: "relative",
                 }}
               >
-                <Box  m={"auto"} onClick={handleOpenModal1} sx={{ textDecoration: "none" }}>
+                <Box
+                  m={"auto"}
+                  onClick={handleOpenModal1}
+                  sx={{ textDecoration: "none" }}
+                >
                   <img src="/qhBlanco1.png" alt="" />
                   <Typography
                     sx={{
@@ -1085,11 +1103,9 @@ const QueHacemos = () => {
                       lineHeight: "34px",
                       color: "black",
                       textAlign: "center",
-                    
                     }}
                   >
-                    Evaluación y diagnóstico 
-                  
+                    Evaluación y diagnóstico
                   </Typography>
                 </Box>
               </Button>
@@ -1217,11 +1233,9 @@ const QueHacemos = () => {
               </Dialog>
             </Box>
           </Box>
-          <Box mt={3} mb={3}
-           textAlign={"center"}>
-          <BlackButtom texto={"Conocé más"} linkTo={"contacto"}/>
+          <Box mt={3} mb={3} textAlign={"center"}>
+            <BlackButtom texto={"Conocé más"} linkTo={"contacto"} />
           </Box>
-         
         </Box>
 
         <Box
@@ -1338,9 +1352,8 @@ const QueHacemos = () => {
               </Dialog>
             </Box>
           </Box>
-          <Box mt={3} mb={3}
-           textAlign={"center"}>
-          <BlackButtom texto={"Conocé más"} linkTo={"contacto"}/>
+          <Box mt={3} mb={3} textAlign={"center"}>
+            <BlackButtom texto={"Conocé más"} linkTo={"contacto"} />
           </Box>
         </Box>
       </Hidden>

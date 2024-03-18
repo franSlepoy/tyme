@@ -2,7 +2,7 @@ import { Hidden, Typography } from "@mui/material";
 import { Box } from "@mui/system";
 import { NavLink } from "react-router-dom";
 
-const Cultura1 = () => {
+const Cultura1 = ({ handleOpenModal2, handleCloseModal2, openModal2 }) => {
   return (
     <>
       <Hidden smDown>
@@ -11,11 +11,14 @@ const Cultura1 = () => {
           pt={"6%"}
           sx={{ width: "100%", height: "73vh", backgroundColor: "#104B70" }}
         >
-         <Box
+          <Box
             display={"flex"}
-            component={NavLink}
-            to={"/queHacemos"}
-            sx={{ textDecoration: "none" }}
+            onClick={() => {
+              handleCloseModal2();
+            }}
+            bgcolor={"transparent"}
+            border={"none"}
+            sx={{ textDecoration: "none", cursor: "pointer" }}
             ml={-3.5}
           >
             <img height={"30px"} src="/arrowButton.png" alt="" />
@@ -60,7 +63,7 @@ const Cultura1 = () => {
                 color: "white",
                 fontWeight: "100",
                 mt: "5%",
-                width:"80%"
+                width: "80%",
               }}
             >
               Trabajamos en el acompañamiento y evolución de los líderes y en el

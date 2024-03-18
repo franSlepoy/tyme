@@ -47,7 +47,7 @@ const Testimonios2 = () => {
               </Typography>
               <Typography
                 sx={{
-                  mt: 3,
+                  mt: 1,
                   fontFamily: "Manrope",
 
                   fontWeight: 800,
@@ -76,6 +76,7 @@ const Testimonios2 = () => {
                   fontWeight: 100,
                   lineHeight: "16px",
                   color: "black",
+                  pb: 0,
                 }}
               >
                 (Europa, África, Asia y LATAM)
@@ -125,7 +126,6 @@ const Testimonios2 = () => {
               </Typography>
               <Typography
                 sx={{
-                  mt: 4,
                   fontFamily: "Manrope",
 
                   fontWeight: 800,
@@ -134,7 +134,7 @@ const Testimonios2 = () => {
                   lineHeight: "26px",
                   color: "black",
                   textTransform: "uppercase",
-                  mt: 6,
+                  mt: 4,
                 }}
               >
                 {" "}
@@ -206,7 +206,7 @@ const Testimonios2 = () => {
               </Typography>
               <Typography
                 sx={{
-                  mt: 3,
+                  mt: 1,
                   fontFamily: "Manrope",
 
                   fontWeight: 800,

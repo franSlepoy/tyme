@@ -1,17 +1,18 @@
 import { Hidden, Typography } from "@mui/material";
 import { Box } from "@mui/system";
 import { NavLink } from "react-router-dom";
+import { Button } from "react-scroll";
 
-const Mentoring2 = () => {
+const Mentoring2 = ({ handleOpenModal5, handleCloseModal5, openModal5 }) => {
   return (
     <>
       <Hidden smDown>
-        <Box sx={{ width: "100%", height: "74vh", display: "flex" }}>
+        <Box sx={{ width: "100%", display: "flex" }}>
           <Box
-            width={"50%"}
-            height={"100vh"}
+            width={"52%"}
+            height={"79vh"}
             sx={{
-              p: "6%",
+              p: "8%",
               backgroundImage: 'url("/personaTrabajando.png")', // Aquí debes especificar la URL de la imagen con la palabra clave 'url'
               backgroundSize: "cover", // Ajusta el tamaño de la imagen de fondo según el contenedor
               backgroundRepeat: "no-repeat", // Evita que la imagen de fondo se repita
@@ -20,9 +21,13 @@ const Mentoring2 = () => {
           >
             <Box
               display={"flex"}
-              component={NavLink}
-              to={"/queHacemos"}
-              sx={{ textDecoration: "none" }}
+              component={Button}
+            onClick={() => {
+              handleCloseModal5();
+            }}
+            bgcolor={"transparent"}
+            border={"none"}
+            sx={{ textDecoration: "none", cursor:"pointer" }}
             >
               <img height={"30px"} src="/arrowButton.png" alt="" />
               <Typography
@@ -33,7 +38,6 @@ const Mentoring2 = () => {
                   color: "white",
                   lineHeight: "34px",
                   ml: "4px",
-                  mt: "",
                 }}
               >
                 HR Trech trend
@@ -60,9 +64,9 @@ const Mentoring2 = () => {
 
           <Box
             sx={{
-              height: "100vh",
+              height: "79vh",
               width: "50%",
-              p: "6%",
+              p: "5%",
               backgroundColor: "#73F0A2",
             }}
           >
@@ -73,9 +77,11 @@ const Mentoring2 = () => {
                 lineHeight: "26px",
                 color: "black",
                 mt: "15%",
+                fontWeight: "light",
               }}
             >
-              1- Evaluación digitalizada: diagnóstico para la implementación de soluciones tecnológicas.
+              1- Evaluación digitalizada: diagnóstico para la implementación de
+              soluciones tecnológicas.
             </Typography>
             <Typography
               sx={{
@@ -84,9 +90,11 @@ const Mentoring2 = () => {
                 lineHeight: "26px",
                 color: "black",
                 mt: "5%",
+                fontWeight: "light",
               }}
             >
-              2- Asesoramiento: transformación digital para impulsar las metas de tu organización y acompañamiento del proceso de cambio.
+              2- Asesoramiento: transformación digital para impulsar las metas
+              de tu organización y acompañamiento del proceso de cambio.
             </Typography>
             <Typography
               sx={{
@@ -95,9 +103,11 @@ const Mentoring2 = () => {
                 lineHeight: "26px",
                 color: "black",
                 mt: "5%",
+                fontWeight: "light",
               }}
             >
-              3- Integración tecnológica: adopción de herramientas digitales para gestión del talento.
+              3- Integración tecnológica: adopción de herramientas digitales
+              para gestión del talento.
             </Typography>
             <Typography
               sx={{
@@ -106,14 +116,16 @@ const Mentoring2 = () => {
                 lineHeight: "26px",
                 color: "black",
                 mt: "5%",
+                fontWeight: "light",
               }}
             >
-            4- Fomento de la cultura digital: incorporación de nuevas tecnologías y prácticas innovadoras.
+              4- Fomento de la cultura digital: incorporación de nuevas
+              tecnologías y prácticas innovadoras.
             </Typography>
           </Box>
         </Box>
 
-        <Box position={"absolute"} /* zIndex={900} left={"75%"} top={"10%"} */>
+        <Box position={"absolute"} zIndex={900} left={"73%"} top={"10%"}>
           <img src="/mentoring2.png" alt="" />
         </Box>
       </Hidden>

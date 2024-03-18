@@ -1,8 +1,9 @@
 import { Hidden, Typography } from "@mui/material";
 import { Box } from "@mui/system";
 import { NavLink } from "react-router-dom";
+import { Button } from "react-scroll";
 
-const Evaluacion1 = () => {
+const Evaluacion1 = ({ handleOpenModal1, handleCloseModal1, openModal1 }) => {
   return (
     <>
       <Hidden smDown>
@@ -13,9 +14,13 @@ const Evaluacion1 = () => {
         >
           <Box
             display={"flex"}
-            component={NavLink}
-            to={"/queHacemos"}
-            sx={{ textDecoration: "none" }}
+            component={Button}
+            onClick={() => {
+              handleCloseModal1();
+            }}
+            bgcolor={"transparent"}
+            border={"none"}
+            sx={{ textDecoration: "none", cursor: "pointer" }}
             ml={-3.5}
           >
             <img height={"30px"} src="/arrowButton.png" alt="" />
@@ -58,7 +63,7 @@ const Evaluacion1 = () => {
                 color: "white",
                 fontWeight: "100",
                 mt: "5%",
-                width:"700px"
+                width: "700px",
               }}
             >
               Con un equipo interdisciplinario y a través de herramientas
@@ -85,8 +90,6 @@ const Evaluacion1 = () => {
             overflowY: "auto", // Permitir scroll vertical si es necesario
           }}
         >
-         
-
           <Box>
             <Typography
               maxWidth={"580px"}

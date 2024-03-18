@@ -4,7 +4,7 @@ import Carousel from "react-material-ui-carousel";
 import { motion } from "framer-motion";
 import Acompañamiento1 from "./Acompañamiento1";
 import Acompañamiento2 from "./Acompañamiento2";
-const CarouselAcom = () => {
+const CarouselAcom = ({ handleOpenModal4, handleCloseModal4, openModal4 }) => {
   return (
     <Carousel
       autoPlay={false}
@@ -37,7 +37,11 @@ const CarouselAcom = () => {
         exit={{ opacity: 0, x: "100%", rotateY: "480deg" }}
         transition={{ duration: 0.5 }}
       >
-        <Acompañamiento1 />
+        <Acompañamiento1
+          handleOpenModal4={handleOpenModal4}
+          handleCloseModal4={handleCloseModal4}
+          openModal4={openModal4}
+        />
       </motion.div>
       <motion.div
         initial={{ opacity: 0, x: "500%", rotateY: "-480deg" }}
@@ -45,7 +49,11 @@ const CarouselAcom = () => {
         exit={{ opacity: 0, x: "100%", rotateY: "180deg" }}
         transition={{ duration: 0.5 }}
       >
-        <Acompañamiento2 />
+        <Acompañamiento2
+          handleOpenModal4={handleOpenModal4}
+          handleCloseModal4={handleCloseModal4}
+          openModal4={openModal4}
+        />
       </motion.div>
     </Carousel>
   );

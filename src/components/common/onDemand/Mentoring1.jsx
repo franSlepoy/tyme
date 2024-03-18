@@ -1,8 +1,9 @@
 import { Hidden, Typography } from "@mui/material";
 import { Box } from "@mui/system";
 import { NavLink } from "react-router-dom";
+import { Button } from "react-scroll";
 
-const Mentoring1 = () => {
+const Mentoring1 = ({ handleOpenModal5, handleCloseModal5, openModal5 }) => {
   return (
     <>
       <Hidden smDown>
@@ -13,9 +14,13 @@ const Mentoring1 = () => {
         >
           <Box
             display={"flex"}
-            component={NavLink}
-            to={"/queHacemos"}
-            sx={{ textDecoration: "none" }}
+            component={Button}
+            onClick={() => {
+              handleCloseModal5();
+            }}
+            bgcolor={"transparent"}
+            border={"none"}
+            sx={{ textDecoration: "none", cursor:"pointer" }}
             ml={-3.5}
           >
             <img height={"30px"} src="/arrowButton.png" alt="" />

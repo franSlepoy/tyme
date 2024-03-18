@@ -37,7 +37,7 @@ const Nosotros = () => {
 
   return (
     <>
-      <Hidden lgDown >
+      <Hidden lgDown>
         <Box sx={{ width: "100%" }}>
           <Parallax speed={-12} tagOuter="figure">
             <Box>
@@ -239,7 +239,7 @@ const Nosotros = () => {
                   mt: "7%",
                 }}
               >
-                Kavier Krawicki
+                Javier Krawicki
               </Typography>
               <Typography
                 sx={{
@@ -347,11 +347,9 @@ const Nosotros = () => {
 
       <Hidden lgUp smDown>
         <Parallax speed={-12} tagOuter="figure">
-       
-            <Box>
-              <img width={"100%"}  src="/javier1.png" alt="" />
-            </Box>
-          
+          <Box>
+            <img width={"100%"} src="/javier1.png" alt="" />
+          </Box>
         </Parallax>
         <Box>
           <Box sx={{ position: "absolute", top: "62%" }}>
@@ -568,7 +566,7 @@ const Nosotros = () => {
       </Hidden>
 
       <Hidden smUp>
-     <Box>
+        <Box>
           <Box>
             <img width={"100%"} src="/javier.png" alt="" />
           </Box>
@@ -593,15 +591,12 @@ const Nosotros = () => {
                 Quienes somos
               </Typography>
             </Box>
-           
-
-           
           </Box>
-        </Box> 
+        </Box>
 
         <Box
           sx={{
-            pl:2,
+            pl: 2,
             width: "100%",
             backgroundColor: "rgba(18,150,233, 0.4)",
           }}
@@ -611,63 +606,61 @@ const Nosotros = () => {
             display={"flex"}
             mt={-5}
             pt={10}
-           
             bgcolor={"rgba(18,150,233, 0.01)"}
           >
             <Box display={"flex"} width={"100%"} m={"auto"}>
-            <Box  >
-              <Button
-                onClick={() =>
-                  handleOpenDialog(
-                    "Licenciado en Recursos Humanos egresado de la Universidad Argentina de la Empresa (UADE) y también graduado en UADE Business School y en MIT Sloan School of Management.Se desempeñó como ejecutivo de Recursos Humanos en compañías multinacionales como Toyota, Techint y Unilever, con responsabilidades locales y regionales.",
-                    1
-                  )
-                }
-              >
-                <img width={"80%"} src="/iconoN1.png" alt="" />
-              </Button>
-            </Box>
-            <Box ml={1}>
-              <Button
-                onClick={() =>
-                  handleOpenDialog(
-                    "Fundó dos startups: Nawaiam, un videojuego que detecta en 15 minutos el perfil conductual y competencias de los usuarios, y TuPrimerLaburo Argentina - TuPrimeraPega Chile - TuPrimerCurro España, una plataforma dirigida a los jóvenes para su autoconocimiento y desarrollo de habilidades que mejoran su índice de inserción laboral.",
-                    2
-                  )
-                }
-              >
-                <img width={"80%"} src="/iconoN2.png" alt="" />
-              </Button>
-            </Box>
-            <Box ml={1}>
-              <Button
-                onClick={() =>
-                  handleOpenDialog(
-                    "Speaker internacional con más de 150 conferencias dictadas en 10 países sobre gestión del talento, gaming, startups y HR Tech Trends, entre otras temáticas centradas en los Recursos Humanos y la tecnología.",
-                    3
-                  )
-                }
-              >
-                <img width={"80%"} src="/iconoN3.png" alt="" />
-              </Button>
-            </Box>
-            <Box ml={1}>
-              <Button
-                onClick={() =>
-                  handleOpenDialog(
-                    "Fue reconocido internacionalmente como emprendedor por el rey Felipe VI de España, AT&T (Estados Unidos), Latin American Excellence Awards (Brasil), Endeavor y Orgullo UADE (Argentina), Premios Latinoamérica Verde (Ecuador), Acelerar España, 100 mejores ideas empresariales de El Mundo y la Caixa Bank y los Premios Reyes Católicos (España), entre otros. Fue docente universitario por más de 15 años en Argentina, Chile y España en materias como Dirección Estratégica de RRHH y Digital Talent Management.Es columnista en radio, TV, periódicos y podcasts sobre talento y tecnología.",
-                    4
-                  )
-                }
-              >
-                <img width={"80%"} src="/iconoN4.png" alt="" />
-              </Button>
+              <Box>
+                <Button
+                  onClick={() =>
+                    handleOpenDialog(
+                      "Licenciado en Recursos Humanos egresado de la Universidad Argentina de la Empresa (UADE) y también graduado en UADE Business School y en MIT Sloan School of Management.Se desempeñó como ejecutivo de Recursos Humanos en compañías multinacionales como Toyota, Techint y Unilever, con responsabilidades locales y regionales.",
+                      1
+                    )
+                  }
+                >
+                  <img width={"80%"} src="/iconoN1.png" alt="" />
+                </Button>
+              </Box>
+              <Box ml={1}>
+                <Button
+                  onClick={() =>
+                    handleOpenDialog(
+                      "Fundó dos startups: Nawaiam, un videojuego que detecta en 15 minutos el perfil conductual y competencias de los usuarios, y TuPrimerLaburo Argentina - TuPrimeraPega Chile - TuPrimerCurro España, una plataforma dirigida a los jóvenes para su autoconocimiento y desarrollo de habilidades que mejoran su índice de inserción laboral.",
+                      2
+                    )
+                  }
+                >
+                  <img width={"80%"} src="/iconoN2.png" alt="" />
+                </Button>
+              </Box>
+              <Box ml={1}>
+                <Button
+                  onClick={() =>
+                    handleOpenDialog(
+                      "Speaker internacional con más de 150 conferencias dictadas en 10 países sobre gestión del talento, gaming, startups y HR Tech Trends, entre otras temáticas centradas en los Recursos Humanos y la tecnología.",
+                      3
+                    )
+                  }
+                >
+                  <img width={"80%"} src="/iconoN3.png" alt="" />
+                </Button>
+              </Box>
+              <Box ml={1}>
+                <Button
+                  onClick={() =>
+                    handleOpenDialog(
+                      "Fue reconocido internacionalmente como emprendedor por el rey Felipe VI de España, AT&T (Estados Unidos), Latin American Excellence Awards (Brasil), Endeavor y Orgullo UADE (Argentina), Premios Latinoamérica Verde (Ecuador), Acelerar España, 100 mejores ideas empresariales de El Mundo y la Caixa Bank y los Premios Reyes Católicos (España), entre otros. Fue docente universitario por más de 15 años en Argentina, Chile y España en materias como Dirección Estratégica de RRHH y Digital Talent Management.Es columnista en radio, TV, periódicos y podcasts sobre talento y tecnología.",
+                      4
+                    )
+                  }
+                >
+                  <img width={"80%"} src="/iconoN4.png" alt="" />
+                </Button>
+              </Box>
             </Box>
           </Box>
-            </Box>
-            
 
-          <Box  width={"88%"} m={"auto"}>
+          <Box width={"88%"} m={"auto"}>
             <Box>
               <Typography
                 sx={{
@@ -746,11 +739,10 @@ const Nosotros = () => {
                   fontFamily: "Manrope",
                   fontSize: "16px",
                   lineHeight: "123.3%",
-                  fontWeight:"100",
+                  fontWeight: "100",
                   color: "#1296E9",
                   width: "60%",
                   pb: 5,
-                
                 }}
               >
                 Fundador y Co-Director de Tyme Consulting

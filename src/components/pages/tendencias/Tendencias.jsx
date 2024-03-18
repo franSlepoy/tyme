@@ -107,7 +107,7 @@ const Tendencias = () => {
             <Box position={"absolute"} left={"60%"} top={"206vh"}>
               <img src="/tendencias4.png" alt="" />
             </Box>
-            <Box position={"absolute"} left={"87%"} top={"212vh"}>
+            <Box position={"absolute"} left={"87%"} top={"208vh"}>
               <img src="/tendencias6.png" alt="" />
             </Box>
 

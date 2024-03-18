@@ -6,10 +6,14 @@ import { motion } from "framer-motion";
 import Cultura1 from "./Cultura1";
 import Cultura2 from "./Cultura2";
 
-const CarouselCultura = () => {
+const CarouselCultura = ({
+  handleOpenModal2,
+  handleCloseModal2,
+  openModal2,
+}) => {
   return (
     <Carousel
-      autoPlay={true}
+      autoPlay={false}
       sx={{
         backgroundColor: "#104B70",
         margin: "auto",
@@ -38,7 +42,11 @@ const CarouselCultura = () => {
         exit={{ opacity: 0, x: "100%", rotateY: "480deg" }}
         transition={{ duration: 0.5 }}
       >
-        <Cultura1 />
+        <Cultura1
+          handleOpenModal2={handleOpenModal2}
+          handleCloseModal2={handleCloseModal2}
+          openModal2={openModal2}
+        />
       </motion.div>
       <motion.div
         initial={{ opacity: 0, x: "500%", rotateY: "-480deg" }}
@@ -46,7 +54,11 @@ const CarouselCultura = () => {
         exit={{ opacity: 0, x: "100%", rotateY: "180deg" }}
         transition={{ duration: 0.5 }}
       >
-        <Cultura2 />
+        <Cultura2
+          handleOpenModal2={handleOpenModal2}
+          handleCloseModal2={handleCloseModal2}
+          openModal2={openModal2}
+        />
       </motion.div>
     </Carousel>
   );

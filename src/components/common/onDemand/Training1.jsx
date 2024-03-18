@@ -1,8 +1,9 @@
 import { Hidden, Typography } from "@mui/material";
 import { Box } from "@mui/system";
 import { NavLink } from "react-router-dom";
+import { Button } from "react-scroll";
 
-const Training1 = () => {
+const Training1 = ({ handleOpenModal6, handleCloseModal6, openModal6 }) => {
   return (
     <>
       <Hidden smDown>
@@ -13,9 +14,13 @@ const Training1 = () => {
     >
       <Box
             display={"flex"}
-            component={NavLink}
-            to={"/queHacemos"}
-            sx={{ textDecoration: "none" }}
+            component={Button}
+            onClick={() => {
+              handleCloseModal6();
+            }}
+            bgcolor={"transparent"}
+            border={"none"}
+            sx={{ textDecoration: "none", cursor:"pointer" }}
             ml={-3.5}
           >
             <img height={"30px"} src="/arrowButton.png" alt="" />
@@ -59,18 +64,18 @@ const Training1 = () => {
             color: "white",
             fontWeight: "100",
             mt: "6%",
-            width: "62%",
+            width: "605px",
           }}
         >
           Ofrecemos un servicio integral, adaptado a la demanda de los profesionales que quieren potenciar sus habilidades y conocimientos en el uso de distintas tecnologías aplicadas al sector, con capacitaciones para la transformación de la cultura organizacional, gestión del nuevo rol de Recursos Humanos y desarrollo de estrategias de negocios más efectivas.
         </Typography>
       </Box>
-      <Box position={"absolute"} left={"75%"} top={"10%"}>
+      <Box position={"absolute"} left={"72%"} top={"4%"}>
         <img src="/training.png" alt="" />
       </Box>
       <Box
-          width={"220px"}
-          height={"220px"}
+          width={"230px"}
+          height={"230px"}
           p={2}
           sx={{
             bgcolor: "#73F0A2",
@@ -87,7 +92,9 @@ const Training1 = () => {
               fontSize: "22px",
               lineHeight: "25px",
               color: "black",
-              mt:"30%"
+              mt:"30%",
+              ml:"4%",
+              width:"183px"
             }}
           >
            ¿Por qué <strong>integrar la tecnología </strong> 

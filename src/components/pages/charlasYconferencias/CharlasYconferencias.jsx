@@ -91,7 +91,7 @@ const CharlasYconferencias = () => {
           style={{
             backgroundImage: "linear-gradient(to right top, #18CC66, #1296E9)",
           }}
-          sx={{ width: "100%", height: "147vh", pb: "5%" }}
+          sx={{ width: "100%", height: "152vh", pb: "5%" }}
         >
           <Box display={"flex"} width={"88%"} margin={"auto"}>
             <Box mt={"15%"} width={"50%"}>
@@ -128,7 +128,7 @@ const CharlasYconferencias = () => {
 
           <Box
             display={"flex"}
-            width={"93%"}
+            width={"90%"}
             m={"auto"}
             justifyContent={"space-evenly"}
             mt={"82px"}
@@ -139,8 +139,6 @@ const CharlasYconferencias = () => {
               disableRipple={true}
               onClick={handleClickA}
               sx={{
-                p: 0,
-
                 textTransform: "none",
                 display: "flex",
                 flexDirection: "column",
@@ -148,9 +146,10 @@ const CharlasYconferencias = () => {
                 "&:hover": {
                   backgroundColor: "transparent",
                 },
+              
               }}
             >
-              <Box ml={-23}>
+              <Box ml={-27}>
                 <img src="/iconC1.png" alt="" />
               </Box>
 
@@ -161,11 +160,11 @@ const CharlasYconferencias = () => {
                   fontWeight: "700",
                   lineHeight: "30px",
                   color: "black",
-                  mt: 5,
-                  ml: -12,
+                  mt: 2,
+                  ml:-12
                 }}
               >
-                Amplifying impact:{" "}
+                Amplifying impact:
               </Typography>
               <Typography
                 sx={{
@@ -175,7 +174,7 @@ const CharlasYconferencias = () => {
                   lineHeight: "30px",
                   color: "black",
                   textAlign: "left",
-                  ml: 2,
+                
                 }}
               >
                 Cómo la influencia puede ayudarte a motivar a tu equipo y tus
@@ -184,7 +183,7 @@ const CharlasYconferencias = () => {
             </Box>
 
             <Box
-              width={"24%"}
+              width={"25%"}
               ml={1}
               component={Button}
               disableRipple={true}
@@ -197,9 +196,10 @@ const CharlasYconferencias = () => {
                 "&:hover": {
                   backgroundColor: "transparent",
                 },
+            
               }}
             >
-              <Box ml={-27}>
+              <Box ml={-28}>
                 <img src="/iconC2.png" alt="" />
               </Box>
 
@@ -230,7 +230,7 @@ const CharlasYconferencias = () => {
             </Box>
             <Box
               width={"24%"}
-              ml={1}
+              ml={2}
               component={Button}
               disableRipple={true}
               onClick={handleClickC}
@@ -244,7 +244,7 @@ const CharlasYconferencias = () => {
                 },
               }}
             >
-              <Box ml={-32}>
+              <Box ml={-31}>
                 <img src="/iconC3.png" alt="" />
               </Box>
 
@@ -271,7 +271,7 @@ const CharlasYconferencias = () => {
                   color: "black",
                   width: "280px",
                   textAlign: "left",
-                  ml: -7,
+                  ml: -5,
                 }}
               >
                 Cómo guiar a tus equipos y cuidar los liderazgos...{" "}
@@ -283,7 +283,7 @@ const CharlasYconferencias = () => {
               disableRipple={true}
               onClick={handleClickD}
               sx={{
-                mt:1,
+                mt: 6,
                 textAlign: "left",
                 textTransform: "none",
                 display: "flex",
@@ -304,7 +304,7 @@ const CharlasYconferencias = () => {
                   fontWeight: "700",
                   lineHeight: "30px",
                   color: "black",
-                  mt: 3,
+                  mt: 2,
                 }}
               >
                 Sinfonía: cómo armonizar distintas generaciones
@@ -392,7 +392,6 @@ const CharlasYconferencias = () => {
             mt={5}
           >
             <Box
-            
               width={"30%"}
               component={Button}
               disableRipple={true}
@@ -437,7 +436,6 @@ const CharlasYconferencias = () => {
             </Box>
             <Box
               width={"30%"}
-             
               component={Button}
               disableRipple={true}
               onClick={handleClickF}
@@ -495,7 +493,7 @@ const CharlasYconferencias = () => {
                 },
               }}
             >
-              <Box ml={-26}>
+              <Box ml={-27}>
                 <img src="/iconC7.png" alt="" />
               </Box>
 

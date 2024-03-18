@@ -3,14 +3,13 @@ import { Parallax } from "react-scroll-parallax";
 import BlackButtom from "../../common/blackButtom/BlackButtom";
 import { Link as ScrollLink } from "react-scroll";
 
-
 const Manifiesto = () => {
   return (
     <>
       <Hidden lgDown>
         <Parallax speed={-12} tagOuter="figure">
-          <Box mt={2} width={"100%"} height={"100vh"} overflow="hidden" >
-            <img width={"100%"}  src="/maniefiesto1.png" alt="" />
+          <Box mt={2} width={"100%"} height={"100vh"} overflow="hidden">
+            <img width={"100%"} src="/maniefiesto1.png" alt="" />
           </Box>
         </Parallax>
         <Box>
@@ -29,7 +28,7 @@ const Manifiesto = () => {
               sx={{
                 fontFamily: "Merriweather",
                 fontSize: "40px",
-                lineHeight:"54px",
+                lineHeight: "54px",
                 fontWeight: "400",
                 color: "black",
               }}
@@ -40,16 +39,15 @@ const Manifiesto = () => {
             </Typography>
           </Box>
 
-         <ScrollLink to="seccionDestino" smooth={true}>
-         <Button sx={{ position: "absolute", top: "92vh", left: "50%" }}>
-            <img src="/flechaBajo.png" alt="" />
-          </Button>
-         </ScrollLink>
-          
+          <ScrollLink to="seccionDestino" smooth={true}>
+            <Button sx={{ position: "absolute", top: "92vh", left: "50%" }}>
+              <img src="/flechaBajo.png" alt="" />
+            </Button>
+          </ScrollLink>
         </Box>
 
         <Box
-            id="seccionDestino"
+          id="seccionDestino"
           width={"100%"}
           height={"84vh"}
           sx={{ bgcolor: "rgba(15, 150, 233, 0.4)" }}
@@ -205,18 +203,45 @@ const Manifiesto = () => {
           <img
             style={{ objectFit: "cover" }}
             width={"100%"}
-            height={"300vh"}
-            src="/manifiesto1.png"
+            src="/maniefiesto1.png"
             alt=""
           />
         </Box>
+        <Box
+          sx={{
+            position: "absolute",
+            top: "10% ",
+            left: "9%",
+            width: "52%",
+          }}
+        >
+          <Typography
+            sx={{
+              fontFamily: "Manrope",
+              fontSize: "16px",
+              fontWeight: "700",
+              color: "black",
+            }}
+          >
+            El valor del tiempo ...
+          </Typography>
+        </Box>
+        <Box
+          sx={{
+            position: "absolute",
+            top: "29% ",
+            left: "9%",
+            width: "52%",
+          }}
+        >
+          <BlackButtom texto={"Contáctanos"} linkTo={"/contacto"} />
+        </Box>
 
-        <Box sx={{bgcolor: "#1296E9", mt:-1, pt:3, pb:3}}>
+        <Box sx={{ bgcolor: "#1296E9", mt: -1, pt: 3, pb: 3 }}>
           <Box
             sx={{
-              width: "93%",
-              m:"auto",
-             
+              width: "80%",
+              m: "auto",
             }}
           >
             <Typography
@@ -227,28 +252,29 @@ const Manifiesto = () => {
                 color: "white",
               }}
             >
-              En Tyme, sabemos que el tiempo es nuestro mejor aliado y por eso
-              queremos acompañarte, equilibrando la vida personal y laboral de
-              todos tus talentos.
+              En Tyme, creemos que el tiempo es la mejor inversión, y que lo más
+              importante es lo que hacemos con él. Muchas veces, en nuestra
+              experiencia acompañando organizaciones, detectamos que sus dueños,
+              líderes y CEOs no se toman un tiempo para reflexionar y disfrutar
+              lo que han generado.
             </Typography>
           </Box>
-         
         </Box>
 
         <Box
           width={"100%"}
           height={"144vh"}
-          sx={{ bgcolor: "rgba(15, 150, 233, 0.4)",  }}
+          sx={{ bgcolor: "rgba(15, 150, 233, 0.4)" }}
         >
-          <Box   m={"auto"}>
-          <Box width={"88%"} pt={5} m={"auto"}>
+          <Box m={"auto"}>
+            <Box width={"88%"} pt={5} m={"auto"}>
               <Typography
                 sx={{
-                  width:"66%",
-                  textAlign:"center",
-                  margin:"auto",
+                  width: "76%",
+                  textAlign: "center",
+                  margin: "auto",
                   fontFamily: "Marriweather",
-                  fontSize: "30px",
+                  fontSize: "36px",
                   color: "black",
                   lineHeight: "32px",
                 }}
@@ -259,7 +285,7 @@ const Manifiesto = () => {
                 <BlackButtom texto={"Contactanos"} linkTo={"/contacto"} />
               </Box>
             </Box>
-            <Box width={"93%"} m={"auto"} pt={"4%"} >
+            <Box width={"83%"} m={"auto"} pt={"4%"}>
               <Typography
                 sx={{
                   fontFamily: "Manrope",
@@ -292,7 +318,6 @@ const Manifiesto = () => {
                 atravesar una <strong>experiencia que valoren.</strong>
               </Typography>
             </Box>
-           
           </Box>
         </Box>
       </Hidden>

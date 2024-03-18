@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import Training1 from "./Training1";
 import Training2 from "./Training2";
 
-const CarouselTrai = () => {
+const CarouselTrai = ({ handleOpenModal6, handleCloseModal6, openModal6 }) => {
   return (
     <Carousel
       autoPlay={false}
@@ -37,7 +37,11 @@ const CarouselTrai = () => {
         exit={{ opacity: 0, x: "100%", rotateY: "480deg" }}
         transition={{ duration: 0.5 }}
       >
-        <Training1 />
+        <Training1
+          handleOpenModal6={handleOpenModal6}
+          handleCloseModal6={handleCloseModal6}
+          openModal6={openModal6}
+        />
       </motion.div>
       <motion.div
         initial={{ opacity: 0, x: "500%", rotateY: "-480deg" }}
@@ -45,7 +49,11 @@ const CarouselTrai = () => {
         exit={{ opacity: 0, x: "100%", rotateY: "180deg" }}
         transition={{ duration: 0.5 }}
       >
-        <Training2 />
+        <Training2 
+        handleOpenModal6={handleOpenModal6}
+        handleCloseModal6={handleCloseModal6}
+        openModal6={openModal6}
+        />
       </motion.div>
     </Carousel>
   );

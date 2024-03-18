@@ -2,7 +2,7 @@ import { Hidden, Typography } from "@mui/material";
 import { Box } from "@mui/system";
 import { NavLink } from "react-router-dom";
 
-const Acompañamiento1 = () => {
+const Acompañamiento1 = ({ handleOpenModal4, handleCloseModal4, openModal4 }) => {
   return (
     <>
       <Hidden smDown>
@@ -13,9 +13,12 @@ const Acompañamiento1 = () => {
         >
           <Box
             display={"flex"}
-            component={NavLink}
-            to={"/queHacemos"}
-            sx={{ textDecoration: "none" }}
+            onClick={() => {
+              handleCloseModal4();
+            }}
+            bgcolor={"transparent"}
+            border={"none"}
+            sx={{ textDecoration: "none", cursor: "pointer" }}
             ml={-3.5}
           >
             <img height={"30px"} src="/arrowButton.png" alt="" />
