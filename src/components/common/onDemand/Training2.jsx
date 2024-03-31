@@ -22,13 +22,12 @@ const Training2 = ({ handleOpenModal6, handleCloseModal6, openModal6 }) => {
             <Box
               display={"flex"}
               component={Button}
-            onClick={() => {
-              handleCloseModal6();
-            }}
-            bgcolor={"transparent"}
-            border={"none"}
-            sx={{ textDecoration: "none", cursor:"pointer" }}
-             
+              onClick={() => {
+                handleCloseModal6();
+              }}
+              bgcolor={"transparent"}
+              border={"none"}
+              sx={{ textDecoration: "none", cursor: "pointer" }}
             >
               <img height={"30px"} src="/arrowButton.png" alt="" />
               <Typography
@@ -138,63 +137,40 @@ const Training2 = ({ handleOpenModal6, handleCloseModal6, openModal6 }) => {
             overflowY: "auto", // Permitir scroll vertical si es necesario
           }}
         >
-          {/* <Box
+          <Box
             width={"100%"}
-            height={"100vh"}
             sx={{
-              p: "6%",
+              p: "8%",
               backgroundImage: 'url("/personaTrabajando.png")', // Aquí debes especificar la URL de la imagen con la palabra clave 'url'
               backgroundSize: "cover", // Ajusta el tamaño de la imagen de fondo según el contenedor
               backgroundRepeat: "no-repeat", // Evita que la imagen de fondo se repita
               position: "relative", // Establece la posición relativa para que los elementos internos se posicionen correctamente
             }}
           >
-            <Box
-              display={"flex"}
-              component={NavLink}
-              to={"/queHacemos"}
-              sx={{ textDecoration: "none" }}
-            >
-              <img height={"30px"} src="/arrowButton.png" alt="" />
-              <Typography
-                sx={{
-                  fontSize: "20px",
-                  fontFamily: "Manrope",
-                  fontWeight: "300",
-                  color: "white",
-                  lineHeight: "34px",
-                  ml: "4px",
-                  mt: "",
-                }}
-              >
-                HR Trech trend
-              </Typography>
-            </Box>
-
             <Box>
               <Typography
-                maxWidth={"280px"}
                 sx={{
                   fontFamily: "Manrope",
-                  fontSize: "48px",
+                  fontSize: "38px",
                   lineHeight: "53px",
                   fontWeight: "300",
                   color: "white",
-                  mt: "20%",
-                  ml: "5%",
+                  mt: "5%",
                 }}
               >
                 ¿Por qué
-                <strong> integrar la tecnología</strong>a la gestión de RRHH?
+                <strong> integrar la tecnología</strong> {""}a la gestión de
+                RRHH?
               </Typography>
             </Box>
-          </Box> */}
+          </Box>
 
           <Box
             sx={{
-              height: "100vh",
+             
               width: "100%",
-              p: "6%",
+              p: "8%",
+
               backgroundColor: "#73F0A2",
             }}
           >
@@ -204,7 +180,7 @@ const Training2 = ({ handleOpenModal6, handleCloseModal6, openModal6 }) => {
                 fontSize: "20px",
                 lineHeight: "26px",
                 color: "black",
-                mt: "15%",
+                
               }}
             >
               Permite acceder a las nuevas herramientas que están transformando
@@ -247,10 +223,6 @@ const Training2 = ({ handleOpenModal6, handleCloseModal6, openModal6 }) => {
               digitales.
             </Typography>
           </Box>
-        </Box>
-
-        <Box position={"absolute"} /* zIndex={900} left={"75%"} top={"10%"} */>
-          <img src="/mentoring2.png" alt="" />
         </Box>
       </Hidden>
     </>

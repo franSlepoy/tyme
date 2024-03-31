@@ -17,18 +17,18 @@ const Mentoring2 = ({ handleOpenModal5, handleCloseModal5, openModal5 }) => {
               backgroundSize: "cover", // Ajusta el tamaño de la imagen de fondo según el contenedor
               backgroundRepeat: "no-repeat", // Evita que la imagen de fondo se repita
               position: "relative", // Establece la posición relativa para que los elementos internos se posicionen correctamente
-              height:"90vh"
+              height: "90vh",
             }}
           >
             <Box
               display={"flex"}
               component={Button}
-            onClick={() => {
-              handleCloseModal5();
-            }}
-            bgcolor={"transparent"}
-            border={"none"}
-            sx={{ textDecoration: "none", cursor:"pointer" }}
+              onClick={() => {
+                handleCloseModal5();
+              }}
+              bgcolor={"transparent"}
+              border={"none"}
+              sx={{ textDecoration: "none", cursor: "pointer" }}
             >
               <img height={"30px"} src="/arrowButton.png" alt="" />
               <Typography
@@ -127,24 +127,52 @@ const Mentoring2 = ({ handleOpenModal5, handleCloseModal5, openModal5 }) => {
         </Box>
 
         <Box position={"absolute"} zIndex={900} left={"73%"} top={"10%"}>
-          <img  src="/mentoring2.png" alt="" />
+          <img src="/mentoring2.png" alt="" />
         </Box>
       </Hidden>
 
+    
+
       <Hidden smUp>
-        <Box
-          sx={{
-            width: "100%",
-            height: "100vh", // Ajustar la altura al 100% del viewport height
-            backgroundColor: "#104B70",
-            overflowY: "auto", // Permitir scroll vertical si es necesario
-          }}
-        >
+        <Box sx={{ width: "100%" }}>
+          <Box
+            width={"100%"}
+           
+            sx={{
+              p: "8%",
+              backgroundImage: 'url("/personaTrabajando.png")', // Aquí debes especificar la URL de la imagen con la palabra clave 'url'
+              backgroundSize: "cover", // Ajusta el tamaño de la imagen de fondo según el contenedor
+              backgroundRepeat: "no-repeat", // Evita que la imagen de fondo se repita
+              position: "relative", // Establece la posición relativa para que los elementos internos se posicionen correctamente
+              height: "100%",
+            }}
+          >
+            
+
+            <Box>
+              <Typography
+                maxWidth={"280px"}
+                sx={{
+                  fontFamily: "Manrope",
+                  fontSize: "48px",
+                  lineHeight: "53px",
+                  fontWeight: "300",
+                  color: "white",
+                  pt: "25%",
+                  pb:"25%"
+                 
+                }}
+              >
+                Cómo lo hacemos
+              </Typography>
+            </Box>
+          </Box>
+
           <Box
             sx={{
-              height: "100vh",
+            
               width: "100%",
-              p: "6%",
+              p: "8%",
               backgroundColor: "#73F0A2",
             }}
           >
@@ -154,7 +182,8 @@ const Mentoring2 = ({ handleOpenModal5, handleCloseModal5, openModal5 }) => {
                 fontSize: "20px",
                 lineHeight: "26px",
                 color: "black",
-                mt: "15%",
+               
+                fontWeight: "light",
               }}
             >
               1- Evaluación digitalizada: diagnóstico para la implementación de
@@ -167,6 +196,7 @@ const Mentoring2 = ({ handleOpenModal5, handleCloseModal5, openModal5 }) => {
                 lineHeight: "26px",
                 color: "black",
                 mt: "5%",
+                fontWeight: "light",
               }}
             >
               2- Asesoramiento: transformación digital para impulsar las metas
@@ -179,6 +209,7 @@ const Mentoring2 = ({ handleOpenModal5, handleCloseModal5, openModal5 }) => {
                 lineHeight: "26px",
                 color: "black",
                 mt: "5%",
+                fontWeight: "light",
               }}
             >
               3- Integración tecnológica: adopción de herramientas digitales
@@ -191,16 +222,13 @@ const Mentoring2 = ({ handleOpenModal5, handleCloseModal5, openModal5 }) => {
                 lineHeight: "26px",
                 color: "black",
                 mt: "5%",
+                fontWeight: "light",
               }}
             >
               4- Fomento de la cultura digital: incorporación de nuevas
               tecnologías y prácticas innovadoras.
             </Typography>
           </Box>
-        </Box>
-
-        <Box position={"absolute"} /* zIndex={900} left={"75%"} top={"10%"} */>
-          <img src="/mentoring2.png" alt="" />
         </Box>
       </Hidden>
     </>

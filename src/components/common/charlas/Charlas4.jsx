@@ -5,16 +5,16 @@ const Charlas4 = ({ handleCloseComponente }) => {
   return (
     <Box
       position={"absolute"}
-      top={"128%"}
+      top={"198%"}
       left={"6%"}
-      display={"flex"}
       width={"87%"}
+      pb={"8%"}
       style={{
         backgroundColor: "#A0D5F6",
       }}
       zIndex={100}
     >
-      <Box ml={"10%"} mt={"6%"} width={"53%"}>
+      <Box ml={"10%"} mt={"6%"} width={"88%"}>
         <Button onClick={handleCloseComponente} sx={{ ml: -3 }}>
           <img src="/flechaCH.png" alt="" />
         </Button>
@@ -23,9 +23,9 @@ const Charlas4 = ({ handleCloseComponente }) => {
           sx={{
             mt: "3%",
             fontFamily: "Manrope",
-            fontSize: "48px",
+            fontSize: "38px",
             fontWeight: "800",
-            lineHeight: "45px",
+            lineHeight: "35px",
             color: "white",
           }}
         >
@@ -34,11 +34,11 @@ const Charlas4 = ({ handleCloseComponente }) => {
         <Typography
           sx={{
             mt: "1%",
-            width: "64%",
+            
             fontFamily: "Manrope",
             fontSize: "30px",
             fontWeight: "500",
-            lineHeight: "36px",
+            lineHeight: "26px",
             color: "black",
           }}
         >
@@ -62,9 +62,7 @@ const Charlas4 = ({ handleCloseComponente }) => {
         </Typography>
         <BlackButtom texto={"Consultanos"} linkTo={"/contacto"} />
       </Box>
-      <Box width={"40%"} ml={6}>
-        <img width={"100%"} height={"100%"} src="/Date.png" alt="" />
-      </Box>
+      
     </Box>
   );
 };

@@ -171,7 +171,8 @@ const Acompañamiento2 = ({ handleOpenModal4, handleCloseModal4, openModal4 }) =
 
       <Hidden smUp>
         <Box
-          p={"6%"}
+          
+          p={"8%"}
           sx={{
             width: "100%",
             height: "100vh", // Ajustar la altura al 100% del viewport height
@@ -179,27 +180,7 @@ const Acompañamiento2 = ({ handleOpenModal4, handleCloseModal4, openModal4 }) =
             overflowY: "auto", // Permitir scroll vertical si es necesario
           }}
         >
-          <Box
-            display={"flex"}
-            component={NavLink}
-            to={"/queHacemos"}
-            sx={{ textDecoration: "none" }}
-          >
-            <img height={"30px"} src="/arrowButton.png" alt="" />
-            <Typography
-              sx={{
-                fontSize: "20px",
-                fontFamily: "Manrope",
-                fontWeight: "300",
-                color: "white",
-                lineHeight: "34px",
-                ml: "4px",
-                mt: "-2px",
-              }}
-            >
-              HR on demand
-            </Typography>
-          </Box>
+          
 
           <Box>
             <Typography
@@ -210,7 +191,7 @@ const Acompañamiento2 = ({ handleOpenModal4, handleCloseModal4, openModal4 }) =
                 lineHeight: "45px",
                 fontWeight: "700",
                 color: "white",
-                mt: "4%",
+                
               }}
             >
               Por qué es importante certificar
@@ -232,7 +213,7 @@ const Acompañamiento2 = ({ handleOpenModal4, handleCloseModal4, openModal4 }) =
             </Typography>
           </Box>
 
-          <Box mt={"3%"}>
+          <Box mt={"5%"}>
             <Box>
               <Typography
                 sx={{
@@ -258,7 +239,7 @@ const Acompañamiento2 = ({ handleOpenModal4, handleCloseModal4, openModal4 }) =
                 oportunidades de negocio.
               </Typography>
             </Box>
-            <Box ml={"4%"}>
+            <Box mt={"5%"}>
               <Typography
                 sx={{
                   color: "#72C8FF",
@@ -283,7 +264,7 @@ const Acompañamiento2 = ({ handleOpenModal4, handleCloseModal4, openModal4 }) =
                 compromiso con políticas de bienestar.
               </Typography>
             </Box>
-            <Box ml={"4%"}>
+            <Box mt={"5%"}>
               <Typography
                 sx={{
                   color: "#72C8FF",
@@ -309,7 +290,7 @@ const Acompañamiento2 = ({ handleOpenModal4, handleCloseModal4, openModal4 }) =
                 compromiso con políticas de bienestar.
               </Typography>
             </Box>
-            <Box ml={"4%"}>
+            <Box mt={"5%"}>
               <Typography
                 sx={{
                   color: "#72C8FF",

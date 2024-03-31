@@ -295,7 +295,7 @@ const Tendencias = () => {
               <BlackButtom texto={"Consúltanos"} linkTo={"/contacto"} />
             </Box>
           </Box>
-          <ImageList sx={{ width: "85%", m: "auto" }} cols={1} rowHeight={510}>
+          <ImageList sx={{ width: "85%",pb:"8%", m: "auto" }} cols={1} rowHeight={510}>
             {ArticulosData.map((item) => (
               <ImageListItem key={item.id}>
                 <ArticuloCard

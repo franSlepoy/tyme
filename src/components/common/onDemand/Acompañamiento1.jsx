@@ -104,10 +104,10 @@ const Acompañamiento1 = ({ handleOpenModal4, handleCloseModal4, openModal4 }) =
 
       <Hidden smUp>
         <Box
-          p={"6%"}
+          p={"8%"}
           sx={{
             width: "100%",
-            height: "100vh", // Ajustar la altura al 100% del viewport height
+            // Ajustar la altura al 100% del viewport height
             backgroundColor: "#104B70",
             overflowY: "auto", // Permitir scroll vertical si es necesario
           }}
@@ -116,7 +116,7 @@ const Acompañamiento1 = ({ handleOpenModal4, handleCloseModal4, openModal4 }) =
             display={"flex"}
             component={NavLink}
             to={"/queHacemos"}
-            sx={{ textDecoration: "none" }}
+            sx={{ textDecoration: "none", ml:-4 }}
           >
             <img height={"30px"} src="/arrowButton.png" alt="" />
             <Typography

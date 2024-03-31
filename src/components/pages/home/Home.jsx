@@ -32,7 +32,6 @@ const Home = () => {
               top: "42% ",
               left: "7%",
               width: "48%",
-              
             }}
           >
             <Typography
@@ -366,11 +365,11 @@ const Home = () => {
       </Hidden>
 
       <Hidden smUp>
-        <Box  bgcolor={"#73F0A2"} width={"100%"} m={"auto"}>
+        <Box bgcolor={"#73F0A2"} width={"100%"} m={"auto"}>
           <Box
             sx={{
               width: "88%",
-              pb:"12%",
+              pb: "12%",
               pt: "12%",
             }}
           >
@@ -413,20 +412,33 @@ const Home = () => {
         </Box>
 
         <QueHacemos />
+        <Typography
+            sx={{
+             p:"8%",
+              color: "#272525",
+               textAlign:"center",
+              fontFamily: "Merriweather",
+              fontSize: "32px",
+              fontWeight: 400,
+              lineHeight: "normal",
+            }}
+          >
+            ¿Por qué sumarnos a tu equipo?
+          </Typography>
         <Box sx={{ width: "87%", margin: "auto" }}>
-            <Carousel sx={{ width: "90%", m: "auto", mt: 8, mb: 8 }}>
-              {TestimoniosCradData.map((persona) => (
-                <TestimonioCard
-                  nombre={persona.nombre}
-                  key={persona.id}
-                  texto={persona.texto}
-                  imagen={persona.imagen}
-                  empresa={persona.empresa}
-                  cargo={persona.cargo}
-                />
-              ))}
-            </Carousel>
-          </Box>
+          <Carousel sx={{ width: "90%", m: "auto", mb: 8 }}>
+            {TestimoniosCradData.map((persona) => (
+              <TestimonioCard
+                nombre={persona.nombre}
+                key={persona.id}
+                texto={persona.texto}
+                imagen={persona.imagen}
+                empresa={persona.empresa}
+                cargo={persona.cargo}
+              />
+            ))}
+          </Carousel>
+        </Box>
         {/* carrusel <Box>
           <Typography
             sx={{

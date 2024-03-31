@@ -20,7 +20,7 @@ const Mentoring1 = ({ handleOpenModal5, handleCloseModal5, openModal5 }) => {
             }}
             bgcolor={"transparent"}
             border={"none"}
-            sx={{ textDecoration: "none", cursor:"pointer" }}
+            sx={{ textDecoration: "none", cursor: "pointer" }}
             ml={-3.5}
           >
             <img height={"30px"} src="/arrowButton.png" alt="" />
@@ -47,7 +47,7 @@ const Mentoring1 = ({ handleOpenModal5, handleCloseModal5, openModal5 }) => {
                 lineHeight: "75px",
                 fontWeight: "700",
                 color: "#73F0A2",
-                mt:1
+                mt: 1,
               }}
             >
               Mentoring
@@ -60,7 +60,6 @@ const Mentoring1 = ({ handleOpenModal5, handleCloseModal5, openModal5 }) => {
                 lineHeight: "15px",
                 fontWeight: "700",
                 color: "white",
-               
               }}
             >
               personalizado
@@ -93,27 +92,28 @@ const Mentoring1 = ({ handleOpenModal5, handleCloseModal5, openModal5 }) => {
       </Hidden>
 
       <Hidden smUp>
-        <Box
-          p={"6%"}
-          sx={{
-            width: "100%",
-            height: "100vh", // Ajustar la altura al 100% del viewport height
-            backgroundColor: "#104B70",
-            overflowY: "auto", // Permitir scroll vertical si es necesario
-          }}
+      <Box
+         
+          p={"8%"}
+          sx={{ width: "100%",  backgroundColor: "#046C31" }}
         >
           <Box
             display={"flex"}
-            component={NavLink}
-            to={"/queHacemos"}
-            sx={{ textDecoration: "none" }}
+            component={Button}
+            onClick={() => {
+              handleCloseModal5();
+            }}
+            bgcolor={"transparent"}
+            border={"none"}
+            sx={{ textDecoration: "none", cursor: "pointer" }}
+            ml={-3.5}
           >
             <img height={"30px"} src="/arrowButton.png" alt="" />
             <Typography
               sx={{
                 fontSize: "20px",
                 fontFamily: "Manrope",
-                fontWeight: "300",
+                fontWeight: "200",
                 color: "white",
                 lineHeight: "34px",
                 ml: "4px",
@@ -128,26 +128,38 @@ const Mentoring1 = ({ handleOpenModal5, handleCloseModal5, openModal5 }) => {
             <Typography
               sx={{
                 fontFamily: "Manrope",
-                fontSize: "48px",
-                lineHeight: "45px",
+                fontSize: "35px",
+                lineHeight: "65px",
                 fontWeight: "700",
-                color: "white",
-                width: "5%",
-                mt: "7%",
+                color: "#73F0A2",
+                mt: 1,
               }}
             >
-              <span style={{ color: "#73F0A2" }}>Mentoring</span> personalizado
+              Mentoring
+            </Typography>
+            <Typography
+              maxWidth={"580px"}
+              sx={{
+                fontFamily: "Manrope",
+                fontSize: "35px",
+                lineHeight: "15px",
+                fontWeight: "700",
+                color: "white",
+              }}
+            >
+              personalizado
             </Typography>
 
             <Typography
-              maxWidth={"780px"}
+             
               sx={{
                 fontFamily: "Manrope",
-                fontSize: "24px",
+                fontSize: "22px",
                 lineHeight: "30px",
                 color: "white",
-                fontWeight: "300",
+                fontWeight: "100",
                 mt: "8%",
+                width: "90%",
               }}
             >
               Creamos un servicio para líderes que buscan dar un paso hacia la
@@ -158,9 +170,7 @@ const Mentoring1 = ({ handleOpenModal5, handleCloseModal5, openModal5 }) => {
               habilidades de tu equipo de trabajo.
             </Typography>
           </Box>
-          <Box position={"absolute"} top={"10%"}>
-            <img src="/mentoring.png" alt="" />
-          </Box>
+         
         </Box>
       </Hidden>
     </>

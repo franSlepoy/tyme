@@ -2,6 +2,7 @@ import Carousel from "react-material-ui-carousel";
 import { motion } from "framer-motion";
 import Mentoring1 from "./Mentoring1";
 import Mentoring2 from "./Mentoring2";
+import { Box, Hidden } from "@mui/material";
 
 const CarouselMentoring = ({
   handleOpenModal5,
@@ -9,16 +10,18 @@ const CarouselMentoring = ({
   openModal5,
 }) => {
   return (
-    <Carousel
-      autoPlay={false}
-      timeout={100}
-      sx={{
-        backgroundColor: "#046C31",
-        margin: "auto",
-        height: "79vh",
-        width: "100%",
+    <>
+      <Hidden smDown>
+        <Carousel
+          autoPlay={false}
+          timeout={100}
+          sx={{
+            backgroundColor: "#046C31",
+            margin: "auto",
+            height: "79vh",
+            width: "100%",
 
-        /*  "& .MuiButtonBase-root.MuiIconButton-root.MuiIconButton-sizeSmall.MuiIconButton-edgeStart":
+            /*  "& .MuiButtonBase-root.MuiIconButton-root.MuiIconButton-sizeSmall.MuiIconButton-edgeStart":
       {
         position: "absolute",
         color: "white", // Color blanco para los botones de navegación
@@ -41,33 +44,51 @@ const CarouselMentoring = ({
       position: "absolute",
       left: "7%", // Ajusta la posición de los indicadores
     }, */
-      }}
-    >
-      <motion.div
-        initial={{ opacity: 0, x: "500%", rotateY: "-180deg" }}
-        animate={{ opacity: 1, x: 0, rotateY: "0deg" }}
-        exit={{ opacity: 0, x: "100%", rotateY: "480deg" }}
-        transition={{ duration: 0.5 }}
-      >
+          }}
+        >
+          <motion.div
+            initial={{ opacity: 0, x: "500%", rotateY: "-180deg" }}
+            animate={{ opacity: 1, x: 0, rotateY: "0deg" }}
+            exit={{ opacity: 0, x: "100%", rotateY: "480deg" }}
+            transition={{ duration: 0.5 }}
+          >
+            <Mentoring1
+              handleOpenModal5={handleOpenModal5}
+              handleCloseModal5={handleCloseModal5}
+              openModal5={openModal5}
+            />
+          </motion.div>
+          <motion.div
+            initial={{ opacity: 0, x: "500%", rotateY: "-480deg" }}
+            animate={{ opacity: 1, x: 0, rotateY: "0deg" }}
+            exit={{ opacity: 0, x: "100%", rotateY: "180deg" }}
+            transition={{ duration: 0.5 }}
+          >
+            <Mentoring2
+              handleOpenModal5={handleOpenModal5}
+              handleCloseModal5={handleCloseModal5}
+              openModal5={openModal5}
+            />
+          </motion.div>
+        </Carousel>
+      </Hidden>
+
+      <Hidden smUp>
+        <Box width={"100%"}>
         <Mentoring1
           handleOpenModal5={handleOpenModal5}
           handleCloseModal5={handleCloseModal5}
           openModal5={openModal5}
         />
-      </motion.div>
-      <motion.div
-        initial={{ opacity: 0, x: "500%", rotateY: "-480deg" }}
-        animate={{ opacity: 1, x: 0, rotateY: "0deg" }}
-        exit={{ opacity: 0, x: "100%", rotateY: "180deg" }}
-        transition={{ duration: 0.5 }}
-      >
         <Mentoring2
           handleOpenModal5={handleOpenModal5}
           handleCloseModal5={handleCloseModal5}
           openModal5={openModal5}
         />
-      </motion.div>
-    </Carousel>
+        </Box>
+       
+      </Hidden>
+    </>
   );
 };
 

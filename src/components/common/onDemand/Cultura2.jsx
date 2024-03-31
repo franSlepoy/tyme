@@ -100,7 +100,7 @@ const Cultura2 = ({ handleOpenModal2, handleCloseModal2, openModal2 }) => {
                   fontSize: "22px",
                   fontWeight: "100",
                   lineHeight: "28px",
-                  width:"200px"
+                  width: "200px",
                 }}
               >
                 utilizamos nuevas tecnologías para detectar datos precisos y
@@ -115,7 +115,6 @@ const Cultura2 = ({ handleOpenModal2, handleCloseModal2, openModal2 }) => {
                   fontSize: "40px",
                   fontWeight: "700",
                   lineHeight: "30px",
-                 
                 }}
               >
                 2
@@ -138,8 +137,7 @@ const Cultura2 = ({ handleOpenModal2, handleCloseModal2, openModal2 }) => {
                   fontSize: "22px",
                   fontWeight: "100",
                   lineHeight: "28px",
-                  width:"220px",
-                  
+                  width: "220px",
                 }}
               >
                 creamos un plan a medida para desarrollar liderazgos en tu
@@ -177,8 +175,7 @@ const Cultura2 = ({ handleOpenModal2, handleCloseModal2, openModal2 }) => {
                   fontSize: "24px",
                   fontWeight: "100",
                   lineHeight: "28px",
-                  width:"240px",
-                  
+                  width: "240px",
                 }}
               >
                 acompañamos la puesta en marcha de la estrategia para asegurar
@@ -215,7 +212,7 @@ const Cultura2 = ({ handleOpenModal2, handleCloseModal2, openModal2 }) => {
                   fontSize: "22px",
                   fontWeight: "100",
                   lineHeight: "28px",
-                  width:"250px"
+                  width: "250px",
                 }}
               >
                 medimos resultados, con seguimientos periódicos para implementar
@@ -240,27 +237,6 @@ const Cultura2 = ({ handleOpenModal2, handleCloseModal2, openModal2 }) => {
             overflowY: "auto", // Permitir scroll vertical si es necesario
           }}
         >
-          <Box
-            display={"flex"}
-            component={NavLink}
-            to={"/queHacemos"}
-            sx={{ textDecoration: "none" }}
-          >
-            <img height={"30px"} src="/arrowButton.png" alt="" />
-            <Typography
-              sx={{
-                fontSize: "20px",
-                fontFamily: "Manrope",
-                fontWeight: "300",
-                color: "white",
-                lineHeight: "34px",
-                ml: "4px",
-                mt: "-2px",
-              }}
-            >
-              HR on demand
-            </Typography>
-          </Box>
           <Box>
             <Typography
               maxWidth={"980px"}
@@ -291,7 +267,7 @@ const Cultura2 = ({ handleOpenModal2, handleCloseModal2, openModal2 }) => {
               management y RRHH, desarrollamos planes de mejora.
             </Typography>
           </Box>
-          <Box mt={"3%"}>
+          <Box mt={"5%"}>
             <Box>
               <Typography
                 sx={{
@@ -327,7 +303,7 @@ const Cultura2 = ({ handleOpenModal2, handleCloseModal2, openModal2 }) => {
                 análisis del sector.
               </Typography>
             </Box>
-            <Box>
+            <Box mt={"5%"}>
               <Typography
                 sx={{
                   color: "#72C8FF",
@@ -362,7 +338,7 @@ const Cultura2 = ({ handleOpenModal2, handleCloseModal2, openModal2 }) => {
                 creamos planes a medida, con foco en el desarrollo de talentos.
               </Typography>
             </Box>
-            <Box>
+            <Box mt={"5%"}>
               <Typography
                 sx={{
                   color: "#72C8FF",
@@ -398,7 +374,7 @@ const Cultura2 = ({ handleOpenModal2, handleCloseModal2, openModal2 }) => {
                 crecimiento.
               </Typography>
             </Box>
-            <Box>
+            <Box mt={"5%"}>
               <Typography
                 sx={{
                   color: "#72C8FF",

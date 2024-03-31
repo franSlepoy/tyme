@@ -232,38 +232,18 @@ const Waze2 = ({ handleOpenModal3, handleCloseModal3, openModal3 }) => {
             overflowY: "auto", // Permitir scroll vertical si es necesario
           }}
         >
-          >
-          <Box
-            display={"flex"}
-            component={NavLink}
-            to={"/queHacemos"}
-            sx={{ textDecoration: "none" }}
-          >
-            <img height={"30px"} src="/arrowButton.png" alt="" />
-            <Typography
-              sx={{
-                fontSize: "20px",
-                fontFamily: "Manrope",
-                fontWeight: "300",
-                color: "white",
-                lineHeight: "34px",
-                ml: "4px",
-                mt: "-2px",
-              }}
-            >
-              HR on demand
-            </Typography>
-          </Box>
+          
+         
           <Box>
             <Typography
-              maxWidth={"980px"}
+              
               sx={{
                 fontFamily: "Manrope",
                 fontSize: "48px",
                 lineHeight: "45px",
                 fontWeight: "700",
                 color: "white",
-                mt: "4%",
+                mt: "25%",
               }}
             >
               Cómo lo hacemos
@@ -284,7 +264,7 @@ const Waze2 = ({ handleOpenModal3, handleCloseModal3, openModal3 }) => {
               management y RRHH, desarrollamos planes de mejora.
             </Typography>
           </Box>
-          <Box mt={"3%"}>
+          <Box mt={"5%"}>
             <Box>
               <Typography
                 sx={{
@@ -320,7 +300,7 @@ const Waze2 = ({ handleOpenModal3, handleCloseModal3, openModal3 }) => {
                 análisis del sector.
               </Typography>
             </Box>
-            <Box ml={"4%"}>
+            <Box mt={"5%"}>
               <Typography
                 sx={{
                   color: "#72C8FF",
@@ -354,7 +334,7 @@ const Waze2 = ({ handleOpenModal3, handleCloseModal3, openModal3 }) => {
                 creamos planes a medida, con foco en el desarrollo de talentos.
               </Typography>
             </Box>
-            <Box ml={"4%"}>
+            <Box mt={"5%"}>
               <Typography
                 sx={{
                   color: "#72C8FF",
@@ -390,7 +370,7 @@ const Waze2 = ({ handleOpenModal3, handleCloseModal3, openModal3 }) => {
                 crecimiento.
               </Typography>
             </Box>
-            <Box ml={"4%"}>
+            <Box mt={"5%"}>
               <Typography
                 sx={{
                   color: "#72C8FF",

@@ -107,20 +107,19 @@ const Charlas1 = ({ handleCloseComponente }) => {
         <Box
           position={"absolute"}
           top={"128%"}
-          display={"flex"}
-          
-          width={"100%"}
-          sx={{ bgcolor: "#73F0A2" }}
+          width={"90%"}
+         ml={"5%"}
+          sx={{ bgcolor: "#73F0A2", pb:"6%" }}
           zIndex={100}
         >
-          <Box ml={"7%"} mt={"6%"} width={"53%"}>
+          <Box ml={"7%"} mt={"6%"}  width={"90%"}>
             <Button onClick={handleCloseComponente} sx={{ ml: -3 }}>
               <img height={"40px"} src="/arrowButton.png" alt="" />
             </Button>
 
             <Typography
               sx={{
-                mt: "22px",
+               
                 fontFamily: "Manrope",
                 fontSize: "48px",
                 fontWeight: "800",
@@ -133,7 +132,7 @@ const Charlas1 = ({ handleCloseComponente }) => {
             <Typography
               sx={{
                 mt: 2,
-                width: "54%",
+                
                 fontFamily: "Manrope",
                 fontSize: "30px",
                 fontWeight: "600",
@@ -160,23 +159,6 @@ const Charlas1 = ({ handleCloseComponente }) => {
               implementar el cambio midiendo su impacto en el negocio.
             </Typography>
             <BlackButtom texto={"Consultanos"} />
-          </Box>
-          <Box width={"40%"} ml={6}>
-            <img width={"100%"} src="/iconCH1.png" alt="" />
-            <Typography
-              position={"absolute"}
-              top={"28%"}
-              ml={"6%"}
-              width={"25%"}
-              sx={{
-                fontFamily: "Marriweather",
-                fontSize: "48px",
-                fontWeight: "100",
-                color: "white",
-              }}
-            >
-              Desencadenar una ola de creatividad en tu empresa
-            </Typography>
           </Box>
         </Box>
       </Hidden>
