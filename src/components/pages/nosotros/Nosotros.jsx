@@ -45,8 +45,8 @@ const Nosotros = () => {
             </Box>
           </Parallax>
           <Box>
-            <Box sx={{ position: "absolute", top: "62%" }}>
-              <img src="/nosotros3.png" alt="" />
+            <Box sx={{ position: "absolute", top: "62%", right:"0px" }}>
+              <img width={"100%"} src="/nosotros3.png" alt="" />
             </Box>
 
             <Box
@@ -75,7 +75,7 @@ const Nosotros = () => {
             <Box
               sx={{
                 position: "absolute",
-                top: { sm: "95%", md: "90%", lg: "97%" },
+                top: "708px",
                 left: "7%",
               }}
             >
@@ -113,8 +113,8 @@ const Nosotros = () => {
                 </Button>
               </ScrollLink>
             </Box>
-            <Box sx={{ position: "absolute", left: "80%", top: "42%" }}>
-              <img src="/ilustracion.png" alt="" />
+            <Box sx={{ position: "absolute", right: "0%", top: "42%" }}>
+              <img width={"100%"} src="/ilustracion.png" alt="" />
             </Box>
           </Box>
         </Box>
@@ -122,12 +122,13 @@ const Nosotros = () => {
         <Box
           sx={{
             width: "100%",
-            height: "141vh",
+            pb: "15%",
+            pt: "15%",
             backgroundColor: "rgba(18,150,233, 0.4)",
           }}
         >
           <Box display={"flex"} width={"93%"} id="seccionDestino">
-            <Box sx={{ ml: "6%", mt: "17%", width: "60%" }}>
+            <Box sx={{ ml: "6%", width: "60%" }}>
               <Typography
                 onMouseEnter={handleMouseEnter}
                 onMouseLeave={handleMouseLeave}
@@ -254,7 +255,82 @@ const Nosotros = () => {
               </Typography>
             </Box>
 
-            <Box width={"24%"} ml={"12%"} mt={"17%"} w>
+            <Box mt={2} ml={"4%"}>
+              <Box>
+                <Button
+                  disableRipple={true}
+                  sx={{
+                    bgcolor: "transparent",
+                    "&:hover": {
+                      backgroundColor: "transparent",
+                    },
+                  }}
+                  onClick={() =>
+                    handleTextoSeleccionado(
+                      "Licenciado en Recursos Humanos egresado de la Universidad Argentina de la Empresa (UADE) y también graduado en UADE Business School y en MIT Sloan School of Management.Se desempeñó como ejecutivo de Recursos Humanos en compañías multinacionales como Toyota, Techint y Unilever, con responsabilidades locales y regionales."
+                    )
+                  }
+                >
+                  <img src="/iconoN1.png" alt="" />
+                </Button>
+              </Box>
+              <Box>
+                <Button
+                  sx={{
+                    bgcolor: "transparent",
+                    "&:hover": {
+                      backgroundColor: "transparent",
+                    },
+                  }}
+                  disableRipple={true}
+                  onClick={() =>
+                    handleTextoSeleccionado(
+                      "Fundó dos startups: Nawaiam, un videojuego que detecta en 15 minutos el perfil conductual y competencias de los usuarios, y TuPrimerLaburo Argentina - TuPrimeraPega Chile - TuPrimerCurro España, una plataforma dirigida a los jóvenes para su autoconocimiento y desarrollo de habilidades que mejoran su índice de inserción laboral."
+                    )
+                  }
+                >
+                  <img src="/iconoN2.png" alt="" />
+                </Button>
+              </Box>
+              <Box>
+                <Button
+                  sx={{
+                    bgcolor: "transparent",
+                    "&:hover": {
+                      backgroundColor: "transparent",
+                    },
+                  }}
+                  disableRipple={true}
+                  onClick={() =>
+                    handleTextoSeleccionado(
+                      "Speaker internacional con más de 150 conferencias dictadas en 10 países sobre gestión del talento, gaming, startups y HR Tech Trends, entre otras temáticas centradas en los Recursos Humanos y la tecnología."
+                    )
+                  }
+                >
+                  <img src="/iconoN3.png" alt="" />
+                </Button>
+              </Box>
+              <Box>
+                <Button
+                  sx={{
+                    bgcolor: "transparent",
+                    "&:hover": {
+                      backgroundColor: "transparent",
+                    },
+                  }}
+                  disableRipple={true}
+                  onClick={() =>
+                    handleTextoSeleccionado(
+                      "Fue reconocido internacionalmente como emprendedor por el rey Felipe VI de España, AT&T (Estados Unidos), Latin American Excellence Awards (Brasil), Endeavor y Orgullo UADE (Argentina), Premios Latinoamérica Verde (Ecuador), Acelerar España, 100 mejores ideas empresariales de El Mundo y la Caixa Bank y los Premios Reyes Católicos (España), entre otros. Fue docente universitario por más de 15 años en Argentina, Chile y España en materias como Dirección Estratégica de RRHH y Digital Talent Management.Es columnista en radio, TV, periódicos y podcasts sobre talento y tecnología."
+                    )
+                  }
+                >
+                  <img src="/iconoN4.png" alt="" />
+                </Button>
+              </Box>
+            </Box>
+
+            <Box width={"24%"} ml={"4%"}>
               {textoSeleccionado && (
                 <Typography
                   sx={{
@@ -270,305 +346,15 @@ const Nosotros = () => {
               )}
             </Box>
           </Box>
-          <Box sx={{ position: "absolute", top: "140%", left: "92%" }}>
-            <Button
-              disableRipple={true}
-              sx={{
-                bgcolor: "transparent",
-                "&:hover": {
-                  backgroundColor: "transparent",
-                },
-              }}
-              onClick={() =>
-                handleTextoSeleccionado(
-                  "Licenciado en Recursos Humanos egresado de la Universidad Argentina de la Empresa (UADE) y también graduado en UADE Business School y en MIT Sloan School of Management.Se desempeñó como ejecutivo de Recursos Humanos en compañías multinacionales como Toyota, Techint y Unilever, con responsabilidades locales y regionales."
-                )
-              }
-            >
-              <img src="/iconoN1.png" alt="" />
-            </Button>
-          </Box>
-          <Box sx={{ position: "absolute", top: "150%", left: "62%" }}>
-            <Button
-              sx={{
-                bgcolor: "transparent",
-                "&:hover": {
-                  backgroundColor: "transparent",
-                },
-              }}
-              disableRipple={true}
-              onClick={() =>
-                handleTextoSeleccionado(
-                  "Fundó dos startups: Nawaiam, un videojuego que detecta en 15 minutos el perfil conductual y competencias de los usuarios, y TuPrimerLaburo Argentina - TuPrimeraPega Chile - TuPrimerCurro España, una plataforma dirigida a los jóvenes para su autoconocimiento y desarrollo de habilidades que mejoran su índice de inserción laboral."
-                )
-              }
-            >
-              <img src="/iconoN2.png" alt="" />
-            </Button>
-          </Box>
-          <Box sx={{ position: "absolute", top: "190%", left: "62%" }}>
-            <Button
-              sx={{
-                bgcolor: "transparent",
-                "&:hover": {
-                  backgroundColor: "transparent",
-                },
-              }}
-              disableRipple={true}
-              onClick={() =>
-                handleTextoSeleccionado(
-                  "Speaker internacional con más de 150 conferencias dictadas en 10 países sobre gestión del talento, gaming, startups y HR Tech Trends, entre otras temáticas centradas en los Recursos Humanos y la tecnología."
-                )
-              }
-            >
-              <img src="/iconoN3.png" alt="" />
-            </Button>
-          </Box>
-          <Box sx={{ position: "absolute", top: "214%", left: "52%" }}>
-            <Button
-              sx={{
-                bgcolor: "transparent",
-                "&:hover": {
-                  backgroundColor: "transparent",
-                },
-              }}
-              disableRipple={true}
-              onClick={() =>
-                handleTextoSeleccionado(
-                  "Fue reconocido internacionalmente como emprendedor por el rey Felipe VI de España, AT&T (Estados Unidos), Latin American Excellence Awards (Brasil), Endeavor y Orgullo UADE (Argentina), Premios Latinoamérica Verde (Ecuador), Acelerar España, 100 mejores ideas empresariales de El Mundo y la Caixa Bank y los Premios Reyes Católicos (España), entre otros. Fue docente universitario por más de 15 años en Argentina, Chile y España en materias como Dirección Estratégica de RRHH y Digital Talent Management.Es columnista en radio, TV, periódicos y podcasts sobre talento y tecnología."
-                )
-              }
-            >
-              <img src="/iconoN4.png" alt="" />
-            </Button>
-          </Box>
         </Box>
       </Hidden>
 
-      <Hidden lgUp smDown>
-        <Parallax speed={-12} tagOuter="figure">
-          <Box>
-            <img width={"100%"} src="/javier1.png" alt="" />
-          </Box>
-        </Parallax>
-        <Box>
-          <Box sx={{ position: "absolute", top: "62%" }}>
-            <img width={"100%"} src="/nosotros3.png" alt="" />
-          </Box>
-
-          <Box
-            sx={{
-              position: "absolute",
-              top: "20% ",
-              left: "7%",
-              width: "52%",
-            }}
-          >
-            <Typography
-              sx={{
-                fontFamily: "Merriweather",
-                fontSize: "30px",
-                fontWeight: "300",
-                color: "white",
-              }}
-            >
-              Somos una consultora boutique internacional especializada en
-              potenciar el desarrollo de las organizaciones, a través de la
-              innovación tecnológica y el trabajo personalizado.
-            </Typography>
-          </Box>
-        </Box>
-
-        <Box
-          sx={{
-            width: "100%",
-            height: "201vh",
-            backgroundColor: "rgba(18,150,233, 0.4)",
-          }}
-        >
-          <Box
-            display={"flex"}
-            mt={3}
-            pt={25}
-            pl={5}
-            bgcolor={"rgba(18,150,233, 0.01)"}
-          >
-            <Box>
-              <Button
-                onClick={() =>
-                  handleTextoSeleccionado(
-                    "Licenciado en Recursos Humanos egresado de la Universidad Argentina de la Empresa (UADE) y también graduado en UADE Business School y en MIT Sloan School of Management.Se desempeñó como ejecutivo de Recursos Humanos en compañías multinacionales como Toyota, Techint y Unilever, con responsabilidades locales y regionales."
-                  )
-                }
-              >
-                <img src="/iconoN1.png" alt="" />
-              </Button>
-            </Box>
-            <Box ml={2}>
-              <Button
-                onClick={() =>
-                  handleTextoSeleccionado(
-                    "Fundó dos startups: Nawaiam, un videojuego que detecta en 15 minutos el perfil conductual y competencias de los usuarios, y TuPrimerLaburo Argentina - TuPrimeraPega Chile - TuPrimerCurro España, una plataforma dirigida a los jóvenes para su autoconocimiento y desarrollo de habilidades que mejoran su índice de inserción laboral."
-                  )
-                }
-              >
-                <img src="/iconoN2.png" alt="" />
-              </Button>
-            </Box>
-            <Box ml={2}>
-              <Button
-                onClick={() =>
-                  handleTextoSeleccionado(
-                    "Speaker internacional con más de 150 conferencias dictadas en 10 países sobre gestión del talento, gaming, startups y HR Tech Trends, entre otras temáticas centradas en los Recursos Humanos y la tecnología."
-                  )
-                }
-              >
-                <img src="/iconoN3.png" alt="" />
-              </Button>
-            </Box>
-            <Box ml={2}>
-              <Button
-                onClick={() =>
-                  handleTextoSeleccionado(
-                    "Fue reconocido internacionalmente como emprendedor por el rey Felipe VI de España, AT&T (Estados Unidos), Latin American Excellence Awards (Brasil), Endeavor y Orgullo UADE (Argentina), Premios Latinoamérica Verde (Ecuador), Acelerar España, 100 mejores ideas empresariales de El Mundo y la Caixa Bank y los Premios Reyes Católicos (España), entre otros. Fue docente universitario por más de 15 años en Argentina, Chile y España en materias como Dirección Estratégica de RRHH y Digital Talent Management.Es columnista en radio, TV, periódicos y podcasts sobre talento y tecnología."
-                  )
-                }
-              >
-                <img src="/iconoN4.png" alt="" />
-              </Button>
-            </Box>
-          </Box>
-
-          <Box display={"flex"} width={"93%"}>
-            <Box sx={{ ml: "6%", width: "60%" }}>
-              <Typography
-                sx={{
-                  mt: "8%",
-                  fontFamily: "Merriweather",
-                  fontWeight: 100,
-                  fontSize: "32px",
-                  lineHeight: "47px",
-                  letterSpacing: "0.5px",
-                  color: "white",
-                }}
-              >
-                Mi{" "}
-                <span
-                  onClick={() =>
-                    handleTextoSeleccionado(
-                      "Licenciado en Recursos Humanos egresado de la Universidad Argentina de la Empresa (UADE) y también graduado en UADE Business School y en MIT Sloan School of Management.Se desempeñó como ejecutivo de Recursos Humanos en compañías multinacionales como Toyota, Techint y Unilever, con responsabilidades locales y regionales."
-                    )
-                  }
-                  style={{
-                    cursor: "pointer",
-                    color: "rgb(18,150,233)",
-                    fontWeight: "600",
-                    fontFamily: "Merriweather",
-                  }}
-                >
-                  experiencia
-                </span>{" "}
-                en diversas corporaciones multinacionales y la gestión de{" "}
-                <span
-                  onClick={() =>
-                    handleTextoSeleccionado(
-                      "Fundó dos startups: Nawaiam, un videojuego que detecta en 15 minutos el perfil conductual y competencias de los usuarios, y TuPrimerLaburo Argentina - TuPrimeraPega Chile - TuPrimerCurro España, una plataforma dirigida a los jóvenes para su autoconocimiento y desarrollo de habilidades que mejoran su índice de inserción laboral."
-                    )
-                  }
-                  style={{
-                    cursor: "pointer",
-                    color: "rgb(18,150,233)",
-                    fontWeight: "600",
-                    fontFamily: "Merriweather",
-                  }}
-                >
-                  mis propias startups
-                </span>{" "}
-                y pymes a nivel internacional, con la tecnología como eje
-                central, me brindaron{" "}
-                <span
-                  onClick={() =>
-                    handleTextoSeleccionado(
-                      "Speaker internacional con más de 150 conferencias dictadas en 10 países sobre gestión del talento, gaming, startups y HR Tech Trends, entre otras temáticas centradas en los Recursos Humanos y la tecnología."
-                    )
-                  }
-                  style={{
-                    cursor: "pointer",
-                    color: "rgb(18,150,233)",
-                    fontWeight: "600",
-                    fontFamily: "Merriweather",
-                  }}
-                >
-                  aprendizajes valiosos sobre las conductas{" "}
-                </span>{" "}
-                y soft skills de{" "}
-                <span
-                  onClick={() =>
-                    handleTextoSeleccionado(
-                      "Fue reconocido internacionalmente como emprendedor por el rey Felipe VI de España, AT&T (Estados Unidos), Latin American Excellence Awards (Brasil), Endeavor y Orgullo UADE (Argentina), Premios Latinoamérica Verde (Ecuador), Acelerar España, 100 mejores ideas empresariales de El Mundo y la Caixa Bank y los Premios Reyes Católicos (España), entre otros. Fue docente universitario por más de 15 años en Argentina, Chile y España en materias como Dirección Estratégica de RRHH y Digital Talent Management.Es columnista en radio, TV, periódicos y podcasts sobre talento y tecnología."
-                    )
-                  }
-                  style={{
-                    cursor: "pointer",
-                    color: "rgb(18,150,233)",
-                    fontWeight: "600",
-                    fontFamily: "Merriweather",
-                  }}
-                >
-                  líderes de todo tipo de industrias.
-                </span>{" "}
-                Con un equipo interdisciplinario, desde Tyme ponemos esa
-                experiencia en juego y asistimos a empresas de todo el mundo en
-                la gestión del capital humano
-              </Typography>
-              <Typography
-                sx={{
-                  fontFamily: "Manrope",
-                  fontSize: "30px",
-                  lineHeight: "123.3%",
-                  color: "#1296E9",
-                  fontWeight: "600",
-                  mt: "7%",
-                }}
-              >
-                Kavier Krawicki
-              </Typography>
-              <Typography
-                sx={{
-                  fontFamily: "Manrope",
-                  fontSize: "22px",
-                  lineHeight: "123.3%",
-                  color: "white",
-                  width: "260px",
-                }}
-              >
-                Fundador y Co-Director de Tyme Consulting
-              </Typography>
-            </Box>
-
-            <Box width={"24%"} ml={"12%"} mt={"5%"} w>
-              {textoSeleccionado && (
-                <Typography
-                  sx={{
-                    fontFamily: "Manrope",
-                    fontSize: "16px",
-                    lineHeight: "30px",
-                    letterSpacing: "0.5px",
-                    color: "#1296E9",
-                  }}
-                >
-                  {textoSeleccionado}
-                </Typography>
-              )}
-            </Box>
-          </Box>
-        </Box>
-      </Hidden>
+   
 
       <Hidden smUp>
         <Box>
           <Box>
-            <img width={"100%"} src="/javier.png" alt="" />
+            <img width={"100%"} src="/mobileNosotros.png" alt="" />
           </Box>
 
           <Box>

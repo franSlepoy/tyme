@@ -8,7 +8,7 @@ const Charlas2 = ({ handleCloseComponente }) => {
       top={"128%"}
       left={"6%"}
       display={"flex"}
-      height={"78vh"}
+   
       width={"87%"}
       style={{
         backgroundColor: "#A0D5F6",
@@ -63,8 +63,8 @@ const Charlas2 = ({ handleCloseComponente }) => {
         </Typography>
         <BlackButtom texto={"Consultanos"} linkTo={"/contacto"} />
       </Box>
-      <Box width={"40%"} ml={6}>
-        <img height={"100%"} src="/ch02.png" alt="" />
+      <Box width={"40%"} ml={2} >
+        <img width={"100%"} height={"100%"} src="/Date.png" alt="" />
       </Box>
     </Box>
   );

@@ -19,7 +19,7 @@ const Tendencias = () => {
       <Hidden lgDown>
         <Parallax speed={-12} tagOuter="figure">
           <Box mt={1}>
-            <img src="/tendencias1.png" alt="" />
+            <img width={"100%"} src="/tendencias1.png" alt="" />
           </Box>
         </Parallax>
         <Box>
@@ -60,13 +60,13 @@ const Tendencias = () => {
           </Box>
 
           <ScrollLink to="seccionDestino" smooth={true}>
-            <Button sx={{ position: "absolute", top: "108vh", left: "50%" }}>
+            <Button sx={{ position: "absolute", top: "105%", left: "50%" }}>
               <img src="/flechaVerde.png" alt="" />
             </Button>
           </ScrollLink>
         </Box>
 
-        <Box width={"100%"} mt={"15%"} pb={"2.2%"} id="seccionDestino">
+        <Box width={"100%"} pt={"13%"} pb={"2.2%"} id="seccionDestino">
           <Typography
             sx={{
               fontFamily: "Merriweather",
@@ -87,7 +87,7 @@ const Tendencias = () => {
             <BlackButtom texto={"Contáctanos"} linkTo={"/contacto"} />
           </Box>
           <Box position={"absolute"} top={"140%"}>
-            <img src="/tendencias2.png" alt="" />
+            <img width={"100%"} src="/tendencias2.png" alt="" />
           </Box>
         </Box>
 
@@ -104,12 +104,12 @@ const Tendencias = () => {
             >
               Artículos propios
             </Typography>
-            <Box position={"absolute"} left={"60%"} top={"206vh"}>
+            {/*  <Box position={"absolute"} left={"60%"} top={"176%"}>
               <img src="/tendencias4.png" alt="" />
             </Box>
-            <Box position={"absolute"} left={"87%"} top={"208vh"}>
+            <Box position={"absolute"} left={"87%"} top={"190%"}>
               <img src="/tendencias6.png" alt="" />
-            </Box>
+            </Box> */}
 
             <ImageList sx={{ width: "100%" }} cols={4} rowHeight={504}>
               {ArticulosData.map((item) => (
@@ -235,7 +235,7 @@ const Tendencias = () => {
 
       <Hidden smUp>
         <Box>
-          <img width={"100%"} src="/tendencias1.png" alt="" />
+          <img width={"100%"} src="/mobileTendecias.png" alt="" />
         </Box>
 
         <Box>
@@ -278,7 +278,7 @@ const Tendencias = () => {
         </Box>
 
         <Box width={"100%"} bgcolor={"#A0D5F6"}>
-          <Box width={"58%"} ml={"12%"} pt={"6%"} pb={"6%"}>
+          <Box width={"58%"} ml={"12%"} pt={"6%"} >
             <Typography
               sx={{
                 color: "black",
@@ -291,14 +291,11 @@ const Tendencias = () => {
             >
               Artículos propios
             </Typography>
-            <Box position={"absolute"} left={"60%"} top={"172%"}>
-              <img width={"100%"} src="/tendencias4.png" alt="" />
-            </Box>
-            <Box position={"absolute"} left={"72%"} top={"138%"}>
-              <img width={"80%"} src="/tendencias6.png" alt="" />
+            <Box mt={"10%"} >
+              <BlackButtom texto={"Consúltanos"} linkTo={"/contacto"} />
             </Box>
           </Box>
-          <ImageList sx={{ width: "85%", m:"auto" }} cols={1} rowHeight={510}>
+          <ImageList sx={{ width: "85%", m: "auto" }} cols={1} rowHeight={510}>
             {ArticulosData.map((item) => (
               <ImageListItem key={item.id}>
                 <ArticuloCard

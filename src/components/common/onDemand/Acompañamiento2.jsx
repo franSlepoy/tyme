@@ -73,6 +73,8 @@ const Acompañamiento2 = ({ handleOpenModal4, handleCloseModal4, openModal4 }) =
                   fontSize: "22px",
                   fontWeight: "100",
                   mt: 1,
+                  lineHeight:"30px",
+      
 
                 }}
               >
@@ -99,6 +101,7 @@ const Acompañamiento2 = ({ handleOpenModal4, handleCloseModal4, openModal4 }) =
                   fontSize: "22px",
                   fontWeight: "100",
                   mt: 1,
+                  lineHeight:"30px",
                 }}
               >
                 Impulsa la competitividad de tu empresa y abre nuevas
@@ -125,6 +128,7 @@ const Acompañamiento2 = ({ handleOpenModal4, handleCloseModal4, openModal4 }) =
                   fontSize: "22px",
                   fontWeight: "100",
                   mt: 1,
+                  lineHeight:"30px",
                 }}
               >
                 Mejora la relación con tus empleados porque ratifica el
@@ -150,6 +154,7 @@ const Acompañamiento2 = ({ handleOpenModal4, handleCloseModal4, openModal4 }) =
                   fontSize: "22px",
                   fontWeight: "100",
                   mt: 1,
+                  lineHeight:"30px",
                 }}
               >
                 Fomenta la mejora continua y la eficiencia, y asegura el

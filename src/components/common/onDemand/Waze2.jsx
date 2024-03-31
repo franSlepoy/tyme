@@ -9,7 +9,7 @@ const Waze2 = ({ handleOpenModal3, handleCloseModal3, openModal3 }) => {
         <Box
           pl={"10%"}
           pt={"6%"}
-          sx={{ width: "100%", height: "74vh", backgroundColor: "#104B70" }}
+          sx={{ width: "95%", height: "74vh", backgroundColor: "#104B70" }}
         >
          <Box
             display={"flex"}
@@ -53,7 +53,7 @@ const Waze2 = ({ handleOpenModal3, handleCloseModal3, openModal3 }) => {
             </Typography>
 
             <Typography
-              maxWidth={"880px"}
+              width={"78%"}
               sx={{
                 fontFamily: "Manrope",
                 fontSize: "24px",
@@ -69,7 +69,7 @@ const Waze2 = ({ handleOpenModal3, handleCloseModal3, openModal3 }) => {
           </Box>
 
           <Box display={"flex"} mt={"2%"}>
-            <Box width={"55%"}>
+            <Box width={"50%"}>
               <Typography
                 sx={{
                   color: "#72C8FF",
@@ -99,13 +99,14 @@ const Waze2 = ({ handleOpenModal3, handleCloseModal3, openModal3 }) => {
                   fontFamily: "Manrope",
                   fontSize: "22px",
                   fontWeight: "100",
+                  lineHeight:"26px"
                 }}
               >
                 identificamos las necesidades futuras de tu empresa, en base al
                 análisis del sector.
               </Typography>
             </Box>
-            <Box width={"50%"}  ml={"2%"}>
+            <Box width={"48%"}  ml={"4%"}>
               <Typography
                 sx={{
                   color: "#72C8FF",
@@ -140,7 +141,7 @@ const Waze2 = ({ handleOpenModal3, handleCloseModal3, openModal3 }) => {
                 creamos planes a medida, con foco en el desarrollo de talentos.
               </Typography>
             </Box>
-            <Box width={"52%"} ml={"3%"}>
+            <Box width={"44%"} ml={"3%"}>
               <Typography
                 sx={{
                   color: "#72C8FF",
@@ -177,7 +178,7 @@ const Waze2 = ({ handleOpenModal3, handleCloseModal3, openModal3 }) => {
                 crecimiento.
               </Typography>
             </Box>
-            <Box width={"50%"} ml={"2%"} pr={3}>
+            <Box width={"46%"} ml={"4%"} pr={3}>
               <Typography
                 sx={{
                   color: "#72C8FF",

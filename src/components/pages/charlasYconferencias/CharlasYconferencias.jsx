@@ -46,12 +46,12 @@ const CharlasYconferencias = () => {
       <Hidden lgDown>
         <Parallax speed={-12} tagOuter="figure">
           <Box width={"100%"} overflow="hidden">
-            <img height={"100%"} src="/charlas1.png" alt="" />
+            <img width={"100%"} height={"100%"} src="/charlas1.png" alt="" />
           </Box>
         </Parallax>
         <Box>
           <Box sx={{ position: "absolute", top: "32%" }}>
-            <img src="/nosotros4.png" alt="" />
+            <img width={"100%"} src="/nosotros4.png" alt="" />
           </Box>
           <Box
             sx={{
@@ -79,9 +79,9 @@ const CharlasYconferencias = () => {
           <ScrollLink to={"seccionDestino"} smooth={true}>
             <Button
               disableRipple={true}
-              sx={{ position: "absolute", top: "94vh", left: "50%" }}
+              sx={{ position: "absolute", top: "92%", left: "47%" }}
             >
-              <img src="/flechaBajo.png" alt="" />
+              <img width={"100%"} src="/flechaBajo.png" alt="" />
             </Button>
           </ScrollLink>
         </Box>
@@ -91,10 +91,10 @@ const CharlasYconferencias = () => {
           style={{
             backgroundImage: "linear-gradient(to right top, #18CC66, #1296E9)",
           }}
-          sx={{ width: "100%", height: "152vh", pb: "5%" }}
+          sx={{ width: "100%", pt: "12%", pb: "10%" }}
         >
           <Box display={"flex"} width={"88%"} margin={"auto"}>
-            <Box mt={"15%"} width={"50%"}>
+            <Box width={"50%"}>
               <Typography
                 sx={{
                   fontFamily: "Manrope",
@@ -111,7 +111,7 @@ const CharlasYconferencias = () => {
               </Typography>
             </Box>
 
-            <Box ml={"6%"} width={"20%"} mt={"15%"}>
+            <Box ml={"6%"} width={"20%"}>
               <Typography
                 sx={{
                   fontFamily: "Manrope",
@@ -131,11 +131,10 @@ const CharlasYconferencias = () => {
             width={"90%"}
             m={"auto"}
             justifyContent={"space-evenly"}
-            mt={"82px"}
+            mt={"5%"}
           >
             <Box
-              width={"24%"}
-              component={Button}
+              width={"25%"}
               disableRipple={true}
               onClick={handleClickA}
               sx={{
@@ -145,11 +144,11 @@ const CharlasYconferencias = () => {
 
                 "&:hover": {
                   backgroundColor: "transparent",
+                  cursor: "pointer",
                 },
-              
               }}
             >
-              <Box ml={-27}>
+              <Box>
                 <img src="/iconC1.png" alt="" />
               </Box>
 
@@ -161,7 +160,6 @@ const CharlasYconferencias = () => {
                   lineHeight: "30px",
                   color: "black",
                   mt: 2,
-                  ml:-12
                 }}
               >
                 Amplifying impact:
@@ -174,7 +172,6 @@ const CharlasYconferencias = () => {
                   lineHeight: "30px",
                   color: "black",
                   textAlign: "left",
-                
                 }}
               >
                 Cómo la influencia puede ayudarte a motivar a tu equipo y tus
@@ -183,23 +180,22 @@ const CharlasYconferencias = () => {
             </Box>
 
             <Box
+              ml={"2%"}
               width={"25%"}
-              ml={1}
-              component={Button}
               disableRipple={true}
               onClick={handleClickB}
               sx={{
-                textAlign: "left",
                 textTransform: "none",
                 display: "flex",
                 flexDirection: "column",
+
                 "&:hover": {
                   backgroundColor: "transparent",
+                  cursor: "pointer",
                 },
-            
               }}
             >
-              <Box ml={-28}>
+              <Box>
                 <img src="/iconC2.png" alt="" />
               </Box>
 
@@ -210,10 +206,10 @@ const CharlasYconferencias = () => {
                   fontWeight: "700",
                   lineHeight: "30px",
                   color: "black",
-                  mt: 3,
+                  mt: 2,
                 }}
               >
-                Date with myself: turismo interior{" "}
+                Date with myself: turismo interior
               </Typography>
               <Typography
                 sx={{
@@ -222,29 +218,30 @@ const CharlasYconferencias = () => {
                   fontWeight: "400",
                   lineHeight: "30px",
                   color: "black",
+                  textAlign: "left",
                 }}
               >
                 La importancia del autoconocimiento para la estabilidad, el
-                equilibrio y el d...{" "}
+                equilibrio y el de..
               </Typography>
             </Box>
             <Box
-              width={"24%"}
-              ml={2}
-              component={Button}
+              ml={"2%"}
+              width={"25%"}
               disableRipple={true}
               onClick={handleClickC}
               sx={{
-                textAlign: "left",
                 textTransform: "none",
                 display: "flex",
                 flexDirection: "column",
+
                 "&:hover": {
                   backgroundColor: "transparent",
+                  cursor: "pointer",
                 },
               }}
             >
-              <Box ml={-31}>
+              <Box>
                 <img src="/iconC3.png" alt="" />
               </Box>
 
@@ -255,12 +252,11 @@ const CharlasYconferencias = () => {
                   fontWeight: "700",
                   lineHeight: "30px",
                   color: "black",
-                  mt: 3,
-                  ml: -2,
+                  mt: 2,
                 }}
               >
                 Construyendo un legado: liderazgo transformador en tiempos de
-                incertidumbre{" "}
+                incertidumbre
               </Typography>
               <Typography
                 sx={{
@@ -269,31 +265,29 @@ const CharlasYconferencias = () => {
                   fontWeight: "400",
                   lineHeight: "30px",
                   color: "black",
-                  width: "280px",
                   textAlign: "left",
-                  ml: -5,
                 }}
               >
-                Cómo guiar a tus equipos y cuidar los liderazgos...{" "}
+                Cómo guiar a tus equipos y cuidar los liderazgos,
               </Typography>
             </Box>
             <Box
-              width={"24%"}
-              component={Button}
+              ml={"2%"}
+              width={"25%"}
               disableRipple={true}
               onClick={handleClickD}
               sx={{
-                mt: 6,
-                textAlign: "left",
                 textTransform: "none",
                 display: "flex",
                 flexDirection: "column",
+
                 "&:hover": {
                   backgroundColor: "transparent",
+                  cursor: "pointer",
                 },
               }}
             >
-              <Box ml={-27}>
+              <Box>
                 <img src="/iconC4.png" alt="" />
               </Box>
 
@@ -316,10 +310,11 @@ const CharlasYconferencias = () => {
                   fontWeight: "400",
                   lineHeight: "30px",
                   color: "black",
+                  textAlign: "left",
                 }}
               >
                 Diversidad, inclusión y empatía como aliadas para que las
-                diferencias sean aprovechadas como oportunidades y se...{" "}
+                diferencias sean aprovechadas como oportunidades y se
               </Typography>
             </Box>
           </Box>
@@ -341,21 +336,20 @@ const CharlasYconferencias = () => {
         )}
 
         <Parallax speed={-12}>
-          <Box mt={-3}>
-            <img src="/charlasGente.png" alt="" />
+          <Box>
+            <img width={"100%"} src="/charlasGente.png" alt="" />
           </Box>
         </Parallax>
 
         <Box
           width={"100%"}
-          height={"160vh"}
           pb={"5%"}
-          mt={-20}
+          pt={"8%"}
           style={{
             backgroundImage: "linear-gradient(to right top, #1296E9, #18CC66)",
           }}
         >
-          <Box pt={40}>
+          <Box>
             <Typography
               sx={{
                 fontFamily: "Manrope",
@@ -392,21 +386,21 @@ const CharlasYconferencias = () => {
             mt={5}
           >
             <Box
-              width={"30%"}
-              component={Button}
+              width={"25%"}
               disableRipple={true}
               onClick={handleClickE}
               sx={{
-                textAlign: "left",
                 textTransform: "none",
                 display: "flex",
                 flexDirection: "column",
+
                 "&:hover": {
                   backgroundColor: "transparent",
+                  cursor: "pointer",
                 },
               }}
             >
-              <Box ml={-26}>
+              <Box>
                 <img src="/iconC5.png" alt="" />
               </Box>
 
@@ -417,7 +411,7 @@ const CharlasYconferencias = () => {
                   fontWeight: "700",
                   lineHeight: "30px",
                   color: "black",
-                  mt: 3,
+                  mt: 2,
                 }}
               >
                 HR 5.0: abrazando la revolución de las tendencias en RRHH
@@ -429,27 +423,30 @@ const CharlasYconferencias = () => {
                   fontWeight: "400",
                   lineHeight: "30px",
                   color: "black",
+                  textAlign: "left",
                 }}
               >
-                Cómo incorporar nuevas tecnologías que sumen...
+                Cómo incorporar nuevas tecnologías que sumen
               </Typography>
             </Box>
+
             <Box
-              width={"30%"}
-              component={Button}
+              ml={"2%"}
+              width={"25%"}
               disableRipple={true}
               onClick={handleClickF}
               sx={{
-                textAlign: "left",
                 textTransform: "none",
                 display: "flex",
                 flexDirection: "column",
+
                 "&:hover": {
                   backgroundColor: "transparent",
+                  cursor: "pointer",
                 },
               }}
             >
-              <Box ml={-26}>
+              <Box>
                 <img src="/iconC6.png" alt="" />
               </Box>
 
@@ -460,7 +457,7 @@ const CharlasYconferencias = () => {
                   fontWeight: "700",
                   lineHeight: "30px",
                   color: "black",
-                  mt: 3,
+                  mt: 2,
                 }}
               >
                 Game on: IA, gaming y metaverso redefiniendo el mercado laboral
@@ -472,28 +469,29 @@ const CharlasYconferencias = () => {
                   fontWeight: "400",
                   lineHeight: "30px",
                   color: "black",
+                  textAlign: "left",
                 }}
               >
-                Herramientas para aprender cómo estas tres realidades...
+                Herramientas para aprender cómo estas tres realidades
               </Typography>
             </Box>
             <Box
-              width={"30%"}
-              ml={4}
-              component={Button}
+              ml={"2%"}
+              width={"25%"}
               disableRipple={true}
               onClick={handleClickG}
               sx={{
-                textAlign: "left",
                 textTransform: "none",
                 display: "flex",
                 flexDirection: "column",
+
                 "&:hover": {
                   backgroundColor: "transparent",
+                  cursor: "pointer",
                 },
               }}
             >
-              <Box ml={-27}>
+              <Box>
                 <img src="/iconC7.png" alt="" />
               </Box>
 
@@ -504,7 +502,7 @@ const CharlasYconferencias = () => {
                   fontWeight: "700",
                   lineHeight: "30px",
                   color: "black",
-                  mt: 3,
+                  mt: 2,
                 }}
               >
                 Cryptowork: desbloqueando el potencial de las criptomonedas
@@ -516,13 +514,14 @@ const CharlasYconferencias = () => {
                   fontWeight: "400",
                   lineHeight: "30px",
                   color: "black",
+                  textAlign: "left",
                 }}
               >
-                Exploración del impacto y las oportunidades que las...
+                Exploración del impacto y las oportunidades que las
               </Typography>
             </Box>
           </Box>
-          <Box mt={"5%"} ml={"43%"}>
+          <Box mt={"5%"} textAlign={"center"}>
             <BlackButtom texto={"Consultanos"} linkTo={"/contacto"} />
           </Box>
           {componenteVisible === "ComponenteE" && (
@@ -967,8 +966,7 @@ const CharlasYconferencias = () => {
           <img
             style={{ objectFit: "cover" }}
             width={"100%"}
-            height={"310vh"}
-            src="/charlas1.png"
+            src="/mobileCharlas.png"
             alt=""
           />
         </Box>
@@ -986,7 +984,7 @@ const CharlasYconferencias = () => {
               fontFamily: "Merriweather",
               fontSize: "20px",
               fontWeight: "300",
-              color: "black",
+              color: "white",
               lineHeight: "30px",
             }}
           >
@@ -996,15 +994,18 @@ const CharlasYconferencias = () => {
           </Typography>
         </Box>
 
-        <Box sx={{ bgcolor: "#18CC66", width: "100%" }}>
-          <Box p={"7%"} margin={"auto"}>
-            <Box textAlign={"center"} pt={"12%"}>
+        <Box
+          id={"seccionDestino"}
+          sx={{ width: "100%", pt: "12%", pb: "10%", bgcolor: "#18CC66" }}
+        >
+          <Box width={"88%"} margin={"auto"}>
+            <Box width={"20%"}>
               <Typography
                 sx={{
                   fontFamily: "Manrope",
-                  fontWeight: "100",
-                  fontSize: "40px",
-                  lineHeight: "36px",
+                  fontWeight: "300",
+                  fontSize: "46px",
+                  lineHeight: "90%",
                   color: "white",
                 }}
               >
@@ -1012,22 +1013,33 @@ const CharlasYconferencias = () => {
               </Typography>
             </Box>
           </Box>
-          <Box textAlign={"center"} mt={"5%"} mb={"5%"}>
-            <BlackButtom texto={"Consultanos"} linkTo={"/contacto"} />
-          </Box>
 
-          <Box p={"7%"} mt={"7%"}>
+          <Box
+            width={"88%"}
+            m={"auto"}
+            justifyContent={"space-evenly"}
+            mt={"5%"}
+          >
             <Box
-              component={Button}
+              width={"88%"}
+              pt={"8%"}
+              disableRipple={true}
               onClick={handleClickA}
               sx={{
                 textTransform: "none",
                 display: "flex",
                 flexDirection: "column",
-                justifyContent: "start",
+
+                "&:hover": {
+                  backgroundColor: "transparent",
+                  cursor: "pointer",
+                },
               }}
             >
-              <img src="/iconC1.png" alt="" />
+              <Box>
+                <img src="/iconC1.png" alt="" />
+              </Box>
+
               <Typography
                 sx={{
                   fontFamily: "Manrope",
@@ -1035,7 +1047,7 @@ const CharlasYconferencias = () => {
                   fontWeight: "700",
                   lineHeight: "30px",
                   color: "black",
-                  mt: 3,
+                  mt: 2,
                 }}
               >
                 Amplifying impact:
@@ -1047,6 +1059,7 @@ const CharlasYconferencias = () => {
                   fontWeight: "400",
                   lineHeight: "30px",
                   color: "black",
+                  textAlign: "left",
                 }}
               >
                 Cómo la influencia puede ayudarte a motivar a tu equipo y tus
@@ -1055,15 +1068,25 @@ const CharlasYconferencias = () => {
             </Box>
 
             <Box
-              component={Button}
+              pt={"8%"}
+              width={"88%"}
+              disableRipple={true}
               onClick={handleClickB}
               sx={{
                 textTransform: "none",
                 display: "flex",
                 flexDirection: "column",
+
+                "&:hover": {
+                  backgroundColor: "transparent",
+                  cursor: "pointer",
+                },
               }}
             >
-              <img src="/iconC2.png" alt="" />
+              <Box>
+                <img src="/iconC2.png" alt="" />
+              </Box>
+
               <Typography
                 sx={{
                   fontFamily: "Manrope",
@@ -1071,10 +1094,10 @@ const CharlasYconferencias = () => {
                   fontWeight: "700",
                   lineHeight: "30px",
                   color: "black",
-                  mt: 3,
+                  mt: 2,
                 }}
               >
-                Date with myself: turismo interior{" "}
+                Date with myself: turismo interior
               </Typography>
               <Typography
                 sx={{
@@ -1083,22 +1106,33 @@ const CharlasYconferencias = () => {
                   fontWeight: "400",
                   lineHeight: "30px",
                   color: "black",
+                  textAlign: "left",
                 }}
               >
                 La importancia del autoconocimiento para la estabilidad, el
-                equilibrio y el desarrollo del potencial de cada...{" "}
+                equilibrio y el de..
               </Typography>
             </Box>
             <Box
-              component={Button}
+              pt={"8%"}
+              width={"88%"}
+              disableRipple={true}
               onClick={handleClickC}
               sx={{
                 textTransform: "none",
                 display: "flex",
                 flexDirection: "column",
+
+                "&:hover": {
+                  backgroundColor: "transparent",
+                  cursor: "pointer",
+                },
               }}
             >
-              <img src="/iconC3.png" alt="" />
+              <Box>
+                <img src="/iconC3.png" alt="" />
+              </Box>
+
               <Typography
                 sx={{
                   fontFamily: "Manrope",
@@ -1106,11 +1140,11 @@ const CharlasYconferencias = () => {
                   fontWeight: "700",
                   lineHeight: "30px",
                   color: "black",
-                  mt: 3,
+                  mt: 2,
                 }}
               >
                 Construyendo un legado: liderazgo transformador en tiempos de
-                incertidumbre{" "}
+                incertidumbre
               </Typography>
               <Typography
                 sx={{
@@ -1119,21 +1153,32 @@ const CharlasYconferencias = () => {
                   fontWeight: "400",
                   lineHeight: "30px",
                   color: "black",
+                  textAlign: "left",
                 }}
               >
-                Cómo guiar a tus equipos y cuidar los liderazgos...{" "}
+                Cómo guiar a tus equipos y cuidar los liderazgos,
               </Typography>
             </Box>
             <Box
-              component={Button}
+              pt={"8%"}
+              width={"88%"}
+              disableRipple={true}
               onClick={handleClickD}
               sx={{
                 textTransform: "none",
                 display: "flex",
                 flexDirection: "column",
+
+                "&:hover": {
+                  backgroundColor: "transparent",
+                  cursor: "pointer",
+                },
               }}
             >
-              <img src="/iconC4.png" alt="" />
+              <Box>
+                <img src="/iconC4.png" alt="" />
+              </Box>
+
               <Typography
                 sx={{
                   fontFamily: "Manrope",
@@ -1141,7 +1186,7 @@ const CharlasYconferencias = () => {
                   fontWeight: "700",
                   lineHeight: "30px",
                   color: "black",
-                  mt: 3,
+                  mt: 2,
                 }}
               >
                 Sinfonía: cómo armonizar distintas generaciones
@@ -1153,12 +1198,16 @@ const CharlasYconferencias = () => {
                   fontWeight: "400",
                   lineHeight: "30px",
                   color: "black",
+                  textAlign: "left",
                 }}
               >
                 Diversidad, inclusión y empatía como aliadas para que las
-                diferencias sean aprovechadas como oportunidades y se...{" "}
+                diferencias sean aprovechadas como oportunidades y se
               </Typography>
             </Box>
+          </Box>
+          <Box ml={"5%"} mt={"8%"} mb={"2%"}>
+            <BlackButtom texto={"Consultanos"} linkTo={"/contacto"} />
           </Box>
         </Box>
         {componenteVisible === "ComponenteA" && (
@@ -1173,155 +1222,172 @@ const CharlasYconferencias = () => {
         {componenteVisible === "ComponenteD" && (
           <Charlas4 handleCloseComponente={handleCloseComponente} />
         )}
+        <Box sx={{ bgcolor: "#1296E9", width: "100%" }}>
+          <Box width={"88%"} m={"auto"} pb={"5%"} pt={"8%"}>
+            <Box>
+              <Typography
+                sx={{
+                  fontFamily: "Manrope",
+                  fontSize: "46px",
+                  fontWeight: "300",
+                  color: "white",
+                }}
+              >
+                Tecnología
+              </Typography>
+            </Box>
+            <Box>
+              <Box
+                width={"88%"}
+                pt={"8%"}
+                disableRipple={true}
+                onClick={handleClickE}
+                sx={{
+                  textTransform: "none",
+                  display: "flex",
+                  flexDirection: "column",
 
-        <Box sx={{ p: "7%" }} width={"100%"} bgcolor={"#1296E9"}>
-          <Box textAlign={"center"}>
-            <Typography
-              p={"7%"}
-              sx={{
-                fontFamily: "Manrope",
-                fontWeight: "100",
-                fontSize: "40px",
-                lineHeight: "36px",
-                color: "white",
-              }}
-            >
-              Tecnología
-            </Typography>
-            <Box mt={"5%"} textAlign={"center"}>
+                  "&:hover": {
+                    backgroundColor: "transparent",
+                    cursor: "pointer",
+                  },
+                }}
+              >
+                <Box>
+                  <img src="/iconC5.png" alt="" />
+                </Box>
+
+                <Typography
+                  sx={{
+                    fontFamily: "Manrope",
+                    fontSize: "20px",
+                    fontWeight: "700",
+                    lineHeight: "30px",
+                    color: "black",
+                    mt: 2,
+                  }}
+                >
+                  HR 5.0: abrazando la revolución de las tendencias en RRHH
+                </Typography>
+                <Typography
+                  sx={{
+                    fontFamily: "Manrope",
+                    fontSize: "20px",
+                    fontWeight: "400",
+                    lineHeight: "30px",
+                    color: "black",
+                    textAlign: "left",
+                  }}
+                >
+                  Cómo incorporar nuevas tecnologías que sumen
+                </Typography>
+              </Box>
+
+              <Box
+                pt={"8%"}
+                width={"88%"}
+                disableRipple={true}
+                onClick={handleClickF}
+                sx={{
+                  textTransform: "none",
+                  display: "flex",
+                  flexDirection: "column",
+
+                  "&:hover": {
+                    backgroundColor: "transparent",
+                    cursor: "pointer",
+                  },
+                }}
+              >
+                <Box>
+                  <img src="/iconC6.png" alt="" />
+                </Box>
+
+                <Typography
+                  sx={{
+                    fontFamily: "Manrope",
+                    fontSize: "20px",
+                    fontWeight: "700",
+                    lineHeight: "30px",
+                    color: "black",
+                    mt: 2,
+                  }}
+                >
+                  Game on: IA, gaming y metaverso redefiniendo el mercado
+                  laboral
+                </Typography>
+                <Typography
+                  sx={{
+                    fontFamily: "Manrope",
+                    fontSize: "20px",
+                    fontWeight: "400",
+                    lineHeight: "30px",
+                    color: "black",
+                    textAlign: "left",
+                  }}
+                >
+                  Herramientas para aprender cómo estas tres realidades
+                </Typography>
+              </Box>
+              <Box
+                pt={"8%"}
+                width={"88%"}
+                disableRipple={true}
+                onClick={handleClickG}
+                sx={{
+                  textTransform: "none",
+                  display: "flex",
+                  flexDirection: "column",
+
+                  "&:hover": {
+                    backgroundColor: "transparent",
+                    cursor: "pointer",
+                  },
+                }}
+              >
+                <Box>
+                  <img src="/iconC7.png" alt="" />
+                </Box>
+
+                <Typography
+                  sx={{
+                    fontFamily: "Manrope",
+                    fontSize: "20px",
+                    fontWeight: "700",
+                    lineHeight: "30px",
+                    color: "black",
+                    mt: 2,
+                  }}
+                >
+                  Cryptowork: desbloqueando el potencial de las criptomonedas
+                </Typography>
+                <Typography
+                  sx={{
+                    fontFamily: "Manrope",
+                    fontSize: "20px",
+                    fontWeight: "400",
+                    lineHeight: "30px",
+                    color: "black",
+                    textAlign: "left",
+                  }}
+                >
+                  Exploración del impacto y las oportunidades que las
+                </Typography>
+              </Box>
+            </Box>
+            <Box pt={"8%"} pb={"8%"}>
               <BlackButtom texto={"Consultanos"} linkTo={"/contacto"} />
             </Box>
-
-            {/* texto que hay que pregunta si va */}
-            {/*  <Typography
-              m={"auto"}
-              sx={{
-                fontFamily: "Manrope",
-                fontSize: "32px",
-                fontWeight: "300",
-                color: "white",
-              }}
-            >
-              Capacitaciones sobre estrategias de transformación digital e
-              incorporación de Inteligencia Artificial y nuevas tecnologías,
-              para convertirlas en un factor diferencial clave que generen un
-              salto de crecimiento en tu negocio. 
-            </Typography> */}
+            {componenteVisible === "ComponenteE" && (
+              <Charlas5 handleCloseComponente={handleCloseComponente} />
+            )}
+            {componenteVisible === "ComponenteF" && (
+              <Charlas6 handleCloseComponente={handleCloseComponente} />
+            )}
+            {componenteVisible === "ComponenteG" && (
+              <Charlas7 handleCloseComponente={handleCloseComponente} />
+            )}
           </Box>
-          <Box width={"100%"} mt={5}>
-            <Box
-              component={Button}
-              onClick={handleClickE}
-              sx={{
-                textTransform: "none",
-                display: "flex",
-                flexDirection: "column",
-              }}
-            >
-              <img src="/iconC5.png" alt="" />
-              <Typography
-                sx={{
-                  fontFamily: "Manrope",
-                  fontSize: "20px",
-                  fontWeight: "700",
-                  lineHeight: "30px",
-                  color: "black",
-                  mt: 3,
-                }}
-              >
-                HR 5.0: abrazando la revolución de las tendencias en RRHH
-              </Typography>
-              <Typography
-                sx={{
-                  fontFamily: "Manrope",
-                  fontSize: "20px",
-                  fontWeight: "400",
-                  lineHeight: "30px",
-                  color: "black",
-                }}
-              >
-                Cómo incorporar nuevas tecnologías que sumen...
-              </Typography>
-            </Box>
-            <Box
-              component={Button}
-              onClick={handleClickF}
-              sx={{
-                textTransform: "none",
-                display: "flex",
-                flexDirection: "column",
-              }}
-            >
-              <img src="/iconC6.png" alt="" />
-              <Typography
-                sx={{
-                  fontFamily: "Manrope",
-                  fontSize: "20px",
-                  fontWeight: "700",
-                  lineHeight: "30px",
-                  color: "black",
-                  mt: 3,
-                }}
-              >
-                Game on: IA, gaming y metaverso redefiniendo el mercado laboral
-              </Typography>
-              <Typography
-                sx={{
-                  fontFamily: "Manrope",
-                  fontSize: "20px",
-                  fontWeight: "400",
-                  lineHeight: "30px",
-                  color: "black",
-                }}
-              >
-                Herramientas para aprender cómo estas tres realidades...
-              </Typography>
-            </Box>
-            <Box
-              component={Button}
-              onClick={handleClickG}
-              sx={{
-                textTransform: "none",
-                display: "flex",
-                flexDirection: "column",
-              }}
-            >
-              <img src="/iconC7.png" alt="" />
-              <Typography
-                sx={{
-                  fontFamily: "Manrope",
-                  fontSize: "20px",
-                  fontWeight: "700",
-                  lineHeight: "30px",
-                  color: "black",
-                  mt: 3,
-                }}
-              >
-                Cryptowork: desbloqueando el potencial de las criptomonedas
-              </Typography>
-              <Typography
-                sx={{
-                  fontFamily: "Manrope",
-                  fontSize: "20px",
-                  fontWeight: "400",
-                  lineHeight: "30px",
-                  color: "black",
-                }}
-              >
-                Exploración del impacto y las oportunidades que las...
-              </Typography>
-            </Box>
-          </Box>
-
-          {componenteVisible === "ComponenteE" && (
-            <Charlas5 handleCloseComponente={handleCloseComponente} />
-          )}
-          {componenteVisible === "ComponenteF" && (
-            <Charlas6 handleCloseComponente={handleCloseComponente} />
-          )}
-          {componenteVisible === "ComponenteG" && (
-            <Charlas7 handleCloseComponente={handleCloseComponente} />
-          )}
         </Box>
       </Hidden>
     </>

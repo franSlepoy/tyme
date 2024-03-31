@@ -8,19 +8,20 @@ const TestimonioCard = (props) => {
           m: "auto",
           borderRadius: "50%",
           overflow: "hidden",
-          width: "160px",
-          height: "165px",
+          width: "40%",
+          height: "40%",
+          mb:"4%"
         }}
       >
-        <img width={"100%"} src={props.imagen} alt="avatar" />
+        <img width={"100%"}  src={props.imagen} alt="avatar" />
       </Box>
 
       <Box
-        sx={{ padding: 5, backgroundColor: "#E5DE04", borderRadius: "20px", width:{md:"60%", sm:"100%"}, m:"auto" }}
+        sx={{ padding:"8%", backgroundColor: "#E5DE04", borderRadius: "20px", m:"auto" }}
       >
         <Typography
           sx={{
-            mt: "25px",
+            
             fontFamily: "Manrope",
             fontSize: "16px",
             fontWeight: 400,

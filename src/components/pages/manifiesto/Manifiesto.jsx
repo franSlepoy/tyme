@@ -8,7 +8,7 @@ const Manifiesto = () => {
     <>
       <Hidden lgDown>
         <Parallax speed={-12} tagOuter="figure">
-          <Box mt={2} width={"100%"} height={"100vh"} overflow="hidden">
+          <Box mt={2} width={"100%"} overflow="hidden">
             <img width={"100%"} src="/maniefiesto1.png" alt="" />
           </Box>
         </Parallax>
@@ -49,11 +49,11 @@ const Manifiesto = () => {
         <Box
           id="seccionDestino"
           width={"100%"}
-          height={"84vh"}
-          sx={{ bgcolor: "rgba(15, 150, 233, 0.4)" }}
+          
+          sx={{ bgcolor: "rgba(15, 150, 233, 0.4)", pt:"10%", pb:"4%" }}
         >
           <Box display={"flex"} width={"87%"} m={"auto"}>
-            <Box mt={"15%"} width={"52%"}>
+            <Box  width={"52%"}>
               <Typography
                 sx={{
                   fontFamily: "Manrope",
@@ -86,7 +86,7 @@ const Manifiesto = () => {
                 atravesar una <strong>experiencia que valoren.</strong>
               </Typography>
             </Box>
-            <Box mt={"14%"} ml={"12%"} width={"30%"}>
+            <Box  ml={"12%"} width={"30%"}>
               <Typography
                 sx={{
                   fontFamily: "Marriweather",
@@ -203,7 +203,7 @@ const Manifiesto = () => {
           <img
             style={{ objectFit: "cover" }}
             width={"100%"}
-            src="/maniefiesto1.png"
+            src="/mobileManifiesto.png"
             alt=""
           />
         </Box>
@@ -229,7 +229,7 @@ const Manifiesto = () => {
         <Box
           sx={{
             position: "absolute",
-            top: "29% ",
+            top: "49% ",
             left: "9%",
             width: "52%",
           }}
@@ -267,7 +267,7 @@ const Manifiesto = () => {
           sx={{ bgcolor: "rgba(15, 150, 233, 0.4)" }}
         >
           <Box m={"auto"}>
-            <Box width={"88%"} pt={5} m={"auto"}>
+            <Box width={"88%"}  m={"auto"} pt={"8%"}>
               <Typography
                 sx={{
                   width: "76%",

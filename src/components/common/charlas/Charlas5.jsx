@@ -8,20 +8,18 @@ const Charlas5 = ({ handleCloseComponente }) => {
       top={"348%"}
       left={"6%"}
       display={"flex"}
-      height={"78vh"}
       width={"87%"}
+      pt={"5%"}
+      pb={"5%"}
       sx={{
-        
-        backgroundImage: `url("/gameOn.png")`, // Reemplaza con la ruta de tu imagen
+        backgroundImage: `url("/Gameon1.png")`, // Reemplaza con la ruta de tu imagen
         backgroundSize: "cover",
         backgroundPosition: "center",
       }}
-      
     >
-     
-      <Box ml={"10%"} mt={"3.4%"} width={"53%"}>
+      <Box ml={"10%"}  width={"53%"}>
         <Button onClick={handleCloseComponente} sx={{ ml: -3 }}>
-          <img  src="/flechaCH.png" alt="" />
+          <img src="/flechaCH.png" alt="" />
         </Button>
 
         <Typography
@@ -65,16 +63,9 @@ const Charlas5 = ({ handleCloseComponente }) => {
           identificar por qué y para qué sumarlas como un valor a la
           organización y aprovechar su potencial.
         </Typography>
-        <BlackButtom texto={"Consultanos"} linkTo={"/contacto"}  />
+        <BlackButtom texto={"Consultanos"} linkTo={"/contacto"} />
       </Box>
-      <Box ml={"5%"}>
-        <Box position={"absolute"} top={"35%"} left={"75%"}>
-          <img src="/iconCH5.png" alt="" />
-        </Box>
-        <Box ml={"1%"} mt={"35%"}>
-          <img src="/redondo.png" alt="" />
-        </Box>
-      </Box>
+      
     </Box>
   );
 };

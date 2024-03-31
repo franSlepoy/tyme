@@ -19,20 +19,20 @@ const Home = () => {
       <Hidden lgDown>
         <Parallax speed={-8}>
           <Box width={"100%"} height={"100vh"} overflow="hidden">
-            <img style={{ width: "100%" }} src="/header1.png" alt="" />
+            <img style={{ width: "100%" }} src="/home.png" alt="" />
           </Box>
         </Parallax>
         <Box>
           <Box sx={{ position: "absolute", top: "44%" }}>
-            <img src="/nosotros4.png" alt="" />
+            <img width={"100%"} src="/nosotros4.png" alt="" />
           </Box>
           <Box
             sx={{
               position: "absolute",
-              top: "22% ",
-              left: "27%",
+              top: "42% ",
+              left: "7%",
               width: "48%",
-              textAlign: "center",
+              
             }}
           >
             <Typography
@@ -40,7 +40,7 @@ const Home = () => {
                 fontFamily: "Merriweather",
                 fontSize: "40px",
                 fontWeight: "300",
-                color: "white",
+                color: "black",
               }}
             >
               Somos el puente entre el equipo que tienes y el que quieres
@@ -49,8 +49,8 @@ const Home = () => {
           <Box
             sx={{
               position: "absolute",
-              top: { sm: "95%", md: "90%", lg: "95%" },
-              left: "43%",
+              top: "75%",
+              left: "7%",
             }}
           >
             {/* <GreenButtom texto={"Conoce más"} linkTo={"/#seccionDestino"} /> */}
@@ -65,7 +65,7 @@ const Home = () => {
           m={"auto"}
           width={"87%"}
           display={"flex"}
-          pt={"20vh"}
+          pt={"50px"}
         >
           <Box width={"45%"}>
             <Typography
@@ -187,13 +187,12 @@ const Home = () => {
           </Typography>
 
           <Box sx={{ margin: "auto" }}>
-            <Carousel  sx={{ marginBottom: "86px" }}>
+            <Carousel sx={{ marginBottom: "86px" }}>
               <Testimonios />
               <Testimonios1 />
               <Testimonios2 />
             </Carousel>
           </Box>
-        
         </Box>
       </Hidden>
 
@@ -350,10 +349,7 @@ const Home = () => {
           </Typography>
 
           <Box sx={{ width: "87%", margin: "auto" }}>
-            <Carousel
-             
-              sx={{ width: "90%", m: "auto", mt: 8, mb: 8 }}
-            >
+            <Carousel sx={{ width: "90%", m: "auto", mt: 8, mb: 8 }}>
               {TestimoniosCradData.map((persona) => (
                 <TestimonioCard
                   nombre={persona.nombre}
@@ -370,17 +366,11 @@ const Home = () => {
       </Hidden>
 
       <Hidden smUp>
-        <Box
-          mt={"-25px"}
-          bgcolor={"#73F0A2"}
-          width={"100%"}
-          height={"60vh"}
-          m={"auto"}
-        >
+        <Box  bgcolor={"#73F0A2"} width={"100%"} m={"auto"}>
           <Box
             sx={{
               width: "88%",
-
+              pb:"12%",
               pt: "12%",
             }}
           >
@@ -398,7 +388,7 @@ const Home = () => {
             </Typography>
           </Box>
 
-          <Box pt={11} ml={"10%"}>
+          <Box pt={"5%"} pb={"5%"} ml={"10%"}>
             <BlackButtom texto={"Conócenos"} linkTo={"/quienesSomos"} />
           </Box>
         </Box>
@@ -422,11 +412,22 @@ const Home = () => {
           </Box>
         </Box>
 
-   <QueHacemos/>
-  <Testimonios/>
-  <Testimonios1/>
-  <Testimonios2/>
-       {/* carrusel <Box>
+        <QueHacemos />
+        <Box sx={{ width: "87%", margin: "auto" }}>
+            <Carousel sx={{ width: "90%", m: "auto", mt: 8, mb: 8 }}>
+              {TestimoniosCradData.map((persona) => (
+                <TestimonioCard
+                  nombre={persona.nombre}
+                  key={persona.id}
+                  texto={persona.texto}
+                  imagen={persona.imagen}
+                  empresa={persona.empresa}
+                  cargo={persona.cargo}
+                />
+              ))}
+            </Carousel>
+          </Box>
+        {/* carrusel <Box>
           <Typography
             sx={{
               textAlign: "center",

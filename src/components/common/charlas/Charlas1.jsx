@@ -11,7 +11,6 @@ const Charlas1 = ({ handleCloseComponente }) => {
           top={"128%"}
           left={"6%"}
           display={"flex"}
-          height={"81vh"}
           width={"87%"}
           sx={{ bgcolor: "#73F0A2" }}
           zIndex={100}
@@ -35,7 +34,7 @@ const Charlas1 = ({ handleCloseComponente }) => {
             </Typography>
             <Typography
               sx={{
-                mt:"1%",
+                mt: "1%",
                 width: "64%",
                 fontFamily: "Manrope",
                 fontSize: "30px",
@@ -55,7 +54,7 @@ const Charlas1 = ({ handleCloseComponente }) => {
                 fontWeight: "300",
                 lineHeight: "30px",
                 color: "black",
-                width:"550px"
+                width: "550px",
               }}
             >
               Cómo la influencia puede ayudarte a motivar a tu equipo y tus
@@ -63,45 +62,43 @@ const Charlas1 = ({ handleCloseComponente }) => {
               Cómo cultivar una cultura de confianza y herramientas para
               implementar el cambio midiendo su impacto en el negocio.
             </Typography>
-           
-           <Box>
-           <Button
-    disableRipple={true}
-    component={Link} // Usa Link como el componente de Button
-    to={"/contacto"} // Pasa la URL a la que se debe dirigir el enlace
-      variant="contained"
-      sx={{
-        height: "43px",
-        width: "177px",
-        borderRadius: "100px",
-        backgroundColor: "black",
-        "&:hover": {
-          borderRadius: "100px",
-          backgroundColor: "black", // Mismo color de fondo que el estado normal
-          color: "white", // Mismo color de texto que el estado normal
-          textAlign: "center",
-        },
-      }}
-    >
-      <Typography 
-        sx={{
-          
-          textTransform: "none",
-          fontFamily: "Manrope",
-          lineHeight: "20px",
-          fontWeight: 400,
-          letterSpacing: "0.1",
-          color:"#73F0A2"
-        }}
-      >
-        Consultanos
-      </Typography>
-    </Button>
-           </Box>
 
+            <Box>
+              <Button
+                disableRipple={true}
+                component={Link} // Usa Link como el componente de Button
+                to={"/contacto"} // Pasa la URL a la que se debe dirigir el enlace
+                variant="contained"
+                sx={{
+                  height: "43px",
+                  width: "177px",
+                  borderRadius: "100px",
+                  backgroundColor: "black",
+                  "&:hover": {
+                    borderRadius: "100px",
+                    backgroundColor: "black", // Mismo color de fondo que el estado normal
+                    color: "white", // Mismo color de texto que el estado normal
+                    textAlign: "center",
+                  },
+                }}
+              >
+                <Typography
+                  sx={{
+                    textTransform: "none",
+                    fontFamily: "Manrope",
+                    lineHeight: "20px",
+                    fontWeight: 400,
+                    letterSpacing: "0.1",
+                    color: "#73F0A2",
+                  }}
+                >
+                  Consultanos
+                </Typography>
+              </Button>
+            </Box>
           </Box>
-          <Box width={"40%"} ml={6}>
-            <img height={"100%"} src="/ch01.png" alt="" />
+          <Box width={"40%"}>
+            <img width={"100%"} height={"100%"} src="/ch01.png" alt="" />
           </Box>
         </Box>
       </Hidden>
@@ -111,7 +108,7 @@ const Charlas1 = ({ handleCloseComponente }) => {
           position={"absolute"}
           top={"128%"}
           display={"flex"}
-          height={"90vh"}
+          
           width={"100%"}
           sx={{ bgcolor: "#73F0A2" }}
           zIndex={100}
@@ -165,7 +162,7 @@ const Charlas1 = ({ handleCloseComponente }) => {
             <BlackButtom texto={"Consultanos"} />
           </Box>
           <Box width={"40%"} ml={6}>
-            <img height={"100%"} src="/iconCH1.png" alt="" />
+            <img width={"100%"} src="/iconCH1.png" alt="" />
             <Typography
               position={"absolute"}
               top={"28%"}

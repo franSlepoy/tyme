@@ -34,10 +34,10 @@ const NavBar = () => {
           }}
         >
           <Toolbar sx={{ mt: 2 }}>
-            <Box ml={1} component={NavLink} to={"/"}>
-              <img src="/logo.png" alt="logo" />
+            <Box  width={"24%"} ml={1} component={NavLink} to={"/"}>
+              <img  src="/logo.png" alt="logo" />
             </Box>
-            <Box display={"flex"} width={"84%"}>
+            <Box  display={"flex"} justifyContent={"flex-end"} width={"76%"} >
               <Typography
                 sx={{
                   fontFamily: "Manrope",
@@ -46,7 +46,7 @@ const NavBar = () => {
                   minWidth: "122px",
 
                   fontWeight: 400,
-                  ml: "20%",
+              
                   color: "black",
 
                   fontSize: "16px",
@@ -166,7 +166,7 @@ const NavBar = () => {
                   height: "26px",
                   fontWeight: 500,
                   ml: "3%",
-                  color: "#003350",
+                  color: "black",
                   textAlign: "center",
                   fontSize: "14px",
                   fontStyle: "normal",

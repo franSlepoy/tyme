@@ -25,8 +25,8 @@ const Contacto = () => {
               <Formulario />
             </Box>
 
-            <Box ml={"7%"}>
-              <img height={"83%"} src="/contacto.png" alt="" />
+            <Box ml={"7%"} width={"60%"}>
+              <img width={"100%"}  src="/contacto.png" alt="" />
             </Box>
           </Box>
         </Box>

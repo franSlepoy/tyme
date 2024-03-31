@@ -1,7 +1,7 @@
 export const TestimoniosCradData = [
     
     {id: 1,
-        imagen: "/testimonios1.jpeg",
+        imagen: "/testimonios1.png",
         nombre: "Melina Collar",
         texto:"Siempre que he tenido el privilegio de conversar con Javi, quedo sorprendida por su profundo conocimiento y entendimiento sobre el mundo de los recursos humanos y la gestión de personas. Su enfoque innovador, combinado con su genuina pasión por el desarrollo del talento, lo convierte en una fuente invaluable de insights y recomendaciones.",
         cargo:"Chief Risk Officer – International Markets",
@@ -25,7 +25,7 @@ export const TestimoniosCradData = [
         
        },
        {id: 4,
-        imagen: "/testimonios4.jpeg",
+        imagen: "/testimonios4.png",
         nombre: " Ruben Sanchez",
         texto:"En mis años al mando de diversas compañías, he cruzado caminos con numerosos profesionales de RRHH, pero pocos han dejado una huella tan profunda como Javier. Su entendimiento agudo de los recursos humanos, combinado con una destreza única para cultivar y guiar a líderes, le distingue en un mar de expertos. Más allá de su experiencia, es su enfoque humano y su visión clara lo que realmente transforma equipos y organizaciones. Si hay alguien que entiende la temperatura real de una organización y cómo elevarla, es sin duda él.",
         cargo:"CEO – Perú",
@@ -41,7 +41,7 @@ export const TestimoniosCradData = [
         
        },
        {id: 6,
-        imagen: "/testimonios6.JPG",
+        imagen: "/testimonios6.png",
         nombre: "Gustavo Martinez",
         texto:"Como CEO de organizaciones, puedo decir con confianza que trabajar con Tyme es una experiencia transformadora. Su profundo conocimiento en Recursos Humanos y su enfoque estratégico han tenido un impacto significativo en nuestro crecimiento. Con una mirada muy fuerte en el negocio, han demostrado ser socios valiosos, proporcionando soluciones innovadoras y adaptadas a nuestras necesidades específicas.",
         cargo:"CEO & Partner - España, México, Brazil y Argentina",
@@ -49,7 +49,7 @@ export const TestimoniosCradData = [
         
        },
        {id: 7,
-        imagen: "/testimonios7.jpg",
+        imagen: "/testimonio7.png",
         nombre: "Pedro Pieczanski",
         texto:"El acompañamiento y nivel de involucramiento que tienen es excelente. Hoy los cambios son cada vez más rápidos, y se nota que las propuestas de trabajo son disruptivas y tendenciosas, con metodologías propias y muy sólidas. Javier tiene la fortaleza de hacer un trabajo en conjunto que crea valor para todos. Gracias a su experiencia, se fortalece la cultura organizacional, alcanzado nuevos niveles de eficiencia en la gestión de personas.",
         cargo:"Founder y CEO – Europa, África, Asia y LATAM.",
@@ -57,7 +57,7 @@ export const TestimoniosCradData = [
         
        },
        {id: 8,
-        imagen: "/testimonios8.jpg",
+        imagen: "/testimonio8.png",
         nombre: "Ximena Sureda",
         texto:"Al embarcarme en el desafiante viaje de construir una startup, me encontré con muchos obstáculos, especialmente en el terreno de gestionar un equipo en constante crecimiento. Tyme ha sido una luz en ese camino. Su expertise en recursos humanos y su habilidad para transformar líderes son simplemente incomparables. Su enfoque no sólo es técnico, sino también profundamente humano, entendiendo las particularidades de una empresa emergente.",
         cargo:"Founder y CEO – Panamá",

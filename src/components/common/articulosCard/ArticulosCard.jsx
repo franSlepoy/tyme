@@ -7,7 +7,7 @@ import { Box, Button, CardActionArea, CardActions, Link } from '@mui/material';
 
 export default function ArticuloCard(props) {
   return (
-    <Card sx={{m:2,  mt:"22%", p:3, height: "410px",width:"93%", bgcolor:"#D0F2FB", borderRadius:"10px"}}>
+    <Card sx={{m:2,  mt:"22%", p:3, minHeight:"450px",width:"93%", bgcolor:"#D0F2FB", borderRadius:"10px"}}>
       <Link style={{ textDecoration: 'none' }}  href={props.link} target="_blank">
       <CardActionArea>
         <CardMedia
@@ -25,8 +25,8 @@ export default function ArticuloCard(props) {
           
         </CardContent>
      
-      <Box position={"absolute"} top={"47vh"} ml={"12px"}  >
-        <Typography sx={{fontFamily:"Manrope", fontSize:"14", lineHeight:"20px", letterSpacing:"0.1px", color:"black", textTransform:"uppercase", mb:"22px"}}  >
+      <Box position={"absolute"} left={"4%"} top={"100%"} >
+        <Typography sx={{fontFamily:"Manrope", fontSize:"14", lineHeight:"20px", letterSpacing:"0.1px", color:"black", textTransform:"uppercase", }}  >
           ver artículo>
         </Typography>
       </Box>

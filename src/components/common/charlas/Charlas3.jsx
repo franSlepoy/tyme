@@ -8,7 +8,7 @@ const Charlas3 = ({ handleCloseComponente }) => {
       top={"128%"}
       left={"6%"}
       display={"flex"}
-      height={"78vh"}
+     
       width={"87%"}
       sx={{ bgcolor: "#73F0A2" }}
       zIndex={100}
@@ -62,7 +62,7 @@ const Charlas3 = ({ handleCloseComponente }) => {
         <BlackButtom texto={"Consultanos"} linkTo={"/contacto"} />
       </Box>
       <Box width={"40%"} ml={6}>
-        <img height={"100%"} src="/ch03.png" alt="" />
+        <img width={"100%"} height={"100%"} src="/ch03.png" alt="" />
       </Box>
     </Box>
   );

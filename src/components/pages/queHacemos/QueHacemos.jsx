@@ -75,7 +75,7 @@ const QueHacemos = () => {
         </Parallax>
         <Box>
           <Box sx={{ position: "absolute", top: "22%", left: "53%" }}>
-            <img src="/nosotros2.png" alt="" />
+            <img width={"100%"} src="/nosotros2.png" alt="" />
           </Box>
           <Box
             sx={{ position: "absolute", top: "46% ", left: "7%", width: "52%" }}
@@ -96,7 +96,7 @@ const QueHacemos = () => {
           <Box
             sx={{
               position: "absolute",
-              top: { sm: "95%", md: "90%", lg: "92%" },
+              top:"75%",
               left: "7%",
             }}
           >
@@ -108,7 +108,7 @@ const QueHacemos = () => {
         <Box width={"100%"} height={"90px"} id={"seccionDestino"}>
           <Typography
             sx={{
-              mt: "8%",
+              mt: "4%",
               ml: "5%",
               fontFamily: "Merriweather",
               fontSize: "42px",
@@ -120,15 +120,15 @@ const QueHacemos = () => {
         </Box>
 
         <Box
-          sx={{ width: "100%", backgroundColor: "#1296E9", minHeight: "70vh" }}
+          sx={{ width: "100%", backgroundColor: "#1296E9", pb:"5%" }}
         >
           <Box sx={{ position: "absolute", mt: "75px" }}>
-            <img src="/nosotros3.png" alt="" />
+            <img width={"100%"} src="/nosotros3.png" alt="" />
           </Box>
           <Box display={"flex"} width={"90%"} m={"auto"}>
             <Box width={"40%"}>
               <Typography
-                mt={"168px"}
+                mt={"30%"}
                 sx={{
                   fontFamily: "Manrope",
                   fontWeight: "600",
@@ -153,7 +153,7 @@ const QueHacemos = () => {
               </Box>
             </Box>
 
-            <Box ml={"12%"} mt={"-22px"} width={"40%"}>
+            <Box ml={"12%"}  width={"40%"}>
               <Button
                 disableRipple
                 style={{
@@ -392,15 +392,15 @@ const QueHacemos = () => {
         </Box>
 
         <Box
-          sx={{ width: "100%", backgroundColor: "#18CC66", minHeight: "70vh" }}
+          sx={{ width: "100%", backgroundColor: "#18CC66", pt:"8%", pb:"8%" }}
         >
           <Box sx={{ position: "absolute" }}>
-            <img src="/nosotros4.png" alt="" />
+            <img width={"100%"} src="/nosotros4.png" alt="" />
           </Box>
           <Box display={"flex"} width={"90%"} m={"auto"}>
             <Box width={"40%"}>
               <Typography
-                mt={"105px"}
+              
                 sx={{
                   fontFamily: "Manrope",
                   fontWeight: "500",
@@ -426,7 +426,7 @@ const QueHacemos = () => {
               </Box>
             </Box>
 
-            <Box ml={"12%"} mt={"3%"} width={"40%"}>
+            <Box ml={"12%"}  width={"40%"}>
               <Button
                 disableRipple
                 style={{
@@ -441,7 +441,7 @@ const QueHacemos = () => {
                 <Box
                   onClick={handleOpenModal5}
                   display={"flex"}
-                  mt={"22%"}
+                  mt={"5%"}
                   sx={{
                     textDecoration: "none",
                     "&:hover": {
@@ -977,11 +977,11 @@ const QueHacemos = () => {
       <Hidden smUp>
         {/*  <Parallax speed={-12} tagOuter="figure"> */}
         <Box width={"100%"} zIndex={2}>
-          <img width={"100%"} src="/nosotros1.png" alt="" />
+          <img width={"100%"} src="/mobileQueHacemos.png" alt="" />
         </Box>
         {/*     </Parallax> */}
         <Box>
-          <Box
+          {/* <Box
             sx={{
               position: "absolute",
               top: "12% ",
@@ -999,7 +999,7 @@ const QueHacemos = () => {
             >
               Qué hacemos
             </Typography>
-          </Box>
+          </Box> */}
           {/* <Box
             sx={{
               position: "absolute",
@@ -1325,6 +1325,7 @@ const QueHacemos = () => {
                   textTransform: "none",
                   textAlign: "center",
                   position: "relative",
+                  width: "100vw",
                 }}
               >
                 <Box onClick={handleOpenModal6} sx={{ textDecoration: "none" }}>
@@ -1338,10 +1339,11 @@ const QueHacemos = () => {
                       textAlign: "center",
                     }}
                   >
-                    Training en innovación tecnológica
+                       Training en innovación tecnológica
                   </Typography>
                 </Box>
               </Button>
+             
               <Dialog
                 fullWidth={true}
                 maxWidth="lg"

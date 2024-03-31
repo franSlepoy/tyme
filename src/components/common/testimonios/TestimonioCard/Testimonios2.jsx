@@ -134,7 +134,7 @@ const Testimonios2 = () => {
                   lineHeight: "26px",
                   color: "black",
                   textTransform: "uppercase",
-                  mt: 4,
+                  mt: 7,
                 }}
               >
                 {" "}
@@ -182,7 +182,10 @@ const Testimonios2 = () => {
             <Box
               sx={{
                 mt: "52px",
-                padding: 6,
+                pt: 6,
+                pb: 6,
+                pl: 6,
+                pr: 5,
                 backgroundColor: "#E5DE04",
                 borderRadius: "33px",
               }}
@@ -206,7 +209,7 @@ const Testimonios2 = () => {
               </Typography>
               <Typography
                 sx={{
-                  mt: 1,
+                  mt: 4,
                   fontFamily: "Manrope",
 
                   fontWeight: 800,

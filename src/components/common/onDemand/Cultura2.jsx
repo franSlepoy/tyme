@@ -9,7 +9,7 @@ const Cultura2 = ({ handleOpenModal2, handleCloseModal2, openModal2 }) => {
         <Box
           pl={"10%"}
           pt={"6%"}
-          sx={{ width: "100%", height: "74vh", backgroundColor: "#104B70" }}
+          sx={{ width: "100%", height: "73vh", backgroundColor: "#104B70" }}
         >
           <Box
             display={"flex"}

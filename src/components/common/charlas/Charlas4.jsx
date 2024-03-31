@@ -4,20 +4,19 @@ import BlackButtom from "../blackButtom/BlackButtom";
 const Charlas4 = ({ handleCloseComponente }) => {
   return (
     <Box
-    position={"absolute"}
-    top={"128%"}
-    left={"6%"}
-    display={"flex"}
-    height={"78vh"}
-    width={"87%"}
-    style={{
-      backgroundColor: "#A0D5F6",
-    }}
-    zIndex={100}
+      position={"absolute"}
+      top={"128%"}
+      left={"6%"}
+      display={"flex"}
+      width={"87%"}
+      style={{
+        backgroundColor: "#A0D5F6",
+      }}
+      zIndex={100}
     >
       <Box ml={"10%"} mt={"6%"} width={"53%"}>
         <Button onClick={handleCloseComponente} sx={{ ml: -3 }}>
-          <img  src="/flechaCH.png" alt="" />
+          <img src="/flechaCH.png" alt="" />
         </Button>
 
         <Typography
@@ -64,8 +63,7 @@ const Charlas4 = ({ handleCloseComponente }) => {
         <BlackButtom texto={"Consultanos"} linkTo={"/contacto"} />
       </Box>
       <Box width={"40%"} ml={6}>
-        <img height={"100%"} src="/ch04.png" alt="" />
-        
+        <img width={"100%"} height={"100%"} src="/Date.png" alt="" />
       </Box>
     </Box>
   );

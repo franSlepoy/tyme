@@ -10,13 +10,14 @@ const Mentoring2 = ({ handleOpenModal5, handleCloseModal5, openModal5 }) => {
         <Box sx={{ width: "100%", display: "flex" }}>
           <Box
             width={"52%"}
-            height={"79vh"}
+            height={"74vh"}
             sx={{
               p: "8%",
               backgroundImage: 'url("/personaTrabajando.png")', // Aquí debes especificar la URL de la imagen con la palabra clave 'url'
               backgroundSize: "cover", // Ajusta el tamaño de la imagen de fondo según el contenedor
               backgroundRepeat: "no-repeat", // Evita que la imagen de fondo se repita
               position: "relative", // Establece la posición relativa para que los elementos internos se posicionen correctamente
+              height:"90vh"
             }}
           >
             <Box
@@ -126,7 +127,7 @@ const Mentoring2 = ({ handleOpenModal5, handleCloseModal5, openModal5 }) => {
         </Box>
 
         <Box position={"absolute"} zIndex={900} left={"73%"} top={"10%"}>
-          <img src="/mentoring2.png" alt="" />
+          <img  src="/mentoring2.png" alt="" />
         </Box>
       </Hidden>
 
