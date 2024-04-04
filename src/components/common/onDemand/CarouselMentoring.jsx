@@ -11,39 +11,28 @@ const CarouselMentoring = ({
 }) => {
   return (
     <>
-      <Hidden smDown>
+   <Hidden smDown>
         <Carousel
           autoPlay={false}
           timeout={100}
           sx={{
             backgroundColor: "#046C31",
             margin: "auto",
-            height: "79vh",
+            pb: "2%",
             width: "100%",
-
-            /*  "& .MuiButtonBase-root.MuiIconButton-root.MuiIconButton-sizeSmall.MuiIconButton-edgeStart":
-      {
-        position: "absolute",
-        color: "white", // Color blanco para los botones de navegación
-        zIndex: 999, // Asegura que estén en la parte superior
-      },
-  }}
-  nextIconButtonProps={{
-    style: {
-      right: 0, // Posición a la derecha de la pantalla
-    },
-  }}
-  prevIconButtonProps={{
-    style: {
-      left: 0, // Posición a la izquierda de la pantalla
-    },
-  }}
-  indicatorIconButtonProps={{
-    style: {
-      color: "white", // Color blanco para los indicadores del carousel
-      position: "absolute",
-      left: "7%", // Ajusta la posición de los indicadores
-    }, */
+            "& .MuiButtonBase-root.MuiIconButton-root.MuiIconButton-sizeSmall.MuiIconButton-edgeStart":
+              {
+                marginLeft: "222px", // Posición a la izquierda para el botón de navegación previa
+              },
+          }}
+          indicatorIconButtonProps={{
+           
+          }}
+          prevIconButtonProps={{
+            style: {
+              color: "white", // Color blanco para los botones de navegación
+              marginLeft: -30, // Posición a la izquierda
+            },
           }}
         >
           <motion.div
@@ -53,9 +42,9 @@ const CarouselMentoring = ({
             transition={{ duration: 0.5 }}
           >
             <Mentoring1
-              handleOpenModal5={handleOpenModal5}
-              handleCloseModal5={handleCloseModal5}
-              openModal5={openModal5}
+              handleOpenModal6={handleOpenModal5}
+              handleCloseModal6={handleCloseModal5}
+              openModal6={openModal5}
             />
           </motion.div>
           <motion.div
@@ -65,9 +54,9 @@ const CarouselMentoring = ({
             transition={{ duration: 0.5 }}
           >
             <Mentoring2
-              handleOpenModal5={handleOpenModal5}
-              handleCloseModal5={handleCloseModal5}
-              openModal5={openModal5}
+              handleOpenModal6={handleOpenModal5}
+              handleCloseModal6={handleCloseModal5}
+              openModal6={openModal5}
             />
           </motion.div>
         </Carousel>

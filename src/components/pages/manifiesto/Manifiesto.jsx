@@ -89,8 +89,8 @@ const Manifiesto = () => {
             <Box  ml={"12%"} width={"30%"}>
               <Typography
                 sx={{
-                  fontFamily: "Marriweather",
-                  fontSize: "48px",
+                  fontFamily: "Merriweather",
+                  fontSize: "42px",
                   color: "black",
                   lineHeight: "52px",
                 }}

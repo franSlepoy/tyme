@@ -17,7 +17,7 @@ const Home = () => {
   return (
     <>
       <Hidden lgDown>
-        <Parallax speed={-8}>
+        <Parallax speed={-12}>
           <Box width={"100%"} height={"100vh"} overflow="hidden">
             <img style={{ width: "100%" }} src="/home.png" alt="" />
           </Box>

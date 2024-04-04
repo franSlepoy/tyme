@@ -335,7 +335,7 @@ const CharlasYconferencias = () => {
           <Charlas4 handleCloseComponente={handleCloseComponente} />
         )}
 
-        <Parallax speed={-12}>
+        <Parallax speed={-3}>
           <Box>
             <img width={"100%"} src="/charlasGente.png" alt="" />
           </Box>
