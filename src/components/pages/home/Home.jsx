@@ -64,7 +64,7 @@ const Home = () => {
           m={"auto"}
           width={"87%"}
           display={"flex"}
-          pt={"50px"}
+          pt={"10%"}
         >
           <Box width={"45%"}>
             <Typography
@@ -186,10 +186,13 @@ const Home = () => {
           </Typography>
 
           <Box sx={{ margin: "auto" }}>
-            <Carousel sx={{ marginBottom: "86px" }}>
+            <Carousel autoPlay={false} sx={{ marginBottom: "86px" }}>
+             
               <Testimonios />
               <Testimonios1 />
               <Testimonios2 />
+             
+             
             </Carousel>
           </Box>
         </Box>

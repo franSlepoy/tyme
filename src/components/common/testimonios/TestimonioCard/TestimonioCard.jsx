@@ -10,14 +10,14 @@ const TestimonioCard = (props) => {
           overflow: "hidden",
           width: "40%",
           height: "40%",
-          mb:"4%"
+          
         }}
       >
-        <img width={"100%"}  src={props.imagen} alt="avatar" />
+        <img width={"100%"}   src={props.imagen} alt="avatar" />
       </Box>
 
       <Box
-        sx={{ padding:"8%", backgroundColor: "#E5DE04", borderRadius: "20px", m:"auto" }}
+        sx={{ p:"8%", backgroundColor: "#E5DE04", borderRadius: "20px", m:"auto", mt:"-4%" }}
       >
         <Typography
           sx={{

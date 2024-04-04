@@ -16,7 +16,7 @@ const Contacto = () => {
                   fontWeight: "100",
                   color: "black",
                   fontSize: "40px",
-                  width: "50%",
+                  
                   mt: "20%",
                 }}
               >
@@ -26,7 +26,7 @@ const Contacto = () => {
             </Box>
 
             <Box ml={"7%"} width={"60%"}>
-              <img width={"100%"}  src="/contacto.png" alt="" />
+              <img  height={"100%"}  src="/contacto.png" alt="" />
             </Box>
           </Box>
         </Box>

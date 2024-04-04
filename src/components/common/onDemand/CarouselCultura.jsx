@@ -66,7 +66,7 @@ const CarouselCultura = ({
         </Carousel>
       </Hidden>
 
-      <Hidden>
+      <Hidden smUp>
         <Box>
           <Cultura1
             handleOpenModal2={handleOpenModal2}

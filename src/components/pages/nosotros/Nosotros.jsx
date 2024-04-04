@@ -92,8 +92,10 @@ const Nosotros = () => {
                     borderRadius: "100px",
                     backgroundColor: "#1296E9",
                     textTransform: "none",
+                    boxShadow: "none",
                     "&:hover": {
                       backgroundColor: "#1296E9",
+                      boxShadow: "none",
                     },
                   }}
                 >

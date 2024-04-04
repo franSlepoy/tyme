@@ -4,22 +4,8 @@ const Testimonios = () => {
   return (
     <>
       <Hidden smDown>
-        <Box sx={{ display: "flex", width: "82%", m: "auto" }}>
-          <Box sx={{ width: "33%" }}>
-            <Box
-              sx={{
-                borderRadius: "50%",
-                overflow: "hidden",
-                width: "80px",
-                height: "80px",
-                position: "absolute",
-                top: "15px",
-                left: "12%",
-              }}
-            >
-              <img width={"100%"} src="/testimonios1.png" alt="" />
-            </Box>
-
+        <Box sx={{ display: "flex", width: "1200px", m: "auto" }}>
+          <Box sx={{ width: "400px" }}>
             <Box
               sx={{
                 mt: "52px",
@@ -28,6 +14,17 @@ const Testimonios = () => {
                 borderRadius: "33px",
               }}
             >
+              <Box
+                sx={{
+                  borderRadius: "50%",
+                  overflow: "hidden",
+                  width: "80px",
+                  height: "80px",
+                  mt: -10,
+                }}
+              >
+                <img width={"100%"} src="/testimonios1.png" alt="" />
+              </Box>
               <Typography
                 sx={{
                   mt: "25px",
@@ -64,7 +61,7 @@ const Testimonios = () => {
                 sx={{
                   fontSize: "16px",
                   fontWeight: "400",
-                  lineHeight: "24px",
+                  lineHeight: "18px",
                   color: "black",
                 }}
               >
@@ -83,21 +80,7 @@ const Testimonios = () => {
             </Box>
           </Box>
 
-          <Box sx={{ width: "33%" }} ml={"2.5%"}>
-            <Box
-              sx={{
-                borderRadius: "50%",
-                overflow: "hidden",
-                width: "80px",
-                height: "80px",
-                position: "absolute",
-                top: "15px",
-                left: "40%",
-              }}
-            >
-              <img width={"100%"} src="/testimonios2.png" alt="avatar" />
-            </Box>
-
+          <Box sx={{ width: "400px" }} ml={"2.5%"}>
             <Box
               sx={{
                 mt: "52px",
@@ -106,6 +89,17 @@ const Testimonios = () => {
                 borderRadius: "33px",
               }}
             >
+              <Box
+                sx={{
+                  borderRadius: "50%",
+                  overflow: "hidden",
+                  width: "80px",
+                  height: "80px",
+                  mt: -10,
+                }}
+              >
+                <img width={"100%"} src="/testimonios2.png" alt="avatar" />
+              </Box>
               <Typography
                 sx={{
                   mt: "25px",
@@ -114,6 +108,7 @@ const Testimonios = () => {
                   fontWeight: 400,
                   lineHeight: "24px",
                   color: "black",
+                  width: "290px",
                 }}
               >
                 Tyme ha sido un socio estratégico en la digitalización de
@@ -162,21 +157,7 @@ const Testimonios = () => {
             </Box>
           </Box>
 
-          <Box sx={{ width: "33%" }} ml={"2%"}>
-            <Box
-              sx={{
-                borderRadius: "50%",
-                overflow: "hidden",
-                width: "80px",
-                height: "80px",
-                position: "absolute",
-                top: "15px",
-                left: "68%",
-              }}
-            >
-              <img width={"100%"} src="/testimonios3.png" alt="avatar" />
-            </Box>
-
+          <Box sx={{ width: "400px" }} ml={"2%"}>
             <Box
               sx={{
                 mt: "52px",
@@ -185,6 +166,17 @@ const Testimonios = () => {
                 borderRadius: "33px",
               }}
             >
+              <Box
+              sx={{
+                borderRadius: "50%",
+                overflow: "hidden",
+                width: "80px",
+                height: "80px",
+                mt:-10
+              }}
+            >
+              <img width={"100%"} src="/testimonios3.png" alt="avatar" />
+            </Box>
               <Typography
                 sx={{
                   mt: "25px",
@@ -239,34 +231,8 @@ const Testimonios = () => {
               </Typography>
             </Box>
           </Box>
-
-          {/*  <Box ml={2}>
-        <Box  sx={{ borderRadius: '50%', overflow: 'hidden', width: '165px', height: '165px' }}>
-        <img width={"200px"} height={"170px"} src="/testimonios4.jpeg" alt="avatar" />
-        </Box>
-      
-       <Box sx={{width:"300px",padding:5,backgroundColor:"#FEEC92", borderRadius:"20px",}}>
-        <Typography sx={{fontFamily:"Manrope", fontSize:"14px", fontWeight:400, lineHeight:"26px", color:"#003350"}}>"En mis años al mando de diversas compañías, he cruzado caminos con numerosos
-profesionales de RRHH, pero pocos han dejado una huella tan profunda como Javier.
-Su entendimiento agudo de los recursos humanos, combinado con una destreza única
-para cultivar y guiar a líderes, le distingue en un mar de expertos. Más allá de su
-experiencia, es su enfoque humano y su visión clara lo que realmente transforma
-equipos y organizaciones. Si hay alguien que entiende la temperatura real de una
-organización y cómo elevarla, es sin duda él". </Typography>
-        <Typography sx={{mt:2, fontFamily:"Manrope",fontSize:"14px", fontWeight:"800px" , lineHeight:"26px", color:"#003350", textTransform:"uppercase" }}>
-        Ruben Sanchez
-</Typography>
-<Typography sx={{mt:1, fontFamily:"Manrope",fontSize:"14px", fontWeight:"800px" , lineHeight:"26px", color:"#003350", textTransform:"uppercase" }}>
-CEO – Perú
-</Typography>
-<Typography sx={{mt:1, fontFamily:"Manrope",fontSize:"14px", fontWeight:"800px" , lineHeight:"26px", color:"#003350", textTransform:"uppercase" }}>
-Pastelería San Antonio, empresa líder de Pastelería, Panadería, Cafetería y
-Restaurante.</Typography>
-        </Box> 
-        </Box> */}
         </Box>
       </Hidden>
-    
     </>
   );
 };

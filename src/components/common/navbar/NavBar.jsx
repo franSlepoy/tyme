@@ -30,14 +30,14 @@ const NavBar = () => {
             width: "91%",
             margin: "auto",
             height: "99px",
-            zIndex:100
+            zIndex: 100,
           }}
         >
           <Toolbar sx={{ mt: 2 }}>
-            <Box  width={"24%"} ml={1} component={NavLink} to={"/"}>
-              <img  src="/logo.png" alt="logo" />
+            <Box width={"24%"} ml={1} component={NavLink} to={"/"}>
+              <img src="/logo.png" alt="logo" />
             </Box>
-            <Box  display={"flex"} justifyContent={"flex-end"} width={"76%"} >
+            <Box display={"flex"} justifyContent={"flex-end"} width={"76%"}>
               <Typography
                 sx={{
                   fontFamily: "Manrope",
@@ -46,7 +46,7 @@ const NavBar = () => {
                   minWidth: "122px",
 
                   fontWeight: 400,
-              
+
                   color: "black",
 
                   fontSize: "16px",
@@ -115,8 +115,8 @@ const NavBar = () => {
                   textTransform: "none",
                   textDecoration: "none",
                   minWidth: "180px",
-                  ml: 0.8,
-
+                  ml: 1.5,
+                  
                   color: "black",
                   fontWeight: 400,
                   fontSize: "16px",
@@ -363,12 +363,12 @@ const NavBar = () => {
       <Hidden smUp>
         <AppBar
           position="static"
-          sx={{ boxShadow: 0, bgcolor: "#0A3A5B", height: "9vh", zIndex:100  }}
+          sx={{ boxShadow: 0, bgcolor: "#0A3A5B", height: "9vh", zIndex: 100 }}
         >
           <Toolbar
             sx={{
-              justifyContent:"space-between",
-             
+              justifyContent: "space-between",
+
               width: "100%",
               m: "auto",
             }}
@@ -518,7 +518,7 @@ const NavBar = () => {
                   textTransform: "none",
                   textDecoration: "none",
                   mt: 2,
-                  mb:3,
+                  mb: 3,
                   fontSize: "20px",
                   color: "white",
                   textAlign: "center",

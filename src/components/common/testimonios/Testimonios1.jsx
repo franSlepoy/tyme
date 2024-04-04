@@ -3,23 +3,9 @@ import { Box, Hidden, Typography } from "@mui/material";
 const Testimonios1 = () => {
   return (
     <>
-      <Hidden lgDown>
-        <Box sx={{ display: "flex", width: "82%", m: "auto" }}>
-          <Box sx={{ width: "33%",  }}>
-            <Box
-              sx={{
-                borderRadius: "50%",
-                overflow: "hidden",
-                width: "80px",
-                height: "80px",
-                position: "absolute",
-                top: "15px",
-                left: "12%",
-              }}
-            >
-              <img width={"100%"} src="/testimonios4.png" alt="avatar" />
-            </Box>
-
+      <Hidden smDown>
+        <Box sx={{ display: "flex", width: "1200px", m: "auto" }}>
+          <Box sx={{ width: "400px" }}>
             <Box
               sx={{
                 mt: "52px",
@@ -28,6 +14,17 @@ const Testimonios1 = () => {
                 borderRadius: "33px",
               }}
             >
+              <Box
+                sx={{
+                  borderRadius: "50%",
+                  overflow: "hidden",
+                  width: "80px",
+                  height: "80px",
+                  mt: -10,
+                }}
+              >
+                <img width={"100%"} src="/testimonios4.png" alt="" />
+              </Box>
               <Typography
                 sx={{
                   mt: "25px",
@@ -36,6 +33,7 @@ const Testimonios1 = () => {
                   fontWeight: "400",
                   lineHeight: "24px",
                   color: "black",
+                  
                 }}
               >
                 En mis años al mando de diversas compañías, crucé caminos con
@@ -47,7 +45,7 @@ const Testimonios1 = () => {
               </Typography>
               <Typography
                 sx={{
-                  mt: 1,
+                  mt: 2,
                   fontFamily: "Manrope",
 
                   fontWeight: 800,
@@ -64,7 +62,7 @@ const Testimonios1 = () => {
                 sx={{
                   fontSize: "16px",
                   fontWeight: "400",
-                  lineHeight: "24px",
+                  lineHeight: "18px",
                   color: "black",
                 }}
               >
@@ -76,29 +74,15 @@ const Testimonios1 = () => {
                   fontWeight: 100,
                   lineHeight: "18px",
                   color: "black",
-                  pb:0
+                 pb:-2
                 }}
               >
-                Director en Pastelería San Antonio 
+                Director Pastelería San Antonio (Perú)
               </Typography>
             </Box>
           </Box>
 
-          <Box sx={{ width: "33%",  }} ml={"2.5%"}>
-            <Box
-              sx={{
-                borderRadius: "50%",
-                overflow: "hidden",
-                width: "80px",
-                height: "80px",
-                position: "absolute",
-                top: "15px",
-                left: "40%",
-              }}
-            >
-              <img width={"100%"} src="/testimonios5.png" alt="avatar" />
-            </Box>
-
+          <Box sx={{ width: "400px" }} ml={"2.5%"}>
             <Box
               sx={{
                 mt: "52px",
@@ -107,6 +91,17 @@ const Testimonios1 = () => {
                 borderRadius: "33px",
               }}
             >
+              <Box
+                sx={{
+                  borderRadius: "50%",
+                  overflow: "hidden",
+                  width: "80px",
+                  height: "80px",
+                  mt: -10,
+                }}
+              >
+                <img width={"100%"} src="/testimonios5.png" alt="avatar" />
+              </Box>
               <Typography
                 sx={{
                   mt: "25px",
@@ -115,18 +110,14 @@ const Testimonios1 = () => {
                   fontWeight: 400,
                   lineHeight: "24px",
                   color: "black",
+                  width: "290px",
                 }}
               >
-                Javier tiene muy buen ojo para evaluar a las organizaciones y
-                encontrar asertivamente las fortalezas y oportunidades de los
-                líderes, con mucha escucha y empatía. Se nota la formación
-                constante que él y su equipo tienen en RRHH, demostrando ser
-                expertos en la optimización de talento y el desarrollo
-                organizacional.
+                Javier tiene muy buen ojo para evaluar a las organizaciones y encontrar asertivamente las fortalezas y oportunidades de los líderes, con mucha escucha y empatía. Se nota la formación constante que él y su equipo tienen en RRHH, demostrando ser expertos en la optimización de talento y el desarrollo organizacional.
               </Typography>
               <Typography
                 sx={{
-                  mt: 1,
+                  mt: 5,
                   fontFamily: "Manrope",
 
                   fontWeight: 800,
@@ -137,7 +128,6 @@ const Testimonios1 = () => {
                   textTransform: "uppercase",
                 }}
               >
-                {" "}
                 Sebastián Moguilevsky
               </Typography>
               <Typography
@@ -148,7 +138,7 @@ const Testimonios1 = () => {
                   color: "black",
                 }}
               >
-                CEO & Director Warner Bros.
+                CEO & Director Warner Bros. 
               </Typography>
               <Typography
                 sx={{
@@ -156,7 +146,6 @@ const Testimonios1 = () => {
                   fontWeight: 300,
                   lineHeight: "18px",
                   color: "black",
-                  pb: 1,
                 }}
               >
                 (España y Portugal)
@@ -164,21 +153,7 @@ const Testimonios1 = () => {
             </Box>
           </Box>
 
-          <Box sx={{ width: "33%" }} ml={"2%"}>
-            <Box
-              sx={{
-                borderRadius: "50%",
-                overflow: "hidden",
-                width: "80px",
-                height: "80px",
-                position: "absolute",
-                top: "15px",
-                left: "68%",
-              }}
-            >
-              <img width={"100%"} src="/testimonios6.png" alt="avatar" />
-            </Box>
-
+          <Box sx={{ width: "400px" }} ml={"2%"}>
             <Box
               sx={{
                 mt: "52px",
@@ -187,6 +162,17 @@ const Testimonios1 = () => {
                 borderRadius: "33px",
               }}
             >
+              <Box
+                sx={{
+                  borderRadius: "50%",
+                  overflow: "hidden",
+                  width: "80px",
+                  height: "80px",
+                  mt: -10,
+                }}
+              >
+                <img width={"100%"} src="/testimonios6.png" alt="avatar" />
+              </Box>
               <Typography
                 sx={{
                   mt: "25px",
@@ -195,18 +181,14 @@ const Testimonios1 = () => {
                   fontWeight: 400,
                   lineHeight: "24px",
                   color: "black",
+                  
                 }}
               >
-                Como CEO de organizaciones, puedo decir que trabajar con Tyme es
-                una experiencia transformadora. Con su profundo conocimiento en
-                Recursos Humanos, su enfoque estratégico y una mirada muy fuerte
-                en el negocio, fueron socios valiosos que proporcionaron
-                soluciones innovadoras y adaptadas a nuestras necesidades
-                específicas.
+                Como CEO de organizaciones, puedo decir que trabajar con Tyme es una experiencia transformadora. Con su profundo conocimiento en Recursos Humanos, su enfoque estratégico y una mirada muy fuerte en el negocio, fueron socios valiosos que proporcionaron soluciones innovadoras y adaptadas a nuestras necesidades específicas.
               </Typography>
               <Typography
                 sx={{
-                  mt: 1,
+                  mt: 2,
                   fontFamily: "Manrope",
 
                   fontWeight: 800,
@@ -225,11 +207,12 @@ const Testimonios1 = () => {
                   fontWeight: 300,
                   lineHeight: "18px",
                   color: "black",
-                  pb: 3,
+                  pb:2
                 }}
               >
-                CEO & Partner The Cyranos
+               CEO & Partner The Cyranos 
               </Typography>
+              
             </Box>
           </Box>
         </Box>

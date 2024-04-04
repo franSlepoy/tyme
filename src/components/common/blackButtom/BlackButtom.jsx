@@ -13,11 +13,13 @@ const BlackButtom = ({ texto, linkTo }) => {
         width: "177px",
         borderRadius: "100px",
         backgroundColor: "black",
+        boxShadow: "none",
         "&:hover": {
           borderRadius: "100px",
           backgroundColor: "black", // Mismo color de fondo que el estado normal
           color: "white", // Mismo color de texto que el estado normal
           textAlign: "center",
+          boxShadow: "none",
         },
       }}
     >

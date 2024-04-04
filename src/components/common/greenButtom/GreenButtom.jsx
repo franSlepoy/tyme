@@ -12,11 +12,13 @@ const GreenButtom = ({ texto, linkTo }) => {
         width: "177px",
         borderRadius: "100px",
         backgroundColor: "#18CC66",
+        boxShadow: "none",
         "&:hover": {
           height: "43px",
           width: "177px",
           borderRadius: "100px",
           backgroundColor: "#18CC66",
+          boxShadow: "none",
         },
       }}
     >

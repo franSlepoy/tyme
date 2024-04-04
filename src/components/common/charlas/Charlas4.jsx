@@ -5,7 +5,7 @@ const Charlas4 = ({ handleCloseComponente }) => {
   return (
     <Box
       position={"absolute"}
-      top={"198%"}
+      top={"208%"}
       left={"6%"}
       width={"87%"}
       pb={"8%"}
