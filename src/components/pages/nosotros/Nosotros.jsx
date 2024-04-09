@@ -8,19 +8,11 @@ const Nosotros = () => {
   // Estado para almacenar el texto seleccionado
   const [textoSeleccionado, setTextoSeleccionado] = useState("");
 
-  const [cambiarColor, setCambiarColor] = useState(false);
   // Función para manejar la selección de texto
   const handleTextoSeleccionado = (texto) => {
     setTextoSeleccionado(texto);
   };
 
-  const handleMouseEnter = () => {
-    setCambiarColor(true);
-  };
-
-  const handleMouseLeave = () => {
-    setCambiarColor(false);
-  };
   const [selectedText, setSelectedText] = useState("");
   const [selectedButton, setSelectedButton] = useState(0);
   const [open, setOpen] = useState(false);
@@ -45,7 +37,7 @@ const Nosotros = () => {
             </Box>
           </Parallax>
           <Box>
-            <Box sx={{ position: "absolute", top: "62%", right:"0px" }}>
+            <Box sx={{ position: "absolute", top: "62%", right: "0px" }}>
               <img width={"100%"} src="/nosotros3.png" alt="" />
             </Box>
 
@@ -132,13 +124,7 @@ const Nosotros = () => {
           <Box display={"flex"} width={"93%"} id="seccionDestino">
             <Box sx={{ ml: "6%", width: "60%" }}>
               <Typography
-                onMouseEnter={handleMouseEnter}
-                onMouseLeave={handleMouseLeave}
-                style={
-                  cambiarColor
-                    ? { color: "rgb(18,150,233)" }
-                    : { color: "white" }
-                }
+                style={{ color: "white" }}
                 sx={{
                   fontFamily: "Merriweather",
                   fontWeight: 100,
@@ -149,10 +135,6 @@ const Nosotros = () => {
               >
                 Mi{" "}
                 <span
-                  onMouseEnter={(e) => (e.target.style.color = "white")}
-                  onMouseLeave={(e) =>
-                    (e.target.style.color = "rgb(18,150,233)")
-                  }
                   onClick={() =>
                     handleTextoSeleccionado(
                       "Licenciado en Recursos Humanos egresado de la Universidad Argentina de la Empresa (UADE) y también graduado en UADE Business School y en MIT Sloan School of Management.Se desempeñó como ejecutivo de Recursos Humanos en compañías multinacionales como Toyota, Techint y Unilever, con responsabilidades locales y regionales."
@@ -160,19 +142,23 @@ const Nosotros = () => {
                   }
                   style={{
                     cursor: "pointer",
-                    color: "rgb(18,150,233)",
+                    color: "white",
                     fontWeight: "600",
                     fontFamily: "Merriweather",
+                    textDecoration: "underline",
+                    transition: "color 0.8s", // Animación suave de transición
+                  }}
+                  onMouseEnter={(e) => {
+                    e.target.style.color = "#1296E9"; // Cambiar el color al hacer hover
+                  }}
+                  onMouseLeave={(e) => {
+                    e.target.style.color = "white"; // Restaurar el color predeterminado al salir del hover
                   }}
                 >
                   experiencia
                 </span>{" "}
                 en diversas corporaciones multinacionales y la gestión de{" "}
                 <span
-                  onMouseEnter={(e) => (e.target.style.color = "white")}
-                  onMouseLeave={(e) =>
-                    (e.target.style.color = "rgb(18,150,233)")
-                  }
                   onClick={() =>
                     handleTextoSeleccionado(
                       "Fundó dos startups: Nawaiam, un videojuego que detecta en 15 minutos el perfil conductual y competencias de los usuarios, y TuPrimerLaburo Argentina - TuPrimeraPega Chile - TuPrimerCurro España, una plataforma dirigida a los jóvenes para su autoconocimiento y desarrollo de habilidades que mejoran su índice de inserción laboral."
@@ -180,9 +166,17 @@ const Nosotros = () => {
                   }
                   style={{
                     cursor: "pointer",
-                    color: "rgb(18,150,233)",
+                    color: "white",
                     fontWeight: "600",
                     fontFamily: "Merriweather",
+                    textDecoration: "underline",
+                    transition: "color 0.8s", // Animación suave de transición
+                  }}
+                  onMouseEnter={(e) => {
+                    e.target.style.color = "#1296E9"; // Cambiar el color al hacer hover
+                  }}
+                  onMouseLeave={(e) => {
+                    e.target.style.color = "white"; // Restaurar el color predeterminado al salir del hover
                   }}
                 >
                   mis propias startups
@@ -190,10 +184,6 @@ const Nosotros = () => {
                 y pymes a nivel internacional, con la tecnología como eje
                 central, me brindaron{" "}
                 <span
-                  onMouseEnter={(e) => (e.target.style.color = "white")}
-                  onMouseLeave={(e) =>
-                    (e.target.style.color = "rgb(18,150,233)")
-                  }
                   onClick={() =>
                     handleTextoSeleccionado(
                       "Speaker internacional con más de 150 conferencias dictadas en 10 países sobre gestión del talento, gaming, startups y HR Tech Trends, entre otras temáticas centradas en los Recursos Humanos y la tecnología."
@@ -201,19 +191,23 @@ const Nosotros = () => {
                   }
                   style={{
                     cursor: "pointer",
-                    color: "rgb(18,150,233)",
+                    color: "white",
                     fontWeight: "600",
                     fontFamily: "Merriweather",
+                    textDecoration: "underline",
+                    transition: "color 0.8s", // Animación suave de transición
+                  }}
+                  onMouseEnter={(e) => {
+                    e.target.style.color = "#1296E9"; // Cambiar el color al hacer hover
+                  }}
+                  onMouseLeave={(e) => {
+                    e.target.style.color = "white"; // Restaurar el color predeterminado al salir del hover
                   }}
                 >
                   aprendizajes valiosos sobre las conductas{" "}
                 </span>{" "}
                 y soft skills de{" "}
                 <span
-                  onMouseEnter={(e) => (e.target.style.color = "white")}
-                  onMouseLeave={(e) =>
-                    (e.target.style.color = "rgb(18,150,233)")
-                  }
                   onClick={() =>
                     handleTextoSeleccionado(
                       "Fue reconocido internacionalmente como emprendedor por el rey Felipe VI de España, AT&T (Estados Unidos), Latin American Excellence Awards (Brasil), Endeavor y Orgullo UADE (Argentina), Premios Latinoamérica Verde (Ecuador), Acelerar España, 100 mejores ideas empresariales de El Mundo y la Caixa Bank y los Premios Reyes Católicos (España), entre otros. Fue docente universitario por más de 15 años en Argentina, Chile y España en materias como Dirección Estratégica de RRHH y Digital Talent Management.Es columnista en radio, TV, periódicos y podcasts sobre talento y tecnología."
@@ -221,9 +215,17 @@ const Nosotros = () => {
                   }
                   style={{
                     cursor: "pointer",
-                    color: "rgb(18,150,233)",
+                    color: "white",
                     fontWeight: "600",
                     fontFamily: "Merriweather",
+                    textDecoration: "underline",
+                    transition: "color 0.8s", // Animación suave de transición
+                  }}
+                  onMouseEnter={(e) => {
+                    e.target.style.color = "#1296E9"; // Cambiar el color al hacer hover
+                  }}
+                  onMouseLeave={(e) => {
+                    e.target.style.color = "white"; // Restaurar el color predeterminado al salir del hover
                   }}
                 >
                   líderes de todo tipo de industrias.
@@ -257,12 +259,13 @@ const Nosotros = () => {
               </Typography>
             </Box>
 
-            <Box mt={2} ml={"4%"}>
+            <Box ml={"4%"}>
               <Box>
                 <Button
                   disableRipple={true}
                   sx={{
                     bgcolor: "transparent",
+
                     "&:hover": {
                       backgroundColor: "transparent",
                     },
@@ -273,13 +276,14 @@ const Nosotros = () => {
                     )
                   }
                 >
-                  <img src="/iconoN1.png" alt="" />
+                  <img width={"80%"} src="/iconoN1.png" alt="" />
                 </Button>
               </Box>
               <Box>
                 <Button
                   sx={{
                     bgcolor: "transparent",
+                    mt: 2,
                     "&:hover": {
                       backgroundColor: "transparent",
                     },
@@ -291,13 +295,14 @@ const Nosotros = () => {
                     )
                   }
                 >
-                  <img src="/iconoN2.png" alt="" />
+                  <img width={"80%"} src="/iconoN2.png" alt="" />
                 </Button>
               </Box>
               <Box>
                 <Button
                   sx={{
                     bgcolor: "transparent",
+                    mt: 2,
                     "&:hover": {
                       backgroundColor: "transparent",
                     },
@@ -309,12 +314,13 @@ const Nosotros = () => {
                     )
                   }
                 >
-                  <img src="/iconoN3.png" alt="" />
+                  <img width={"80%"} src="/iconoN3.png" alt="" />
                 </Button>
               </Box>
               <Box>
                 <Button
                   sx={{
+                    mt: 2,
                     bgcolor: "transparent",
                     "&:hover": {
                       backgroundColor: "transparent",
@@ -327,7 +333,7 @@ const Nosotros = () => {
                     )
                   }
                 >
-                  <img src="/iconoN4.png" alt="" />
+                  <img width={"80%"} src="/iconoN4.png" alt="" />
                 </Button>
               </Box>
             </Box>
@@ -350,8 +356,6 @@ const Nosotros = () => {
           </Box>
         </Box>
       </Hidden>
-
-   
 
       <Hidden smUp>
         <Box>

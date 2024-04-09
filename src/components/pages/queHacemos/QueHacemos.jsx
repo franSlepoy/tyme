@@ -68,7 +68,7 @@ const QueHacemos = () => {
   return (
     <>
       <Hidden lgDown>
-        <Parallax speed={-12} tagOuter="figure">
+        <Parallax speed={-6} tagOuter="figure">
           <Box width={"100%"} height={"100vh"} overflow="hidden">
             <img width={"100%"} src="/nosotros1.png" alt="" />
           </Box>

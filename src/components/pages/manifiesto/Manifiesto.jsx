@@ -50,7 +50,7 @@ const Manifiesto = () => {
           id="seccionDestino"
           width={"100%"}
           
-          sx={{ bgcolor: "rgba(15, 150, 233, 0.4)", pt:"10%", pb:"4%" }}
+          sx={{ bgcolor: "rgba(15, 150, 233, 0.4)", pt:"15%", pb:"4%" }}
         >
           <Box display={"flex"} width={"87%"} m={"auto"}>
             <Box  width={"52%"}>

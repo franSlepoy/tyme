@@ -80,7 +80,7 @@ const Charlas6 = ({ handleCloseComponente }) => {
           pt={"5%"}
           pb={"5%"}
           sx={{
-            backgroundImage: `url("/Gameon1.png")`, // Reemplaza con la ruta de tu imagen
+            backgroundImage: `url("/HR5.png")`, // Reemplaza con la ruta de tu imagen
             backgroundSize: "cover",
             backgroundPosition: "center",
           }}

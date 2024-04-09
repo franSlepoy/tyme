@@ -39,7 +39,8 @@ const Home = () => {
                 fontFamily: "Merriweather",
                 fontSize: "40px",
                 fontWeight: "300",
-                color: "black",
+                color: "white",
+                width:"350px"
               }}
             >
               Somos el puente entre el equipo que tienes y el que quieres
@@ -48,7 +49,7 @@ const Home = () => {
           <Box
             sx={{
               position: "absolute",
-              top: "75%",
+              top: "85%",
               left: "7%",
             }}
           >
@@ -187,12 +188,9 @@ const Home = () => {
 
           <Box sx={{ margin: "auto" }}>
             <Carousel autoPlay={false} sx={{ marginBottom: "86px" }}>
-             
               <Testimonios />
               <Testimonios1 />
               <Testimonios2 />
-             
-             
             </Carousel>
           </Box>
         </Box>
@@ -416,18 +414,18 @@ const Home = () => {
 
         <QueHacemos />
         <Typography
-            sx={{
-             p:"8%",
-              color: "#272525",
-               textAlign:"center",
-              fontFamily: "Merriweather",
-              fontSize: "32px",
-              fontWeight: 400,
-              lineHeight: "normal",
-            }}
-          >
-            ¿Por qué sumarnos a tu equipo?
-          </Typography>
+          sx={{
+            p: "8%",
+            color: "#272525",
+            textAlign: "center",
+            fontFamily: "Merriweather",
+            fontSize: "32px",
+            fontWeight: 400,
+            lineHeight: "normal",
+          }}
+        >
+          ¿Por qué sumarnos a tu equipo?
+        </Typography>
         <Box sx={{ width: "87%", margin: "auto" }}>
           <Carousel sx={{ width: "90%", m: "auto", mb: 8 }}>
             {TestimoniosCradData.map((persona) => (
