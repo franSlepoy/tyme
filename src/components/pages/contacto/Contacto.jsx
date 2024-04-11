@@ -1,11 +1,10 @@
-import { Box, Button, Hidden, TextField, Typography } from "@mui/material";
-import React from "react";
+import { Box, Hidden,Typography } from "@mui/material";
 import Formulario from "../../common/formulario/Formulario";
 
 const Contacto = () => {
   return (
     <>
-      <Hidden smDown>
+      <Hidden lgDown>
         <Box width={"100%"} sx={{ bgcolor: "rgba(120, 145, 162, 0.3)" }}>
           <Box display={"flex"} m={"auto"}>
             <Box ml={"7%"}>
@@ -26,7 +25,34 @@ const Contacto = () => {
             </Box>
 
             <Box ml={"7%"} width={"60%"}>
-              <img  height={"100%"}  src="/contacto.png" alt="" />
+              <img  height={"100%"} width={"100%"}  src="/contacto.png" alt="" />
+            </Box>
+          </Box>
+        </Box>
+      </Hidden>
+       
+      <Hidden lgUp smDown>
+        <Box width={"100%"} sx={{ bgcolor: "rgba(120, 145, 162, 0.3)" }}>
+          <Box display={"flex"} m={"auto"}>
+            <Box ml={"7%"}>
+              <Typography
+                variant="h1"
+                sx={{
+                  fontFamily: "Merriweather",
+                  fontWeight: "100",
+                  color: "black",
+                  fontSize: "40px",
+                  
+                  mt: "20%",
+                }}
+              >
+                We are Open ¡Contáctanos!
+              </Typography>
+              <Formulario />
+            </Box>
+
+            <Box ml={"7%"} width={"70%"}>
+              <img  height={"100%"} width={"100%"}  src="/contacto.png" alt="" />
             </Box>
           </Box>
         </Box>

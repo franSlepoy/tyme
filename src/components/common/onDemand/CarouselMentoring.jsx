@@ -11,7 +11,7 @@ const CarouselMentoring = ({
 }) => {
   return (
     <>
-   <Hidden smDown>
+      <Hidden smDown>
         <Carousel
           autoPlay={false}
           timeout={100}
@@ -26,7 +26,9 @@ const CarouselMentoring = ({
               },
           }}
           indicatorIconButtonProps={{
-           
+            style: {
+              color: "white", // Color blanco para los botones indicadores
+            },
           }}
           prevIconButtonProps={{
             style: {
@@ -64,18 +66,17 @@ const CarouselMentoring = ({
 
       <Hidden smUp>
         <Box width={"100%"}>
-        <Mentoring1
-          handleOpenModal5={handleOpenModal5}
-          handleCloseModal5={handleCloseModal5}
-          openModal5={openModal5}
-        />
-        <Mentoring2
-          handleOpenModal5={handleOpenModal5}
-          handleCloseModal5={handleCloseModal5}
-          openModal5={openModal5}
-        />
+          <Mentoring1
+            handleOpenModal5={handleOpenModal5}
+            handleCloseModal5={handleCloseModal5}
+            openModal5={openModal5}
+          />
+          <Mentoring2
+            handleOpenModal5={handleOpenModal5}
+            handleCloseModal5={handleCloseModal5}
+            openModal5={openModal5}
+          />
         </Box>
-       
       </Hidden>
     </>
   );

@@ -63,12 +63,13 @@ const Charlas1 = ({ handleCloseComponente }) => {
               implementar el cambio midiendo su impacto en el negocio.
             </Typography>
 
-            <Box>
+            <Box pb={4}>
               <Button
                 disableRipple={true}
                 component={Link} // Usa Link como el componente de Button
                 to={"/contacto"} // Pasa la URL a la que se debe dirigir el enlace
                 variant="contained"
+                
                 sx={{
                   height: "43px",
                   width: "177px",
@@ -108,18 +109,17 @@ const Charlas1 = ({ handleCloseComponente }) => {
           position={"absolute"}
           top={"108%"}
           width={"90%"}
-         ml={"5%"}
-          sx={{ bgcolor: "#73F0A2", pb:"6%" }}
+          ml={"5%"}
+          sx={{ bgcolor: "#73F0A2", pb: "6%" }}
           zIndex={100}
         >
-          <Box ml={"7%"} mt={"6%"}  width={"90%"}>
+          <Box ml={"7%"} mt={"6%"} width={"90%"}>
             <Button onClick={handleCloseComponente} sx={{ ml: -3 }}>
               <img height={"40px"} src="/arrowButton.png" alt="" />
             </Button>
 
             <Typography
               sx={{
-               
                 fontFamily: "Manrope",
                 fontSize: "48px",
                 fontWeight: "800",
@@ -132,7 +132,7 @@ const Charlas1 = ({ handleCloseComponente }) => {
             <Typography
               sx={{
                 mt: 2,
-                
+
                 fontFamily: "Manrope",
                 fontSize: "30px",
                 fontWeight: "600",

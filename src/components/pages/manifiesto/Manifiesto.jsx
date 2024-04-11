@@ -49,11 +49,10 @@ const Manifiesto = () => {
         <Box
           id="seccionDestino"
           width={"100%"}
-          
-          sx={{ bgcolor: "rgba(15, 150, 233, 0.4)", pt:"15%", pb:"4%" }}
+          sx={{ bgcolor: "rgba(15, 150, 233, 0.4)", pt: "15%", pb: "4%" }}
         >
           <Box display={"flex"} width={"87%"} m={"auto"}>
-            <Box  width={"52%"}>
+            <Box width={"52%"}>
               <Typography
                 sx={{
                   fontFamily: "Manrope",
@@ -86,7 +85,7 @@ const Manifiesto = () => {
                 atravesar una <strong>experiencia que valoren.</strong>
               </Typography>
             </Box>
-            <Box  ml={"12%"} width={"30%"}>
+            <Box ml={"12%"} width={"30%"}>
               <Typography
                 sx={{
                   fontFamily: "Merriweather",
@@ -106,14 +105,13 @@ const Manifiesto = () => {
       </Hidden>
 
       <Hidden lgUp smDown>
-        <Box sx={{ bgcolor: "rgba(15, 150, 233, 0.1)" }} height={"107vh"}>
-          <img width={"100%"} height={"710vh"} src="/manifiesto1.png" alt="" />
-        </Box>
+        <Parallax speed={-6} tagOuter="figure">
+          <Box mt={-1} width={"100%"} overflow="hidden">
+            <img width={"100%"} src="/maniefiesto1.png" alt="" />
+          </Box>
+        </Parallax>
 
         <Box>
-          <Box sx={{ position: "absolute", top: "62%" }}>
-            <img width={"10%"} src="/manifiesto3.png" alt="" />
-          </Box>
           <Box
             sx={{
               position: "absolute",
@@ -135,16 +133,9 @@ const Manifiesto = () => {
               todos tus talentos.
             </Typography>
           </Box>
-          <Box sx={{ position: "absolute", top: "92vh", left: "50%" }}>
-            <img src="/flechaBajo.png" alt="" />
-          </Box>
         </Box>
 
-        <Box
-          width={"100%"}
-          height={"144vh"}
-          sx={{ bgcolor: "rgba(15, 150, 233, 0.4)" }}
-        >
+        <Box pt={5} width={"100%"} sx={{ bgcolor: "rgba(15, 150, 233, 0.4)" }}>
           <Box display={"flex"} width={"87%"} m={"auto"}>
             <Box mt={"5%"} width={"52%"} pb={"5%"}>
               <Typography
@@ -267,7 +258,7 @@ const Manifiesto = () => {
           sx={{ bgcolor: "rgba(15, 150, 233, 0.4)" }}
         >
           <Box m={"auto"}>
-            <Box width={"88%"}  m={"auto"} pt={"8%"}>
+            <Box width={"88%"} m={"auto"} pt={"8%"}>
               <Typography
                 sx={{
                   width: "76%",

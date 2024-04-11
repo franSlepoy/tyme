@@ -23,7 +23,9 @@ const CarouselTrai = ({ handleOpenModal6, handleCloseModal6, openModal6 }) => {
               },
           }}
           indicatorIconButtonProps={{
-           
+            style: {
+              color: "white", // Color blanco para los botones indicadores
+            },
           }}
           prevIconButtonProps={{
             style: {

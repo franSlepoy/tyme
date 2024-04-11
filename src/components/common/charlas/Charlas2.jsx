@@ -62,7 +62,10 @@ const Charlas2 = ({ handleCloseComponente }) => {
               herramientas para que mejore su rendimiento y haga eco en el
               crecimiento de la organización de la que forma parte.
             </Typography>
+            <Box pb={4}>
             <BlackButtom texto={"Consultanos"} linkTo={"/contacto"} />
+            </Box>
+            
           </Box>
           <Box width={"40%"} ml={6}>
             <img width={"100%"} height={"100%"} src="/Date.png" alt="" />

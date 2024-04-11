@@ -104,12 +104,7 @@ const Tendencias = () => {
             >
               Artículos propios
             </Typography>
-            {/*  <Box position={"absolute"} left={"60%"} top={"176%"}>
-              <img src="/tendencias4.png" alt="" />
-            </Box>
-            <Box position={"absolute"} left={"87%"} top={"190%"}>
-              <img src="/tendencias6.png" alt="" />
-            </Box> */}
+            
 
             <ImageList sx={{ width: "100%" }} cols={4} rowHeight={504}>
               {ArticulosData.map((item) => (
@@ -128,7 +123,7 @@ const Tendencias = () => {
 
       <Hidden lgUp smDown>
         <Parallax speed={-12} tagOuter="figure">
-          <Box mt={1}>
+          <Box >
             <img width={"100%"} src="/tendencias1.png" alt="" />
           </Box>
         </Parallax>
@@ -136,7 +131,7 @@ const Tendencias = () => {
           <Box
             sx={{
               position: "absolute",
-              top: "60% ",
+              top: "40% ",
               left: "6%",
               width: "76%",
             }}
@@ -144,7 +139,7 @@ const Tendencias = () => {
             <Typography
               sx={{
                 fontFamily: "Merriweather",
-                fontSize: "20px",
+                fontSize: "30px",
                 fontWeight: "100",
                 color: "white",
               }}
@@ -158,7 +153,7 @@ const Tendencias = () => {
             <Typography
               sx={{
                 fontFamily: "Merriweather",
-                fontSize: "20px",
+                fontSize: "25px",
                 fontWeight: "300",
                 color: "white",
                 mt: 2,
@@ -167,9 +162,6 @@ const Tendencias = () => {
               <strong>Peter Senge</strong> , experto en desarrollo
               organizacional
             </Typography>
-          </Box>
-          <Box sx={{ position: "absolute", top: "90vh", left: "50%" }}>
-            <img src="/flechaVerde.png" alt="" />
           </Box>
         </Box>
 
@@ -211,12 +203,7 @@ const Tendencias = () => {
             >
               Artículos propios
             </Typography>
-            <Box position={"absolute"} left={"60%"} top={"172%"}>
-              <img width={"100%"} src="/tendencias4.png" alt="" />
-            </Box>
-            <Box position={"absolute"} left={"87%"} top={"172%"}>
-              <img src="/tendencias6.png" alt="" />
-            </Box>
+            
 
             <ImageList sx={{ width: "100%" }} cols={3} rowHeight={504}>
               {ArticulosData.map((item) => (
@@ -278,7 +265,7 @@ const Tendencias = () => {
         </Box>
 
         <Box width={"100%"} bgcolor={"#A0D5F6"}>
-          <Box width={"58%"} ml={"12%"} pt={"6%"} >
+          <Box width={"58%"} ml={"12%"} pt={"6%"}>
             <Typography
               sx={{
                 color: "black",
@@ -291,11 +278,15 @@ const Tendencias = () => {
             >
               Artículos propios
             </Typography>
-            <Box mt={"10%"} >
+            <Box mt={"10%"}>
               <BlackButtom texto={"Consúltanos"} linkTo={"/contacto"} />
             </Box>
           </Box>
-          <ImageList sx={{ width: "85%",pb:"8%", m: "auto" }} cols={1} rowHeight={510}>
+          <ImageList
+            sx={{ width: "85%", pb: "8%", m: "auto" }}
+            cols={1}
+            rowHeight={510}
+          >
             {ArticulosData.map((item) => (
               <ImageListItem key={item.id}>
                 <ArticuloCard

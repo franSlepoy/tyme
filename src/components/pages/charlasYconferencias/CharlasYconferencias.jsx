@@ -537,7 +537,7 @@ const CharlasYconferencias = () => {
       </Hidden>
 
       <Hidden lgUp smDown>
-        <Parallax speed={-12} tagOuter="figure">
+        <Parallax speed={-6} tagOuter="figure">
           <Box
             width={"100%"}
             style={{
@@ -554,7 +554,7 @@ const CharlasYconferencias = () => {
           <Box
             sx={{
               position: "absolute",
-              top: "18% ",
+              top: "28% ",
               left: "51%",
               width: "42%",
             }}
@@ -572,16 +572,14 @@ const CharlasYconferencias = () => {
               para organizaciones, compañías e industrias.
             </Typography>
           </Box>
-          <Box sx={{ position: "absolute", top: "90vh", left: "50%" }}>
-            <img src="/flechaBajo.png" alt="" />
-          </Box>
+          
         </Box>
 
         <Box
           style={{
             backgroundImage: "linear-gradient(to right, #18CC66, #1296E9)",
           }}
-          sx={{ width: "100%", height: "177vh", pt: "5%", pb: "5%" }}
+          sx={{ width: "100%",mt:-1,  pt: "2%", pb: "15%" }}
         >
           <Box display={"flex"} width={"88%"} margin={"auto"}>
             <Box mt={"15%"} width={"50%"}>
@@ -627,6 +625,7 @@ const CharlasYconferencias = () => {
               component={Button}
               onClick={handleClickA}
               sx={{
+                mt:3,
                 textTransform: "none",
                 display: "flex",
                 flexDirection: "column",
@@ -739,6 +738,7 @@ const CharlasYconferencias = () => {
               component={Button}
               onClick={handleClickD}
               sx={{
+                mt:3,
                 textTransform: "none",
                 display: "flex",
                 flexDirection: "column",
@@ -771,7 +771,7 @@ const CharlasYconferencias = () => {
               </Typography>
             </Box>
           </Box>
-          <Box ml={"44%"} mt={"5%"} mb={"5%"}>
+          <Box ml={"44%"} mt={"5%"} >
             <BlackButtom texto={"Consultanos"} linkTo={"/contacto"} />
           </Box>
         </Box>
@@ -788,21 +788,21 @@ const CharlasYconferencias = () => {
           <Charlas4 handleCloseComponente={handleCloseComponente} />
         )}
 
-        <Parallax speed={-12}>
+       
           <Box mt={-3}>
             <img width={"100%"} src="/charlasGente.png" alt="" />
           </Box>
-        </Parallax>
+
 
         <Box
-          sx={{ pt: "5%", pb: "5%" }}
+          sx={{  pb: "5%" }}
           width={"100%"}
-          height={"160vh"}
+          
           style={{
             backgroundImage: "linear-gradient(to right, #1296E9, #18CC66)",
           }}
         >
-          <Box pt={20}>
+          <Box pt={5} mt={-1}>
             <Typography
               sx={{
                 fontFamily: "Manrope",

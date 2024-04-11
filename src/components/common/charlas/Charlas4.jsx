@@ -32,8 +32,7 @@ const Charlas4 = ({ handleCloseComponente }) => {
                   color: "white",
                 }}
               >
-               Ecualizando realidades
-tu mundo-mi mundo
+                Ecualizando realidades tu mundo-mi mundo
               </Typography>
               <Typography
                 sx={{
@@ -59,9 +58,14 @@ tu mundo-mi mundo
                   color: "black",
                 }}
               >
-                Diversidad, inclusión y empatía como aliadas para que las diferencias sean aprovechadas como oportunidades y se conviertan en un impacto positivo en el negocio, generando soluciones colaborativas y creativas ante problemas compartidos.
+                Diversidad, inclusión y empatía como aliadas para que las
+                diferencias sean aprovechadas como oportunidades y se conviertan
+                en un impacto positivo en el negocio, generando soluciones
+                colaborativas y creativas ante problemas compartidos.
               </Typography>
-              <BlackButtom texto={"Consultanos"} linkTo={"/contacto"} />
+              <Box pb={4}>
+                <BlackButtom texto={"Consultanos"} linkTo={"/contacto"} />
+              </Box>
             </Box>
             <Box width={"40%"} ml={6}>
               <img width={"100%"} height={"100%"} src="/Date.png" alt="" />

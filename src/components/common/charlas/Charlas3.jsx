@@ -60,7 +60,9 @@ const Charlas3 = ({ handleCloseComponente }) => {
               Cómo cultivar una cultura de confianza y herramientas para
               implementar el cambio midiendo su impacto en el negocio.
             </Typography>
-            <BlackButtom texto={"Consultanos"} linkTo={"/contacto"} />
+            <Box pb={4}>
+              <BlackButtom texto={"Consultanos"} linkTo={"/contacto"} />
+            </Box>
           </Box>
           <Box width={"40%"} ml={6}>
             <img width={"100%"} height={"100%"} src="/ch03.png" alt="" />
@@ -91,7 +93,7 @@ const Charlas3 = ({ handleCloseComponente }) => {
                 fontWeight: "700",
                 lineHeight: "45px",
                 color: "white",
-                width:"80%"
+                width: "80%",
               }}
             >
               Construyendo un legado{" "}
@@ -118,7 +120,7 @@ const Charlas3 = ({ handleCloseComponente }) => {
                 fontWeight: "300",
                 lineHeight: "30px",
                 color: "black",
-                width:"90%"
+                width: "90%",
               }}
             >
               Cómo la influencia puede ayudarte a motivar a tu equipo y tus
@@ -128,7 +130,6 @@ const Charlas3 = ({ handleCloseComponente }) => {
             </Typography>
             <BlackButtom texto={"Consultanos"} linkTo={"/contacto"} />
           </Box>
-          
         </Box>
       </Hidden>
     </>

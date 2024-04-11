@@ -40,7 +40,7 @@ const Home = () => {
                 fontSize: "40px",
                 fontWeight: "300",
                 color: "white",
-                width:"350px"
+                width: "350px",
               }}
             >
               Somos el puente entre el equipo que tienes y el que quieres
@@ -199,13 +199,10 @@ const Home = () => {
       <Hidden lgUp smDown>
         <Parallax speed={-8}>
           <Box mt={-2} width={"100%"}>
-            <img width={"100%"} src="/header1.png" alt="" />
+            <img style={{ width: "100%" }} src="/home.png" alt="" />
           </Box>
         </Parallax>
         <Box height={"500%"}>
-          {/*  <Box sx={{ position: "absolute", top: "44%" }}>
-            <img src="/nosotros4.png" alt="" />
-          </Box> */}
           <Box
             sx={{
               position: "absolute",
@@ -348,8 +345,8 @@ const Home = () => {
             Por qué sumarnos a tu equipo
           </Typography>
 
-          <Box sx={{ width: "87%", margin: "auto" }}>
-            <Carousel sx={{ width: "90%", m: "auto", mt: 8, mb: 8 }}>
+          <Box sx={{ width: "100%",  margin: "auto" }}>
+            <Carousel sx={{ pb: 5,  }}>
               {TestimoniosCradData.map((persona) => (
                 <TestimonioCard
                   nombre={persona.nombre}
@@ -426,8 +423,8 @@ const Home = () => {
         >
           ¿Por qué sumarnos a tu equipo?
         </Typography>
-        <Box sx={{ width: "87%", margin: "auto" }}>
-          <Carousel sx={{ width: "90%", m: "auto", mb: 8 }}>
+        <Box >
+          <Carousel sx={{ width: "90%", height:"600px", m: "auto", mb: 8 }}>
             {TestimoniosCradData.map((persona) => (
               <TestimonioCard
                 nombre={persona.nombre}
@@ -440,39 +437,7 @@ const Home = () => {
             ))}
           </Carousel>
         </Box>
-        {/* carrusel <Box>
-          <Typography
-            sx={{
-              textAlign: "center",
-              mt: "48px",
-              mb: "48px",
-
-              color: "#272525",
-              width: "90%",
-              fontFamily: "Merriweather",
-              fontSize: "42px",
-              fontWeight: 400,
-              lineHeight: "normal",
-            }}
-          >
-            Por qué sumarnos a tu equipo
-          </Typography>
-
-          <Box sx={{ width: "87%", margin: "auto" }}>
-            <Carousel sx={{ width: "90%", m: "auto", mt: 8, mb: 8 }}>
-              {TestimoniosCradData.map((persona) => (
-                <TestimonioCard
-                  nombre={persona.nombre}
-                  key={persona.id}
-                  texto={persona.texto}
-                  imagen={persona.imagen}
-                  empresa={persona.empresa}
-                  cargo={persona.cargo}
-                />
-              ))}
-            </Carousel>
-          </Box>
-        </Box> */}
+       
       </Hidden>
     </>
   );
