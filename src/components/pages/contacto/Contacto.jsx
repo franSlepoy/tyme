@@ -74,7 +74,7 @@ const Contacto = () => {
                 variant="h1"
                 sx={{
                   fontFamily: "Manrope",
-                  fontSize: "16px",
+                  fontSize: "26px",
                   color: "white",
                   
                 }}

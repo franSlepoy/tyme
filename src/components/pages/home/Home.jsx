@@ -1,17 +1,23 @@
 import { Box, Hidden, Typography } from "@mui/material";
-import TestimonioCard from "../../common/testimonios/TestimonioCard/TestimonioCard";
-import { TestimoniosCradData } from "../../../servidor/testimoniosData";
 import Testimonios from "../../common/testimonios/Testimonios";
 import { Link } from "react-router-dom";
 import Testimonios1 from "../../common/testimonios/Testimonios1";
 import Carousel from "react-material-ui-carousel";
-
 import BlackButtom from "../../common/blackButtom/BlackButtom";
 import { Parallax } from "react-scroll-parallax";
 import GreenButtom from "../../common/greenButtom/GreenButtom";
 import { Link as ScrollLink } from "react-scroll";
-import Testimonios2 from "../../common/testimonios/TestimonioCard/testimonios2";
+import Testimonios2 from "../../common/testimonios/Testimonios2";
 import QueHacemos from "../queHacemos/QueHacemos";
+import TestimonioCard1 from "../../common/testimonios/TestimonioCard/TestimonioCard1";
+import TestimonioCard2 from "../../common/testimonios/TestimonioCard/TestimonioCard2";
+import TestimonioCard3 from "../../common/testimonios/TestimonioCard/TestimonioCard3";
+import TestimonioCard4 from "../../common/testimonios/TestimonioCard/TestimonioCard4";
+import TestimonioCard5 from "../../common/testimonios/TestimonioCard/TestimonioCard5";
+import TestimonioCard6 from "../../common/testimonios/TestimonioCard/TestimonioCard6";
+import TestimonioCard7 from "../../common/testimonios/TestimonioCard/TestimonioCard7";
+import TestimonioCard8 from "../../common/testimonios/TestimonioCard/TestimonioCard8";
+import TestimonioCrad9 from "../../common/testimonios/TestimonioCard/TestimonioCrad9";
 
 const Home = () => {
   return (
@@ -197,8 +203,8 @@ const Home = () => {
       </Hidden>
 
       <Hidden lgUp smDown>
-        <Parallax speed={-8}>
-          <Box mt={-2} width={"100%"}>
+        <Parallax speed={-5}>
+          <Box mt={-3} width={"100%"}>
             <img style={{ width: "100%" }} src="/home.png" alt="" />
           </Box>
         </Parallax>
@@ -206,9 +212,9 @@ const Home = () => {
           <Box
             sx={{
               position: "absolute",
-              top: "14% ",
-              left: "8%",
-              width: "88%",
+              top: "16% ",
+              left: "22%",
+              width: "55%",
               textAlign: "center",
             }}
           >
@@ -345,49 +351,35 @@ const Home = () => {
             Por qué sumarnos a tu equipo
           </Typography>
 
-          <Box sx={{ width: "100%",  margin: "auto" }}>
-            <Carousel sx={{ pb: 5,  }}>
-              {TestimoniosCradData.map((persona) => (
-                <TestimonioCard
-                  nombre={persona.nombre}
-                  key={persona.id}
-                  texto={persona.texto}
-                  imagen={persona.imagen}
-                  empresa={persona.empresa}
-                  cargo={persona.cargo}
-                />
-              ))}
+          <Box sx={{ width: "40%", margin: "auto" }}>
+            <Carousel
+              sx={{ height: "39vh", pb: 10, position: "relative" }}
+              indicatorContainerProps={{
+                sx: {
+                  position: "absolute",
+                  bottom: 10,
+                  left: "50%",
+                  transform: "translateX(-50%)",
+                },
+              }}
+            >
+              <TestimonioCard1 />
+              <TestimonioCard2 />
+              <TestimonioCard3 />
+              <TestimonioCard4 />
+              <TestimonioCard5 />
+              <TestimonioCard6 />
+              <TestimonioCard7 />
+              <TestimonioCard8 />
+              <TestimonioCrad9 />
             </Carousel>
           </Box>
         </Box>
       </Hidden>
 
       <Hidden smUp>
-        <Box bgcolor={"#73F0A2"} width={"100%"} m={"auto"}>
-          <Box
-            sx={{
-              width: "88%",
-              pb: "12%",
-              pt: "12%",
-            }}
-          >
-            <Typography
-              sx={{
-                fontFamily: "Merriweather",
-                fontSize: "30px",
-                fontWeight: "100",
-                lineHeight: "40px",
-                color: "white",
-                ml: "12%",
-              }}
-            >
-              Somos el puente entre el equipo que tienes y el que quieres
-            </Typography>
-          </Box>
-
-          <Box pt={"5%"} pb={"5%"} ml={"10%"}>
-            <BlackButtom texto={"Conócenos"} linkTo={"/quienesSomos"} />
-          </Box>
+        <Box  width={"100%"} m={"auto"}>
+         <img width={"100%"} src="/homeMobile.png" alt="" />
         </Box>
 
         <Box m={"auto"} width={"80%"} mt={"7%"}>
@@ -423,21 +415,32 @@ const Home = () => {
         >
           ¿Por qué sumarnos a tu equipo?
         </Typography>
-        <Box >
-          <Carousel sx={{ width: "90%", height:"600px", m: "auto", mb: 8 }}>
-            {TestimoniosCradData.map((persona) => (
-              <TestimonioCard
-                nombre={persona.nombre}
-                key={persona.id}
-                texto={persona.texto}
-                imagen={persona.imagen}
-                empresa={persona.empresa}
-                cargo={persona.cargo}
-              />
-            ))}
-          </Carousel>
+        <Box>
+        <Box sx={{ width: "80%", margin: "auto", pb:3 }}>
+            <Carousel 
+              autoPlay={false}
+              sx={{ height: "85vh", pb: 10, position: "relative" }}
+              indicatorContainerProps={{
+                sx: {
+                  position: "absolute",
+                  bottom: 10,
+                  left: "50%",
+                  transform: "translateX(-50%)",
+                },
+              }}
+            >
+              <TestimonioCard1 />
+              <TestimonioCard2 />
+              <TestimonioCard3 />
+              <TestimonioCard4 />
+              <TestimonioCard5 />
+              <TestimonioCard6 />
+              <TestimonioCard7 />
+              <TestimonioCard8 />
+              <TestimonioCrad9 />
+            </Carousel>
+          </Box>
         </Box>
-       
       </Hidden>
     </>
   );

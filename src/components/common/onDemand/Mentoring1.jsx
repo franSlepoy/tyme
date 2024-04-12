@@ -98,8 +98,8 @@ const Mentoring1 = ({ handleOpenModal5, handleCloseModal5, openModal5 }) => {
             <Typography
               sx={{
                 fontFamily: "Manrope",
-                fontSize: "35px",
-                lineHeight: "65px",
+                fontSize: "30px",
+                lineHeight: "32px",
                 fontWeight: "700",
                 color: "#73F0A2",
                 mt: 1,
@@ -111,8 +111,8 @@ const Mentoring1 = ({ handleOpenModal5, handleCloseModal5, openModal5 }) => {
               maxWidth={"580px"}
               sx={{
                 fontFamily: "Manrope",
-                fontSize: "35px",
-                lineHeight: "15px",
+                fontSize: "30px",
+                lineHeight: "32px",
                 fontWeight: "700",
                 color: "white",
               }}
@@ -123,8 +123,8 @@ const Mentoring1 = ({ handleOpenModal5, handleCloseModal5, openModal5 }) => {
             <Typography
               sx={{
                 fontFamily: "Manrope",
-                fontSize: "22px",
-                lineHeight: "30px",
+                fontSize: "20px",
+                lineHeight: "28px",
                 color: "white",
                 fontWeight: "100",
                 mt: "8%",

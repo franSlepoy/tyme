@@ -96,7 +96,7 @@ const QueHacemos = () => {
           <Box
             sx={{
               position: "absolute",
-              top:"75%",
+              top: "75%",
               left: "7%",
             }}
           >
@@ -119,9 +119,7 @@ const QueHacemos = () => {
           </Typography>
         </Box>
 
-        <Box
-          sx={{ width: "100%", backgroundColor: "#1296E9", pb:"5%" }}
-        >
+        <Box sx={{ width: "100%", backgroundColor: "#1296E9", pb: "5%" }}>
           <Box sx={{ position: "absolute", mt: "75px" }}>
             <img width={"100%"} src="/nosotros3.png" alt="" />
           </Box>
@@ -153,7 +151,7 @@ const QueHacemos = () => {
               </Box>
             </Box>
 
-            <Box ml={"12%"}  width={"40%"}>
+            <Box ml={"12%"} width={"40%"}>
               <Button
                 disableRipple
                 style={{
@@ -381,10 +379,10 @@ const QueHacemos = () => {
                 open={openModal4}
                 onClose={handleCloseModal4}
               >
-                <CarouselAcom 
-                handleOpenModal4={handleOpenModal4}
-                handleCloseModal4={handleCloseModal4}
-                openModal4={openModal4}
+                <CarouselAcom
+                  handleOpenModal4={handleOpenModal4}
+                  handleCloseModal4={handleCloseModal4}
+                  openModal4={openModal4}
                 />
               </Dialog>
             </Box>
@@ -392,7 +390,7 @@ const QueHacemos = () => {
         </Box>
 
         <Box
-          sx={{ width: "100%", backgroundColor: "#18CC66", pt:"8%", pb:"8%" }}
+          sx={{ width: "100%", backgroundColor: "#18CC66", pt: "8%", pb: "8%" }}
         >
           <Box sx={{ position: "absolute" }}>
             <img width={"100%"} src="/nosotros4.png" alt="" />
@@ -400,7 +398,6 @@ const QueHacemos = () => {
           <Box display={"flex"} width={"90%"} m={"auto"}>
             <Box width={"40%"}>
               <Typography
-              
                 sx={{
                   fontFamily: "Manrope",
                   fontWeight: "500",
@@ -426,7 +423,7 @@ const QueHacemos = () => {
               </Box>
             </Box>
 
-            <Box ml={"12%"}  width={"40%"}>
+            <Box ml={"12%"} width={"40%"}>
               <Button
                 disableRipple
                 style={{
@@ -486,9 +483,9 @@ const QueHacemos = () => {
                 onClose={handleCloseModal5}
               >
                 <CarouselMentoring
-                handleOpenModal5={handleOpenModal5}
-                handleCloseModal5={handleCloseModal5}
-                openModal5={openModal5}
+                  handleOpenModal5={handleOpenModal5}
+                  handleCloseModal5={handleCloseModal5}
+                  openModal5={openModal5}
                 />
               </Dialog>
 
@@ -550,9 +547,9 @@ const QueHacemos = () => {
                 onClose={handleCloseModal6}
               >
                 <CarouselTrai
-                handleOpenModal6={handleOpenModal6}
-                handleCloseModal6={handleCloseModal6}
-                openModal6={openModal6}
+                  handleOpenModal6={handleOpenModal6}
+                  handleCloseModal6={handleCloseModal6}
+                  openModal6={openModal6}
                 />
               </Dialog>
             </Box>
@@ -561,13 +558,13 @@ const QueHacemos = () => {
       </Hidden>
 
       <Hidden lgUp smDown>
-        <Parallax speed={-12} tagOuter="figure">
-          <Box mt={-1}>
+        <Parallax speed={-6} tagOuter="figure">
+          <Box mt={-3}>
             <img width={"100%"} src="/nosotros1.png" alt="" />
           </Box>
         </Parallax>
         <Box>
-          <Box sx={{ position: "absolute", top: "22%", left: "40.6%" }}>
+          <Box sx={{ position: "absolute", top: "15%", left: "40.6%" }}>
             <img width={"100%"} src="/nosotros2.png" alt="" />
           </Box>
           <Box
@@ -594,7 +591,7 @@ const QueHacemos = () => {
         <Box width={"100%"} height={"90px"}>
           <Typography
             sx={{
-              mt: "3%",
+              mt: "5%",
               ml: "5%",
               fontFamily: "Merriweather",
               fontSize: "42px",
@@ -609,7 +606,7 @@ const QueHacemos = () => {
           sx={{
             width: "100%",
             backgroundColor: "#1296E9",
-            minHeight: "70vh",
+
             pb: "5%",
             pt: "5%",
           }}
@@ -835,7 +832,7 @@ const QueHacemos = () => {
         </Box>
 
         <Box
-          sx={{ width: "100%", backgroundColor: "#18CC66", minHeight: "70vh" }}
+          sx={{ width: "100%", backgroundColor: "#18CC66", pb: "5%", pt: "5%" }}
         >
           <Box sx={{ position: "absolute" }}>
             <img width={"100%"} src="/nosotros4.png" alt="" />
@@ -843,7 +840,6 @@ const QueHacemos = () => {
           <Box display={"flex"} width={"90%"} m={"auto"}>
             <Box width={"40%"}>
               <Typography
-                mt={"20%"}
                 sx={{
                   fontFamily: "Manrope",
                   fontWeight: "500",
@@ -883,7 +879,6 @@ const QueHacemos = () => {
               >
                 <Box
                   display={"flex"}
-                  mt={"22%"}
                   component={NavLink}
                   to={"/mentoring"}
                   sx={{ textDecoration: "none" }}
@@ -1338,13 +1333,14 @@ const QueHacemos = () => {
                       lineHeight: "34px",
                       color: "black",
                       textAlign: "center",
+                      width:"250px"
                     }}
                   >
-                       Training en innovación tecnológica
+                    Training en innovación tecnológica
                   </Typography>
                 </Box>
               </Button>
-             
+
               <Dialog
                 fullWidth={true}
                 maxWidth="lg"

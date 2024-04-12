@@ -241,9 +241,9 @@ const Cultura2 = ({ handleOpenModal2, handleCloseModal2, openModal2 }) => {
               maxWidth={"980px"}
               sx={{
                 fontFamily: "Manrope",
-                fontSize: "48px",
-                lineHeight: "45px",
-                fontWeight: "700",
+                fontSize: "30px",
+                lineHeight: "32px",
+                fontWeight: "800",
                 color: "white",
                 mt: "4%",
               }}
@@ -255,8 +255,8 @@ const Cultura2 = ({ handleOpenModal2, handleCloseModal2, openModal2 }) => {
               maxWidth={"780px"}
               sx={{
                 fontFamily: "Manrope",
-                fontSize: "26px",
-                lineHeight: "35px",
+                fontSize: "20px",
+                lineHeight: "28px",
                 color: "white",
                 fontWeight: "300",
                 mt: "2%",
@@ -283,7 +283,7 @@ const Cultura2 = ({ handleOpenModal2, handleCloseModal2, openModal2 }) => {
                 sx={{
                   color: "#73F0A2",
                   fontFamily: "Manrope",
-                  fontSize: "24px",
+                  fontSize: "20px",
                   fontWeight: "800",
                   mt: 2,
                 }}
@@ -294,7 +294,7 @@ const Cultura2 = ({ handleOpenModal2, handleCloseModal2, openModal2 }) => {
                 sx={{
                   color: "white",
                   fontFamily: "Manrope",
-                  fontSize: "24px",
+                  fontSize: "20px",
                   fontWeight: "100",
                 }}
               >
@@ -318,7 +318,7 @@ const Cultura2 = ({ handleOpenModal2, handleCloseModal2, openModal2 }) => {
                 sx={{
                   color: "#73F0A2",
                   fontFamily: "Manrope",
-                  fontSize: "24px",
+                  fontSize: "20px",
                   fontWeight: "800",
                   mt: 2,
                 }}
@@ -330,7 +330,7 @@ const Cultura2 = ({ handleOpenModal2, handleCloseModal2, openModal2 }) => {
                 sx={{
                   color: "white",
                   fontFamily: "Manrope",
-                  fontSize: "24px",
+                  fontSize: "20px",
                   fontWeight: "100",
                 }}
               >
@@ -354,7 +354,7 @@ const Cultura2 = ({ handleOpenModal2, handleCloseModal2, openModal2 }) => {
                 sx={{
                   color: "#73F0A2",
                   fontFamily: "Manrope",
-                  fontSize: "24px",
+                  fontSize: "20px",
                   fontWeight: "800",
                   mt: 2,
                 }}
@@ -365,7 +365,7 @@ const Cultura2 = ({ handleOpenModal2, handleCloseModal2, openModal2 }) => {
                 sx={{
                   color: "white",
                   fontFamily: "Manrope",
-                  fontSize: "24px",
+                  fontSize: "20px",
                   fontWeight: "100",
                 }}
               >
@@ -389,7 +389,7 @@ const Cultura2 = ({ handleOpenModal2, handleCloseModal2, openModal2 }) => {
                 sx={{
                   color: "#73F0A2",
                   fontFamily: "Manrope",
-                  fontSize: "24px",
+                  fontSize: "20px",
                   fontWeight: "800",
                   mt: 2,
                 }}
@@ -400,7 +400,7 @@ const Cultura2 = ({ handleOpenModal2, handleCloseModal2, openModal2 }) => {
                 sx={{
                   color: "white",
                   fontFamily: "Manrope",
-                  fontSize: "24px",
+                  fontSize: "20px",
                   fontWeight: "100",
                 }}
               >

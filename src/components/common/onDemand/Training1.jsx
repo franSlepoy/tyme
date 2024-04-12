@@ -117,8 +117,8 @@ const Training1 = ({ handleOpenModal6, handleCloseModal6, openModal6 }) => {
               maxWidth={"580px"}
               sx={{
                 fontFamily: "Manrope",
-                fontSize: "45px",
-                lineHeight: "45px",
+                fontSize: "30px",
+                lineHeight: "32px",
                 fontWeight: "700",
                 color: "white",
                 mt: 3,
@@ -132,8 +132,8 @@ const Training1 = ({ handleOpenModal6, handleCloseModal6, openModal6 }) => {
               maxWidth={"780px"}
               sx={{
                 fontFamily: "Manrope",
-                fontSize: "22px",
-                lineHeight: "30px",
+                fontSize: "20px",
+                lineHeight: "28px",
                 color: "white",
                 fontWeight: "100",
                 mt: "6%",

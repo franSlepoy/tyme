@@ -186,7 +186,7 @@ const Acompañamiento2 = ({
               sx={{
                 fontFamily: "Manrope",
                 fontSize: "30px",
-                lineHeight: "30px",
+                lineHeight: "32px",
                 fontWeight: "700",
                 color: "white",
               }}
@@ -198,8 +198,8 @@ const Acompañamiento2 = ({
               maxWidth={"780px"}
               sx={{
                 fontFamily: "Manrope",
-                fontSize: "26px",
-                lineHeight: "35px",
+                fontSize: "20px",
+                lineHeight: "28px",
                 color: "white",
                 fontWeight: "300",
                 mt: "2%",
@@ -227,7 +227,7 @@ const Acompañamiento2 = ({
                 sx={{
                   color: "white",
                   fontFamily: "Manrope",
-                  fontSize: "24px",
+                  fontSize: "20px",
                   fontWeight: "100",
                   mt: 2,
                 }}
@@ -252,7 +252,7 @@ const Acompañamiento2 = ({
                 sx={{
                   color: "white",
                   fontFamily: "Manrope",
-                  fontSize: "24px",
+                  fontSize: "20px",
                   fontWeight: "100",
                   mt: 2,
                 }}
@@ -278,7 +278,7 @@ const Acompañamiento2 = ({
                 sx={{
                   color: "white",
                   fontFamily: "Manrope",
-                  fontSize: "24px",
+                  fontSize: "20px",
                   fontWeight: "100",
                   mt: 2,
                 }}
@@ -303,7 +303,7 @@ const Acompañamiento2 = ({
                 sx={{
                   color: "white",
                   fontFamily: "Manrope",
-                  fontSize: "24px",
+                  fontSize: "20px",
                   fontWeight: "100",
                   mt: 2,
                 }}

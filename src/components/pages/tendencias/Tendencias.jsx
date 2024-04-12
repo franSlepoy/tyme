@@ -122,8 +122,8 @@ const Tendencias = () => {
       </Hidden>
 
       <Hidden lgUp smDown>
-        <Parallax speed={-12} tagOuter="figure">
-          <Box >
+        <Parallax speed={-6} tagOuter="figure">
+          <Box mt={-4}>
             <img width={"100%"} src="/tendencias1.png" alt="" />
           </Box>
         </Parallax>
@@ -131,7 +131,7 @@ const Tendencias = () => {
           <Box
             sx={{
               position: "absolute",
-              top: "40% ",
+              top: "25% ",
               left: "6%",
               width: "76%",
             }}
@@ -165,7 +165,7 @@ const Tendencias = () => {
           </Box>
         </Box>
 
-        <Box width={"100%"} mt={"15%"}>
+        <Box width={"100%"} mt={"8%"}>
           <Typography
             sx={{
               fontFamily: "Merriweather",

@@ -73,7 +73,7 @@ const Charlas5 = ({ handleCloseComponente }) => {
       <Hidden lgUp smDown>
         <Box
           position={"absolute"}
-          top={"348%"}
+          top={"178%"}
           display={"flex"}
           width={"100%"}
           pt={"5%"}
@@ -93,9 +93,9 @@ const Charlas5 = ({ handleCloseComponente }) => {
               sx={{
                 mt: "3%",
                 fontFamily: "Manrope",
-                fontSize: "48px",
+                fontSize: "30px",
                 fontWeight: "700",
-                lineHeight: "45px",
+                
                 color: "white",
               }}
             >
@@ -106,9 +106,9 @@ const Charlas5 = ({ handleCloseComponente }) => {
                 mt: "1%",
                 width: "97%",
                 fontFamily: "Manrope",
-                fontSize: "30px",
+                fontSize: "24px",
                 fontWeight: "500",
-                lineHeight: "36px",
+              
                 color: "black",
               }}
             >
@@ -119,9 +119,9 @@ const Charlas5 = ({ handleCloseComponente }) => {
                 mt: "4%",
                 mb: "7%",
                 fontFamily: "Manrope",
-                fontSize: "24px",
+                fontSize: "20px",
                 fontWeight: "300",
-                lineHeight: "30px",
+                lineHeight: "28px",
                 color: "black",
               }}
             >

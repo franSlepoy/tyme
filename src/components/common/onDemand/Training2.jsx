@@ -150,8 +150,8 @@ const Training2 = ({ handleOpenModal6, handleCloseModal6, openModal6 }) => {
               <Typography
                 sx={{
                   fontFamily: "Manrope",
-                  fontSize: "38px",
-                  lineHeight: "53px",
+                  fontSize: "30px",
+                  lineHeight: "32px",
                   fontWeight: "300",
                   color: "white",
                   mt: "5%",
@@ -178,6 +178,7 @@ const Training2 = ({ handleOpenModal6, handleCloseModal6, openModal6 }) => {
                 fontSize: "20px",
                 lineHeight: "26px",
                 color: "black",
+                fontWeight: "light",
               }}
             >
               Permite acceder a las nuevas herramientas que están transformando
@@ -190,6 +191,7 @@ const Training2 = ({ handleOpenModal6, handleCloseModal6, openModal6 }) => {
                 lineHeight: "26px",
                 color: "black",
                 mt: "5%",
+                fontWeight: "light",
               }}
             >
               Mejora la toma de decisiones basadas en datos, utilizando análisis
@@ -202,6 +204,7 @@ const Training2 = ({ handleOpenModal6, handleCloseModal6, openModal6 }) => {
                 lineHeight: "26px",
                 color: "black",
                 mt: "5%",
+                fontWeight: "light",
               }}
             >
               Optimiza la eficiencia de los procesos, abre oportunidades de
@@ -214,6 +217,7 @@ const Training2 = ({ handleOpenModal6, handleCloseModal6, openModal6 }) => {
                 lineHeight: "26px",
                 color: "black",
                 mt: "5%",
+                fontWeight: "light",
               }}
             >
               Potencia la experiencia del empleado e impulsa sus habilidades

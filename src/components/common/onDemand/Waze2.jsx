@@ -235,8 +235,8 @@ const Waze2 = ({ handleOpenModal3, handleCloseModal3, openModal3 }) => {
             <Typography
               sx={{
                 fontFamily: "Manrope",
-                fontSize: "48px",
-                lineHeight: "45px",
+                fontSize: "30px",
+                lineHeight: "32px",
                 fontWeight: "700",
                 color: "white",
                 mt: "25%",
@@ -249,8 +249,8 @@ const Waze2 = ({ handleOpenModal3, handleCloseModal3, openModal3 }) => {
               maxWidth={"780px"}
               sx={{
                 fontFamily: "Manrope",
-                fontSize: "26px",
-                lineHeight: "35px",
+                fontSize: "20px",
+                lineHeight: "28px",
                 color: "white",
                 fontWeight: "300",
                 mt: "2%",
@@ -277,7 +277,7 @@ const Waze2 = ({ handleOpenModal3, handleCloseModal3, openModal3 }) => {
                 sx={{
                   color: "#73F0A2",
                   fontFamily: "Manrope",
-                  fontSize: "24px",
+                  fontSize: "20px",
                   fontWeight: "800",
                   mt: 2,
                 }}
@@ -288,7 +288,7 @@ const Waze2 = ({ handleOpenModal3, handleCloseModal3, openModal3 }) => {
                 sx={{
                   color: "white",
                   fontFamily: "Manrope",
-                  fontSize: "24px",
+                  fontSize: "20px",
                   fontWeight: "100",
                 }}
               >
@@ -312,7 +312,7 @@ const Waze2 = ({ handleOpenModal3, handleCloseModal3, openModal3 }) => {
                 sx={{
                   color: "#73F0A2",
                   fontFamily: "Manrope",
-                  fontSize: "24px",
+                  fontSize: "20px",
                   fontWeight: "800",
                   mt: 2,
                 }}
@@ -323,7 +323,7 @@ const Waze2 = ({ handleOpenModal3, handleCloseModal3, openModal3 }) => {
                 sx={{
                   color: "white",
                   fontFamily: "Manrope",
-                  fontSize: "24px",
+                  fontSize: "20px",
                   fontWeight: "100",
                 }}
               >
@@ -347,7 +347,7 @@ const Waze2 = ({ handleOpenModal3, handleCloseModal3, openModal3 }) => {
                 sx={{
                   color: "#73F0A2",
                   fontFamily: "Manrope",
-                  fontSize: "24px",
+                  fontSize: "20px",
                   fontWeight: "800",
                   mt: 2,
                 }}
@@ -358,7 +358,7 @@ const Waze2 = ({ handleOpenModal3, handleCloseModal3, openModal3 }) => {
                 sx={{
                   color: "white",
                   fontFamily: "Manrope",
-                  fontSize: "24px",
+                  fontSize: "20px",
                   fontWeight: "100",
                 }}
               >
@@ -382,7 +382,7 @@ const Waze2 = ({ handleOpenModal3, handleCloseModal3, openModal3 }) => {
                 sx={{
                   color: "#73F0A2",
                   fontFamily: "Manrope",
-                  fontSize: "24px",
+                  fontSize: "20px",
                   fontWeight: "800",
                   mt: 2,
                 }}
@@ -393,7 +393,7 @@ const Waze2 = ({ handleOpenModal3, handleCloseModal3, openModal3 }) => {
                 sx={{
                   color: "white",
                   fontFamily: "Manrope",
-                  fontSize: "24px",
+                  fontSize: "20px",
                   fontWeight: "100",
                 }}
               >

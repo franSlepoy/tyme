@@ -4,7 +4,7 @@ import BlackButtom from "../blackButtom/BlackButtom";
 const Charlas7 = ({ handleCloseComponente }) => {
   return (
     <>
-      <Hidden lgDown >
+      <Hidden lgDown>
         <Box
           position={"absolute"}
           top={"348%"}
@@ -70,11 +70,10 @@ const Charlas7 = ({ handleCloseComponente }) => {
         </Box>
       </Hidden>
 
-      <Hidden lgUp smDown >
+      <Hidden lgUp smDown>
         <Box
           position={"absolute"}
-          top={"348%"}
-       
+          top={"178%"}
           display={"flex"}
           width={"100%"}
           pt={"5%"}
@@ -139,7 +138,7 @@ const Charlas7 = ({ handleCloseComponente }) => {
       <Hidden smUp>
         <Box
           position={"absolute"}
-          top={"358vh"}
+          top={"368vh"}
           left={"6%"}
           display={"flex"}
           width={"87%"}
@@ -160,9 +159,9 @@ const Charlas7 = ({ handleCloseComponente }) => {
               sx={{
                 mt: "3%",
                 fontFamily: "Manrope",
-                fontSize: "48px",
+                fontSize: "30px",
                 fontWeight: "700",
-                lineHeight: "45px",
+
                 color: "white",
               }}
             >
@@ -173,9 +172,9 @@ const Charlas7 = ({ handleCloseComponente }) => {
                 mt: "1%",
                 width: "97%",
                 fontFamily: "Manrope",
-                fontSize: "30px",
+                fontSize: "24px",
                 fontWeight: "500",
-                lineHeight: "36px",
+                lineHeight: "26px",
                 color: "black",
               }}
             >
@@ -186,9 +185,9 @@ const Charlas7 = ({ handleCloseComponente }) => {
                 mt: "4%",
                 mb: "7%",
                 fontFamily: "Manrope",
-                fontSize: "24px",
+                fontSize: "20px",
                 fontWeight: "300",
-                lineHeight: "30px",
+                lineHeight: "28px",
                 color: "black",
                 width: "90%",
               }}

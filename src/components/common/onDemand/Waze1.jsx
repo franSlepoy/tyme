@@ -91,9 +91,9 @@ const Evaluacion1 = ({ handleOpenModal3, handleCloseModal3, openModal3 }) => {
               maxWidth={"580px"}
               sx={{
                 fontFamily: "Manrope",
-                fontSize: "48px",
-                lineHeight: "45px",
-                fontWeight: "700",
+                fontSize: "30px",
+                lineHeight: "32px",
+                fontWeight: "800",
                 color: "white",
                 mt: "7%",
               }}
@@ -105,8 +105,8 @@ const Evaluacion1 = ({ handleOpenModal3, handleCloseModal3, openModal3 }) => {
               maxWidth={"780px"}
               sx={{
                 fontFamily: "Manrope",
-                fontSize: "24px",
-                lineHeight: "30px",
+                fontSize: "20px",
+                lineHeight: "28px",
                 color: "white",
                 fontWeight: "300",
                 mt: "8%",
@@ -124,7 +124,7 @@ const Evaluacion1 = ({ handleOpenModal3, handleCloseModal3, openModal3 }) => {
             <img src="/waze.png" alt="" />
           </Box>
         </Box>
-        <Box mt={-1}>
+        <Box mt={-25}>
           <Waze2/>
         </Box>
       </Hidden>

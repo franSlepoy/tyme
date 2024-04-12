@@ -144,8 +144,8 @@ const Mentoring2 = ({ handleOpenModal5, handleCloseModal5, openModal5 }) => {
               maxWidth={"280px"}
               sx={{
                 fontFamily: "Manrope",
-                fontSize: "48px",
-                lineHeight: "53px",
+                fontSize: "30px",
+                lineHeight: "32px",
                 fontWeight: "300",
                 color: "white",
                 pt: "25%",

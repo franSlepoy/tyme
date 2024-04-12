@@ -359,20 +359,20 @@ const Nosotros = () => {
 
       <Hidden lgUp smDown>
         <Box sx={{ width: "100%" }}>
-          <Parallax speed={-12} tagOuter="figure">
-            <Box mt={-1}>
+          <Parallax speed={-6} tagOuter="figure">
+            <Box mt={-4}>
               <img width={"100%"} src="/javier1.png" alt="" />
             </Box>
           </Parallax>
           <Box>
-            <Box sx={{ position: "absolute", top: "52%", right: "0px" }}>
+            <Box sx={{ position: "absolute", top: "32%", right: "0px" }}>
               <img width={"100%"} src="/nosotros3.png" alt="" />
             </Box>
 
             <Box
               sx={{
                 position: "absolute",
-                top: "25% ",
+                top: "20% ",
                 left: "7%",
                 width: "52%",
               }}
@@ -392,7 +392,7 @@ const Nosotros = () => {
               </Typography>
             </Box>
 
-            <Box sx={{ position: "absolute", right: "0%", top: "28%" }}>
+            <Box sx={{ position: "absolute", right: "0%", top: "25%" }}>
               <img width={"100%"} src="/ilustracion.png" alt="" />
             </Box>
           </Box>
@@ -648,34 +648,14 @@ const Nosotros = () => {
             <img width={"100%"} src="/mobileNosotros.png" alt="" />
           </Box>
 
-          <Box>
-            <Box
-              sx={{
-                position: "absolute",
-                top: "15% ",
-                left: "7%",
-                width: "52%",
-              }}
-            >
-              <Typography
-                sx={{
-                  fontFamily: "Manrope",
-                  fontSize: "16px",
-                  fontWeight: "700",
-                  color: "#1296E9",
-                }}
-              >
-                Quienes somos
-              </Typography>
-            </Box>
-          </Box>
+          
         </Box>
 
         <Box
           sx={{
             position: "absolute",
             top: "25% ",
-            left: "7%",
+            left: "9%",
             width: "52%",
           }}
         >
@@ -684,7 +664,7 @@ const Nosotros = () => {
               fontFamily: "Merriweather",
               fontSize: "25px",
               fontWeight: "300",
-              lineHeight: "27px",
+              lineHeight: "31px",
               color: "white",
             }}
           >
@@ -696,13 +676,15 @@ const Nosotros = () => {
 
         <Box
           sx={{
-            pl: 2,
+        
             width: "100%",
             backgroundColor: "rgba(18,150,233, 0.4)",
           }}
         >
           <Box
-            width={"98%"}
+            
+            width={"90%"}
+            m={"auto"}
             display={"flex"}
             mt={-5}
             pt={10}
@@ -760,7 +742,7 @@ const Nosotros = () => {
             </Box>
           </Box>
 
-          <Box width={"88%"} m={"auto"}>
+          <Box width={"82%"} m={"auto"}>
             <Box>
               <Typography
                 sx={{
@@ -832,7 +814,7 @@ const Nosotros = () => {
                   mt: "7%",
                 }}
               >
-                Kavier Krawicki
+                Javier Krawicki
               </Typography>
               <Typography
                 sx={{

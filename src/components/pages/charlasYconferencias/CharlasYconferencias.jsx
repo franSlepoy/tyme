@@ -540,6 +540,7 @@ const CharlasYconferencias = () => {
         <Parallax speed={-6} tagOuter="figure">
           <Box
             width={"100%"}
+            mt={-4}
             style={{
               backgroundImage: "linear-gradient(to left, #264185, #4D4747)",
             }}
@@ -548,13 +549,13 @@ const CharlasYconferencias = () => {
           </Box>
         </Parallax>
         <Box>
-          <Box sx={{ position: "absolute", top: "32%" }}>
+          <Box sx={{ position: "absolute", top: "22%" }}>
             <img width={"100%"} src="/nosotros4.png" alt="" />
           </Box>
           <Box
             sx={{
               position: "absolute",
-              top: "28% ",
+              top: "20% ",
               left: "51%",
               width: "42%",
             }}
@@ -604,7 +605,7 @@ const CharlasYconferencias = () => {
                 sx={{
                   fontFamily: "Manrope",
                   fontWeight: "300",
-                  fontSize: "100px",
+                  fontSize: "90px",
                   lineHeight: "90%",
                   color: "white",
                 }}

@@ -95,9 +95,9 @@ const Cultura1 = ({ handleOpenModal2, handleCloseModal2, openModal2 }) => {
               maxWidth={"580px"}
               sx={{
                 fontFamily: "Manrope",
-                fontSize: "38px",
-                lineHeight: "45px",
-                fontWeight: "700",
+                fontSize: "30px",
+                lineHeight: "32px",
+                fontWeight: "800",
                 color: "white",
                 mt: "7%",
               }}
@@ -111,8 +111,8 @@ const Cultura1 = ({ handleOpenModal2, handleCloseModal2, openModal2 }) => {
               maxWidth={"780px"}
               sx={{
                 fontFamily: "Manrope",
-                fontSize: "24px",
-                lineHeight: "30px",
+                fontSize: "20px",
+                lineHeight: "28px",
                 color: "white",
                 fontWeight: "300",
                 mt: "8%",

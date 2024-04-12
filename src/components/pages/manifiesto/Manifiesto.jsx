@@ -198,25 +198,7 @@ const Manifiesto = () => {
             alt=""
           />
         </Box>
-        <Box
-          sx={{
-            position: "absolute",
-            top: "10% ",
-            left: "9%",
-            width: "52%",
-          }}
-        >
-          <Typography
-            sx={{
-              fontFamily: "Manrope",
-              fontSize: "16px",
-              fontWeight: "700",
-              color: "black",
-            }}
-          >
-            El valor del tiempo ...
-          </Typography>
-        </Box>
+
         <Box
           sx={{
             position: "absolute",
@@ -228,7 +210,7 @@ const Manifiesto = () => {
           <BlackButtom texto={"Contáctanos"} linkTo={"/contacto"} />
         </Box>
 
-        <Box sx={{ bgcolor: "#1296E9", mt: -1, pt: 3, pb: 3 }}>
+        <Box sx={{ bgcolor: "#1296E9", mt: -1, pt: 5, pb: 5 }}>
           <Box
             sx={{
               width: "80%",
@@ -258,14 +240,14 @@ const Manifiesto = () => {
           sx={{ bgcolor: "rgba(15, 150, 233, 0.4)" }}
         >
           <Box m={"auto"}>
-            <Box width={"88%"} m={"auto"} pt={"8%"}>
+            <Box width={"88%"} m={"auto"} pt={"10%"}>
               <Typography
                 sx={{
                   width: "76%",
                   textAlign: "center",
                   margin: "auto",
-                  fontFamily: "Marriweather",
-                  fontSize: "36px",
+                  fontFamily: "Merriweather",
+                  fontSize: "30px",
                   color: "black",
                   lineHeight: "32px",
                 }}
@@ -276,7 +258,7 @@ const Manifiesto = () => {
                 <BlackButtom texto={"Contactanos"} linkTo={"/contacto"} />
               </Box>
             </Box>
-            <Box width={"83%"} m={"auto"} pt={"4%"}>
+            <Box width={"80%"} m={"auto"} pt={"4%"}>
               <Typography
                 sx={{
                   fontFamily: "Manrope",
