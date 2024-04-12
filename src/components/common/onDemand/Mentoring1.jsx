@@ -2,6 +2,7 @@ import { Hidden, Typography } from "@mui/material";
 import { Box } from "@mui/system";
 import { NavLink } from "react-router-dom";
 import { Button } from "react-scroll";
+import Mentoring2 from "./Mentoring2";
 
 const Mentoring1 = ({ handleOpenModal5, handleCloseModal5, openModal5 }) => {
   return (
@@ -92,38 +93,7 @@ const Mentoring1 = ({ handleOpenModal5, handleCloseModal5, openModal5 }) => {
       </Hidden>
 
       <Hidden smUp>
-      <Box
-         
-          p={"8%"}
-          sx={{ width: "100%",  backgroundColor: "#046C31" }}
-        >
-          <Box
-            display={"flex"}
-            component={Button}
-            onClick={() => {
-              handleCloseModal5();
-            }}
-            bgcolor={"transparent"}
-            border={"none"}
-            sx={{ textDecoration: "none", cursor: "pointer" }}
-            ml={-3.5}
-          >
-            <img height={"30px"} src="/arrowButton.png" alt="" />
-            <Typography
-              sx={{
-                fontSize: "20px",
-                fontFamily: "Manrope",
-                fontWeight: "200",
-                color: "white",
-                lineHeight: "34px",
-                ml: "4px",
-                mt: "-2px",
-              }}
-            >
-              HR on demand
-            </Typography>
-          </Box>
-
+        <Box p={"8%"} sx={{ width: "100%", backgroundColor: "#046C31" }}>
           <Box>
             <Typography
               sx={{
@@ -151,7 +121,6 @@ const Mentoring1 = ({ handleOpenModal5, handleCloseModal5, openModal5 }) => {
             </Typography>
 
             <Typography
-             
               sx={{
                 fontFamily: "Manrope",
                 fontSize: "22px",
@@ -170,7 +139,9 @@ const Mentoring1 = ({ handleOpenModal5, handleCloseModal5, openModal5 }) => {
               habilidades de tu equipo de trabajo.
             </Typography>
           </Box>
-         
+        </Box>
+        <Box>
+          <Mentoring2 />
         </Box>
       </Hidden>
     </>

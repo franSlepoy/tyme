@@ -68,11 +68,7 @@ const CarouselTrai = ({ handleOpenModal6, handleCloseModal6, openModal6 }) => {
           handleCloseModal6={handleCloseModal6}
           openModal6={openModal6}
         />
-        <Training2
-          handleOpenModal6={handleOpenModal6}
-          handleCloseModal6={handleCloseModal6}
-          openModal6={openModal6}
-        />
+       
         </Box>
        
       </Hidden>

@@ -69,12 +69,6 @@ const CarouselWaze = ({ handleOpenModal3, handleCloseModal3, openModal3 }) => {
             handleCloseModal3={handleCloseModal3}
             openModal3={openModal3}
           />
-
-          <Waze2
-            handleOpenModal3={handleOpenModal3}
-            handleCloseModal3={handleCloseModal3}
-            openModal3={openModal3}
-          />
         </Box>
       </Hidden>
     </>

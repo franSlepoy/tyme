@@ -105,7 +105,7 @@ const CarouselEv = ({ handleOpenModal1, handleCloseModal1, openModal1 }) => {
      */}
         <Box>
           <Evaluacion1 />
-          <Evaluacion2 />
+         
         </Box>
       </Hidden>
     </>

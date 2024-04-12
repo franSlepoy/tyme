@@ -1,6 +1,7 @@
 import { Hidden, Typography } from "@mui/material";
 import { Box } from "@mui/system";
 import { NavLink } from "react-router-dom";
+import Cultura2 from "./Cultura2";
 
 const Cultura1 = ({ handleOpenModal2, handleCloseModal2, openModal2 }) => {
   return (
@@ -85,33 +86,10 @@ const Cultura1 = ({ handleOpenModal2, handleCloseModal2, openModal2 }) => {
           p={"6%"}
           sx={{
             width: "100%",
-            height: "100vh", // Ajustar la altura al 100% del viewport height
+
             backgroundColor: "#104B70",
-            overflowY: "auto", // Permitir scroll vertical si es necesario
           }}
         >
-          <Box
-            display={"flex"}
-            component={NavLink}
-            to={"/queHacemos"}
-            sx={{ textDecoration: "none" }}
-          >
-            <img height={"30px"} src="/arrowButton.png" alt="" />
-            <Typography
-              sx={{
-                fontSize: "20px",
-                fontFamily: "Manrope",
-                fontWeight: "300",
-                color: "white",
-                lineHeight: "34px",
-                ml: "4px",
-                mt: "-2px",
-              }}
-            >
-              HR on demand
-            </Typography>
-          </Box>
-
           <Box>
             <Typography
               maxWidth={"580px"}
@@ -151,6 +129,9 @@ const Cultura1 = ({ handleOpenModal2, handleCloseModal2, openModal2 }) => {
           <Box position={"absolute"} top={"10%"}>
             <img src="/cultura.png" alt="" />
           </Box>
+        </Box>
+        <Box mt={-1}>
+          <Cultura2/>
         </Box>
       </Hidden>
     </>

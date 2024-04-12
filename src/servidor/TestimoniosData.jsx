@@ -27,7 +27,7 @@ export const TestimoniosCradData = [
        {id: 4,
         imagen: "/testimonios4.png",
         nombre: " Ruben Sanchez",
-        texto:"En mis años al mando de diversas compañías, he cruzado caminos con numerosos profesionales de RRHH, pero pocos han dejado una huella tan profunda como Javier. Su entendimiento agudo de los recursos humanos, combinado con una destreza única para cultivar y guiar a líderes, le distingue en un mar de expertos. Más allá de su experiencia, es su enfoque humano y su visión clara lo que realmente transforma equipos y organizaciones. Si hay alguien que entiende la temperatura real de una organización y cómo elevarla, es sin duda él.",
+        texto:"En mis años al mando de diversas compañías, he cruzado caminos con numerosos profesionales de RRHH, pero pocos han dejado una huella tan profunda como Javier. Su entendimiento agudo de los recursos humanos, combinado con una destreza única para cultivar y guiar a líderes, le distingue en un mar de expertos. Más allá de su experiencia, es su enfoque humano y su visión clara lo que realmente transforma equipos y organizaciones.",
         cargo:"CEO – Perú",
         empresa:"Pastelería San Antonio, empresa líder de Pastelería, Panadería, Cafetería y Restaurante."
         

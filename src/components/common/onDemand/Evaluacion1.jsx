@@ -2,6 +2,7 @@ import { Hidden, Typography } from "@mui/material";
 import { Box } from "@mui/system";
 import { NavLink } from "react-router-dom";
 import { Button } from "react-scroll";
+import Evaluacion2 from "./Evaluacion2";
 
 const Evaluacion1 = ({ handleOpenModal1, handleCloseModal1, openModal1 }) => {
   return (
@@ -85,9 +86,8 @@ const Evaluacion1 = ({ handleOpenModal1, handleCloseModal1, openModal1 }) => {
           p={"7%"}
           sx={{
             width: "100%",
-            height: "100vh", // Ajustar la altura al 100% del viewport height
+
             backgroundColor: "#104B70",
-            overflowY: "auto", // Permitir scroll vertical si es necesario
           }}
         >
           <Box>
@@ -127,6 +127,9 @@ const Evaluacion1 = ({ handleOpenModal1, handleCloseModal1, openModal1 }) => {
           <Box position={"absolute"} top={"10%"}>
             <img width={"80%"} src="/evolucion.png" alt="" />
           </Box>
+        </Box>
+        <Box mt={-1}>
+          <Evaluacion2 />
         </Box>
       </Hidden>
     </>

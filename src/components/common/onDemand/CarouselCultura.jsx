@@ -68,16 +68,8 @@ const CarouselCultura = ({
 
       <Hidden smUp>
         <Box>
-          <Cultura1
-            handleOpenModal2={handleOpenModal2}
-            handleCloseModal2={handleCloseModal2}
-            openModal2={openModal2}
-          />
-          <Cultura2
-            handleOpenModal2={handleOpenModal2}
-            handleCloseModal2={handleCloseModal2}
-            openModal2={openModal2}
-          />
+          <Cultura1/>
+         
         </Box>
       </Hidden>
     </>

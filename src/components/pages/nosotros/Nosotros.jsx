@@ -357,7 +357,7 @@ const Nosotros = () => {
         </Box>
       </Hidden>
 
-      <Hidden lgUp>
+      <Hidden lgUp smDown>
         <Box sx={{ width: "100%" }}>
           <Parallax speed={-12} tagOuter="figure">
             <Box mt={-1}>
@@ -392,7 +392,6 @@ const Nosotros = () => {
               </Typography>
             </Box>
 
-            
             <Box sx={{ position: "absolute", right: "0%", top: "28%" }}>
               <img width={"100%"} src="/ilustracion.png" alt="" />
             </Box>
@@ -670,6 +669,29 @@ const Nosotros = () => {
               </Typography>
             </Box>
           </Box>
+        </Box>
+
+        <Box
+          sx={{
+            position: "absolute",
+            top: "25% ",
+            left: "7%",
+            width: "52%",
+          }}
+        >
+          <Typography
+            sx={{
+              fontFamily: "Merriweather",
+              fontSize: "25px",
+              fontWeight: "300",
+              lineHeight: "27px",
+              color: "white",
+            }}
+          >
+            Somos una consultora boutique internacional especializada en
+            potenciar el desarrollo de las organizaciones, a través de la
+            innovación tecnológica y el trabajo personalizado.
+          </Typography>
         </Box>
 
         <Box

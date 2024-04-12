@@ -232,9 +232,8 @@ const Cultura2 = ({ handleOpenModal2, handleCloseModal2, openModal2 }) => {
           p={"6%"}
           sx={{
             width: "100%",
-            height: "100vh", // Ajustar la altura al 100% del viewport height
+
             backgroundColor: "#104B70",
-            overflowY: "auto", // Permitir scroll vertical si es necesario
           }}
         >
           <Box>

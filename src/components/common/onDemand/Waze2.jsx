@@ -11,7 +11,7 @@ const Waze2 = ({ handleOpenModal3, handleCloseModal3, openModal3 }) => {
           pt={"6%"}
           sx={{ width: "95%", height: "74vh", backgroundColor: "#104B70" }}
         >
-         <Box
+          <Box
             display={"flex"}
             onClick={() => {
               handleCloseModal3();
@@ -99,14 +99,14 @@ const Waze2 = ({ handleOpenModal3, handleCloseModal3, openModal3 }) => {
                   fontFamily: "Manrope",
                   fontSize: "22px",
                   fontWeight: "100",
-                  lineHeight:"26px"
+                  lineHeight: "26px",
                 }}
               >
                 identificamos las necesidades futuras de tu empresa, en base al
                 análisis del sector.
               </Typography>
             </Box>
-            <Box width={"48%"}  ml={"4%"}>
+            <Box width={"48%"} ml={"4%"}>
               <Typography
                 sx={{
                   color: "#72C8FF",
@@ -227,16 +227,12 @@ const Waze2 = ({ handleOpenModal3, handleCloseModal3, openModal3 }) => {
           p={"6%"}
           sx={{
             width: "100%",
-            height: "100vh", // Ajustar la altura al 100% del viewport height
+
             backgroundColor: "#104B70",
-            overflowY: "auto", // Permitir scroll vertical si es necesario
           }}
         >
-          
-         
           <Box>
             <Typography
-              
               sx={{
                 fontFamily: "Manrope",
                 fontSize: "48px",

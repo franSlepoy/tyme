@@ -128,96 +128,94 @@ const Mentoring2 = ({ handleOpenModal5, handleCloseModal5, openModal5 }) => {
       </Hidden>
 
       <Hidden smUp>
-        <Box sx={{ width: "100%" }}>
-          <Box
-            width={"100%"}
-            sx={{
-              p: "8%",
-              backgroundImage: 'url("/personaTrabajando.png")', // Aquí debes especificar la URL de la imagen con la palabra clave 'url'
-              backgroundSize: "cover", // Ajusta el tamaño de la imagen de fondo según el contenedor
-              backgroundRepeat: "no-repeat", // Evita que la imagen de fondo se repita
-              position: "relative", // Establece la posición relativa para que los elementos internos se posicionen correctamente
-              height: "100%",
-            }}
-          >
-            <Box>
-              <Typography
-                maxWidth={"280px"}
-                sx={{
-                  fontFamily: "Manrope",
-                  fontSize: "48px",
-                  lineHeight: "53px",
-                  fontWeight: "300",
-                  color: "white",
-                  pt: "25%",
-                  pb: "25%",
-                }}
-              >
-                Cómo lo hacemos
-              </Typography>
-            </Box>
-          </Box>
-
-          <Box
-            sx={{
-              width: "100%",
-              p: "8%",
-              backgroundColor: "#73F0A2",
-            }}
-          >
+        <Box
+          width={"100%"}
+          sx={{
+            p: "8%",
+            backgroundImage: 'url("/personaTrabajando.png")', // Aquí debes especificar la URL de la imagen con la palabra clave 'url'
+            backgroundSize: "cover", // Ajusta el tamaño de la imagen de fondo según el contenedor
+            backgroundRepeat: "no-repeat", // Evita que la imagen de fondo se repita
+            position: "relative", // Establece la posición relativa para que los elementos internos se posicionen correctamente
+            height: "100%",
+          }}
+        >
+          <Box>
             <Typography
+              maxWidth={"280px"}
               sx={{
                 fontFamily: "Manrope",
-                fontSize: "20px",
-                lineHeight: "26px",
-                color: "black",
-
-                fontWeight: "light",
+                fontSize: "48px",
+                lineHeight: "53px",
+                fontWeight: "300",
+                color: "white",
+                pt: "25%",
+                pb: "25%",
               }}
             >
-              1- Evaluación digitalizada: diagnóstico para la implementación de
-              soluciones tecnológicas.
-            </Typography>
-            <Typography
-              sx={{
-                fontFamily: "Manrope",
-                fontSize: "20px",
-                lineHeight: "26px",
-                color: "black",
-                mt: "5%",
-                fontWeight: "light",
-              }}
-            >
-              2- Asesoramiento: transformación digital para impulsar las metas
-              de tu organización y acompañamiento del proceso de cambio.
-            </Typography>
-            <Typography
-              sx={{
-                fontFamily: "Manrope",
-                fontSize: "20px",
-                lineHeight: "26px",
-                color: "black",
-                mt: "5%",
-                fontWeight: "light",
-              }}
-            >
-              3- Integración tecnológica: adopción de herramientas digitales
-              para gestión del talento.
-            </Typography>
-            <Typography
-              sx={{
-                fontFamily: "Manrope",
-                fontSize: "20px",
-                lineHeight: "26px",
-                color: "black",
-                mt: "5%",
-                fontWeight: "light",
-              }}
-            >
-              4- Fomento de la cultura digital: incorporación de nuevas
-              tecnologías y prácticas innovadoras.
+              Cómo lo hacemos
             </Typography>
           </Box>
+        </Box>
+
+        <Box
+          sx={{
+            width: "100%",
+            p: "8%",
+            backgroundColor: "#73F0A2",
+          }}
+        >
+          <Typography
+            sx={{
+              fontFamily: "Manrope",
+              fontSize: "20px",
+              lineHeight: "26px",
+              color: "black",
+
+              fontWeight: "light",
+            }}
+          >
+            1- Evaluación digitalizada: diagnóstico para la implementación de
+            soluciones tecnológicas.
+          </Typography>
+          <Typography
+            sx={{
+              fontFamily: "Manrope",
+              fontSize: "20px",
+              lineHeight: "26px",
+              color: "black",
+              mt: "5%",
+              fontWeight: "light",
+            }}
+          >
+            2- Asesoramiento: transformación digital para impulsar las metas de
+            tu organización y acompañamiento del proceso de cambio.
+          </Typography>
+          <Typography
+            sx={{
+              fontFamily: "Manrope",
+              fontSize: "20px",
+              lineHeight: "26px",
+              color: "black",
+              mt: "5%",
+              fontWeight: "light",
+            }}
+          >
+            3- Integración tecnológica: adopción de herramientas digitales para
+            gestión del talento.
+          </Typography>
+          <Typography
+            sx={{
+              fontFamily: "Manrope",
+              fontSize: "20px",
+              lineHeight: "26px",
+              color: "black",
+              mt: "5%",
+              fontWeight: "light",
+            }}
+          >
+            4- Fomento de la cultura digital: incorporación de nuevas
+            tecnologías y prácticas innovadoras.
+          </Typography>
         </Box>
       </Hidden>
     </>

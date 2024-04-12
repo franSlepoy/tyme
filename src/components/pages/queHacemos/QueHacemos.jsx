@@ -1122,6 +1122,7 @@ const QueHacemos = () => {
               <Button
                 disableRipple
                 style={{
+                  width: "96%",
                   textTransform: "none",
                   textAlign: "center",
                   position: "relative",

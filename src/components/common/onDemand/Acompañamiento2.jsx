@@ -2,7 +2,11 @@ import { Hidden, Typography } from "@mui/material";
 import { Box } from "@mui/system";
 import { NavLink } from "react-router-dom";
 
-const Acompañamiento2 = ({ handleOpenModal4, handleCloseModal4, openModal4 }) => {
+const Acompañamiento2 = ({
+  handleOpenModal4,
+  handleCloseModal4,
+  openModal4,
+}) => {
   return (
     <>
       <Hidden smDown>
@@ -73,9 +77,7 @@ const Acompañamiento2 = ({ handleOpenModal4, handleCloseModal4, openModal4 }) =
                   fontSize: "22px",
                   fontWeight: "100",
                   mt: 1,
-                  lineHeight:"30px",
-      
-
+                  lineHeight: "30px",
                 }}
               >
                 Aumenta la credibilidad y la confianza de tus socios
@@ -101,7 +103,7 @@ const Acompañamiento2 = ({ handleOpenModal4, handleCloseModal4, openModal4 }) =
                   fontSize: "22px",
                   fontWeight: "100",
                   mt: 1,
-                  lineHeight:"30px",
+                  lineHeight: "30px",
                 }}
               >
                 Impulsa la competitividad de tu empresa y abre nuevas
@@ -128,7 +130,7 @@ const Acompañamiento2 = ({ handleOpenModal4, handleCloseModal4, openModal4 }) =
                   fontSize: "22px",
                   fontWeight: "100",
                   mt: 1,
-                  lineHeight:"30px",
+                  lineHeight: "30px",
                 }}
               >
                 Mejora la relación con tus empleados porque ratifica el
@@ -154,7 +156,7 @@ const Acompañamiento2 = ({ handleOpenModal4, handleCloseModal4, openModal4 }) =
                   fontSize: "22px",
                   fontWeight: "100",
                   mt: 1,
-                  lineHeight:"30px",
+                  lineHeight: "30px",
                 }}
               >
                 Fomenta la mejora continua y la eficiencia, y asegura el
@@ -171,27 +173,22 @@ const Acompañamiento2 = ({ handleOpenModal4, handleCloseModal4, openModal4 }) =
 
       <Hidden smUp>
         <Box
-          
           p={"8%"}
           sx={{
             width: "100%",
-            height: "100vh", // Ajustar la altura al 100% del viewport height
+
             backgroundColor: "#104B70",
-            overflowY: "auto", // Permitir scroll vertical si es necesario
           }}
         >
-          
-
           <Box>
             <Typography
               maxWidth={"980px"}
               sx={{
                 fontFamily: "Manrope",
-                fontSize: "48px",
-                lineHeight: "45px",
+                fontSize: "30px",
+                lineHeight: "30px",
                 fontWeight: "700",
                 color: "white",
-                
               }}
             >
               Por qué es importante certificar

@@ -68,11 +68,7 @@ const CarouselAcom = ({ handleOpenModal4, handleCloseModal4, openModal4 }) => {
             handleCloseModal4={handleCloseModal4}
             openModal4={openModal4}
           />
-          <Acompañamiento2
-            handleOpenModal4={handleOpenModal4}
-            handleCloseModal4={handleCloseModal4}
-            openModal4={openModal4}
-          />
+          
         </Box>
       </Hidden>
     </>

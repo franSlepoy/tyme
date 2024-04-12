@@ -132,9 +132,8 @@ const Training2 = ({ handleOpenModal6, handleCloseModal6, openModal6 }) => {
         <Box
           sx={{
             width: "100%",
-            height: "100vh", // Ajustar la altura al 100% del viewport height
+
             backgroundColor: "#104B70",
-            overflowY: "auto", // Permitir scroll vertical si es necesario
           }}
         >
           <Box
@@ -167,7 +166,6 @@ const Training2 = ({ handleOpenModal6, handleCloseModal6, openModal6 }) => {
 
           <Box
             sx={{
-             
               width: "100%",
               p: "8%",
 
@@ -180,7 +178,6 @@ const Training2 = ({ handleOpenModal6, handleCloseModal6, openModal6 }) => {
                 fontSize: "20px",
                 lineHeight: "26px",
                 color: "black",
-                
               }}
             >
               Permite acceder a las nuevas herramientas que están transformando

@@ -76,14 +76,15 @@ const Charlas4 = ({ handleCloseComponente }) => {
         <Hidden smUp>
           <Box
             position={"absolute"}
-            top={"128%"}
-            left={"6%"}
+            top={"198%"}
+            left={"5%"}
             width={"90%"}
             style={{
               backgroundColor: "#A0D5F6",
             }}
             zIndex={100}
             pb={"5%"}
+            
           >
             <Box ml={"10%"} mt={"6%"} width={"88%"}>
               <Button onClick={handleCloseComponente} sx={{ ml: -3 }}>
@@ -94,26 +95,26 @@ const Charlas4 = ({ handleCloseComponente }) => {
                 sx={{
                   mt: "3%",
                   fontFamily: "Manrope",
-                  fontSize: "48px",
+                  fontSize: "44px",
                   fontWeight: "800",
-                  lineHeight: "45px",
+                  lineHeight: "42px",
                   color: "white",
                 }}
               >
-                Date with myself:{" "}
+                Ecualizando realidades{" "}
               </Typography>
               <Typography
                 sx={{
                   mt: "2%",
 
                   fontFamily: "Manrope",
-                  fontSize: "30px",
+                  fontSize: "28px",
                   fontWeight: "500",
                   lineHeight: "36px",
                   color: "black",
                 }}
               >
-                turismo interior
+                tu mundo-mi mundo
               </Typography>
               <Typography
                 sx={{
@@ -127,10 +128,10 @@ const Charlas4 = ({ handleCloseComponente }) => {
                   width: "90%",
                 }}
               >
-                La importancia del autoconocimiento para la estabilidad, el
-                equilibrio y el desarrollo del potencial de cada persona, como
-                herramientas para que mejore su rendimiento y haga eco en el
-                crecimiento de la organización de la que forma parte.
+                Diversidad, inclusión y empatía como aliadas para que las
+                diferencias sean aprovechadas como oportunidades y se conviertan
+                en un impacto positivo en el negocio, generando soluciones
+                colaborativas y creativas ante problemas compartidos.
               </Typography>
               <BlackButtom texto={"Consultanos"} linkTo={"/contacto"} />
             </Box>

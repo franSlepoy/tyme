@@ -189,7 +189,7 @@ const Evaluacion2 = ({ handleOpenModal1, handleCloseModal1, openModal1 }) => {
             width: "100%",
             // Ajustar la altura al 100% del viewport height
             backgroundColor: "#104B70",
-            // Permitir scroll vertical si es necesario
+            
           }}
         >
           <Box mt={"3%"}>

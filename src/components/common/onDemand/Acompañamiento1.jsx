@@ -1,8 +1,13 @@
 import { Hidden, Typography } from "@mui/material";
 import { Box } from "@mui/system";
 import { NavLink } from "react-router-dom";
+import Acompañamiento2 from "./Acompañamiento2";
 
-const Acompañamiento1 = ({ handleOpenModal4, handleCloseModal4, openModal4 }) => {
+const Acompañamiento1 = ({
+  handleOpenModal4,
+  handleCloseModal4,
+  openModal4,
+}) => {
   return (
     <>
       <Hidden smDown>
@@ -94,7 +99,7 @@ const Acompañamiento1 = ({ handleOpenModal4, handleCloseModal4, openModal4 }) =
               fontSize: "22px",
               lineHeight: "25px",
               color: "black",
-              mt:"30%"
+              mt: "30%",
             }}
           >
             Por qué es importante <strong>certificar</strong>
@@ -107,40 +112,19 @@ const Acompañamiento1 = ({ handleOpenModal4, handleCloseModal4, openModal4 }) =
           p={"8%"}
           sx={{
             width: "100%",
-            // Ajustar la altura al 100% del viewport height
+
             backgroundColor: "#104B70",
-            overflowY: "auto", // Permitir scroll vertical si es necesario
           }}
         >
-          <Box
-            display={"flex"}
-            component={NavLink}
-            to={"/queHacemos"}
-            sx={{ textDecoration: "none", ml:-4 }}
-          >
-            <img height={"30px"} src="/arrowButton.png" alt="" />
-            <Typography
-              sx={{
-                fontSize: "20px",
-                fontFamily: "Manrope",
-                fontWeight: "300",
-                color: "white",
-                lineHeight: "34px",
-                ml: "4px",
-                mt: "-2px",
-              }}
-            >
-              HR on demand
-            </Typography>
-          </Box>
+          
 
           <Box>
             <Typography
               width={"93%"}
               sx={{
                 fontFamily: "Manrope",
-                fontSize: "28px",
-                lineHeight: "45px",
+                fontSize: "30px",
+                lineHeight: "30px",
                 fontWeight: "700",
                 color: "white",
                 mt: "7%",
@@ -171,6 +155,9 @@ const Acompañamiento1 = ({ handleOpenModal4, handleCloseModal4, openModal4 }) =
           <Box position={"absolute"} top={"10%"}>
             <img src="/Acom.png" alt="" />
           </Box>
+        </Box>
+        <Box mt={-1}>
+          <Acompañamiento2/>
         </Box>
       </Hidden>
     </>

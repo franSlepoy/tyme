@@ -71,11 +71,7 @@ const CarouselMentoring = ({
             handleCloseModal5={handleCloseModal5}
             openModal5={openModal5}
           />
-          <Mentoring2
-            handleOpenModal5={handleOpenModal5}
-            handleCloseModal5={handleCloseModal5}
-            openModal5={openModal5}
-          />
+          
         </Box>
       </Hidden>
     </>

@@ -2,6 +2,7 @@ import { Hidden, Typography } from "@mui/material";
 import { Box } from "@mui/system";
 import { NavLink } from "react-router-dom";
 import { Button } from "react-scroll";
+import Training2 from "./Training2";
 
 const Training1 = ({ handleOpenModal6, handleCloseModal6, openModal6 }) => {
   return (
@@ -110,38 +111,7 @@ const Training1 = ({ handleOpenModal6, handleCloseModal6, openModal6 }) => {
       </Hidden>
 
       <Hidden smUp>
-        <Box
-       
-          p={"8%"}
-          sx={{ width: "100%",  backgroundColor: "#046C31" }}
-        >
-          <Box
-            display={"flex"}
-            component={Button}
-            onClick={() => {
-              handleCloseModal6();
-            }}
-            bgcolor={"transparent"}
-            border={"none"}
-            sx={{ textDecoration: "none", cursor: "pointer" }}
-            ml={-3.5}
-          >
-            <img height={"30px"} src="/arrowButton.png" alt="" />
-            <Typography
-              sx={{
-                fontSize: "20px",
-                fontFamily: "Manrope",
-                fontWeight: "200",
-                color: "white",
-                lineHeight: "34px",
-                ml: "4px",
-                mt: "-2px",
-              }}
-            >
-              HR on demand
-            </Typography>
-          </Box>
-
+        <Box p={"8%"} sx={{ width: "100%", backgroundColor: "#046C31" }}>
           <Box>
             <Typography
               maxWidth={"580px"}
@@ -178,7 +148,9 @@ const Training1 = ({ handleOpenModal6, handleCloseModal6, openModal6 }) => {
               desarrollo de estrategias de negocios más efectivas.
             </Typography>
           </Box>
-
+        </Box>
+        <Box>
+          <Training2 />
         </Box>
       </Hidden>
     </>
