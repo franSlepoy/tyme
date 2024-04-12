@@ -138,7 +138,7 @@ const Charlas7 = ({ handleCloseComponente }) => {
       <Hidden smUp>
         <Box
           position={"absolute"}
-          top={"368vh"}
+          top={"388%"}
           left={"6%"}
           display={"flex"}
           width={"87%"}

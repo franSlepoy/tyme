@@ -92,7 +92,7 @@ const Evaluacion1 = ({ handleOpenModal1, handleCloseModal1, openModal1 }) => {
         >
           <Box>
             <Typography
-              maxWidth={"580px"}
+             
               sx={{
                 fontFamily: "Manrope",
                 fontSize: "38px",
@@ -106,7 +106,7 @@ const Evaluacion1 = ({ handleOpenModal1, handleCloseModal1, openModal1 }) => {
             </Typography>
 
             <Typography
-              maxWidth={"780px"}
+              maxWidth={"80%"}
               sx={{
                 fontFamily: "Manrope",
                 fontSize: "20px",

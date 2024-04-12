@@ -92,7 +92,7 @@ const Cultura1 = ({ handleOpenModal2, handleCloseModal2, openModal2 }) => {
         >
           <Box>
             <Typography
-              maxWidth={"580px"}
+              maxWidth={"95%"}
               sx={{
                 fontFamily: "Manrope",
                 fontSize: "30px",
@@ -108,7 +108,7 @@ const Cultura1 = ({ handleOpenModal2, handleCloseModal2, openModal2 }) => {
             </Typography>
 
             <Typography
-              maxWidth={"780px"}
+              maxWidth={"90%"}
               sx={{
                 fontFamily: "Manrope",
                 fontSize: "20px",
@@ -127,7 +127,7 @@ const Cultura1 = ({ handleOpenModal2, handleCloseModal2, openModal2 }) => {
             </Typography>
           </Box>
           <Box position={"absolute"} top={"10%"}>
-            <img src="/cultura.png" alt="" />
+            <img width={"80%"} src="/cultura.png" alt="" />
           </Box>
         </Box>
         <Box mt={-1}>

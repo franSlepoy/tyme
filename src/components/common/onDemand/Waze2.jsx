@@ -239,14 +239,14 @@ const Waze2 = ({ handleOpenModal3, handleCloseModal3, openModal3 }) => {
                 lineHeight: "32px",
                 fontWeight: "700",
                 color: "white",
-                mt: "25%",
+                
               }}
             >
               Cómo lo hacemos
             </Typography>
 
             <Typography
-              maxWidth={"780px"}
+              maxWidth={"90%"}
               sx={{
                 fontFamily: "Manrope",
                 fontSize: "20px",
@@ -402,9 +402,7 @@ const Waze2 = ({ handleOpenModal3, handleCloseModal3, openModal3 }) => {
               </Typography>
             </Box>
           </Box>
-          <Box position={"absolute"} top={"10%"}>
-            <img src="/waze.png" alt="" />
-          </Box>
+          
         </Box>
       </Hidden>
     </>

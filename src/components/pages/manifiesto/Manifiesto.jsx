@@ -192,23 +192,14 @@ const Manifiesto = () => {
       <Hidden smUp>
         <Box>
           <img
-            style={{ objectFit: "cover" }}
+           
             width={"100%"}
             src="/mobileManifiesto.png"
             alt=""
           />
         </Box>
 
-        <Box
-          sx={{
-            position: "absolute",
-            top: "49% ",
-            left: "9%",
-            width: "52%",
-          }}
-        >
-          <BlackButtom texto={"Contáctanos"} linkTo={"/contacto"} />
-        </Box>
+        
 
         <Box sx={{ bgcolor: "#1296E9", mt: -1, pt: 5, pb: 5 }}>
           <Box
@@ -236,8 +227,8 @@ const Manifiesto = () => {
 
         <Box
           width={"100%"}
-          height={"144vh"}
-          sx={{ bgcolor: "rgba(15, 150, 233, 0.4)" }}
+       
+          sx={{pb:"10%", bgcolor: "rgba(15, 150, 233, 0.4)" }}
         >
           <Box m={"auto"}>
             <Box width={"88%"} m={"auto"} pt={"10%"}>

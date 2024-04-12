@@ -1,6 +1,6 @@
 import { Hidden, Typography } from "@mui/material";
 import { Box } from "@mui/system";
-import { NavLink } from "react-router-dom";
+
 import Waze2 from "./Waze2";
 
 const Evaluacion1 = ({ handleOpenModal3, handleCloseModal3, openModal3 }) => {
@@ -82,13 +82,11 @@ const Evaluacion1 = ({ handleOpenModal3, handleCloseModal3, openModal3 }) => {
       <Hidden smUp>
         <Box
           p={"6%"}
-          sx={{ width: "100%", height: "94vh", backgroundColor: "#104B70" }}
+          sx={{ width: "100%",  backgroundColor: "#104B70" }}
         >
-          
-
           <Box>
             <Typography
-              maxWidth={"580px"}
+              maxWidth={"90%"}
               sx={{
                 fontFamily: "Manrope",
                 fontSize: "30px",
@@ -102,7 +100,7 @@ const Evaluacion1 = ({ handleOpenModal3, handleCloseModal3, openModal3 }) => {
             </Typography>
 
             <Typography
-              maxWidth={"780px"}
+              maxWidth={"90%"}
               sx={{
                 fontFamily: "Manrope",
                 fontSize: "20px",
@@ -121,11 +119,11 @@ const Evaluacion1 = ({ handleOpenModal3, handleCloseModal3, openModal3 }) => {
             </Typography>
           </Box>
           <Box position={"absolute"} top={"10%"}>
-            <img src="/waze.png" alt="" />
+            <img width={"80%"} src="/waze.png" alt="" />
           </Box>
         </Box>
-        <Box mt={-25}>
-          <Waze2/>
+        <Box >
+          <Waze2 />
         </Box>
       </Hidden>
     </>

@@ -182,7 +182,7 @@ const Acompañamiento2 = ({
         >
           <Box>
             <Typography
-              maxWidth={"980px"}
+              maxWidth={"90%"}
               sx={{
                 fontFamily: "Manrope",
                 fontSize: "30px",
@@ -314,9 +314,7 @@ const Acompañamiento2 = ({
             </Box>
           </Box>
 
-          <Box position={"absolute"} top={"10%"}>
-            <img src="/Acom.png" alt="" />
-          </Box>
+          
         </Box>
       </Hidden>
     </>

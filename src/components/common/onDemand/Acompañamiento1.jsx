@@ -120,10 +120,10 @@ const Acompañamiento1 = ({
 
           <Box>
             <Typography
-              width={"93%"}
+              width={"90%"}
               sx={{
                 fontFamily: "Manrope",
-                fontSize: "30px",
+                fontSize: "28px",
                 lineHeight: "32px",
                 fontWeight: "700",
                 color: "white",
@@ -134,7 +134,7 @@ const Acompañamiento1 = ({
             </Typography>
 
             <Typography
-              maxWidth={"780px"}
+              maxWidth={"90%"}
               sx={{
                 fontFamily: "Manrope",
                 fontSize: "20px",
@@ -153,10 +153,10 @@ const Acompañamiento1 = ({
             </Typography>
           </Box>
           <Box position={"absolute"} top={"10%"}>
-            <img src="/Acom.png" alt="" />
+            <img width={"80%"} src="/Acom.png" alt="" />
           </Box>
         </Box>
-        <Box mt={-1}>
+        <Box >
           <Acompañamiento2/>
         </Box>
       </Hidden>

@@ -378,7 +378,7 @@ const Home = () => {
       </Hidden>
 
       <Hidden smUp>
-        <Box  width={"100%"} m={"auto"}>
+        <Box  >
          <img width={"100%"} src="/homeMobile.png" alt="" />
         </Box>
 
@@ -419,7 +419,7 @@ const Home = () => {
         <Box sx={{ width: "80%", margin: "auto", pb:3 }}>
             <Carousel 
               autoPlay={false}
-              sx={{ height: "85vh", pb: 10, position: "relative" }}
+              sx={{ height: "570px", pb: 10, position: "relative" }}
               indicatorContainerProps={{
                 sx: {
                   position: "absolute",
