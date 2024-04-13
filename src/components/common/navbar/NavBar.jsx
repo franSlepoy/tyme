@@ -191,7 +191,7 @@ const NavBar = () => {
       <Hidden lgUp smDown>
         <AppBar
           position="static"
-          sx={{ boxShadow: 0, bgcolor: "#0A3A5B", height: "59px" }}
+          sx={{ boxShadow: 0, bgcolor: "#0A3A5B", height: "69px", pb:10 }}
         >
           <Toolbar
             sx={{

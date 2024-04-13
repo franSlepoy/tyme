@@ -602,22 +602,14 @@ const QueHacemos = () => {
           </Typography>
         </Box>
 
-        <Box
-          sx={{
-            width: "100%",
-            backgroundColor: "#1296E9",
-
-            pb: "5%",
-            pt: "5%",
-          }}
-        >
+        <Box sx={{ width: "100%", backgroundColor: "#1296E9", pb: "5%" }}>
           <Box sx={{ position: "absolute", mt: "75px" }}>
             <img width={"100%"} src="/nosotros3.png" alt="" />
           </Box>
           <Box display={"flex"} width={"90%"} m={"auto"}>
             <Box width={"40%"}>
               <Typography
-                mt={"20%"}
+                mt={"30%"}
                 sx={{
                   fontFamily: "Manrope",
                   fontWeight: "600",
@@ -637,10 +629,11 @@ const QueHacemos = () => {
               >
                 respuesta a medida
               </Typography>
-              <Box mt={"13%"}>
+              <Box mt={"6%"}>
                 <GreenButtom texto={"Consultanos"} linkTo={"/contacto"} />
               </Box>
             </Box>
+
             <Box ml={"12%"} width={"40%"}>
               <Button
                 disableRipple
@@ -652,9 +645,8 @@ const QueHacemos = () => {
               >
                 <Box
                   display={"flex"}
-                  mt={"6%"}
-                  component={NavLink}
-                  to={"/eDyP"}
+                  mt={"16%"}
+                  onClick={handleOpenModal1}
                   sx={{ textDecoration: "none" }}
                   onMouseEnter={(e) => {
                     e.currentTarget.querySelector(
@@ -689,6 +681,19 @@ const QueHacemos = () => {
                 </Box>
               </Button>
 
+              <Dialog
+                fullWidth={true}
+                maxWidth="lg"
+                open={openModal1}
+                onClose={handleCloseModal1}
+              >
+                <CarouselEv
+                  handleOpenModal1={handleOpenModal1}
+                  handleCloseModal1={handleCloseModal1}
+                  openModal1={openModal1}
+                />
+              </Dialog>
+
               <Button
                 disableRipple
                 style={{
@@ -698,10 +703,9 @@ const QueHacemos = () => {
                 }}
               >
                 <Box
+                  onClick={handleOpenModal2}
                   display={"flex"}
                   mt={"8%"}
-                  component={NavLink}
-                  to={"/cultura"}
                   sx={{ textDecoration: "none" }}
                   onMouseEnter={(e) => {
                     e.currentTarget.querySelector(
@@ -737,6 +741,19 @@ const QueHacemos = () => {
                 </Box>
               </Button>
 
+              <Dialog
+                fullWidth={true}
+                maxWidth="lg"
+                open={openModal2}
+                onClose={handleCloseModal2}
+              >
+                <CarouselCultura
+                  handleOpenModal2={handleOpenModal2}
+                  handleCloseModal2={handleCloseModal2}
+                  openModal2={openModal2}
+                />
+              </Dialog>
+
               <Button
                 disableRipple
                 style={{
@@ -748,8 +765,7 @@ const QueHacemos = () => {
                 <Box
                   display={"flex"}
                   mt={"8%"}
-                  component={NavLink}
-                  to={"/waze"}
+                  onClick={handleOpenModal3}
                   sx={{ textDecoration: "none" }}
                   onMouseEnter={(e) => {
                     e.currentTarget.querySelector(
@@ -782,6 +798,19 @@ const QueHacemos = () => {
                 </Box>
               </Button>
 
+              <Dialog
+                fullWidth={true}
+                maxWidth="lg"
+                open={openModal3}
+                onClose={handleCloseModal3}
+              >
+                <CarouselWaze
+                  handleOpenModal3={handleOpenModal3}
+                  handleCloseModal3={handleCloseModal3}
+                  openModal3={openModal3}
+                />
+              </Dialog>
+
               <Button
                 disableRipple
                 style={{
@@ -793,8 +822,7 @@ const QueHacemos = () => {
                 <Box
                   display={"flex"}
                   mt={"8%"}
-                  component={NavLink}
-                  to={"/acompañamiento"}
+                  onClick={handleOpenModal4}
                   sx={{ textDecoration: "none" }}
                   onMouseEnter={(e) => {
                     e.currentTarget.querySelector(
@@ -827,12 +855,25 @@ const QueHacemos = () => {
                   </Typography>
                 </Box>
               </Button>
+
+              <Dialog
+                fullWidth={true}
+                maxWidth="lg"
+                open={openModal4}
+                onClose={handleCloseModal4}
+              >
+                <CarouselAcom
+                  handleOpenModal4={handleOpenModal4}
+                  handleCloseModal4={handleCloseModal4}
+                  openModal4={openModal4}
+                />
+              </Dialog>
             </Box>
           </Box>
         </Box>
 
         <Box
-          sx={{ width: "100%", backgroundColor: "#18CC66", pb: "5%", pt: "5%" }}
+          sx={{ width: "100%", backgroundColor: "#18CC66", pt: "8%", pb: "8%" }}
         >
           <Box sx={{ position: "absolute" }}>
             <img width={"100%"} src="/nosotros4.png" alt="" />
@@ -847,7 +888,7 @@ const QueHacemos = () => {
                   fontSize: "64px",
                 }}
               >
-                HR on demand:
+                HR Tech Trends
               </Typography>
               <Typography
                 mt={"-12px"}
@@ -855,17 +896,17 @@ const QueHacemos = () => {
                   fontFamily: "Manrope",
                   fontWeight: "400",
                   fontSize: "40px",
-                  width: "530px",
+                  width: "105%",
                 }}
               >
-                respuesta a medida
+                tecnología para la gestión del capital humano
               </Typography>
               <Box mt={"6%"}>
                 <BlackButtom texto={"Consultanos"} linkTo={"/contacto"} />
               </Box>
             </Box>
 
-            <Box ml={"12%"} mt={"7%"} width={"40%"}>
+            <Box ml={"12%"} width={"40%"}>
               <Button
                 disableRipple
                 style={{
@@ -878,10 +919,15 @@ const QueHacemos = () => {
                 }}
               >
                 <Box
+                  onClick={handleOpenModal5}
                   display={"flex"}
-                  component={NavLink}
-                  to={"/mentoring"}
-                  sx={{ textDecoration: "none" }}
+                  mt={"5%"}
+                  sx={{
+                    textDecoration: "none",
+                    "&:hover": {
+                      backgroundColor: "transparent",
+                    },
+                  }}
                   onMouseEnter={(e) => {
                     e.currentTarget.querySelector(
                       ".highlighted-text"
@@ -913,6 +959,19 @@ const QueHacemos = () => {
                 </Box>
               </Button>
 
+              <Dialog
+                fullWidth={true}
+                maxWidth="lg"
+                open={openModal5}
+                onClose={handleCloseModal5}
+              >
+                <CarouselMentoring
+                  handleOpenModal5={handleOpenModal5}
+                  handleCloseModal5={handleCloseModal5}
+                  openModal5={openModal5}
+                />
+              </Dialog>
+
               <Button
                 disableRipple
                 style={{
@@ -927,8 +986,7 @@ const QueHacemos = () => {
                 <Box
                   display={"flex"}
                   mt={"8%"}
-                  component={NavLink}
-                  to={"/tYe"}
+                  onClick={handleOpenModal6}
                   sx={{ textDecoration: "none" }}
                   onMouseEnter={(e) => {
                     e.currentTarget.querySelector(
@@ -964,6 +1022,19 @@ const QueHacemos = () => {
                   </Typography>
                 </Box>
               </Button>
+
+              <Dialog
+                fullWidth={true}
+                maxWidth="lg"
+                open={openModal6}
+                onClose={handleCloseModal6}
+              >
+                <CarouselTrai
+                  handleOpenModal6={handleOpenModal6}
+                  handleCloseModal6={handleCloseModal6}
+                  openModal6={openModal6}
+                />
+              </Dialog>
             </Box>
           </Box>
         </Box>
