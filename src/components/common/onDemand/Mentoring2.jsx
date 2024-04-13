@@ -23,7 +23,7 @@ const Mentoring2 = ({ handleOpenModal5, handleCloseModal5, openModal5 }) => {
               display={"flex"}
               component={Button}
               onClick={() => {
-                handleCloseModal6();
+                handleCloseModal5();
               }}
               bgcolor={"transparent"}
               border={"none"}

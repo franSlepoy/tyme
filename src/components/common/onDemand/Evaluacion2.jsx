@@ -20,7 +20,7 @@ const Evaluacion2 = ({ handleOpenModal1, handleCloseModal1, openModal1 }) => {
             }}
             bgcolor={"transparent"}
             border={"none"}
-            sx={{ textDecoration: "none", cursor:"pointer" }}
+            sx={{ textDecoration: "none", cursor: "pointer" }}
             ml={-3.5}
           >
             <img height={"30px"} src="/arrowButton.png" alt="" />
@@ -189,7 +189,6 @@ const Evaluacion2 = ({ handleOpenModal1, handleCloseModal1, openModal1 }) => {
             width: "100%",
             // Ajustar la altura al 100% del viewport height
             backgroundColor: "#104B70",
-            
           }}
         >
           <Box mt={"3%"}>
@@ -298,10 +297,6 @@ const Evaluacion2 = ({ handleOpenModal1, handleCloseModal1, openModal1 }) => {
                 Acompañamiento para adaptar las estrategias.
               </Typography>
             </Box>
-          </Box>
-
-          <Box position={"absolute"} left={"12%"} top={"123%"}>
-            <img width={"80%"} src="/evolucion.png" alt="" />
           </Box>
         </Box>
       </Hidden>

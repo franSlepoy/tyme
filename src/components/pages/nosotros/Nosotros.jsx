@@ -647,14 +647,12 @@ const Nosotros = () => {
           <Box>
             <img width={"100%"} src="/mobileNosotros.png" alt="" />
           </Box>
-
-          
         </Box>
 
         <Box
           sx={{
             position: "absolute",
-            top: "25% ",
+            top: "20% ",
             left: "9%",
             width: "52%",
           }}
@@ -676,13 +674,11 @@ const Nosotros = () => {
 
         <Box
           sx={{
-        
             width: "100%",
             backgroundColor: "rgba(18,150,233, 0.4)",
           }}
         >
           <Box
-            
             width={"90%"}
             m={"auto"}
             display={"flex"}

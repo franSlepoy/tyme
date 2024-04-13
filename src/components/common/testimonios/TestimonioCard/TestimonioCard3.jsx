@@ -80,7 +80,7 @@ const TestimonioCard3 = () => {
         </Box>
       </Hidden>
 
-      <Hidden>
+      <Hidden smUp>
       <Box sx={{ width: "100%", m:"auto" }}>
           <Box
             sx={{

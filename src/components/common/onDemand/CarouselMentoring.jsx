@@ -44,9 +44,9 @@ const CarouselMentoring = ({
             transition={{ duration: 0.5 }}
           >
             <Mentoring1
-              handleOpenModal6={handleOpenModal5}
-              handleCloseModal6={handleCloseModal5}
-              openModal6={openModal5}
+              handleOpenModal5={handleOpenModal5}
+              handleCloseModal5={handleCloseModal5}
+              openModal5={openModal5}
             />
           </motion.div>
           <motion.div
@@ -56,9 +56,9 @@ const CarouselMentoring = ({
             transition={{ duration: 0.5 }}
           >
             <Mentoring2
-              handleOpenModal6={handleOpenModal5}
-              handleCloseModal6={handleCloseModal5}
-              openModal6={openModal5}
+              handleOpenModal5={handleOpenModal5}
+              handleCloseModal5={handleCloseModal5}
+              openModal5={openModal5}
             />
           </motion.div>
         </Carousel>

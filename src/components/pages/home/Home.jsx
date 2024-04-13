@@ -351,9 +351,9 @@ const Home = () => {
             Por qué sumarnos a tu equipo
           </Typography>
 
-          <Box sx={{ width: "40%", margin: "auto" }}>
+          <Box sx={{  width: "80%", margin: "auto" }}>
             <Carousel
-              sx={{ height: "39vh", pb: 10, position: "relative" }}
+              sx={{  pb: 15, position: "relative" }}
               indicatorContainerProps={{
                 sx: {
                   position: "absolute",
@@ -378,8 +378,8 @@ const Home = () => {
       </Hidden>
 
       <Hidden smUp>
-        <Box  >
-         <img width={"100%"} src="/homeMobile.png" alt="" />
+        <Box>
+          <img width={"100%"} src="/homeMobile.png" alt="" />
         </Box>
 
         <Box m={"auto"} width={"80%"} mt={"7%"}>
@@ -416,10 +416,9 @@ const Home = () => {
           ¿Por qué sumarnos a tu equipo?
         </Typography>
         <Box>
-        <Box sx={{ width: "80%", margin: "auto", pb:3 }}>
-            <Carousel 
-              autoPlay={false}
-              sx={{ height: "570px", pb: 10, position: "relative" }}
+          <Box sx={{ width: "80%", margin: "auto", pb: 3 }}>
+            <Carousel
+              sx={{  pb: 15, position: "relative" }}
               indicatorContainerProps={{
                 sx: {
                   position: "absolute",

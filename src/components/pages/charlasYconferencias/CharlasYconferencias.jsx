@@ -91,7 +91,7 @@ const CharlasYconferencias = () => {
           style={{
             backgroundImage: "linear-gradient(to right top, #18CC66, #1296E9)",
           }}
-          sx={{ width: "100%", pt: "12%", pb: "10%" }}
+          sx={{ width: "100%", pt: "12%", pb: "3%" }}
         >
           <Box display={"flex"} width={"88%"} margin={"auto"}>
             <Box width={"50%"}>
@@ -335,8 +335,8 @@ const CharlasYconferencias = () => {
           <Charlas4 handleCloseComponente={handleCloseComponente} />
         )}
 
-        <Parallax speed={-3}>
-          <Box>
+        <Parallax speed={-6}>
+          <Box mt={-3} >
             <img width={"100%"} src="/charlasGente.png" alt="" />
           </Box>
         </Parallax>
@@ -345,6 +345,7 @@ const CharlasYconferencias = () => {
           width={"100%"}
           pb={"5%"}
           pt={"8%"}
+          mt={-3}
           style={{
             backgroundImage: "linear-gradient(to right top, #1296E9, #18CC66)",
           }}
@@ -573,14 +574,13 @@ const CharlasYconferencias = () => {
               para organizaciones, compañías e industrias.
             </Typography>
           </Box>
-          
         </Box>
 
         <Box
           style={{
             backgroundImage: "linear-gradient(to right, #18CC66, #1296E9)",
           }}
-          sx={{ width: "100%",mt:-1,  pt: "2%", pb: "15%" }}
+          sx={{ width: "100%", mt: -1, pt: "2%", pb: "15%" }}
         >
           <Box display={"flex"} width={"88%"} margin={"auto"}>
             <Box mt={"15%"} width={"50%"}>
@@ -626,7 +626,7 @@ const CharlasYconferencias = () => {
               component={Button}
               onClick={handleClickA}
               sx={{
-                mt:3,
+                mt: 3,
                 textTransform: "none",
                 display: "flex",
                 flexDirection: "column",
@@ -739,7 +739,7 @@ const CharlasYconferencias = () => {
               component={Button}
               onClick={handleClickD}
               sx={{
-                mt:3,
+                mt: 3,
                 textTransform: "none",
                 display: "flex",
                 flexDirection: "column",
@@ -772,7 +772,7 @@ const CharlasYconferencias = () => {
               </Typography>
             </Box>
           </Box>
-          <Box ml={"44%"} mt={"5%"} >
+          <Box ml={"44%"} mt={"5%"}>
             <BlackButtom texto={"Consultanos"} linkTo={"/contacto"} />
           </Box>
         </Box>
@@ -789,16 +789,13 @@ const CharlasYconferencias = () => {
           <Charlas4 handleCloseComponente={handleCloseComponente} />
         )}
 
-       
-          <Box mt={-3}>
-            <img width={"100%"} src="/charlasGente.png" alt="" />
-          </Box>
-
+        <Box mt={-3}>
+          <img width={"100%"} src="/charlasGente.png" alt="" />
+        </Box>
 
         <Box
-          sx={{  pb: "5%" }}
+          sx={{ pb: "5%" }}
           width={"100%"}
-          
           style={{
             backgroundImage: "linear-gradient(to right, #1296E9, #18CC66)",
           }}

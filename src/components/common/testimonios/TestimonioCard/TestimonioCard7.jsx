@@ -4,7 +4,7 @@ const TestimonioCard7 = () => {
   return (
     <>
       <Hidden smDown>
-        <Box sx={{ width: "400px" }}>
+        <Box sx={{ width: "400px", m:"auto" }}>
           <Box
             sx={{
               mt: "52px",
