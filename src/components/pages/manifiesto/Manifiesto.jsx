@@ -27,10 +27,11 @@ const Manifiesto = () => {
             <Typography
               sx={{
                 fontFamily: "Merriweather",
-                fontSize: "40px",
-                lineHeight: "54px",
+                fontSize: "36px",
+                lineHeight: "44px",
                 fontWeight: "400",
                 color: "black",
+                width:"90%"
               }}
             >
               En Tyme, sabemos que el tiempo es nuestro mejor aliado y por eso
@@ -51,7 +52,7 @@ const Manifiesto = () => {
           width={"100%"}
           sx={{ bgcolor: "rgba(15, 150, 233, 0.4)", pt: "12%", pb: "4%" }}
         >
-          <Box display={"flex"} width={"87%"} m={"auto"}>
+          <Box display={"flex"} width={"85.5%"} m={"auto"}>
             <Box width={"52%"}>
               <Typography
                 sx={{
@@ -59,6 +60,7 @@ const Manifiesto = () => {
                   fontSize: "24px",
                   lineHeight: "34px",
                   fontWeight: "300",
+                  
                 }}
               >
                 Nuestro objetivo es generar conciencia sobre el{" "}

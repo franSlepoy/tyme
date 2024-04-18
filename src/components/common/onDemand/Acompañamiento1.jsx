@@ -116,21 +116,19 @@ const Acompañamiento1 = ({
             backgroundColor: "#104B70",
           }}
         >
-          
-
           <Box>
             <Typography
               width={"90%"}
               sx={{
                 fontFamily: "Manrope",
-                fontSize: "28px",
+                fontSize: "30px",
                 lineHeight: "32px",
                 fontWeight: "700",
                 color: "white",
                 mt: "7%",
               }}
             >
-              Acompañamiento para certificaciones...
+              Certificaciones
             </Typography>
 
             <Typography
@@ -156,8 +154,8 @@ const Acompañamiento1 = ({
             <img width={"80%"} src="/Acom.png" alt="" />
           </Box>
         </Box>
-        <Box >
-          <Acompañamiento2/>
+        <Box>
+          <Acompañamiento2 />
         </Box>
       </Hidden>
     </>

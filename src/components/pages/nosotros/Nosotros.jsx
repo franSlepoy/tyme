@@ -52,9 +52,10 @@ const Nosotros = () => {
               <Typography
                 sx={{
                   fontFamily: "Merriweather",
-                  fontSize: "40px",
+                  fontSize: "36px",
+                  lineHeight: "44px",
                   fontWeight: "300",
-                  lineHeight: "50px",
+
                   color: "white",
                 }}
               >
@@ -122,7 +123,7 @@ const Nosotros = () => {
           }}
         >
           <Box display={"flex"} width={"93%"} id="seccionDestino">
-            <Box sx={{ ml: "6%", width: "60%" }}>
+            <Box sx={{ ml: "7.5%", width: "60%" }}>
               <Typography
                 style={{ color: "white" }}
                 sx={{

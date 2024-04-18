@@ -17,7 +17,7 @@ export default function Footer() {
             height: "277px",
           }}
         >
-          <Box width={"88%"} m={"auto"}>
+          <Box width={"85.5%"} m={"auto"}>
             <Box sx={{ display: "flex", justifyContent: "space-between" }}>
               <Box sx={{ mt: "47px" }}>
                 <a style={{ textDecoration: "none" }} href="/">

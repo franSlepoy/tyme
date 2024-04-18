@@ -81,10 +81,10 @@ const QueHacemos = () => {
             <Typography
               sx={{
                 fontFamily: "Merriweather",
-                fontSize: "40px",
+                fontSize: "36px",
+                lineHeight: "44px",
                 fontWeight: "300",
                 color: "white",
-                lineHeight: "55px",
               }}
             >
               Somos tus socios estratégicos para acompañar a tus equipos a dar
@@ -107,7 +107,7 @@ const QueHacemos = () => {
           <Typography
             sx={{
               mt: "4%",
-              ml: "5%",
+              ml: "7%",
               fontFamily: "Merriweather",
               fontSize: "42px",
               fontWeight: "200",
@@ -122,7 +122,7 @@ const QueHacemos = () => {
             <img width={"100%"} src="/nosotros3.png" alt="" />
           </Box>
           <Box display={"flex"} width={"90%"} m={"auto"}>
-            <Box width={"40%"}>
+            <Box width={"43%"}>
               <Typography
                 mt={"30%"}
                 sx={{
@@ -130,6 +130,7 @@ const QueHacemos = () => {
                   fontWeight: "600",
                   color: "white",
                   fontSize: "64px",
+                  ml: "5.5%",
                 }}
               >
                 HR on demand:
@@ -140,11 +141,12 @@ const QueHacemos = () => {
                   fontFamily: "Manrope",
                   fontWeight: "400",
                   fontSize: "40px",
+                  ml: "5.5%",
                 }}
               >
                 respuesta a medida
               </Typography>
-              <Box mt={"6%"}>
+              <Box mt={"5.5%"} ml={"7%"}>
                 <GreenButtom texto={"Consúltanos"} linkTo={"/contacto"} />
               </Box>
             </Box>
@@ -394,13 +396,14 @@ const QueHacemos = () => {
             <img width={"100%"} src="/nosotros4.png" alt="" />
           </Box>
           <Box display={"flex"} width={"90%"} m={"auto"}>
-            <Box width={"40%"}>
+            <Box width={"43%"}>
               <Typography
                 sx={{
                   fontFamily: "Manrope",
                   fontWeight: "500",
                   color: "white",
                   fontSize: "64px",
+                  ml: "5.5%",
                 }}
               >
                 HR Tech Trends
@@ -412,11 +415,12 @@ const QueHacemos = () => {
                   fontWeight: "400",
                   fontSize: "40px",
                   width: "105%",
+                  ml: "5.5%",
                 }}
               >
                 tecnología para la gestión del capital humano
               </Typography>
-              <Box mt={"6%"}>
+              <Box mt={"6%"} ml={"5.5%"}>
                 <BlackButtom texto={"Consúltanos"} linkTo={"/contacto"} />
               </Box>
             </Box>
@@ -1045,7 +1049,7 @@ const QueHacemos = () => {
         </Box>
         {/*     </Parallax> */}
         <Box>
-          {/* <Box
+          <Box
             sx={{
               position: "absolute",
               top: "12% ",
@@ -1063,19 +1067,21 @@ const QueHacemos = () => {
             >
               Qué hacemos
             </Typography>
-          </Box> */}
-          {/* <Box
-            sx={{
-              position: "absolute",
-              top: "60% ",
-              left: "7%",
-              width: "70%",
-            }}
-          >
-            <ScrollLink to="seccionDestino" smooth={true}>
-              <GreenButtom texto={"Conoce más"} />
-            </ScrollLink>
-          </Box> */}
+            <Typography
+              sx={{
+                fontFamily: "Merriweather",
+                fontSize: "30px",
+                fontWeight: "300",
+                lineHeight: "40px",
+                color: "white",
+                width:"80%",
+                mt:4
+              }}
+            >
+              Somos tus socios estratégicos para acompañar a tus equipos a dar
+              un salto de crecimiento
+            </Typography>
+          </Box>
         </Box>
 
         <Box
@@ -1112,10 +1118,11 @@ const QueHacemos = () => {
             </Box>
 
             <Box
-              width={"88%"}
+              width={"85%"}
               m={"auto"}
               textAlign={"center"}
-              pt={0}
+              mt={-5}
+              pt={5}
               pr={3}
               pl={3}
               pb={3}
@@ -1134,7 +1141,7 @@ const QueHacemos = () => {
               </Typography>
               <Typography
                 sx={{
-                  fontFamily: "Merriaweather",
+                  fontFamily: "Merriweather",
                   fontWeight: "100",
                   fontSize: "18px",
                   lineHeight: "25px",
@@ -1318,10 +1325,11 @@ const QueHacemos = () => {
               <img src="/hrmobil1.png" alt="" />
             </Box>
             <Box
-              width={"80%"}
+              width={"85%"}
               m={"auto"}
               textAlign={"center"}
-              pt={0}
+              mt={-6}
+              pt={5}
               pr={3}
               pl={3}
               pb={3}
@@ -1340,10 +1348,12 @@ const QueHacemos = () => {
               </Typography>
               <Typography
                 sx={{
-                  fontFamily: "Merriaweather",
+                  fontFamily: "Merriweather",
                   fontWeight: "100",
                   fontSize: "22px",
                   lineHeight: "25px",
+                  width: "320px",
+                  textAlign: "center",
                 }}
               >
                 Tecnología para la gestión del Capital Humano

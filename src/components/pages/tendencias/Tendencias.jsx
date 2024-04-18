@@ -27,7 +27,7 @@ const Tendencias = () => {
             sx={{
               position: "absolute",
               top: "70% ",
-              left: "6%",
+              left: "7%",
               width: "56%",
             }}
           >
@@ -76,6 +76,7 @@ const Tendencias = () => {
               width: "88%",
               margin: "auto",
               lineHeight: "40px",
+              ml:"7%"
             }}
           >
             En Tyme, nos parece clave invertir tiempo en nuevos aprendizajes y
@@ -83,7 +84,7 @@ const Tendencias = () => {
             constante en innovación, nuevas metodologías, casos de éxito y
             tendencias. Acá, compartimos algunos de esos aportes.
           </Typography>
-          <Box width={"88%"} m={"auto"} mt={"3%"} mb={"3%"}>
+          <Box width={"86%"} m={"auto"} mt={"3%"} mb={"3%"}>
             <BlackButtom texto={"Contáctanos"} linkTo={"/contacto"} />
           </Box>
           <Box position={"absolute"} top={"140%"}>

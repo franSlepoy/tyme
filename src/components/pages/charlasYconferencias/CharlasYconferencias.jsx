@@ -71,21 +71,19 @@ const CharlasYconferencias = () => {
               position: "absolute",
               top: "33% ",
               left: "51%",
-              width: "45%",
+              width: "43%",
             }}
           >
             <Typography
               sx={{
                 fontFamily: "Merriweather",
-                fontSize: "40px",
-                lineHeight: "50px",
+                fontSize: "36px",
+                lineHeight: "44px",
                 fontWeight: "300",
                 color: "white",
               }}
             >
-              Desde nuestra experiencia en startups, empresas, consultoría y
-              transformación tecnológica, dictamos conferencias y capacitaciones
-              para organizaciones, compañías e industrias.
+              Desde nuestra experiencia en startups, empresas, dictamos conferencias y capacitaciones para organizaciones, compañías e industrias.
             </Typography>
           </Box>
 
@@ -106,7 +104,7 @@ const CharlasYconferencias = () => {
           }}
           sx={{ width: "100%", pt: "12%", pb: "3%" }}
         >
-          <Box display={"flex"} width={"88%"} margin={"auto"}>
+          <Box display={"flex"} width={"86%"} margin={"auto"}>
             <Box width={"50%"}>
               <Typography
                 sx={{
@@ -152,7 +150,7 @@ const CharlasYconferencias = () => {
               mt={"5%"}
             >
               <Box
-                ml={"1%"}
+                ml={"2.2%"}
                 width={"25%"}
                 disableRipple={true}
                 onClick={handleClickA}

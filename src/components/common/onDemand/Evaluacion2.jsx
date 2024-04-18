@@ -10,7 +10,7 @@ const Evaluacion2 = ({ handleOpenModal1, handleCloseModal1, openModal1 }) => {
         <Box
           pl={"10%"}
           pt={"6%"}
-          sx={{ width: "100%", height: "73vh", backgroundColor: "#104B70" }}
+          sx={{ width: "100%", height: "74vh", backgroundColor: "#104B70" }}
         >
           <Box
             display={"flex"}
@@ -119,7 +119,7 @@ const Evaluacion2 = ({ handleOpenModal1, handleCloseModal1, openModal1 }) => {
                   lineHeight: "30px",
                 }}
               >
-                Plan a medida.
+                Planes a medida.
               </Typography>
             </Box>
             <Box ml={"4%"} width={"220px"}>

@@ -43,10 +43,12 @@ const Home = () => {
             <Typography
               sx={{
                 fontFamily: "Merriweather",
-                fontSize: "40px",
+                fontSize: "36px",
+                lineHeight: "44px",
                 fontWeight: "300",
                 color: "white",
-                width: "350px",
+
+                width: "445px",
               }}
             >
               Somos el puente entre el equipo que tienes y el que quieres
@@ -69,18 +71,19 @@ const Home = () => {
         <Box
           id="seccionDestino"
           m={"auto"}
-          width={"87%"}
+          width={"86%"}
           display={"flex"}
           pt={"10%"}
         >
           <Box width={"45%"}>
             <Typography
               sx={{
-                fontFamily: "Marriweather",
-                fontSize: "37px",
+                fontFamily: "Merriweather",
+                fontSize: "32px",
                 lineHeight: "40px",
                 fontWeight: "100",
                 color: "#07659C",
+                
               }}
             >
               Te acompañamos a potenciar tu compañía y a encontrar una fórmula
@@ -105,7 +108,11 @@ const Home = () => {
                 fontWeight: 300,
               }}
             >
-             Somos una consultora especializada en evaluar y diagnosticar organizaciones a partir del trabajo personalizado, para desarrollar sus talentos, asesorarlas en la implementación de tecnologías en RRHH y sentar las bases para un crecimiento sostenible centrado en la innovación.
+              Somos una consultora especializada en evaluar y diagnosticar
+              organizaciones a partir del trabajo personalizado, para
+              desarrollar sus talentos, asesorarlas en la implementación de
+              tecnologías en RRHH y sentar las bases para un crecimiento
+              sostenible centrado en la innovación.
             </Typography>
           </Box>
         </Box>
@@ -120,7 +127,7 @@ const Home = () => {
             pb: "67px",
           }}
         >
-          <Box width={"87%"} m={"auto"}>
+          <Box width={"86%"} m={"auto"}>
             <Typography
               sx={{
                 fontFamily: "Merriweather",
@@ -134,7 +141,7 @@ const Home = () => {
               servicios:
             </Typography>
           </Box>
-          <Box display={"flex"} width={"87%"} m={"auto"}>
+          <Box display={"flex"} width={"86%"} m={"auto"}>
             <Box mt={"30px"} width={"40%"}>
               <Typography
                 sx={{
@@ -166,7 +173,7 @@ const Home = () => {
               </Typography>
             </Box>
           </Box>
-          <Box ml={"6%"} sx={{ mt: "49px" }}>
+          <Box ml={"7%"} sx={{ mt: "49px" }}>
             <BlackButtom texto={"Conoce más"} linkTo={"/queHacemos"} />
           </Box>
         </Box>
@@ -260,7 +267,11 @@ const Home = () => {
                 fontWeight: 300,
               }}
             >
-             Somos una consultora especializada en evaluar y diagnosticar organizaciones a partir del trabajo personalizado, para desarrollar sus talentos, asesorarlas en la implementación de tecnologías en RRHH y sentar las bases para un crecimiento sostenible centrado en la innovación.
+              Somos una consultora especializada en evaluar y diagnosticar
+              organizaciones a partir del trabajo personalizado, para
+              desarrollar sus talentos, asesorarlas en la implementación de
+              tecnologías en RRHH y sentar las bases para un crecimiento
+              sostenible centrado en la innovación.
             </Typography>
           </Box>
         </Box>
@@ -343,9 +354,9 @@ const Home = () => {
             Por qué sumarnos a tu equipo
           </Typography>
 
-          <Box sx={{  width: "80%", margin: "auto" }}>
+          <Box sx={{ width: "80%", margin: "auto" }}>
             <Carousel
-              sx={{  pb: 15, position: "relative" }}
+              sx={{ pb: 15, position: "relative" }}
               indicatorContainerProps={{
                 sx: {
                   position: "absolute",
@@ -384,7 +395,11 @@ const Home = () => {
                 fontWeight: 300,
               }}
             >
-              Somos una consultora especializada en evaluar y diagnosticar organizaciones a partir del trabajo personalizado, para desarrollar sus talentos, asesorarlas en la implementación de tecnologías en RRHH y sentar las bases para un crecimiento sostenible centrado en la innovación.
+              Somos una consultora especializada en evaluar y diagnosticar
+              organizaciones a partir del trabajo personalizado, para
+              desarrollar sus talentos, asesorarlas en la implementación de
+              tecnologías en RRHH y sentar las bases para un crecimiento
+              sostenible centrado en la innovación.
             </Typography>
           </Box>
         </Box>
@@ -406,7 +421,7 @@ const Home = () => {
         <Box>
           <Box sx={{ width: "80%", margin: "auto", pb: 3 }}>
             <Carousel
-              sx={{  pb: 15, position: "relative" }}
+              sx={{ pb: 15, position: "relative" }}
               indicatorContainerProps={{
                 sx: {
                   position: "absolute",
