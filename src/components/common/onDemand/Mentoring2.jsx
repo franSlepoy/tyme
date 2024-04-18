@@ -41,7 +41,7 @@ const Mentoring2 = ({ handleOpenModal5, handleCloseModal5, openModal5 }) => {
                   mt: "",
                 }}
               >
-                HR Trech trend
+                HR Tech Trends
               </Typography>
             </Box>
 

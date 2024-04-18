@@ -92,7 +92,7 @@ const Charlas1 = ({ handleCloseComponente }) => {
                     color: "#73F0A2",
                   }}
                 >
-                  Consultanos
+                 Consúltanos 
                 </Typography>
               </Button>
             </Box>
@@ -190,7 +190,7 @@ const Charlas1 = ({ handleCloseComponente }) => {
                     color: "#73F0A2",
                   }}
                 >
-                  Consultanos
+                  Consúltanos 
                 </Typography>
               </Button>
             </Box>
@@ -255,7 +255,7 @@ const Charlas1 = ({ handleCloseComponente }) => {
               Cómo cultivar una cultura de confianza y herramientas para
               implementar el cambio midiendo su impacto en el negocio.
             </Typography>
-            <BlackButtom texto={"Consultanos"} />
+            <BlackButtom texto={"Consúltanos "} />
           </Box>
         </Box>
       </Hidden>

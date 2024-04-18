@@ -120,7 +120,7 @@ const Testimonios = () => {
               </Typography>
               <Typography
                 sx={{
-                  mt: 2,
+                  mt: 0,
                   fontFamily: "Manrope",
 
                   fontWeight: 800,
@@ -152,7 +152,7 @@ const Testimonios = () => {
                   color: "black",
                 }}
               >
-                Emprendedor Endeavor
+                Emprendedor Endeavor (Europa y Latam)
               </Typography>
             </Box>
           </Box>

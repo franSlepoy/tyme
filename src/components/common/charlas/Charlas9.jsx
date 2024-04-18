@@ -1,7 +1,7 @@
 import { Box, Button, Hidden, Typography } from "@mui/material";
 import BlackButtom from "../blackButtom/BlackButtom";
 
-const Charlas3 = ({ handleCloseComponente }) => {
+const Charlas9 = ({ handleCloseComponente }) => {
   return (
     <>
       <Hidden lgDown>
@@ -29,21 +29,9 @@ const Charlas3 = ({ handleCloseComponente }) => {
                 color: "white",
               }}
             >
-              Construyendo un legado{" "}
+              Camino incierto, destino brillante
             </Typography>
-            <Typography
-              sx={{
-                mt: "1%",
-                width: "74%",
-                fontFamily: "Manrope",
-                fontSize: "30px",
-                fontWeight: "600",
-                lineHeight: "36px",
-                color: "black",
-              }}
-            >
-              liderazgo transformador en tiempos de incertidumbre
-            </Typography>
+            
             <Typography
               sx={{
                 mt: "4%",
@@ -55,17 +43,14 @@ const Charlas3 = ({ handleCloseComponente }) => {
                 color: "black",
               }}
             >
-              Cómo guiar a tus equipos y cuidar los liderazgos, entendiendo su
-              rol clave en la pirámide organizacional, para potenciar su
-              rendimiento en tiempo de pocas certezas. Herramientas para
-              encontrar oportunidades a pesar de las incertidumbres.
+             Cómo emprender en la incertidumbre, creando negocios resilientes y exitosos que enfrenten los obstáculos con creatividad. Flexibilidad, innovación y transformación digital, aliadas para detectar oportunidades y soluciones disruptivas.
             </Typography>
             <Box pb={4}>
               <BlackButtom texto={"Consúltanos "} linkTo={"/contacto"} />
             </Box>
           </Box>
           <Box width={"40%"} ml={6}>
-            <img width={"100%"} height={"100%"} src="/ch03.png" alt="" />
+            <img width={"100%"} height={"100%"} src="/camino.png" alt="" />
           </Box>
         </Box>
       </Hidden>
@@ -95,21 +80,9 @@ const Charlas3 = ({ handleCloseComponente }) => {
                 color: "white",
               }}
             >
-              Construyendo un legado{" "}
+             Camino incierto, destino brillante
             </Typography>
-            <Typography
-              sx={{
-                mt: "1%",
-                width: "74%",
-                fontFamily: "Manrope",
-                fontSize: "30px",
-                fontWeight: "600",
-                lineHeight: "36px",
-                color: "black",
-              }}
-            >
-              liderazgo transformador en tiempos de incertidumbre
-            </Typography>
+           
             <Typography
               sx={{
                 mt: "4%",
@@ -121,14 +94,14 @@ const Charlas3 = ({ handleCloseComponente }) => {
                 color: "black",
               }}
             >
-              Cómo guiar a tus equipos y cuidar los liderazgos, entendiendo su rol clave en la pirámide organizacional, para potenciar su rendimiento en tiempo de pocas certezas. Herramientas para encontrar oportunidades a pesar de las incertidumbres.
+             Cómo emprender en la incertidumbre, creando negocios resilientes y exitosos que enfrenten los obstáculos con creatividad. Flexibilidad, innovación y transformación digital, aliadas para detectar oportunidades y soluciones disruptivas.
             </Typography>
             <Box pb={4}>
               <BlackButtom texto={"Consúltanos "} linkTo={"/contacto"} />
             </Box>
           </Box>
           <Box width={"40%"} ml={6}>
-            <img width={"100%"} height={"100%"} src="/ch03.png" alt="" />
+            <img width={"100%"} height={"100%"} src="/camino.png" alt="" />
           </Box>
         </Box>
       </Hidden>
@@ -136,7 +109,7 @@ const Charlas3 = ({ handleCloseComponente }) => {
       <Hidden smUp>
         <Box
           position={"absolute"}
-          top={"168%"}
+          top={"368%"}
           left={"6%"}
           pb={"8%"}
           width={"87%"}
@@ -159,21 +132,9 @@ const Charlas3 = ({ handleCloseComponente }) => {
                 width: "80%",
               }}
             >
-              Construyendo un legado{" "}
+          Camino incierto, destino brillante
             </Typography>
-            <Typography
-              sx={{
-                mt: "1%",
-                width: "98%",
-                fontFamily: "Manrope",
-                fontSize: "24px",
-                fontWeight: "600",
-                lineHeight: "26px",
-                color: "black",
-              }}
-            >
-              liderazgo transformador en tiempos de incertidumbre
-            </Typography>
+            
             <Typography
               sx={{
                 mt: "4%",
@@ -186,7 +147,7 @@ const Charlas3 = ({ handleCloseComponente }) => {
                 width: "90%",
               }}
             >
-              Cómo guiar a tus equipos y cuidar los liderazgos, entendiendo su rol clave en la pirámide organizacional, para potenciar su rendimiento en tiempo de pocas certezas. Herramientas para encontrar oportunidades a pesar de las incertidumbres.
+              Cómo emprender en la incertidumbre, creando negocios resilientes y exitosos que enfrenten los obstáculos con creatividad. Flexibilidad, innovación y transformación digital, aliadas para detectar oportunidades y soluciones disruptivas.
             </Typography>
             <BlackButtom texto={"Consúltanos "} linkTo={"/contacto"} />
           </Box>
@@ -196,4 +157,4 @@ const Charlas3 = ({ handleCloseComponente }) => {
   );
 };
 
-export default Charlas3;
+export default Charlas9;

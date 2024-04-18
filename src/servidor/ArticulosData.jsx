@@ -14,7 +14,7 @@ export const ArticulosData = [
        {id: 3,
         imagen: "/articulos3.png",
      titulo: "Turismo interior",
-     link:"https://www.figma.com/file/HcWS4LxC9PQZeJAMHD8YwZ/TYME_v0?node-id=0%3A1&mode=dev"
+     link:"https://www.linkedin.com/pulse/turismo-interior-javier-krawicki/?trackingId=nQAjdi0BSiGzF9gdi%2Fqukw%3D%3D"
    
        },
        {id: 4,
@@ -33,7 +33,7 @@ export const ArticulosData = [
        {id: 6,
         imagen: "/articulos6.png",
         titulo: "La tecnología es la nueva electricidad",
-        link:"https://www.linkedin.com/pulse/gracias-chat-gpt-e-inteligencia-artificial-por-quienes-krawicki/?trackingId=nQAjdi0BSiGzF9gdi%2Fqukw%3D%3D"
+        link:"https://www.linkedin.com/pulse/la-tecnolog%25C3%25ADa-es-nueva-electricidad-javier-krawicki/?trackingId=nQAjdi0BSiGzF9gdi%2Fqukw%3D%3D"
         
        },
        {id: 7,

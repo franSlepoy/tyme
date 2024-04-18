@@ -188,7 +188,7 @@ const Testimonios1 = () => {
               </Typography>
               <Typography
                 sx={{
-                  mt: 2,
+                  mt: 0,
                   fontFamily: "Manrope",
 
                   fontWeight: 800,
@@ -199,7 +199,7 @@ const Testimonios1 = () => {
                   textTransform: "uppercase",
                 }}
               >
-                Gustavo Martinez
+                Gustavo Martínez
               </Typography>
               <Typography
                 sx={{
@@ -207,10 +207,21 @@ const Testimonios1 = () => {
                   fontWeight: 300,
                   lineHeight: "18px",
                   color: "black",
-                  pb:2
+                  
                 }}
               >
                CEO & Partner The Cyranos 
+              </Typography>
+              <Typography
+                sx={{
+                  fontSize: "16px",
+                  fontWeight: 300,
+                  lineHeight: "18px",
+                  color: "black",
+                  pb:0
+                }}
+              >
+                Ex presidente mundial Walter Thompson
               </Typography>
               
             </Box>

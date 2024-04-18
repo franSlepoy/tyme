@@ -1,7 +1,5 @@
 import { Box, Button, Dialog, Hidden, Typography } from "@mui/material";
 
-import { NavLink } from "react-router-dom";
-
 import { Parallax } from "react-scroll-parallax";
 import GreenButtom from "../../common/greenButtom/GreenButtom";
 import BlackButtom from "../../common/blackButtom/BlackButtom";
@@ -147,7 +145,7 @@ const QueHacemos = () => {
                 respuesta a medida
               </Typography>
               <Box mt={"6%"}>
-                <GreenButtom texto={"Consultanos"} linkTo={"/contacto"} />
+                <GreenButtom texto={"Consúltanos"} linkTo={"/contacto"} />
               </Box>
             </Box>
 
@@ -419,7 +417,7 @@ const QueHacemos = () => {
                 tecnología para la gestión del capital humano
               </Typography>
               <Box mt={"6%"}>
-                <BlackButtom texto={"Consultanos"} linkTo={"/contacto"} />
+                <BlackButtom texto={"Consúltanos"} linkTo={"/contacto"} />
               </Box>
             </Box>
 
@@ -1404,7 +1402,7 @@ const QueHacemos = () => {
                       lineHeight: "34px",
                       color: "black",
                       textAlign: "center",
-                      width:"250px"
+                      width: "250px",
                     }}
                   >
                     Training en innovación tecnológica

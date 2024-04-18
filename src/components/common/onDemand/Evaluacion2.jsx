@@ -51,7 +51,7 @@ const Evaluacion2 = ({ handleOpenModal1, handleCloseModal1, openModal1 }) => {
                 mt: 2,
               }}
             >
-              Equipo de expertos en gestión del talento
+               Cómo lo hacemos 
             </Typography>
 
             <Typography
@@ -240,7 +240,7 @@ const Evaluacion2 = ({ handleOpenModal1, handleCloseModal1, openModal1 }) => {
                   lineHeight: "30px",
                 }}
               >
-                Plan a medida.
+                Planes a medida.
               </Typography>
             </Box>
             <Box>

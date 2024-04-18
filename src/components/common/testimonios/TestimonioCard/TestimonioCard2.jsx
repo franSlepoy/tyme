@@ -122,7 +122,7 @@ const TestimonioCard2 = () => {
             </Typography>
             <Typography
               sx={{
-                mt: 2,
+                mt: 1,
                 fontFamily: "Manrope",
 
                 fontWeight: 800,
@@ -154,7 +154,7 @@ const TestimonioCard2 = () => {
                 color: "black",
               }}
             >
-              Emprendedor Endeavor
+              Emprendedor Endeavor (Europa y Latam)
             </Typography>
           </Box>
         </Box>

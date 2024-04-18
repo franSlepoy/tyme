@@ -14,7 +14,7 @@ const Charlas5 = ({ handleCloseComponente }) => {
           pt={"5%"}
           pb={"5%"}
           sx={{
-            backgroundImage: `url("/Gameon1.png")`, // Reemplaza con la ruta de tu imagen
+            backgroundImage: `url("/HR5.png")`, // Reemplaza con la ruta de tu imagen
             backgroundSize: "cover",
             backgroundPosition: "center",
           }}
@@ -65,7 +65,7 @@ const Charlas5 = ({ handleCloseComponente }) => {
               identificar por qué y para qué sumarlas como un valor a la
               organización y aprovechar su potencial.
             </Typography>
-            <BlackButtom texto={"Consultanos"} linkTo={"/contacto"} />
+            <BlackButtom texto={"Consúltanos "} linkTo={"/contacto"} />
           </Box>
         </Box>
       </Hidden>
@@ -79,7 +79,7 @@ const Charlas5 = ({ handleCloseComponente }) => {
           pt={"5%"}
           pb={"5%"}
           sx={{
-            backgroundImage: `url("/Gameon1.png")`, // Reemplaza con la ruta de tu imagen
+            backgroundImage: `url("/HR5.png")`, // Reemplaza con la ruta de tu imagen
             backgroundSize: "cover",
             backgroundPosition: "center",
           }}
@@ -95,7 +95,7 @@ const Charlas5 = ({ handleCloseComponente }) => {
                 fontFamily: "Manrope",
                 fontSize: "30px",
                 fontWeight: "700",
-                
+
                 color: "white",
               }}
             >
@@ -108,7 +108,7 @@ const Charlas5 = ({ handleCloseComponente }) => {
                 fontFamily: "Manrope",
                 fontSize: "24px",
                 fontWeight: "500",
-              
+
                 color: "black",
               }}
             >
@@ -130,7 +130,7 @@ const Charlas5 = ({ handleCloseComponente }) => {
               identificar por qué y para qué sumarlas como un valor a la
               organización y aprovechar su potencial.
             </Typography>
-            <BlackButtom texto={"Consultanos"} linkTo={"/contacto"} />
+            <BlackButtom texto={"Consúltanos "} linkTo={"/contacto"} />
           </Box>
         </Box>
       </Hidden>
@@ -138,7 +138,7 @@ const Charlas5 = ({ handleCloseComponente }) => {
       <Hidden smUp>
         <Box
           position={"absolute"}
-          top={"358%"}
+          top={"478%"}
           left={"6%"}
           display={"flex"}
           width={"87%"}
@@ -196,7 +196,7 @@ const Charlas5 = ({ handleCloseComponente }) => {
               identificar por qué y para qué sumarlas como un valor a la
               organización y aprovechar su potencial.
             </Typography>
-            <BlackButtom texto={"Consultanos"} linkTo={"/contacto"} />
+            <BlackButtom texto={"Consúltanos "} linkTo={"/contacto"} />
           </Box>
         </Box>
       </Hidden>

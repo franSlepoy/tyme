@@ -1,25 +1,20 @@
 import { Box, Button, Hidden, Typography } from "@mui/material";
 import BlackButtom from "../blackButtom/BlackButtom";
 
-const Charlas7 = ({ handleCloseComponente }) => {
+const Charlas10 = ({ handleCloseComponente }) => {
   return (
     <>
       <Hidden lgDown>
         <Box
           position={"absolute"}
-          top={"348%"}
+          top={"128%"}
           left={"6%"}
           display={"flex"}
           width={"87%"}
-          pt={"5%"}
-          pb={"5%"}
-          sx={{
-            backgroundImage: `url("/Crypto.png")`, // Reemplaza con la ruta de tu imagen
-            backgroundSize: "cover",
-            backgroundPosition: "center",
-          }}
+          sx={{ bgcolor: "#A0D5F6" }}
+          zIndex={100}
         >
-          <Box ml={"10%"} width={"53%"}>
+          <Box ml={"10%"} mt={"6%"} width={"53%"}>
             <Button onClick={handleCloseComponente} sx={{ ml: -3 }}>
               <img src="/flechaCH.png" alt="" />
             </Button>
@@ -34,25 +29,25 @@ const Charlas7 = ({ handleCloseComponente }) => {
                 color: "white",
               }}
             >
-              Cryptowork
+              Beyond office walls:
             </Typography>
             <Typography
               sx={{
                 mt: "1%",
-                width: "97%",
+                width: "74%",
                 fontFamily: "Manrope",
                 fontSize: "30px",
-                fontWeight: "500",
+                fontWeight: "600",
                 lineHeight: "36px",
                 color: "black",
               }}
             >
-               desbloqueando el potencial de las criptomonedas
+              teletrabajo y revolución del espacio laboral
             </Typography>
             <Typography
               sx={{
                 mt: "4%",
-                mb: "7%",
+                mb: "5%",
                 fontFamily: "Manrope",
                 fontSize: "24px",
                 fontWeight: "300",
@@ -60,12 +55,17 @@ const Charlas7 = ({ handleCloseComponente }) => {
                 color: "black",
               }}
             >
-              Exploración del impacto y las oportunidades que las criptomonedas
-              y la tecnología blockchain están generando en el mundo del
-              trabajo, y cómo están transformando el modo en que se llevan a
-              cabo las transacciones en el mercado laboral. 
+              ¿Cómo se redefine el concepto de oficina y horario laboral en
+              tiempos de teletrabajo? Estrategias para impulsar la innovación,
+              una cultura de confianza y el equilibrio laboral y personal, con
+              herramientas digitales para una colaboración productiva
             </Typography>
-            <BlackButtom texto={"Consúltanos"} linkTo={"/contacto"} />
+            <Box pb={4}>
+              <BlackButtom texto={"Consúltanos "} linkTo={"/contacto"} />
+            </Box>
+          </Box>
+          <Box width={"40%"} ml={6}>
+            <img width={"100%"} height={"100%"} src="/beyond.png" alt="" />
           </Box>
         </Box>
       </Hidden>
@@ -73,18 +73,14 @@ const Charlas7 = ({ handleCloseComponente }) => {
       <Hidden lgUp smDown>
         <Box
           position={"absolute"}
-          top={"178%"}
+          top={"68%"}
+          left={"6%"}
           display={"flex"}
-          width={"100%"}
-          pt={"5%"}
-          pb={"5%"}
-          sx={{
-            backgroundImage: `url("/Crypto.png")`, // Reemplaza con la ruta de tu imagen
-            backgroundSize: "cover",
-            backgroundPosition: "center",
-          }}
+          width={"87%"}
+          sx={{ bgcolor: "#73F0A2" }}
+          zIndex={100}
         >
-          <Box ml={"10%"} width={"53%"}>
+          <Box ml={"10%"} mt={"6%"} width={"53%"}>
             <Button onClick={handleCloseComponente} sx={{ ml: -3 }}>
               <img src="/flechaCH.png" alt="" />
             </Button>
@@ -99,25 +95,25 @@ const Charlas7 = ({ handleCloseComponente }) => {
                 color: "white",
               }}
             >
-              Cryptowork
+              Beyond office walls:
             </Typography>
             <Typography
               sx={{
                 mt: "1%",
-                width: "97%",
+                width: "74%",
                 fontFamily: "Manrope",
                 fontSize: "30px",
-                fontWeight: "500",
+                fontWeight: "600",
                 lineHeight: "36px",
                 color: "black",
               }}
             >
-               desbloqueando el potencial de las criptomonedas
+              teletrabajo y revolución del espacio laboral
             </Typography>
             <Typography
               sx={{
                 mt: "4%",
-                mb: "7%",
+                mb: "5%",
                 fontFamily: "Manrope",
                 fontSize: "24px",
                 fontWeight: "300",
@@ -125,12 +121,17 @@ const Charlas7 = ({ handleCloseComponente }) => {
                 color: "black",
               }}
             >
-              Exploración del impacto y las oportunidades que las criptomonedas
-              y la tecnología blockchain están generando en el mundo del
-              trabajo, y cómo están transformando el modo en que se llevan a
-              cabo las transacciones en el mercado laboral. 
+              ¿Cómo se redefine el concepto de oficina y horario laboral en
+              tiempos de teletrabajo? Estrategias para impulsar la innovación,
+              una cultura de confianza y el equilibrio laboral y personal, con
+              herramientas digitales para una colaboración productiva
             </Typography>
-            <BlackButtom texto={"Consúltanos"} linkTo={"/contacto"} />
+            <Box pb={4}>
+              <BlackButtom texto={"Consúltanos "} linkTo={"/contacto"} />
+            </Box>
+          </Box>
+          <Box width={"40%"} ml={6}>
+            <img width={"100%"} height={"100%"} src="/ch03.png" alt="" />
           </Box>
         </Box>
       </Hidden>
@@ -138,19 +139,14 @@ const Charlas7 = ({ handleCloseComponente }) => {
       <Hidden smUp>
         <Box
           position={"absolute"}
-          top={"518%"}
+          top={"398%"}
           left={"6%"}
-          display={"flex"}
+          pb={"8%"}
           width={"87%"}
-          pt={"5%"}
-          pb={"5%"}
-          sx={{
-            backgroundImage: `url("/Crypto.png")`, // Reemplaza con la ruta de tu imagen
-            backgroundSize: "cover",
-            backgroundPosition: "center",
-          }}
+          sx={{ bgcolor: "#73F0A2" }}
+          zIndex={100}
         >
-          <Box ml={"10%"} width={"88%"}>
+          <Box ml={"10%"} mt={"6%"} width={"93%"}>
             <Button onClick={handleCloseComponente} sx={{ ml: -3 }}>
               <img src="/flechaCH.png" alt="" />
             </Button>
@@ -161,29 +157,30 @@ const Charlas7 = ({ handleCloseComponente }) => {
                 fontFamily: "Manrope",
                 fontSize: "30px",
                 fontWeight: "700",
-
+                lineHeight: "32px",
                 color: "white",
+                width: "80%",
               }}
             >
-              Cryptowork
+              Beyond office walls:
             </Typography>
             <Typography
               sx={{
                 mt: "1%",
-                width: "97%",
+                width: "98%",
                 fontFamily: "Manrope",
                 fontSize: "24px",
-                fontWeight: "500",
+                fontWeight: "600",
                 lineHeight: "26px",
                 color: "black",
               }}
             >
-               desbloqueando el potencial de las criptomonedas
+              teletrabajo y revolución del espacio laboral
             </Typography>
             <Typography
               sx={{
                 mt: "4%",
-                mb: "7%",
+                mb: "5%",
                 fontFamily: "Manrope",
                 fontSize: "20px",
                 fontWeight: "300",
@@ -192,12 +189,12 @@ const Charlas7 = ({ handleCloseComponente }) => {
                 width: "90%",
               }}
             >
-              Exploración del impacto y las oportunidades que las criptomonedas
-              y la tecnología blockchain están generando en el mundo del
-              trabajo, y cómo están transformando el modo en que se llevan a
-              cabo las transacciones en el mercado laboral. 
+              ¿Cómo se redefine el concepto de oficina y horario laboral en
+              tiempos de teletrabajo? Estrategias para impulsar la innovación,
+              una cultura de confianza y el equilibrio laboral y personal, con
+              herramientas digitales para una colaboración productiva
             </Typography>
-            <BlackButtom texto={"Consúltanos"} linkTo={"/contacto"} />
+            <BlackButtom texto={"Consúltanos "} linkTo={"/contacto"} />
           </Box>
         </Box>
       </Hidden>
@@ -205,4 +202,4 @@ const Charlas7 = ({ handleCloseComponente }) => {
   );
 };
 
-export default Charlas7;
+export default Charlas10;

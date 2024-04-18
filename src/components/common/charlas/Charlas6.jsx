@@ -65,7 +65,7 @@ const Charlas6 = ({ handleCloseComponente }) => {
               un complemento para generar oportunidades y potenciar las tareas
               estratégicas y creativas de los equipos.
             </Typography>
-            <BlackButtom texto={"Consultanos"} linkTo={"/contacto"} />
+            <BlackButtom texto={"Consúltanos "} linkTo={"/contacto"} />
           </Box>
         </Box>
       </Hidden>
@@ -130,7 +130,7 @@ const Charlas6 = ({ handleCloseComponente }) => {
               un complemento para generar oportunidades y potenciar las tareas
               estratégicas y creativas de los equipos.
             </Typography>
-            <BlackButtom texto={"Consultanos"} linkTo={"/contacto"} />
+            <BlackButtom texto={"Consúltanos"} linkTo={"/contacto"} />
           </Box>
         </Box>
       </Hidden>
@@ -138,7 +138,7 @@ const Charlas6 = ({ handleCloseComponente }) => {
       <Hidden smUp>
         <Box
           position={"absolute"}
-          top={"378%"}
+          top={"520%"}
           left={"6%"}
           display={"flex"}
           width={"87%"}
@@ -197,7 +197,7 @@ const Charlas6 = ({ handleCloseComponente }) => {
               un complemento para generar oportunidades y potenciar las tareas
               estratégicas y creativas de los equipos.
             </Typography>
-            <BlackButtom texto={"Consultanos"} linkTo={"/contacto"} />
+            <BlackButtom texto={"Consúltanos"} linkTo={"/contacto"} />
           </Box>
         </Box>
       </Hidden>

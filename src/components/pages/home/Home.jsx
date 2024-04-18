@@ -105,11 +105,7 @@ const Home = () => {
                 fontWeight: 300,
               }}
             >
-              Somos una consultora especializada en la implementación de
-              herramientas tecnológicas y en el trabajo personalizado con
-              quienes integran los equipos que asistimos, para fortalecer sus
-              mejores competencias y sentar las bases para un crecimiento
-              sostenible centrado en la innovación.
+             Somos una consultora especializada en evaluar y diagnosticar organizaciones a partir del trabajo personalizado, para desarrollar sus talentos, asesorarlas en la implementación de tecnologías en RRHH y sentar las bases para un crecimiento sostenible centrado en la innovación.
             </Typography>
           </Box>
         </Box>
@@ -148,7 +144,7 @@ const Home = () => {
                   fontWeight: 300,
                 }}
               >
-                <strong>HR on demandas:</strong> trabajamos de manera
+                <strong>HR on demand:</strong> trabajamos de manera
                 personalizada e interdisciplinaria con tus equipos, para
                 ejecutar planes de acción que te acompañen a dar un salto de
                 crecimiento a largo plazo.
@@ -264,11 +260,7 @@ const Home = () => {
                 fontWeight: 300,
               }}
             >
-              Somos una consultora especializada en la implementación de
-              herramientas tecnológicas y en el trabajo personalizado con
-              quienes integran los equipos que asistimos, para fortalecer sus
-              mejores competencias y sentar las bases para un crecimiento
-              sostenible centrado en la innovación.
+             Somos una consultora especializada en evaluar y diagnosticar organizaciones a partir del trabajo personalizado, para desarrollar sus talentos, asesorarlas en la implementación de tecnologías en RRHH y sentar las bases para un crecimiento sostenible centrado en la innovación.
             </Typography>
           </Box>
         </Box>
@@ -307,7 +299,7 @@ const Home = () => {
                   fontWeight: 300,
                 }}
               >
-                <strong>HR on demandas:</strong> trabajamos de manera
+                <strong>HR on demand:</strong> trabajamos de manera
                 personalizada e interdisciplinaria con tus equipos, para
                 ejecutar planes de acción que te acompañen a dar un salto de
                 crecimiento a largo plazo.
@@ -392,11 +384,7 @@ const Home = () => {
                 fontWeight: 300,
               }}
             >
-              Somos una consultora especializada en la implementación de
-              herramientas tecnológicas y en el trabajo personalizado con
-              quienes integran los equipos que asistimos, para fortalecer sus
-              mejores competencias y sentar las bases para un crecimiento
-              sostenible centrado en la innovación.
+              Somos una consultora especializada en evaluar y diagnosticar organizaciones a partir del trabajo personalizado, para desarrollar sus talentos, asesorarlas en la implementación de tecnologías en RRHH y sentar las bases para un crecimiento sostenible centrado en la innovación.
             </Typography>
           </Box>
         </Box>

@@ -63,7 +63,7 @@ const Charlas2 = ({ handleCloseComponente }) => {
               crecimiento de la organización de la que forma parte.
             </Typography>
             <Box pb={4}>
-              <BlackButtom texto={"Consultanos"} linkTo={"/contacto"} />
+              <BlackButtom texto={"Consúltanos "} linkTo={"/contacto"} />
             </Box>
           </Box>
           <Box width={"40%"} ml={6}>
@@ -131,7 +131,7 @@ const Charlas2 = ({ handleCloseComponente }) => {
               crecimiento de la organización de la que forma parte.
             </Typography>
             <Box pb={4}>
-              <BlackButtom texto={"Consultanos"} linkTo={"/contacto"} />
+              <BlackButtom texto={"Consúltanos "} linkTo={"/contacto"} />
             </Box>
           </Box>
           <Box width={"40%"} ml={6}>
@@ -199,7 +199,7 @@ const Charlas2 = ({ handleCloseComponente }) => {
               herramientas para que mejore su rendimiento y haga eco en el
               crecimiento de la organización de la que forma parte.
             </Typography>
-            <BlackButtom texto={"Consultanos"} linkTo={"/contacto"} />
+            <BlackButtom texto={"Consúltanos "} linkTo={"/contacto"} />
           </Box>
         </Box>
       </Hidden>

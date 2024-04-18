@@ -36,7 +36,7 @@ const Training1 = ({ handleOpenModal6, handleCloseModal6, openModal6 }) => {
                 mt: "-2px",
               }}
             >
-              HR on demand
+             HR Tech Trends
             </Typography>
           </Box>
 

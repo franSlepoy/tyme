@@ -97,7 +97,7 @@ const Manifiesto = () => {
                 ¿Nos hacemos un tiempo para conocernos y trabajar juntos?
               </Typography>
               <Box mt={"15%"}>
-                <BlackButtom texto={"Contactanos"} linkTo={"/contacto"} />
+                <BlackButtom texto={"Contáctanos"} linkTo={"/contacto"} />
               </Box>
             </Box>
           </Box>
@@ -182,7 +182,7 @@ const Manifiesto = () => {
                 ¿Nos hacemos un tiempo para conocernos y trabajar juntos?
               </Typography>
               <Box mt={"5%"}>
-                <BlackButtom texto={"Contactanos"} linkTo={"/contacto"} />
+                <BlackButtom texto={"Contáctanos"} linkTo={"/contacto"} />
               </Box>
             </Box>
           </Box>
@@ -246,7 +246,7 @@ const Manifiesto = () => {
                 ¿Nos hacemos un tiempo para conocernos y trabajar juntos?
               </Typography>
               <Box mt={"12%"} mb={"12%"} textAlign={"center"}>
-                <BlackButtom texto={"Contactanos"} linkTo={"/contacto"} />
+                <BlackButtom texto={"Contáctanos"} linkTo={"/contacto"} />
               </Box>
             </Box>
             <Box width={"80%"} m={"auto"} pt={"4%"}>

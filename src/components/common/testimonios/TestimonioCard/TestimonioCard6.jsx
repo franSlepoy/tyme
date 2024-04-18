@@ -124,7 +124,7 @@ const TestimonioCard6 = () => {
                 textTransform: "uppercase",
               }}
             >
-              Gustavo Martinez
+              Gustavo Martínez
             </Typography>
             <Typography
               sx={{
@@ -137,6 +137,17 @@ const TestimonioCard6 = () => {
             >
               CEO & Partner The Cyranos
             </Typography>
+           {/*  <Typography
+              sx={{
+                fontSize: "16px",
+                fontWeight: 300,
+                lineHeight: "18px",
+                color: "black",
+                
+              }}
+            >
+             Ex presidente mundial Walter Thompson
+            </Typography> */}
           </Box>
         </Box>
       </Hidden>

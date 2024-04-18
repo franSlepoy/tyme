@@ -54,7 +54,7 @@ const Tendencias = () => {
                 mt: 2,
               }}
             >
-              <strong>Peter Senge</strong> , experto en desarrollo
+              <strong>Peter Senge,</strong>  experto en desarrollo
               organizacional
             </Typography>
           </Box>

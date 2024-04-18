@@ -36,7 +36,7 @@ const Mentoring1 = ({ handleOpenModal5, handleCloseModal5, openModal5 }) => {
                 mt: "-2px",
               }}
             >
-              HR on demand
+              HR Tech Trends
             </Typography>
           </Box>
 

@@ -41,7 +41,7 @@ const Training2 = ({ handleOpenModal6, handleCloseModal6, openModal6 }) => {
                   mt: "",
                 }}
               >
-                HR Trech trend
+               HR Tech Trends
               </Typography>
             </Box>
 
@@ -59,7 +59,7 @@ const Training2 = ({ handleOpenModal6, handleCloseModal6, openModal6 }) => {
                 }}
               >
                 ¿Por qué
-                <strong> integrar la tecnología</strong>a la gestión de RRHH?
+                <strong> integrar la tecnología</strong>{" "}a la gestión de RRHH?
               </Typography>
             </Box>
           </Box>

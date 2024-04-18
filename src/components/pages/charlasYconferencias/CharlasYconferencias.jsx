@@ -11,6 +11,10 @@ import Charlas5 from "../../common/charlas/Charlas5";
 import Charlas6 from "../../common/charlas/Charlas6";
 import Charlas7 from "../../common/charlas/Charlas7";
 import { Link as ScrollLink } from "react-scroll";
+import Carousel from "react-material-ui-carousel";
+import Charlas8 from "../../common/charlas/Charlas8";
+import Charlas9 from "../../common/charlas/Charlas9";
+import Charlas10 from "../../common/charlas/Charlas10";
 
 const CharlasYconferencias = () => {
   // Estado para controlar qué componente se muestra
@@ -40,6 +44,15 @@ const CharlasYconferencias = () => {
   };
   const handleClickG = () => {
     setComponenteVisible("ComponenteG");
+  };
+  const handleClickH = () => {
+    setComponenteVisible("ComponenteH");
+  };
+  const handleClickI = () => {
+    setComponenteVisible("ComponenteI");
+  };
+  const handleClickJ = () => {
+    setComponenteVisible("ComponenteJ");
   };
   return (
     <>
@@ -126,200 +139,547 @@ const CharlasYconferencias = () => {
             </Box>
           </Box>
 
-          <Box
-            display={"flex"}
-            width={"90%"}
-            m={"auto"}
-            justifyContent={"space-evenly"}
-            mt={"5%"}
+          <Carousel
+            navButtonsAlwaysVisible={true} // Para mantener las flechas visibles todo el tiempo
+            indicators={false} // Para ocultar las bolitas de cambio de imagen
+            height={"350px"}
           >
             <Box
-              width={"25%"}
-              disableRipple={true}
-              onClick={handleClickA}
-              sx={{
-                textTransform: "none",
-                display: "flex",
-                flexDirection: "column",
-
-                "&:hover": {
-                  backgroundColor: "transparent",
-                  cursor: "pointer",
-                },
-              }}
+              display={"flex"}
+              width={"90%"}
+              m={"auto"}
+              justifyContent={"space-evenly"}
+              mt={"5%"}
             >
-              <Box>
-                <img src="/iconC1.png" alt="" />
+              <Box
+                ml={"1%"}
+                width={"25%"}
+                disableRipple={true}
+                onClick={handleClickA}
+                sx={{
+                  textTransform: "none",
+                  display: "flex",
+                  flexDirection: "column",
+
+                  "&:hover": {
+                    backgroundColor: "transparent",
+                    cursor: "pointer",
+                  },
+                }}
+              >
+                <Box>
+                  <img src="/iconC1.png" alt="" />
+                </Box>
+
+                <Typography
+                  sx={{
+                    fontFamily: "Manrope",
+                    fontSize: "20px",
+                    fontWeight: "700",
+                    lineHeight: "30px",
+                    color: "black",
+                    mt: 2,
+                  }}
+                >
+                  Amplifying impact:
+                </Typography>
+                <Typography
+                  sx={{
+                    fontFamily: "Manrope",
+                    fontSize: "20px",
+                    fontWeight: "400",
+                    lineHeight: "30px",
+                    color: "black",
+                    textAlign: "left",
+                  }}
+                >
+                  Cómo la influencia puede ayudarte a motivar a tu equipo y tus
+                  clientes, y desencadenar una ola de creatividad en tu...{" "}
+                </Typography>
               </Box>
 
-              <Typography
+              <Box
+                ml={"4%"}
+                width={"25%"}
+                disableRipple={true}
+                onClick={handleClickB}
                 sx={{
-                  fontFamily: "Manrope",
-                  fontSize: "20px",
-                  fontWeight: "700",
-                  lineHeight: "30px",
-                  color: "black",
-                  mt: 2,
+                  textTransform: "none",
+                  display: "flex",
+                  flexDirection: "column",
+
+                  "&:hover": {
+                    backgroundColor: "transparent",
+                    cursor: "pointer",
+                  },
                 }}
               >
-                Amplifying impact:
-              </Typography>
-              <Typography
+                <Box>
+                  <img src="/iconC2.png" alt="" />
+                </Box>
+
+                <Typography
+                  sx={{
+                    fontFamily: "Manrope",
+                    fontSize: "20px",
+                    fontWeight: "700",
+                    lineHeight: "30px",
+                    color: "black",
+                    mt: 2,
+                  }}
+                >
+                  Date with myself: turismo interior
+                </Typography>
+                <Typography
+                  sx={{
+                    fontFamily: "Manrope",
+                    fontSize: "20px",
+                    fontWeight: "400",
+                    lineHeight: "30px",
+                    color: "black",
+                    textAlign: "left",
+                  }}
+                >
+                  La importancia del autoconocimiento para la estabilidad, el
+                  equilibrio y el de..
+                </Typography>
+              </Box>
+              <Box
+                ml={"4%"}
+                width={"25%"}
+                disableRipple={true}
+                onClick={handleClickC}
                 sx={{
-                  fontFamily: "Manrope",
-                  fontSize: "20px",
-                  fontWeight: "400",
-                  lineHeight: "30px",
-                  color: "black",
-                  textAlign: "left",
+                  textTransform: "none",
+                  display: "flex",
+                  flexDirection: "column",
+
+                  "&:hover": {
+                    backgroundColor: "transparent",
+                    cursor: "pointer",
+                  },
                 }}
               >
-                Cómo la influencia puede ayudarte a motivar a tu equipo y tus
-                clientes, y desencadenar una ola de creatividad en tu...{" "}
-              </Typography>
+                <Box>
+                  <img src="/iconC3.png" alt="" />
+                </Box>
+
+                <Typography
+                  sx={{
+                    fontFamily: "Manrope",
+                    fontSize: "20px",
+                    fontWeight: "700",
+                    lineHeight: "30px",
+                    color: "black",
+                    mt: 2,
+                  }}
+                >
+                  Construyendo un legado: liderazgo transformador en tiempos de
+                  incertidumbre
+                </Typography>
+                <Typography
+                  sx={{
+                    fontFamily: "Manrope",
+                    fontSize: "20px",
+                    fontWeight: "400",
+                    lineHeight: "30px",
+                    color: "black",
+                    textAlign: "left",
+                  }}
+                >
+                  Cómo guiar a tus equipos y cuidar los liderazgos,
+                </Typography>
+              </Box>
+              <Box
+                ml={"4%"}
+                width={"25%"}
+                disableRipple={true}
+                onClick={handleClickD}
+                sx={{
+                  textTransform: "none",
+                  display: "flex",
+                  flexDirection: "column",
+
+                  "&:hover": {
+                    backgroundColor: "transparent",
+                    cursor: "pointer",
+                  },
+                }}
+              >
+                <Box>
+                  <img src="/iconC4.png" alt="" />
+                </Box>
+
+                <Typography
+                  sx={{
+                    fontFamily: "Manrope",
+                    fontSize: "20px",
+                    fontWeight: "700",
+                    lineHeight: "30px",
+                    color: "black",
+                    mt: 2,
+                  }}
+                >
+                  Sinfonía: cómo armonizar distintas generaciones
+                </Typography>
+                <Typography
+                  sx={{
+                    fontFamily: "Manrope",
+                    fontSize: "20px",
+                    fontWeight: "400",
+                    lineHeight: "30px",
+                    color: "black",
+                    textAlign: "left",
+                  }}
+                >
+                  Diversidad, inclusión y empatía como aliadas para que las
+                  diferencias sean aprovechadas
+                </Typography>
+              </Box>
             </Box>
 
             <Box
-              ml={"2%"}
-              width={"25%"}
-              disableRipple={true}
-              onClick={handleClickB}
-              sx={{
-                textTransform: "none",
-                display: "flex",
-                flexDirection: "column",
-
-                "&:hover": {
-                  backgroundColor: "transparent",
-                  cursor: "pointer",
-                },
-              }}
+              display={"flex"}
+              width={"72%"}
+              m={"auto"}
+              justifyContent={"space-evenly"}
+              mt={"5%"}
             >
-              <Box>
-                <img src="/iconC2.png" alt="" />
+              <Box
+                width={"25%"}
+                disableRipple={true}
+                onClick={handleClickH}
+                sx={{
+                  textTransform: "none",
+                  display: "flex",
+                  flexDirection: "column",
+
+                  "&:hover": {
+                    backgroundColor: "transparent",
+                    cursor: "pointer",
+                  },
+                }}
+              >
+                <Box>
+                  <img src="/iconC8.png" alt="" />
+                </Box>
+
+                <Typography
+                  sx={{
+                    fontFamily: "Manrope",
+                    fontSize: "20px",
+                    fontWeight: "700",
+                    lineHeight: "30px",
+                    color: "black",
+                    mt: 2,
+                  }}
+                >
+                  Ecualizando realidades: tu mundo-mi mundo
+                </Typography>
+                <Typography
+                  sx={{
+                    fontFamily: "Manrope",
+                    fontSize: "20px",
+                    fontWeight: "400",
+                    lineHeight: "30px",
+                    color: "black",
+                    textAlign: "left",
+                  }}
+                >
+                  Diversidad, inclusión y empatía como aliadas para que las
+                  diferencias sean aprovechada
+                </Typography>
               </Box>
 
-              <Typography
+              <Box
+                width={"25%"}
+                disableRipple={true}
+                onClick={handleClickI}
                 sx={{
-                  fontFamily: "Manrope",
-                  fontSize: "20px",
-                  fontWeight: "700",
-                  lineHeight: "30px",
-                  color: "black",
-                  mt: 2,
-                }}
-              >
-                Date with myself: turismo interior
-              </Typography>
-              <Typography
-                sx={{
-                  fontFamily: "Manrope",
-                  fontSize: "20px",
-                  fontWeight: "400",
-                  lineHeight: "30px",
-                  color: "black",
-                  textAlign: "left",
-                }}
-              >
-                La importancia del autoconocimiento para la estabilidad, el
-                equilibrio y el de..
-              </Typography>
-            </Box>
-            <Box
-              ml={"2%"}
-              width={"25%"}
-              disableRipple={true}
-              onClick={handleClickC}
-              sx={{
-                textTransform: "none",
-                display: "flex",
-                flexDirection: "column",
+                  textTransform: "none",
+                  display: "flex",
+                  flexDirection: "column",
 
-                "&:hover": {
-                  backgroundColor: "transparent",
-                  cursor: "pointer",
-                },
-              }}
+                  "&:hover": {
+                    backgroundColor: "transparent",
+                    cursor: "pointer",
+                  },
+                }}
+              >
+                <Box>
+                  <img src="/iconC9.png" alt="" />
+                </Box>
+
+                <Typography
+                  sx={{
+                    fontFamily: "Manrope",
+                    fontSize: "20px",
+                    fontWeight: "700",
+                    lineHeight: "30px",
+                    color: "black",
+                    mt: 2,
+                  }}
+                >
+                  Camino incierto, destino brillante
+                </Typography>
+                <Typography
+                  sx={{
+                    fontFamily: "Manrope",
+                    fontSize: "20px",
+                    fontWeight: "400",
+                    lineHeight: "30px",
+                    color: "black",
+                    textAlign: "left",
+                  }}
+                >
+                  Cómo emprender en la incertidumbre, creando negocios
+                  resilientes y exitosos
+                </Typography>
+              </Box>
+              <Box
+                width={"25%"}
+                disableRipple={true}
+                onClick={handleClickJ}
+                sx={{
+                  textTransform: "none",
+                  display: "flex",
+                  flexDirection: "column",
+
+                  "&:hover": {
+                    backgroundColor: "transparent",
+                    cursor: "pointer",
+                  },
+                }}
+              >
+                <Box>
+                  <img src="/iconC10.png" alt="" />
+                </Box>
+
+                <Typography
+                  sx={{
+                    fontFamily: "Manrope",
+                    fontSize: "20px",
+                    fontWeight: "700",
+                    lineHeight: "30px",
+                    color: "black",
+                    mt: 2,
+                  }}
+                >
+                  Beyond office walls: teletrabajo y revolución del espacio
+                  laboral
+                </Typography>
+                <Typography
+                  sx={{
+                    fontFamily: "Manrope",
+                    fontSize: "20px",
+                    fontWeight: "400",
+                    lineHeight: "30px",
+                    color: "black",
+                    textAlign: "left",
+                  }}
+                >
+                  ¿Cómo se redefine el concepto de oficina y horario laboral en
+                  tiempos de teletrabajo?
+                </Typography>
+              </Box>
+            </Box>
+
+            {/* lista de charlas Primer diseño  <Box
+              display={"flex"}
+              width={"90%"}
+              m={"auto"}
+              justifyContent={"space-evenly"}
+              mt={"5%"}
             >
-              <Box>
-                <img src="/iconC3.png" alt="" />
+              <Box
+                width={"25%"}
+                disableRipple={true}
+                onClick={handleClickA}
+                sx={{
+                  textTransform: "none",
+                  display: "flex",
+                  flexDirection: "column",
+
+                  "&:hover": {
+                    backgroundColor: "transparent",
+                    cursor: "pointer",
+                  },
+                }}
+              >
+                <Box>
+                  <img src="/iconC1.png" alt="" />
+                </Box>
+
+                <Typography
+                  sx={{
+                    fontFamily: "Manrope",
+                    fontSize: "20px",
+                    fontWeight: "700",
+                    lineHeight: "30px",
+                    color: "black",
+                    mt: 2,
+                  }}
+                >
+                  Amplifying impact:
+                </Typography>
+                <Typography
+                  sx={{
+                    fontFamily: "Manrope",
+                    fontSize: "20px",
+                    fontWeight: "400",
+                    lineHeight: "30px",
+                    color: "black",
+                    textAlign: "left",
+                  }}
+                >
+                  Cómo la influencia puede ayudarte a motivar a tu equipo y tus
+                  clientes, y desencadenar una ola de creatividad en tu...{" "}
+                </Typography>
               </Box>
 
-              <Typography
+              <Box
+                ml={"2%"}
+                width={"25%"}
+                disableRipple={true}
+                onClick={handleClickB}
                 sx={{
-                  fontFamily: "Manrope",
-                  fontSize: "20px",
-                  fontWeight: "700",
-                  lineHeight: "30px",
-                  color: "black",
-                  mt: 2,
-                }}
-              >
-                Construyendo un legado: liderazgo transformador en tiempos de
-                incertidumbre
-              </Typography>
-              <Typography
-                sx={{
-                  fontFamily: "Manrope",
-                  fontSize: "20px",
-                  fontWeight: "400",
-                  lineHeight: "30px",
-                  color: "black",
-                  textAlign: "left",
-                }}
-              >
-                Cómo guiar a tus equipos y cuidar los liderazgos,
-              </Typography>
-            </Box>
-            <Box
-              ml={"2%"}
-              width={"25%"}
-              disableRipple={true}
-              onClick={handleClickD}
-              sx={{
-                textTransform: "none",
-                display: "flex",
-                flexDirection: "column",
+                  textTransform: "none",
+                  display: "flex",
+                  flexDirection: "column",
 
-                "&:hover": {
-                  backgroundColor: "transparent",
-                  cursor: "pointer",
-                },
-              }}
-            >
-              <Box>
-                <img src="/iconC4.png" alt="" />
+                  "&:hover": {
+                    backgroundColor: "transparent",
+                    cursor: "pointer",
+                  },
+                }}
+              >
+                <Box>
+                  <img src="/iconC2.png" alt="" />
+                </Box>
+
+                <Typography
+                  sx={{
+                    fontFamily: "Manrope",
+                    fontSize: "20px",
+                    fontWeight: "700",
+                    lineHeight: "30px",
+                    color: "black",
+                    mt: 2,
+                  }}
+                >
+                  Date with myself: turismo interior
+                </Typography>
+                <Typography
+                  sx={{
+                    fontFamily: "Manrope",
+                    fontSize: "20px",
+                    fontWeight: "400",
+                    lineHeight: "30px",
+                    color: "black",
+                    textAlign: "left",
+                  }}
+                >
+                  La importancia del autoconocimiento para la estabilidad, el
+                  equilibrio y el de..
+                </Typography>
               </Box>
+              <Box
+                ml={"2%"}
+                width={"25%"}
+                disableRipple={true}
+                onClick={handleClickC}
+                sx={{
+                  textTransform: "none",
+                  display: "flex",
+                  flexDirection: "column",
 
-              <Typography
-                sx={{
-                  fontFamily: "Manrope",
-                  fontSize: "20px",
-                  fontWeight: "700",
-                  lineHeight: "30px",
-                  color: "black",
-                  mt: 2,
+                  "&:hover": {
+                    backgroundColor: "transparent",
+                    cursor: "pointer",
+                  },
                 }}
               >
-                Sinfonía: cómo armonizar distintas generaciones
-              </Typography>
-              <Typography
+                <Box>
+                  <img src="/iconC3.png" alt="" />
+                </Box>
+
+                <Typography
+                  sx={{
+                    fontFamily: "Manrope",
+                    fontSize: "20px",
+                    fontWeight: "700",
+                    lineHeight: "30px",
+                    color: "black",
+                    mt: 2,
+                  }}
+                >
+                  Construyendo un legado: liderazgo transformador en tiempos de
+                  incertidumbre
+                </Typography>
+                <Typography
+                  sx={{
+                    fontFamily: "Manrope",
+                    fontSize: "20px",
+                    fontWeight: "400",
+                    lineHeight: "30px",
+                    color: "black",
+                    textAlign: "left",
+                  }}
+                >
+                  Cómo guiar a tus equipos y cuidar los liderazgos,
+                </Typography>
+              </Box>
+              <Box
+                ml={"2%"}
+                width={"25%"}
+                disableRipple={true}
+                onClick={handleClickD}
                 sx={{
-                  fontFamily: "Manrope",
-                  fontSize: "20px",
-                  fontWeight: "400",
-                  lineHeight: "30px",
-                  color: "black",
-                  textAlign: "left",
+                  textTransform: "none",
+                  display: "flex",
+                  flexDirection: "column",
+
+                  "&:hover": {
+                    backgroundColor: "transparent",
+                    cursor: "pointer",
+                  },
                 }}
               >
-                Diversidad, inclusión y empatía como aliadas para que las
-                diferencias sean aprovechadas como oportunidades y se
-              </Typography>
-            </Box>
-          </Box>
+                <Box>
+                  <img src="/iconC4.png" alt="" />
+                </Box>
+
+                <Typography
+                  sx={{
+                    fontFamily: "Manrope",
+                    fontSize: "20px",
+                    fontWeight: "700",
+                    lineHeight: "30px",
+                    color: "black",
+                    mt: 2,
+                  }}
+                >
+                  Sinfonía: cómo armonizar distintas generaciones
+                </Typography>
+                <Typography
+                  sx={{
+                    fontFamily: "Manrope",
+                    fontSize: "20px",
+                    fontWeight: "400",
+                    lineHeight: "30px",
+                    color: "black",
+                    textAlign: "left",
+                  }}
+                >
+                  Diversidad, inclusión y empatía como aliadas para que las
+                  diferencias sean aprovechadas
+                </Typography>
+              </Box>
+            </Box> */}
+          </Carousel>
+
           <Box ml={"44%"} mt={"5%"} mb={"5%"}>
-            <BlackButtom texto={"Consultanos"} linkTo={"/contacto"} />
+            <BlackButtom texto={"Consúltanos "} linkTo={"/contacto"} />
           </Box>
         </Box>
         {componenteVisible === "ComponenteA" && (
@@ -334,9 +694,18 @@ const CharlasYconferencias = () => {
         {componenteVisible === "ComponenteD" && (
           <Charlas4 handleCloseComponente={handleCloseComponente} />
         )}
+         {componenteVisible === "ComponenteH" && (
+          <Charlas8 handleCloseComponente={handleCloseComponente} />
+        )}
+        {componenteVisible === "ComponenteI" && (
+          <Charlas9 handleCloseComponente={handleCloseComponente} />
+        )}
+        {componenteVisible === "ComponenteJ" && (
+          <Charlas10 handleCloseComponente={handleCloseComponente} />
+        )}
 
         <Parallax speed={-6}>
-          <Box mt={-3} >
+          <Box mt={-3}>
             <img width={"100%"} src="/charlasGente.png" alt="" />
           </Box>
         </Parallax>
@@ -523,7 +892,7 @@ const CharlasYconferencias = () => {
             </Box>
           </Box>
           <Box mt={"5%"} textAlign={"center"}>
-            <BlackButtom texto={"Consultanos"} linkTo={"/contacto"} />
+            <BlackButtom texto={"Consúltanos"} linkTo={"/contacto"} />
           </Box>
           {componenteVisible === "ComponenteE" && (
             <Charlas5 handleCloseComponente={handleCloseComponente} />
@@ -773,7 +1142,7 @@ const CharlasYconferencias = () => {
             </Box>
           </Box>
           <Box ml={"44%"} mt={"5%"}>
-            <BlackButtom texto={"Consultanos"} linkTo={"/contacto"} />
+            <BlackButtom texto={"Consúltanos"} linkTo={"/contacto"} />
           </Box>
         </Box>
         {componenteVisible === "ComponenteA" && (
@@ -945,7 +1314,7 @@ const CharlasYconferencias = () => {
             </Box>
           </Box>
           <Box mt={"5%"} ml={"43%"}>
-            <BlackButtom texto={"Consultanos"} linkTo={"/contacto"} />
+            <BlackButtom texto={"Consúltanos"} linkTo={"/contacto"} />
           </Box>
           {componenteVisible === "ComponenteE" && (
             <Charlas5 handleCloseComponente={handleCloseComponente} />
@@ -1204,8 +1573,150 @@ const CharlasYconferencias = () => {
               </Typography>
             </Box>
           </Box>
+          <Box m={"auto"} width={"88%"}>
+            <Box
+              width={"88%"}
+              pt={"8%"}
+              disableRipple={true}
+              onClick={handleClickH}
+              sx={{
+                textTransform: "none",
+                display: "flex",
+                flexDirection: "column",
+
+                "&:hover": {
+                  backgroundColor: "transparent",
+                  cursor: "pointer",
+                },
+              }}
+            >
+              <Box>
+                <img src="/iconC8.png" alt="" />
+              </Box>
+
+              <Typography
+                sx={{
+                  fontFamily: "Manrope",
+                  fontSize: "20px",
+                  fontWeight: "700",
+                  lineHeight: "30px",
+                  color: "black",
+                  mt: 2,
+                }}
+              >
+                Ecualizando realidades: tu mundo-mi mundo
+              </Typography>
+              <Typography
+                sx={{
+                  fontFamily: "Manrope",
+                  fontSize: "20px",
+                  fontWeight: "400",
+                  lineHeight: "30px",
+                  color: "black",
+                  textAlign: "left",
+                }}
+              >
+                Diversidad, inclusión y empatía como aliadas para que las
+                diferencias sean aprovechada
+              </Typography>
+            </Box>
+
+            <Box
+              pt={"8%"}
+              width={"88%"}
+              disableRipple={true}
+              onClick={handleClickI}
+              sx={{
+                textTransform: "none",
+                display: "flex",
+                flexDirection: "column",
+
+                "&:hover": {
+                  backgroundColor: "transparent",
+                  cursor: "pointer",
+                },
+              }}
+            >
+              <Box>
+                <img src="/iconC9.png" alt="" />
+              </Box>
+
+              <Typography
+                sx={{
+                  fontFamily: "Manrope",
+                  fontSize: "20px",
+                  fontWeight: "700",
+                  lineHeight: "30px",
+                  color: "black",
+                  mt: 2,
+                }}
+              >
+                Camino incierto, destino brillante
+              </Typography>
+              <Typography
+                sx={{
+                  fontFamily: "Manrope",
+                  fontSize: "20px",
+                  fontWeight: "400",
+                  lineHeight: "30px",
+                  color: "black",
+                  textAlign: "left",
+                }}
+              >
+                Cómo emprender en la incertidumbre, creando negocios resilientes
+                y exitosos
+              </Typography>
+            </Box>
+            <Box
+              pt={"8%"}
+              width={"88%"}
+              disableRipple={true}
+              onClick={handleClickJ}
+              sx={{
+                textTransform: "none",
+                display: "flex",
+                flexDirection: "column",
+
+                "&:hover": {
+                  backgroundColor: "transparent",
+                  cursor: "pointer",
+                },
+              }}
+            >
+              <Box>
+                <img src="/iconC10.png" alt="" />
+              </Box>
+
+              <Typography
+                sx={{
+                  fontFamily: "Manrope",
+                  fontSize: "20px",
+                  fontWeight: "700",
+                  lineHeight: "30px",
+                  color: "black",
+                  mt: 2,
+                }}
+              >
+                Beyond office walls: teletrabajo y revolución del espacio
+                laboral
+              </Typography>
+              <Typography
+                sx={{
+                  fontFamily: "Manrope",
+                  fontSize: "20px",
+                  fontWeight: "400",
+                  lineHeight: "30px",
+                  color: "black",
+                  textAlign: "left",
+                }}
+              >
+                ¿Cómo se redefine el concepto de oficina y horario laboral en
+                tiempos de teletrabajo?
+              </Typography>
+            </Box>
+          </Box>
           <Box ml={"5%"} mt={"8%"} mb={"2%"}>
-            <BlackButtom texto={"Consultanos"} linkTo={"/contacto"} />
+            <BlackButtom texto={"Consúltanos"} linkTo={"/contacto"} />
           </Box>
         </Box>
         {componenteVisible === "ComponenteA" && (
@@ -1220,6 +1731,19 @@ const CharlasYconferencias = () => {
         {componenteVisible === "ComponenteD" && (
           <Charlas4 handleCloseComponente={handleCloseComponente} />
         )}
+        {componenteVisible === "ComponenteH" && (
+          <Charlas8 handleCloseComponente={handleCloseComponente} />
+        )}
+        {componenteVisible === "ComponenteI" && (
+          <Charlas9 handleCloseComponente={handleCloseComponente} />
+        )}
+        {componenteVisible === "ComponenteJ" && (
+          <Charlas10 handleCloseComponente={handleCloseComponente} />
+        )}
+        
+        
+
+
         <Box sx={{ bgcolor: "#1296E9", width: "100%" }}>
           <Box width={"88%"} m={"auto"} pb={"5%"} pt={"8%"}>
             <Box>
@@ -1374,7 +1898,7 @@ const CharlasYconferencias = () => {
               </Box>
             </Box>
             <Box pt={"8%"} pb={"8%"}>
-              <BlackButtom texto={"Consultanos"} linkTo={"/contacto"} />
+              <BlackButtom texto={"Consúltanos"} linkTo={"/contacto"} />
             </Box>
             {componenteVisible === "ComponenteE" && (
               <Charlas5 handleCloseComponente={handleCloseComponente} />

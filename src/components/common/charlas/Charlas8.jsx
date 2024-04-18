@@ -1,7 +1,7 @@
 import { Box, Button, Hidden, Typography } from "@mui/material";
 import BlackButtom from "../blackButtom/BlackButtom";
 
-const Charlas4 = ({ handleCloseComponente }) => {
+const Charlas8 = ({ handleCloseComponente }) => {
   return (
     <>
       <>
@@ -32,7 +32,7 @@ const Charlas4 = ({ handleCloseComponente }) => {
                   color: "white",
                 }}
               >
-                Sinfonía:
+                Ecualizando realidades tu mundo-mi mundo
               </Typography>
               <Typography
                 sx={{
@@ -45,7 +45,7 @@ const Charlas4 = ({ handleCloseComponente }) => {
                   color: "black",
                 }}
               >
-                cómo armonizar distintas generaciones
+                tu mundo-mi mundo
               </Typography>
               <Typography
                 sx={{
@@ -58,17 +58,17 @@ const Charlas4 = ({ handleCloseComponente }) => {
                   color: "black",
                 }}
               >
-                De qué manera potenciar las diferencias generacionales y
-                construir una cultura organizacional exitosa. Cómo equilibrar
-                las características de baby boomers, generación X, millenials,
-                generación Z y alfa para que se enriquezcan mutuamente.
+                Diversidad, inclusión y empatía como aliadas para que las
+                diferencias sean aprovechadas como oportunidades y se conviertan
+                en un impacto positivo en el negocio, generando soluciones
+                colaborativas y creativas ante problemas compartidos.
               </Typography>
               <Box pb={4}>
                 <BlackButtom texto={"Consúltanos"} linkTo={"/contacto"} />
               </Box>
             </Box>
             <Box width={"40%"} ml={6}>
-              <img width={"100%"} height={"100%"} src="/sinfonia.png" alt="" />
+              <img width={"100%"} height={"100%"} src="/ecualizando.png" alt="" />
             </Box>
           </Box>
         </Hidden>
@@ -136,7 +136,7 @@ const Charlas4 = ({ handleCloseComponente }) => {
               </Box>
             </Box>
             <Box width={"40%"} ml={6}>
-              <img width={"100%"} height={"100%"} src="/Date.png" alt="" />
+              <img width={"100%"} height={"100%"} src="/ecualizando.png" alt="" />
             </Box>
           </Box>
         </Hidden>
@@ -144,7 +144,7 @@ const Charlas4 = ({ handleCloseComponente }) => {
         <Hidden smUp>
           <Box
             position={"absolute"}
-            top={"248%"}
+            top={"328%"}
             left={"5%"}
             width={"90%"}
             style={{
@@ -152,6 +152,7 @@ const Charlas4 = ({ handleCloseComponente }) => {
             }}
             zIndex={100}
             pb={"5%"}
+            
           >
             <Box ml={"10%"} mt={"6%"} width={"88%"}>
               <Button onClick={handleCloseComponente} sx={{ ml: -3 }}>
@@ -164,11 +165,11 @@ const Charlas4 = ({ handleCloseComponente }) => {
                   fontFamily: "Manrope",
                   fontSize: "30px",
                   fontWeight: "800",
-                  lineHeight: "32px",
+                  lineHeight:"32px",
                   color: "white",
                 }}
               >
-                  Sinfonía:
+                Ecualizando realidades{" "}
               </Typography>
               <Typography
                 sx={{
@@ -177,11 +178,11 @@ const Charlas4 = ({ handleCloseComponente }) => {
                   fontFamily: "Manrope",
                   fontSize: "24px",
                   fontWeight: "500",
-
+             
                   color: "black",
                 }}
               >
-                cómo armonizar distintas generaciones
+                tu mundo-mi mundo
               </Typography>
               <Typography
                 sx={{
@@ -195,7 +196,10 @@ const Charlas4 = ({ handleCloseComponente }) => {
                   width: "90%",
                 }}
               >
-                De qué manera potenciar las diferencias generacionales y construir una cultura organizacional exitosa. Cómo equilibrar las características de baby boomers, generación X, millenials, generación Z y alfa para que se enriquezcan mutuamente.
+                Diversidad, inclusión y empatía como aliadas para que las
+                diferencias sean aprovechadas como oportunidades y se conviertan
+                en un impacto positivo en el negocio, generando soluciones
+                colaborativas y creativas ante problemas compartidos.
               </Typography>
               <BlackButtom texto={"Consúltanos "} linkTo={"/contacto"} />
             </Box>
@@ -206,4 +210,4 @@ const Charlas4 = ({ handleCloseComponente }) => {
   );
 };
 
-export default Charlas4;
+export default Charlas8;
