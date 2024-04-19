@@ -25,7 +25,11 @@ const Home = () => {
       <Hidden lgDown>
         <Parallax speed={-12}>
           <Box width={"100%"} height={"100vh"} overflow="hidden">
-            <img style={{objectFit:"cover", height:"700px", width:"100%"}} src="/home.png" alt="" />
+            <img
+              style={{ objectFit: "cover", height: "700px", width: "100%" }}
+              src="/home.png"
+              alt=""
+            />
           </Box>
         </Parallax>
         <Box>
@@ -51,7 +55,7 @@ const Home = () => {
                 width: "445px",
               }}
             >
-              Somos el puente entre el equipo que tienes y el que quieres
+              Somos el puente entre el equipo que tienes y el que quieres.
             </Typography>
           </Box>
           <Box
@@ -83,7 +87,6 @@ const Home = () => {
                 lineHeight: "40px",
                 fontWeight: "100",
                 color: "#07659C",
-                
               }}
             >
               Te acompañamos a potenciar tu compañía y a encontrar una fórmula
@@ -206,9 +209,13 @@ const Home = () => {
       </Hidden>
 
       <Hidden lgUp smDown>
-      <Parallax speed={-12}>
+        <Parallax speed={-12}>
           <Box width={"100%"} height={"100vh"} overflow="hidden">
-            <img style={{objectFit:"cover", height:"700px", width:"100%"}} src="/home.png" alt="" />
+            <img
+              style={{ objectFit: "cover", height: "700px", width: "100%" }}
+              src="/home.png"
+              alt=""
+            />
           </Box>
         </Parallax>
         <Box>
@@ -234,7 +241,7 @@ const Home = () => {
                 width: "445px",
               }}
             >
-              Somos el puente entre el equipo que tienes y el que quieres
+              Somos el puente entre el equipo que tienes y el que quieres.
             </Typography>
           </Box>
           <Box
@@ -398,8 +405,53 @@ const Home = () => {
       </Hidden>
 
       <Hidden smUp>
+      
+          <Box  width={"100%"} overflow="hidden">
+            <img
+              style={{ objectFit: "cover", width: "100%", height:"500px" }}
+              src="/homeMobile.png"
+              alt=""
+            />
+          </Box>
+        
         <Box>
-          <img width={"100%"} src="/homeMobile.png" alt="" />
+          <Box sx={{ position: "absolute", top: "150px" }}>
+            <img width={"100%"} src="/nosotros4.png" alt="" />
+          </Box>
+          <Box
+            sx={{
+              position: "absolute",
+              top: "82px ",
+              left: "7%",
+              width: "48%",
+            }}
+          >
+            <Typography
+              sx={{
+                fontFamily: "Merriweather",
+                fontSize: "30px",
+                lineHeight: "44px",
+                fontWeight: "300",
+                color: "white",
+
+                width: "245px",
+              }}
+            >
+              Somos el puente entre el equipo que tienes y el que quieres.
+            </Typography>
+          </Box>
+          <Box
+            sx={{
+              position: "absolute",
+              top: "455px",
+              left: "7%",
+            }}
+          >
+            {/* <GreenButtom texto={"Conoce más"} linkTo={"/#seccionDestino"} /> */}
+            <ScrollLink to="seccionDestino" smooth={true}>
+              <GreenButtom texto={"Conoce más"} />
+            </ScrollLink>
+          </Box>
         </Box>
 
         <Box m={"auto"} width={"80%"} mt={"7%"}>
