@@ -19,14 +19,14 @@ const Tendencias = () => {
       <Hidden lgDown>
         <Parallax speed={-12} tagOuter="figure">
           <Box mt={1}>
-            <img width={"100%"} src="/tendencias1.png" alt="" />
+            <img style={{objectFit:"cover", height:"700px", width:"100%"}} src="/tendencias1.png" alt="" />
           </Box>
         </Parallax>
         <Box>
           <Box
             sx={{
               position: "absolute",
-              top: "70% ",
+              top: "55% ",
               left: "7%",
               width: "56%",
             }}
@@ -60,7 +60,7 @@ const Tendencias = () => {
           </Box>
 
           <ScrollLink to="seccionDestino" smooth={true}>
-            <Button sx={{ position: "absolute", top: "105%", left: "50%" }}>
+            <Button sx={{ position: "absolute", top: "94%", left: "50%" }}>
               <img src="/flechaVerde.png" alt="" />
             </Button>
           </ScrollLink>
@@ -124,23 +124,23 @@ const Tendencias = () => {
 
       <Hidden lgUp smDown>
         <Parallax speed={-6} tagOuter="figure">
-          <Box mt={-4}>
-            <img width={"100%"} src="/tendencias1.png" alt="" />
+          <Box mt={-1}>
+            <img style={{objectFit:"cover", height:"700px", width:"100%"}}src="/tendencias1.png" alt="" />
           </Box>
         </Parallax>
         <Box>
           <Box
             sx={{
               position: "absolute",
-              top: "25% ",
+              top: "35% ",
               left: "6%",
               width: "76%",
             }}
           >
             <Typography
-              sx={{
+               sx={{
                 fontFamily: "Merriweather",
-                fontSize: "30px",
+                fontSize: "25px",
                 fontWeight: "100",
                 color: "white",
               }}

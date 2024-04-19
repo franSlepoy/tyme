@@ -25,7 +25,7 @@ const Home = () => {
       <Hidden lgDown>
         <Parallax speed={-12}>
           <Box width={"100%"} height={"100vh"} overflow="hidden">
-            <img style={{ width: "100%" }} src="/home.png" alt="" />
+            <img style={{objectFit:"cover", height:"700px", width:"100%"}} src="/home.png" alt="" />
           </Box>
         </Parallax>
         <Box>
@@ -206,31 +206,48 @@ const Home = () => {
       </Hidden>
 
       <Hidden lgUp smDown>
-        <Parallax speed={-5}>
-          <Box mt={-3} width={"100%"}>
-            <img style={{ width: "100%" }} src="/home.png" alt="" />
+      <Parallax speed={-12}>
+          <Box width={"100%"} height={"100vh"} overflow="hidden">
+            <img style={{objectFit:"cover", height:"700px", width:"100%"}} src="/home.png" alt="" />
           </Box>
         </Parallax>
-        <Box height={"500%"}>
+        <Box>
+          <Box sx={{ position: "absolute", top: "44%" }}>
+            <img width={"100%"} src="/nosotros4.png" alt="" />
+          </Box>
           <Box
             sx={{
               position: "absolute",
-              top: "16% ",
-              left: "22%",
-              width: "55%",
-              textAlign: "center",
+              top: "42% ",
+              left: "7%",
+              width: "48%",
             }}
           >
             <Typography
               sx={{
                 fontFamily: "Merriweather",
-                fontSize: "2em",
+                fontSize: "36px",
+                lineHeight: "44px",
                 fontWeight: "300",
                 color: "white",
+
+                width: "445px",
               }}
             >
               Somos el puente entre el equipo que tienes y el que quieres
             </Typography>
+          </Box>
+          <Box
+            sx={{
+              position: "absolute",
+              top: "85%",
+              left: "7%",
+            }}
+          >
+            {/* <GreenButtom texto={"Conoce más"} linkTo={"/#seccionDestino"} /> */}
+            <ScrollLink to="seccionDestino" smooth={true}>
+              <GreenButtom texto={"Conoce más"} />
+            </ScrollLink>
           </Box>
         </Box>
 

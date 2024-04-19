@@ -67,8 +67,12 @@ const QueHacemos = () => {
     <>
       <Hidden lgDown>
         <Parallax speed={-6} tagOuter="figure">
-          <Box width={"100%"} height={"100vh"} overflow="hidden">
-            <img width={"100%"} src="/nosotros1.png" alt="" />
+          <Box>
+            <img
+               style={{ objectFit: "cover", height: "700px", width: "100%" }}
+              src="/nosotros1.png"
+              alt=""
+            />
           </Box>
         </Parallax>
         <Box>
@@ -561,8 +565,12 @@ const QueHacemos = () => {
 
       <Hidden lgUp smDown>
         <Parallax speed={-6} tagOuter="figure">
-          <Box mt={-3}>
-            <img width={"100%"} src="/nosotros1.png" alt="" />
+          <Box mt={-1}>
+            <img
+              style={{ objectFit: "cover", height: "700px", width: "100%" }}
+              src="/nosotros1.png"
+              alt=""
+            />
           </Box>
         </Parallax>
         <Box>
@@ -1048,7 +1056,7 @@ const QueHacemos = () => {
           <img width={"100%"} src="/mobileQueHacemos.png" alt="" />
         </Box>
         {/*     </Parallax> */}
-        <Box>
+        {/* <Box>
           <Box
             sx={{
               position: "absolute",
@@ -1082,7 +1090,7 @@ const QueHacemos = () => {
               un salto de crecimiento
             </Typography>
           </Box>
-        </Box>
+        </Box> */}
 
         <Box
           id={"seccionDestino"}
@@ -1352,8 +1360,6 @@ const QueHacemos = () => {
                   fontWeight: "100",
                   fontSize: "22px",
                   lineHeight: "25px",
-                  width: "320px",
-                  textAlign: "center",
                 }}
               >
                 Tecnología para la gestión del Capital Humano

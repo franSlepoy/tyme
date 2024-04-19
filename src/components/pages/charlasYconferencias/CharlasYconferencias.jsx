@@ -59,7 +59,7 @@ const CharlasYconferencias = () => {
       <Hidden lgDown>
         <Parallax speed={-12} tagOuter="figure">
           <Box width={"100%"} overflow="hidden">
-            <img width={"100%"} height={"100%"} src="/charlas1.png" alt="" />
+            <img style={{objectFit:"cover", height:"700px", width:"100%"}} src="/charlas1.png" alt="" />
           </Box>
         </Parallax>
         <Box>
@@ -913,7 +913,7 @@ const CharlasYconferencias = () => {
               backgroundImage: "linear-gradient(to left, #264185, #4D4747)",
             }}
           >
-            <img width={"100%"} height={"600vh"} src="/charlas1.png" alt="" />
+            <img style={{objectFit: "cover", height:"700px", width: "100%"}}   src="/charlas1.png" alt="" />
           </Box>
         </Parallax>
         <Box>
@@ -923,7 +923,7 @@ const CharlasYconferencias = () => {
           <Box
             sx={{
               position: "absolute",
-              top: "20% ",
+              top: "15% ",
               left: "51%",
               width: "42%",
             }}

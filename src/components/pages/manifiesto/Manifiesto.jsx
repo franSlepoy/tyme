@@ -9,7 +9,7 @@ const Manifiesto = () => {
       <Hidden lgDown>
         <Parallax speed={-12} tagOuter="figure">
           <Box mt={2} width={"100%"} overflow="hidden">
-            <img width={"100%"} src="/maniefiesto1.png" alt="" />
+            <img style={{objectFit:"cover", height:"700px", width:"100%"}}  src="/maniefiesto1.png" alt="" />
           </Box>
         </Parallax>
         <Box>
@@ -109,7 +109,7 @@ const Manifiesto = () => {
       <Hidden lgUp smDown>
         <Parallax speed={-6} tagOuter="figure">
           <Box mt={-1} width={"100%"} overflow="hidden">
-            <img width={"100%"} src="/maniefiesto1.png" alt="" />
+            <img style={{objectFit:"cover"}} width={"100%"} height={"700px"} src="/maniefiesto1.png" alt="" />
           </Box>
         </Parallax>
 

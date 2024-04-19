@@ -25,7 +25,7 @@ const Contacto = () => {
             </Box>
 
             <Box ml={"7%"} width={"60%"}>
-              <img  height={"100%"} width={"100%"}  src="/contacto.png" alt="" />
+              <img style={{objectFit: "cover", height: "100%", width: "100%"}} width={"100%"}  src="/contacto.png" alt="" />
             </Box>
           </Box>
         </Box>
@@ -52,7 +52,7 @@ const Contacto = () => {
             </Box>
 
             <Box ml={"7%"} width={"70%"}>
-              <img  height={"100%"} width={"100%"}  src="/contacto.png" alt="" />
+            <img style={{objectFit: "cover", height: "100%", width: "100%"}} width={"100%"}  src="/contacto.png" alt="" />
             </Box>
           </Box>
         </Box>

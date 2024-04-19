@@ -33,7 +33,7 @@ const Nosotros = () => {
         <Box sx={{ width: "100%" }}>
           <Parallax speed={-12} tagOuter="figure">
             <Box>
-              <img width={"100%"} src="/javier1.png" alt="" />
+              <img style={{objectFit:"cover", height:"700px", width:"100%"}} src="/javier1.png" alt="" />
             </Box>
           </Parallax>
           <Box>
@@ -362,11 +362,11 @@ const Nosotros = () => {
         <Box sx={{ width: "100%" }}>
           <Parallax speed={-6} tagOuter="figure">
             <Box mt={-4}>
-              <img width={"100%"} src="/javier1.png" alt="" />
+              <img style={{objectFit:"cover", height:"700px", width:"100%"}} src="/javier1.png" alt="" />
             </Box>
           </Parallax>
           <Box>
-            <Box sx={{ position: "absolute", top: "32%", right: "0px" }}>
+            <Box sx={{ position: "absolute", top: "52%", right: "0px" }}>
               <img width={"100%"} src="/nosotros3.png" alt="" />
             </Box>
 
@@ -393,7 +393,7 @@ const Nosotros = () => {
               </Typography>
             </Box>
 
-            <Box sx={{ position: "absolute", right: "0%", top: "25%" }}>
+            <Box sx={{ position: "absolute", right: "0%", top: "55%" }}>
               <img width={"100%"} src="/ilustracion.png" alt="" />
             </Box>
           </Box>
