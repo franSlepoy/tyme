@@ -199,7 +199,7 @@ const Home = () => {
           </Typography>
 
           <Box sx={{ margin: "auto" }}>
-            <Carousel autoPlay={false} sx={{ marginBottom: "86px" }}>
+            <Carousel  sx={{ marginBottom: "86px" }}>
               <Testimonios />
               <Testimonios1 />
               <Testimonios2 />
