@@ -63,13 +63,13 @@ const CharlasYconferencias = () => {
           </Box>
         </Parallax>
         <Box>
-          <Box sx={{ position: "absolute", top: "32%" }}>
+          <Box sx={{ position: "absolute", top: "240px" }}>
             <img width={"100%"} src="/nosotros4.png" alt="" />
           </Box>
           <Box
             sx={{
               position: "absolute",
-              top: "33% ",
+              top: "250px ",
               left: "51%",
               width: "43%",
             }}
@@ -90,7 +90,7 @@ const CharlasYconferencias = () => {
           <ScrollLink to={"seccionDestino"} smooth={true}>
             <Button
               disableRipple={true}
-              sx={{ position: "absolute", top: "92%", left: "47%" }}
+              sx={{ position: "absolute", top: "700px", left: "47%" }}
             >
               <img width={"100%"} src="/flechaBajo.png" alt="" />
             </Button>
@@ -102,7 +102,7 @@ const CharlasYconferencias = () => {
           style={{
             backgroundImage: "linear-gradient(to right top, #18CC66, #1296E9)",
           }}
-          sx={{ width: "100%", pt: "12%", pb: "3%" }}
+          sx={{ width: "100%", pt: "160px", pb: "50px" }}
         >
           <Box display={"flex"} width={"86%"} margin={"auto"}>
             <Box width={"50%"}>
@@ -917,13 +917,13 @@ const CharlasYconferencias = () => {
           </Box>
         </Parallax>
         <Box>
-          <Box sx={{ position: "absolute", top: "22%" }}>
+          <Box sx={{ position: "absolute", top: "200px" }}>
             <img width={"100%"} src="/nosotros4.png" alt="" />
           </Box>
           <Box
             sx={{
               position: "absolute",
-              top: "15% ",
+              top: "200px ",
               left: "51%",
               width: "42%",
             }}
@@ -947,7 +947,7 @@ const CharlasYconferencias = () => {
           style={{
             backgroundImage: "linear-gradient(to right, #18CC66, #1296E9)",
           }}
-          sx={{ width: "100%", mt: -1, pt: "2%", pb: "15%" }}
+          sx={{ width: "100%", mt: -1, pt: "50px", pb: "100px" }}
         >
           <Box display={"flex"} width={"88%"} margin={"auto"}>
             <Box mt={"15%"} width={"50%"}>

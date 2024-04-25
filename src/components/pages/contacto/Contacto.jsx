@@ -16,7 +16,7 @@ const Contacto = () => {
                   color: "black",
                   fontSize: "40px",
                   
-                  mt: "20%",
+                  mt: "100px",
                 }}
               >
                 We are Open ¡Contáctanos!
@@ -43,7 +43,7 @@ const Contacto = () => {
                   color: "black",
                   fontSize: "40px",
                   
-                  mt: "20%",
+                  mt: "100px",
                 }}
               >
                 We are Open ¡Contáctanos!

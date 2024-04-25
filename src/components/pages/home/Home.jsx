@@ -24,7 +24,7 @@ const Home = () => {
     <>
       <Hidden lgDown>
         <Parallax speed={-12}>
-          <Box width={"100%"} height={"100vh"} overflow="hidden">
+          <Box width={"100%"} height={"700px"} overflow="hidden">
             <img
               style={{ objectFit: "cover", height: "700px", width: "100%" }}
               src="/home.png"
@@ -33,13 +33,13 @@ const Home = () => {
           </Box>
         </Parallax>
         <Box>
-          <Box sx={{ position: "absolute", top: "44%" }}>
+          <Box sx={{ position: "absolute", top: "200px" }}>
             <img width={"100%"} src="/nosotros4.png" alt="" />
           </Box>
           <Box
             sx={{
               position: "absolute",
-              top: "42% ",
+              top: "250px ",
               left: "7%",
               width: "48%",
             }}
@@ -61,7 +61,7 @@ const Home = () => {
           <Box
             sx={{
               position: "absolute",
-              top: "85%",
+              top: "600px",
               left: "7%",
             }}
           >
@@ -77,7 +77,7 @@ const Home = () => {
           m={"auto"}
           width={"86%"}
           display={"flex"}
-          pt={"10%"}
+          pt={"150px"}
         >
           <Box width={"45%"}>
             <Typography
@@ -210,7 +210,7 @@ const Home = () => {
 
       <Hidden lgUp smDown>
         <Parallax speed={-12}>
-          <Box width={"100%"} height={"100vh"} overflow="hidden">
+          <Box width={"100%"} mt={-5} overflow="hidden">
             <img
               style={{ objectFit: "cover", height: "700px", width: "100%" }}
               src="/home.png"
@@ -219,13 +219,13 @@ const Home = () => {
           </Box>
         </Parallax>
         <Box>
-          <Box sx={{ position: "absolute", top: "44%" }}>
+          <Box sx={{ position: "absolute", top: "200px" }}>
             <img width={"100%"} src="/nosotros4.png" alt="" />
           </Box>
           <Box
             sx={{
               position: "absolute",
-              top: "42% ",
+              top: "250px ",
               left: "7%",
               width: "48%",
             }}
@@ -247,7 +247,7 @@ const Home = () => {
           <Box
             sx={{
               position: "absolute",
-              top: "85%",
+              top: "600px",
               left: "7%",
             }}
           >
@@ -258,7 +258,7 @@ const Home = () => {
           </Box>
         </Box>
 
-        <Box m={"auto"} width={"87%"} display={"flex"} mt={"76px"}>
+        <Box m={"auto"} width={"87%"} display={"flex"} mt={"176px"}>
           <Box width={"45%"}>
             <Typography
               sx={{

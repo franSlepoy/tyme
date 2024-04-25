@@ -37,14 +37,14 @@ const Nosotros = () => {
             </Box>
           </Parallax>
           <Box>
-            <Box sx={{ position: "absolute", top: "62%", right: "0px" }}>
+            <Box sx={{ position: "absolute", top: "400px", right: "0px" }}>
               <img width={"100%"} src="/nosotros3.png" alt="" />
             </Box>
 
             <Box
               sx={{
                 position: "absolute",
-                top: "40% ",
+                top: "300px ",
                 left: "7%",
                 width: "52%",
               }}
@@ -108,7 +108,7 @@ const Nosotros = () => {
                 </Button>
               </ScrollLink>
             </Box>
-            <Box sx={{ position: "absolute", right: "0%", top: "42%" }}>
+            <Box sx={{ position: "absolute", right: "0%", top: "400px" }}>
               <img width={"100%"} src="/ilustracion.png" alt="" />
             </Box>
           </Box>
@@ -361,19 +361,19 @@ const Nosotros = () => {
       <Hidden lgUp smDown>
         <Box sx={{ width: "100%" }}>
           <Parallax speed={-6} tagOuter="figure">
-            <Box mt={-4}>
+            <Box mt={-3}>
               <img style={{objectFit:"cover", height:"700px", width:"100%"}} src="/javier1.png" alt="" />
             </Box>
           </Parallax>
           <Box>
-            <Box sx={{ position: "absolute", top: "52%", right: "0px" }}>
+            <Box sx={{ position: "absolute", top: "400px", right: "0px" }}>
               <img width={"100%"} src="/nosotros3.png" alt="" />
             </Box>
 
             <Box
               sx={{
                 position: "absolute",
-                top: "20% ",
+                top: "200px ",
                 left: "7%",
                 width: "52%",
               }}
@@ -393,7 +393,7 @@ const Nosotros = () => {
               </Typography>
             </Box>
 
-            <Box sx={{ position: "absolute", right: "0%", top: "55%" }}>
+            <Box sx={{ position: "absolute", right: "0%", top: "400px" }}>
               <img width={"100%"} src="/ilustracion.png" alt="" />
             </Box>
           </Box>

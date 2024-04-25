@@ -9,17 +9,21 @@ const Manifiesto = () => {
       <Hidden lgDown>
         <Parallax speed={-12} tagOuter="figure">
           <Box mt={2} width={"100%"} overflow="hidden">
-            <img style={{objectFit:"cover", height:"700px", width:"100%"}}  src="/maniefiesto1.png" alt="" />
+            <img
+              style={{ objectFit: "cover", height: "700px", width: "100%" }}
+              src="/maniefiesto1.png"
+              alt=""
+            />
           </Box>
         </Parallax>
         <Box>
-          <Box sx={{ position: "absolute", top: "62%" }}>
+          <Box sx={{ position: "absolute", top: "300px" }}>
             <img width={"10%"} src="/manifiesto3.png" alt="" />
           </Box>
           <Box
             sx={{
               position: "absolute",
-              top: "34% ",
+              top: "250px ",
               left: "45%",
               width: "52%",
             }}
@@ -31,7 +35,7 @@ const Manifiesto = () => {
                 lineHeight: "44px",
                 fontWeight: "400",
                 color: "black",
-                width:"90%"
+                width: "90%",
               }}
             >
               En Tyme, sabemos que el tiempo es nuestro mejor aliado y por eso
@@ -41,7 +45,7 @@ const Manifiesto = () => {
           </Box>
 
           <ScrollLink to="seccionDestino" smooth={true}>
-            <Button sx={{ position: "absolute", top: "92vh", left: "50%" }}>
+            <Button sx={{ position: "absolute", top: "700px", left: "50%" }}>
               <img src="/flechaBajo.png" alt="" />
             </Button>
           </ScrollLink>
@@ -50,7 +54,7 @@ const Manifiesto = () => {
         <Box
           id="seccionDestino"
           width={"100%"}
-          sx={{ bgcolor: "rgba(15, 150, 233, 0.4)", pt: "12%", pb: "4%" }}
+          sx={{ bgcolor: "rgba(15, 150, 233, 0.4)", pt: "150px", pb: "150px" }}
         >
           <Box display={"flex"} width={"85.5%"} m={"auto"}>
             <Box width={"52%"}>
@@ -60,7 +64,6 @@ const Manifiesto = () => {
                   fontSize: "24px",
                   lineHeight: "34px",
                   fontWeight: "300",
-                  
                 }}
               >
                 Nuestro objetivo es generar conciencia sobre el{" "}
@@ -108,8 +111,14 @@ const Manifiesto = () => {
 
       <Hidden lgUp smDown>
         <Parallax speed={-6} tagOuter="figure">
-          <Box mt={-1} width={"100%"} overflow="hidden">
-            <img style={{objectFit:"cover"}} width={"100%"} height={"700px"} src="/maniefiesto1.png" alt="" />
+          <Box mt={-3} width={"100%"} overflow="hidden">
+            <img
+              style={{ objectFit: "cover" }}
+              width={"100%"}
+              height={"700px"}
+              src="/maniefiesto1.png"
+              alt=""
+            />
           </Box>
         </Parallax>
 
@@ -117,7 +126,7 @@ const Manifiesto = () => {
           <Box
             sx={{
               position: "absolute",
-              top: "24% ",
+              top: "350px ",
               left: "56%",
               width: "42%",
             }}
@@ -193,15 +202,8 @@ const Manifiesto = () => {
 
       <Hidden smUp>
         <Box>
-          <img
-           
-            width={"100%"}
-            src="/mobileManifiesto.png"
-            alt=""
-          />
+          <img width={"100%"} src="/mobileManifiesto.png" alt="" />
         </Box>
-
-        
 
         <Box sx={{ bgcolor: "#1296E9", mt: -1, pt: 5, pb: 5 }}>
           <Box
@@ -229,8 +231,7 @@ const Manifiesto = () => {
 
         <Box
           width={"100%"}
-       
-          sx={{pb:"10%", bgcolor: "rgba(15, 150, 233, 0.4)" }}
+          sx={{ pb: "10%", bgcolor: "rgba(15, 150, 233, 0.4)" }}
         >
           <Box m={"auto"}>
             <Box width={"88%"} m={"auto"} pt={"10%"}>

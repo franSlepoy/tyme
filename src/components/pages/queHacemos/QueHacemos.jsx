@@ -76,11 +76,11 @@ const QueHacemos = () => {
           </Box>
         </Parallax>
         <Box>
-          <Box sx={{ position: "absolute", top: "22%", left: "53%" }}>
+          <Box sx={{ position: "absolute", top: "200px", left: "53%" }}>
             <img width={"100%"} src="/nosotros2.png" alt="" />
           </Box>
           <Box
-            sx={{ position: "absolute", top: "46% ", left: "7%", width: "52%" }}
+            sx={{ position: "absolute", top: "350px ", left: "7%", width: "52%" }}
           >
             <Typography
               sx={{
@@ -98,7 +98,7 @@ const QueHacemos = () => {
           <Box
             sx={{
               position: "absolute",
-              top: "75%",
+              top: "550px",
               left: "7%",
             }}
           >
@@ -565,7 +565,7 @@ const QueHacemos = () => {
 
       <Hidden lgUp smDown>
         <Parallax speed={-6} tagOuter="figure">
-          <Box mt={-1}>
+          <Box mt={-2}>
             <img
               style={{ objectFit: "cover", height: "700px", width: "100%" }}
               src="/nosotros1.png"

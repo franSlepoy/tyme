@@ -19,14 +19,18 @@ const Tendencias = () => {
       <Hidden lgDown>
         <Parallax speed={-12} tagOuter="figure">
           <Box mt={1}>
-            <img style={{objectFit:"cover", height:"700px", width:"100%"}} src="/tendencias1.png" alt="" />
+            <img
+              style={{ objectFit: "cover", height: "700px", width: "100%" }}
+              src="/tendencias1.png"
+              alt=""
+            />
           </Box>
         </Parallax>
         <Box>
           <Box
             sx={{
               position: "absolute",
-              top: "55% ",
+              top: "400px ",
               left: "7%",
               width: "56%",
             }}
@@ -54,19 +58,18 @@ const Tendencias = () => {
                 mt: 2,
               }}
             >
-              <strong>Peter Senge,</strong>  experto en desarrollo
-              organizacional
+              <strong>Peter Senge,</strong> experto en desarrollo organizacional
             </Typography>
           </Box>
 
           <ScrollLink to="seccionDestino" smooth={true}>
-            <Button sx={{ position: "absolute", top: "94%", left: "50%" }}>
+            <Button sx={{ position: "absolute", top: "700px", left: "50%" }}>
               <img src="/flechaVerde.png" alt="" />
             </Button>
           </ScrollLink>
         </Box>
 
-        <Box width={"100%"} pt={"13%"} pb={"2.2%"} id="seccionDestino">
+        <Box width={"100%"} pt={"200px"} pb={"50px"} id="seccionDestino">
           <Typography
             sx={{
               fontFamily: "Merriweather",
@@ -76,7 +79,7 @@ const Tendencias = () => {
               width: "88%",
               margin: "auto",
               lineHeight: "40px",
-              ml:"7%"
+              ml: "7%",
             }}
           >
             En Tyme, nos parece clave invertir tiempo en nuevos aprendizajes y
@@ -87,7 +90,7 @@ const Tendencias = () => {
           <Box width={"86%"} m={"auto"} mt={"3%"} mb={"3%"}>
             <BlackButtom texto={"Contáctanos"} linkTo={"/contacto"} />
           </Box>
-          <Box position={"absolute"} top={"140%"}>
+          <Box position={"absolute"} top={"1000px"}>
             <img width={"100%"} src="/tendencias2.png" alt="" />
           </Box>
         </Box>
@@ -105,7 +108,6 @@ const Tendencias = () => {
             >
               Artículos propios
             </Typography>
-            
 
             <ImageList sx={{ width: "100%" }} cols={4} rowHeight={504}>
               {ArticulosData.map((item) => (
@@ -124,21 +126,25 @@ const Tendencias = () => {
 
       <Hidden lgUp smDown>
         <Parallax speed={-6} tagOuter="figure">
-          <Box mt={-1}>
-            <img style={{objectFit:"cover", height:"700px", width:"100%"}}src="/tendencias1.png" alt="" />
+          <Box mt={-2}>
+            <img
+              style={{ objectFit: "cover", height: "700px", width: "100%" }}
+              src="/tendencias1.png"
+              alt=""
+            />
           </Box>
         </Parallax>
         <Box>
           <Box
             sx={{
               position: "absolute",
-              top: "35% ",
+              top: "400px ",
               left: "6%",
               width: "76%",
             }}
           >
             <Typography
-               sx={{
+              sx={{
                 fontFamily: "Merriweather",
                 fontSize: "25px",
                 fontWeight: "100",
@@ -204,7 +210,6 @@ const Tendencias = () => {
             >
               Artículos propios
             </Typography>
-            
 
             <ImageList sx={{ width: "100%" }} cols={3} rowHeight={504}>
               {ArticulosData.map((item) => (
