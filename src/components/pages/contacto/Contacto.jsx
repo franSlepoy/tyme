@@ -1,5 +1,6 @@
-import { Box, Hidden,Typography } from "@mui/material";
+import { Box, Hidden, Typography } from "@mui/material";
 import Formulario from "../../common/formulario/Formulario";
+
 
 const Contacto = () => {
   return (
@@ -15,22 +16,49 @@ const Contacto = () => {
                   fontWeight: "100",
                   color: "black",
                   fontSize: "40px",
-                  
+
                   mt: "100px",
                 }}
               >
                 We are Open ¡Contáctanos!
               </Typography>
+
+              <Typography
+                sx={{
+                  fontFamily: "Merriweather",
+                  fontWeight: "100",
+                  color: "black",
+                  fontSize: "22px",
+                }}
+              >
+                <a
+                  style={{
+                    textTransform: "none",
+                    color: "inherit",
+                    textDecoration: "none",
+                  }}
+                  href="mailto: info@tyme-consulting.com "
+                >
+                 info@tyme-consulting.com
+                </a>
+               
+              </Typography>
+
               <Formulario />
             </Box>
 
             <Box ml={"7%"} width={"60%"}>
-              <img style={{objectFit: "cover", height: "100%", width: "100%"}} width={"100%"}  src="/contacto.png" alt="" />
+              <img
+                style={{ objectFit: "cover", height: "100%", width: "100%" }}
+                width={"100%"}
+                src="/contacto.png"
+                alt=""
+              />
             </Box>
           </Box>
         </Box>
       </Hidden>
-       
+
       <Hidden lgUp smDown>
         <Box width={"100%"} sx={{ bgcolor: "rgba(120, 145, 162, 0.3)" }}>
           <Box display={"flex"} m={"auto"}>
@@ -42,7 +70,7 @@ const Contacto = () => {
                   fontWeight: "100",
                   color: "black",
                   fontSize: "40px",
-                  
+
                   mt: "100px",
                 }}
               >
@@ -52,7 +80,12 @@ const Contacto = () => {
             </Box>
 
             <Box ml={"7%"} width={"70%"}>
-            <img style={{objectFit: "cover", height: "100%", width: "100%"}} width={"100%"}  src="/contacto.png" alt="" />
+              <img
+                style={{ objectFit: "cover", height: "100%", width: "100%" }}
+                width={"100%"}
+                src="/contacto.png"
+                alt=""
+              />
             </Box>
           </Box>
         </Box>
@@ -65,7 +98,7 @@ const Contacto = () => {
             backgroundImage: "url('/contacto.png')", // Ruta de la imagen de fondo
             backgroundSize: "cover", // Ajusta el tamaño de la imagen para cubrir todo el contenedor
             backgroundPosition: "center", // Centra la imagen de fondo
-            pt:"10%"
+            pt: "10%",
           }}
         >
           <Box m={"auto"}>
@@ -76,7 +109,6 @@ const Contacto = () => {
                   fontFamily: "Manrope",
                   fontSize: "26px",
                   color: "white",
-                  
                 }}
               >
                 We are Open ¡Contáctanos!
